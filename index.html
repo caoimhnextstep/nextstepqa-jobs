@@ -122,6 +122,14 @@
   .job-card:hover{border-color:var(--border2);background:var(--surface2);}
   .job-card.featured{border-color:var(--ybrd);}
   .job-card.featured::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--yellow);}
+  /* Age fading — trust signal */
+  .job-card.age-fresh{}
+  .job-card.age-recent{opacity:0.85;}
+  .job-card.age-stale{opacity:0.55;}
+  .job-card.age-stale:hover{opacity:0.85;}
+  .age-badge{font-family:var(--mono);font-size:9px;padding:2px 6px;border-radius:3px;margin-left:4px;}
+  .age-badge.stale{background:var(--rbg);color:var(--red);border:1px solid var(--rbrd);}
+  .age-badge.recent{background:var(--obg);color:var(--orange);border:1px solid var(--obrd);}
   .card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px;}
   .card-left{display:flex;align-items:flex-start;gap:11px;flex:1;}
   .co-logo{width:36px;height:36px;border-radius:6px;border:1px solid var(--border2);display:grid;place-items:center;font-family:var(--mono);font-size:10px;font-weight:600;flex-shrink:0;}
@@ -208,7 +216,7 @@
   </div>
   <div class="nav-right">
     <div class="btn-ghost">Sign in</div>
-    <button class="btn-primary">Get the Course — €49</button>
+    <button class="btn-primary">Get the Course — €19</button>
   </div>
 </nav>
 
@@ -277,6 +285,10 @@
 
     <div class="filter-block">
       <div class="fb-title">Country</div>
+      <div class="fopt" data-filter="country" data-value="IE" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇮🇪 Ireland</div>
+        <div class="fcount" id="count-IE">—</div>
+      </div>
       <div class="fopt" data-filter="country" data-value="GB" onclick="toggleFilter(this)">
         <div class="fopt-label"><div class="fcheck"></div>🇬🇧 UK</div>
         <div class="fcount" id="count-GB">—</div>
@@ -311,7 +323,7 @@
       <div class="cta-tag">NextStepQA Course</div>
       <div class="cta-msg" id="ctaMsg">Most automation roles assume Playwright.</div>
       <div class="cta-sub" id="ctaSub">That gap is what stops progression. The course closes it in 8 weeks.</div>
-      <div class="cta-btn">Get the Course — €49 →</div>
+      <div class="cta-btn">Get the Course — €19 →</div>
       <div class="cta-price">Lifetime access · Launching soon</div>
     </div>
   </aside>
@@ -379,6 +391,15 @@ const QUERIES = [
   "QA engineer playwright",
   "manual QA tester",
   "quality assurance engineer",
+];
+
+// Ireland-specific queries via GB feed with where=ireland
+const IRELAND_QUERIES = [
+  "QA automation engineer",
+  "test automation engineer",
+  "QA engineer",
+  "software tester",
+  "SDET",
 ];
 
 // ── Scoring ──────────────────────────────────────────────────
@@ -548,11 +569,37 @@ async function fetchAllJobs(onProgress) {
         const jobs = (data.results || []).map(r => normalise(r, country));
         raw.push(...jobs);
         fetched += jobs.length;
-        // Small delay to be respectful
         await new Promise(r => setTimeout(r, 200));
       } catch(e) {
         errors.push({ country, query, error: e.message });
       }
+    }
+  }
+
+  // Ireland — use GB feed with where=ireland location filter
+  for (const query of IRELAND_QUERIES) {
+    try {
+      onProgress?.(`Fetching IE — "${query}"...`);
+      const url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=${encodeURIComponent(query)}&where=ireland`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      // Tag these as IE
+      const jobs = (data.results || []).map(r => {
+        const j = normalise(r, "gb");
+        // Override country to IE if location mentions Ireland
+        const loc = (r.location?.display_name || "").toLowerCase();
+        if (loc.includes("ireland") || loc.includes("dublin") || loc.includes("cork") || loc.includes("galway") || loc.includes("limerick")) {
+          j.country = "IE";
+          j.location = r.location?.display_name || "Ireland";
+        }
+        return j;
+      });
+      raw.push(...jobs);
+      fetched += jobs.length;
+      await new Promise(r => setTimeout(r, 200));
+    } catch(e) {
+      errors.push({ country: "IE", query, error: e.message });
     }
   }
 
@@ -685,7 +732,7 @@ function updateCounts() {
     if (!el) return;
     el.textContent = s === "all" ? ALL_JOBS.length : ALL_JOBS.filter(j => j.stage === s).length;
   });
-  ["GB","DE","NL","PL","AT","FR"].forEach(c => {
+  ["IE","GB","DE","NL","PL","AT","FR"].forEach(c => {
     const el = document.getElementById(`count-${c}`);
     if (el) el.textContent = ALL_JOBS.filter(j => j.country === c).length;
   });
@@ -725,6 +772,12 @@ function applyFilters() {
       return bs - as;
     });
   }
+
+  // Always push stale jobs (14+ days) to the bottom regardless of sort
+  const cutoff = 14 * 86400000;
+  const fresh = jobs.filter(j => (Date.now() - new Date(j.posted)) < cutoff);
+  const stale = jobs.filter(j => (Date.now() - new Date(j.posted)) >= cutoff);
+  jobs = [...fresh, ...stale];
 
   if (arch.pin?.length) {
     const pinned   = jobs.filter(j => arch.pin.includes(j.stage));
@@ -769,6 +822,13 @@ function renderJobs(jobs) {
 const LOGO_PALETTE = [["#1a1b2e","#60a5fa"],["#1a2a1a","#4ade80"],["#1a1a2e","#a78bfa"],["#2a1a0a","#f5a623"],["#0a1a2a","#60a5fa"],["#1a0a2a","#a78bfa"]];
 function logoColors(co) { return LOGO_PALETTE[co.charCodeAt(0) % LOGO_PALETTE.length]; }
 
+function getAge(iso) {
+  const days = (Date.now() - new Date(iso)) / 86400000;
+  if (days < 7)  return { label: timeLabel(iso), cls: "age-fresh",  badge: null };
+  if (days < 14) return { label: timeLabel(iso), cls: "age-recent", badge: "recent" };
+  return { label: timeLabel(iso), cls: "age-stale", badge: "stale" };
+}
+
 function timeLabel(iso) {
   const d = (Date.now() - new Date(iso)) / 1000;
   if (d < 3600)  return `${Math.round(d/60)}m ago`;
@@ -781,9 +841,11 @@ const DEMAND_COLOR = {yellow:"yt",green:"gr",orange:"or",purple:"pu",muted:""};
 function renderCard(job, i) {
   const [bg,fg] = logoColors(job.company);
   const featured = i === 0 ? "featured" : "";
+  const age = getAge(job.posted);
+  const ageBadge = age.badge ? `<span class="age-badge ${age.badge}">${age.badge === "stale" ? "⚠ old listing" : "aging"}</span>` : "";
   const demandTag = job.demand ? `<span class="tag ${DEMAND_COLOR[job.demand.color]||""}">${job.demand.label}</span>` : "";
   const remoteBadge = job.remote ? `<span class="badge badge-remote">Remote</span>` : "";
-  const newBadge = i < 3 ? `<span class="badge badge-new">New</span>` : "";
+  const newBadge = age.cls === "age-fresh" && i < 3 ? `<span class="badge badge-new">New</span>` : "";
   const salary = job.salary_label || "Salary TBC";
 
   const toolTags = [];
@@ -804,7 +866,7 @@ function renderCard(job, i) {
     </div>` : "";
 
   return `
-  <div class="job-card ${featured}">
+  <div class="job-card ${featured} ${age.cls}">
     <div class="card-top">
       <div class="card-left">
         <div class="co-logo" style="background:${bg};color:${fg};">${job.company.slice(0,2).toUpperCase()}</div>
@@ -817,7 +879,7 @@ function renderCard(job, i) {
           <div class="card-meta">
             <span class="meta-i">${job.country}</span>
             <span class="meta-i">Full-time</span>
-            <span class="meta-i">${timeLabel(job.posted)}</span>
+            <span class="meta-i">${age.label}${ageBadge}</span>
           </div>
         </div>
       </div>
