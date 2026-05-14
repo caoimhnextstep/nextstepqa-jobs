@@ -1,52 +1,84 @@
 // ============================================================
 // NextStepQA — Irish Company Direct Feeds
-// Fetches QA jobs directly from Irish tech company ATS platforms
 // ============================================================
 
-// Irish tech companies with confirmed Greenhouse/Lever feeds
 const IRISH_SOURCES = [
-  // Greenhouse boards
-  { company: "Intercom", ats: "greenhouse", slug: "intercom", location: "Dublin" },
-  { company: "Workhuman", ats: "greenhouse", slug: "workhuman", location: "Dublin" },
-  { company: "Fenergo", ats: "greenhouse", slug: "fenergo", location: "Dublin" },
-  { company: "Wayflyer", ats: "greenhouse", slug: "wayflyer", location: "Dublin" },
-  { company: "Flipdish", ats: "greenhouse", slug: "flipdish", location: "Dublin" },
-  { company: "Teamwork", ats: "greenhouse", slug: "teamwork", location: "Cork" },
-  { company: "Immedis", ats: "greenhouse", slug: "immedis", location: "Dublin" },
-  { company: "Tines", ats: "greenhouse", slug: "tines", location: "Dublin" },
-  // Lever boards
-  { company: "HubSpot", ats: "lever", slug: "hubspot", location: "Dublin" },
-  { company: "Stripe", ats: "lever", slug: "stripe", location: "Dublin" },
-  { company: "Zendesk", ats: "lever", slug: "zendesk", location: "Dublin" },
-  { company: "Workday", ats: "lever", slug: "workday", location: "Dublin" },
+  // Verified Greenhouse slugs
+  { company: "Intercom",  ats: "greenhouse", slug: "intercom",  location: "Dublin" },
+  { company: "Tines",     ats: "greenhouse", slug: "tines",     location: "Dublin" },
+  { company: "Flipdish",  ats: "greenhouse", slug: "flipdish",  location: "Dublin" },
+  // Lever - verified slugs
+  { company: "Workhuman", ats: "lever", slug: "workhuman",      location: "Dublin" },
+  { company: "Teamwork",  ats: "lever", slug: "teamwork",       location: "Cork"   },
 ];
 
 const QA_KEYWORDS = [
-  "qa", "quality assurance", "test", "testing", "sdet",
-  "playwright", "selenium", "cypress", "automation engineer"
+  "qa engineer", "quality assurance", "test automation", "software tester",
+  "sdet", "playwright", "selenium", "cypress", "automation engineer",
+  "quality engineer", "test engineer", "qa automation", "manual tester",
+  "performance test", "api testing", "testing engineer"
 ];
 
-function isQARole(title, description = "") {
-  const text = `${title} ${description}`.toLowerCase();
+// Strip HTML tags and decode entities before matching
+function stripHtml(str) {
+  return (str || "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&").replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'").replace(/&nbsp;/g, " ")
+    .replace(/\s+/g, " ").trim().toLowerCase();
+}
+
+function isQARole(title, description) {
+  const text = `${stripHtml(title)} ${stripHtml(description)}`;
   return QA_KEYWORDS.some(kw => text.includes(kw));
 }
 
-function normaliseDirect(raw, source) {
-  const salary = raw.compensation || null;
+function fmtSalary(min, max) {
+  if (!min && !max) return null;
+  const f = n => `€${Math.round(n/1000)}k`;
+  if (min && max) return `${f(min)}–${f(max)}`;
+  if (min) return `From ${f(min)}`;
+  return `Up to ${f(max)}`;
+}
+
+function normaliseGreenhouse(raw, source) {
+  const desc = stripHtml(raw.content || "").slice(0, 400);
+  const loc   = raw.location?.name || source.location + ", Ireland";
   return {
-    id: `direct-${source.company}-${raw.id || raw.req_id || Math.random()}`,
-    title: raw.title,
-    company: source.company,
-    location: raw.location?.name || raw.categories?.location || source.location + ", Ireland",
-    country: "IE",
-    salary_min: null,
-    salary_max: null,
-    salary_label: salary || null,
-    remote: (raw.location?.name || "").toLowerCase().includes("remote") ||
-            (raw.title || "").toLowerCase().includes("remote"),
-    url: raw.absolute_url || raw.hostedUrl || `https://boards.greenhouse.io/${source.slug}/jobs/${raw.id}`,
-    posted: raw.updated_at || raw.createdAt || new Date().toISOString(),
-    description: (raw.content || raw.description || raw.title || "").slice(0, 400).toLowerCase(),
+    id:           `direct-${source.company}-${raw.id}`,
+    title:        raw.title,
+    company:      source.company,
+    location:     loc,
+    country:      "IE",
+    salary_min:   null,
+    salary_max:   null,
+    salary_label: null,
+    remote:       loc.toLowerCase().includes("remote"),
+    url:          raw.absolute_url || `https://boards.greenhouse.io/${source.slug}/jobs/${raw.id}`,
+    posted:       raw.updated_at || new Date().toISOString(),
+    description:  desc,
+    tags: [], stage: null, demand: null, gap: null,
+    source: "direct",
+  };
+}
+
+function normaliseLever(raw, source) {
+  const desc = stripHtml(raw.descriptionPlain || raw.description || "").slice(0, 400);
+  const loc  = raw.categories?.location || source.location + ", Ireland";
+  return {
+    id:           `direct-${source.company}-${raw.id}`,
+    title:        raw.text,
+    company:      source.company,
+    location:     loc,
+    country:      "IE",
+    salary_min:   null,
+    salary_max:   null,
+    salary_label: null,
+    remote:       loc.toLowerCase().includes("remote"),
+    url:          raw.hostedUrl,
+    posted:       raw.createdAt ? new Date(raw.createdAt).toISOString() : new Date().toISOString(),
+    description:  desc,
     tags: [], stage: null, demand: null, gap: null,
     source: "direct",
   };
@@ -59,7 +91,7 @@ async function fetchGreenhouse(source) {
   const data = await res.json();
   return (data.jobs || [])
     .filter(j => isQARole(j.title, j.content))
-    .map(j => normaliseDirect(j, source));
+    .map(j => normaliseGreenhouse(j, source));
 }
 
 async function fetchLever(source) {
@@ -68,30 +100,23 @@ async function fetchLever(source) {
   if (!res.ok) throw new Error(`Lever ${res.status}`);
   const data = await res.json();
   return (Array.isArray(data) ? data : [])
-    .filter(j => isQARole(j.text, j.description))
-    .map(j => normaliseDirect({
-      id: j.id,
-      title: j.text,
-      location: j.categories?.location || source.location,
-      content: j.description || j.descriptionPlain || "",
-      updated_at: j.createdAt ? new Date(j.createdAt).toISOString() : new Date().toISOString(),
-      absolute_url: j.hostedUrl,
-    }, source));
+    .filter(j => isQARole(j.text, j.descriptionPlain || j.description))
+    .map(j => normaliseLever(j, source));
 }
 
 export async function fetchIrishSources() {
   const results = [];
-  const errors = [];
+  const errors  = [];
 
   await Promise.all(IRISH_SOURCES.map(async source => {
     try {
-      let jobs = [];
-      if (source.ats === "greenhouse") {
-        jobs = await fetchGreenhouse(source);
-      } else if (source.ats === "lever") {
-        jobs = await fetchLever(source);
-      }
+      const jobs = source.ats === "greenhouse"
+        ? await fetchGreenhouse(source)
+        : await fetchLever(source);
       results.push(...jobs);
+      if (jobs.length > 0) {
+        console.log(`✅ ${source.company}: ${jobs.length} QA roles`);
+      }
     } catch(e) {
       errors.push({ company: source.company, error: e.message });
     }
