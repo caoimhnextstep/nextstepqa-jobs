@@ -580,7 +580,7 @@ async function fetchAllJobs(onProgress) {
   for (const query of IRELAND_QUERIES) {
     try {
       onProgress?.(`Fetching IE — "${query}"...`);
-      const url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=${encodeURIComponent(query)}&where=ireland`;
+      const url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=50&what=${encodeURIComponent(query + " ireland")}`;
       const res = await fetch(url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
@@ -589,7 +589,13 @@ async function fetchAllJobs(onProgress) {
         const j = normalise(r, "gb");
         // Override country to IE if location mentions Ireland
         const loc = (r.location?.display_name || "").toLowerCase();
-        if (loc.includes("ireland") || loc.includes("dublin") || loc.includes("cork") || loc.includes("galway") || loc.includes("limerick")) {
+        const desc = (r.description || "").toLowerCase();
+        const isIrish = loc.includes("ireland") || loc.includes("dublin") || 
+          loc.includes("cork") || loc.includes("galway") || loc.includes("limerick") ||
+          loc.includes("waterford") || loc.includes("kilkenny") || loc.includes("drogheda") ||
+          loc.includes("belfast") || loc.includes("republic of ireland") ||
+          desc.includes("dublin") || desc.includes("republic of ireland");
+        if (isIrish) {
           j.country = "IE";
           j.location = r.location?.display_name || "Ireland";
         }
