@@ -380,6 +380,7 @@
 
 const APP_ID  = 'a965c5a0';
 const APP_KEY = 'd44c3937b1afc8717d60d23cb7b16947';
+const REED_KEY = '40163a09-6087-49ca-81fd-0d89a6f1cd25';
 
 const COUNTRIES = ["gb", "de", "nl", "pl", "at", "fr", "be"];
 
@@ -552,7 +553,24 @@ function buildReport(fetched, deduped, clean, scored) {
   };
 }
 
-// ── Main fetch function ──────────────────────────────────────
+// ── Reed normaliser ──────────────────────────────────────────
+function normaliseReed(raw) {
+  return {
+    id:           `reed-${raw.jobId}`,
+    title:        raw.jobTitle,
+    company:      raw.employerName || "Unknown",
+    location:     raw.locationName || "Ireland",
+    country:      "IE",
+    salary_min:   raw.minimumSalary ? Math.round(raw.minimumSalary) : null,
+    salary_max:   raw.maximumSalary ? Math.round(raw.maximumSalary) : null,
+    salary_label: fmtSalary(raw.minimumSalary, raw.maximumSalary),
+    remote:       raw.locationName?.toLowerCase().includes("remote") || raw.jobTitle?.toLowerCase().includes("remote") || false,
+    url:          raw.jobUrl,
+    posted:       raw.date || new Date().toISOString(),
+    description:  (raw.jobDescription || raw.jobTitle || "").slice(0, 400).toLowerCase(),
+    tags: [], stage: null, demand: null, gap: null,
+  };
+}
 async function fetchAllJobs(onProgress) {
   const raw = [];
   const errors = [];
@@ -576,33 +594,26 @@ async function fetchAllJobs(onProgress) {
     }
   }
 
-  // Ireland — use GB feed with where=ireland location filter
-  for (const query of IRELAND_QUERIES) {
+  // Ireland — use Reed API which has proper Irish coverage
+  const reedQueries = [
+    "QA automation", "test automation engineer", "SDET",
+    "software tester", "QA engineer", "manual QA", "quality assurance"
+  ];
+
+  for (const query of reedQueries) {
     try {
-      onProgress?.(`Fetching IE — "${query}"...`);
-      const url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=50&what=${encodeURIComponent(query + " ireland")}`;
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      // Tag these as IE
-      const jobs = (data.results || []).map(r => {
-        const j = normalise(r, "gb");
-        // Override country to IE if location mentions Ireland
-        const loc = (r.location?.display_name || "").toLowerCase();
-        const desc = (r.description || "").toLowerCase();
-        const isIrish = loc.includes("ireland") || loc.includes("dublin") || 
-          loc.includes("cork") || loc.includes("galway") || loc.includes("limerick") ||
-          loc.includes("waterford") || loc.includes("kilkenny") || loc.includes("drogheda") ||
-          loc.includes("belfast") || loc.includes("republic of ireland") ||
-          desc.includes("dublin") || desc.includes("republic of ireland");
-        if (isIrish) {
-          j.country = "IE";
-          j.location = r.location?.display_name || "Ireland";
+      onProgress?.(`Fetching 🇮🇪 Ireland — "${query}"...`);
+      const reedUrl = `https://www.reed.co.uk/api/1.0/search?keywords=${encodeURIComponent(query)}&location=ireland&distancefromlocation=50&resultsToTake=25`;
+      const reedRes = await fetch(reedUrl, {
+        headers: {
+          'Authorization': 'Basic ' + btoa(REED_KEY + ':')
         }
-        return j;
       });
-      raw.push(...jobs);
-      fetched += jobs.length;
+      if (!reedRes.ok) throw new Error(`Reed HTTP ${reedRes.status}`);
+      const reedData = await reedRes.json();
+      const reedJobs = (reedData.results || []).map(r => normaliseReed(r));
+      raw.push(...reedJobs);
+      fetched += reedJobs.length;
       await new Promise(r => setTimeout(r, 200));
     } catch(e) {
       errors.push({ country: "IE", query, error: e.message });
