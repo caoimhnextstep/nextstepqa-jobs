@@ -1,4 +1,3 @@
-
 // ============================================================
 // NextStepQA — Vercel Serverless Function
 // /api/jobs — fetches from Adzuna + Reed, scores, returns JSON
@@ -87,17 +86,23 @@ function normaliseAdzuna(raw, country) {
 
 function normaliseReed(raw) {
   const desc = (raw.jobDescription || raw.jobTitle || "").slice(0,400).toLowerCase();
+  const loc = (raw.locationName || "").toLowerCase();
+  const isIrish = loc.includes("ireland") || loc.includes("dublin") ||
+    loc.includes("cork") || loc.includes("galway") || loc.includes("limerick") ||
+    loc.includes("waterford") || loc.includes("kilkenny") || loc.includes("drogheda") ||
+    loc.includes("athlone") || loc.includes("sligo") || loc.includes("republic of ireland");
+
   return {
     id: `reed-${raw.jobId}`, title: raw.jobTitle,
     company: raw.employerName || "Unknown",
     location: raw.locationName || "Ireland",
-    country: "IE",
+    country: isIrish ? "IE" : "GB",
     salary_min: raw.minimumSalary ? Math.round(raw.minimumSalary) : null,
     salary_max: raw.maximumSalary ? Math.round(raw.maximumSalary) : null,
     salary_label: fmtSalary(raw.minimumSalary, raw.maximumSalary),
     remote: detectRemote(`${raw.jobTitle} ${raw.locationName || ""}`),
     url: raw.jobUrl,
-    posted: raw.date || new Date().toISOString(),
+    posted: raw.date ? new Date(raw.date).toISOString() : new Date().toISOString(),
     description: desc,
     tags:[], stage:null, demand:null, gap:null,
   };
