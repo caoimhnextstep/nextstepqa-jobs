@@ -21,6 +21,19 @@ const ADZUNA_QUERIES = [
   "quality assurance engineer",
 ];
 
+// Ireland-specific searches via Adzuna GB feed
+// Using explicit location terms to surface Irish roles
+const IRELAND_QUERIES = [
+  "QA engineer Dublin",
+  "test automation engineer Dublin",
+  "software tester Dublin Ireland",
+  "QA automation Dublin",
+  "SDET Ireland",
+  "quality assurance engineer Dublin",
+  "QA engineer Cork Ireland",
+  "automation tester Ireland",
+];
+
 const REED_QUERIES = [
   "QA automation", "test automation engineer",
   "SDET", "software tester", "QA engineer",
@@ -174,6 +187,31 @@ export default async function handler(req, res) {
   const raw = [];
   const errors = [];
   let fetched = 0;
+
+  // Ireland-specific Adzuna queries via GB feed
+  const IRISH_CITIES = ["dublin","cork","galway","limerick","waterford","drogheda","kilkenny","athlone","sligo","ireland"];
+  
+  for (const query of IRELAND_QUERIES) {
+    adzunaFetches.push(
+      fetch(`https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=${encodeURIComponent(query)}`)
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+          if (!data?.results) return;
+          data.results.forEach(r => {
+            const loc = (r.location?.display_name || "").toLowerCase();
+            const desc = (r.description || "").toLowerCase();
+            const isIrish = IRISH_CITIES.some(c => loc.includes(c) || desc.includes(c));
+            if (isIrish) {
+              const job = normaliseAdzuna(r, "gb");
+              job.country = "IE";
+              raw.push(job);
+              fetched++;
+            }
+          });
+        })
+        .catch(e => errors.push({ country: "IE-adzuna", query, error: e.message }))
+    );
+  }
 
   // Adzuna — EU countries
   const adzunaFetches = [];
