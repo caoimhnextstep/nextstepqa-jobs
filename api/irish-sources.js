@@ -10,7 +10,6 @@ const IRISH_SOURCES = [
   { company: "Flipdish",   ats: "greenhouse", slug: "flipdish",   location: "Dublin, Ireland" },
   { company: "HubSpot",    ats: "greenhouse", slug: "hubspot",    location: "Dublin, Ireland" },
   { company: "Stripe",     ats: "greenhouse", slug: "stripe",     location: "Dublin, Ireland" },
-  { company: "Kaseya",     ats: "greenhouse", slug: "kaseya",     location: "Dublin, Ireland" },
   // Verified working Lever boards
   { company: "Kitman Labs", ats: "lever", slug: "kitmanlabs",     location: "Dublin, Ireland" },
 ];
