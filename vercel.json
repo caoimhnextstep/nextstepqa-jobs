@@ -1,9 +1,11 @@
 {
   "version": 2,
   "builds": [
+    { "src": "api/jobs.js", "use": "@vercel/node" },
     { "src": "index.html", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/api/jobs", "dest": "/api/jobs.js" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
