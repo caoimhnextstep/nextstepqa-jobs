@@ -188,9 +188,10 @@ export default async function handler(req, res) {
   const errors = [];
   let fetched = 0;
 
-  // Ireland-specific Adzuna queries via GB feed
   const IRISH_CITIES = ["dublin","cork","galway","limerick","waterford","drogheda","kilkenny","athlone","sligo","ireland"];
-  
+  const adzunaFetches = [];
+
+  // Ireland-specific Adzuna queries via GB feed
   for (const query of IRELAND_QUERIES) {
     adzunaFetches.push(
       fetch(`https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=${encodeURIComponent(query)}`)
@@ -214,7 +215,6 @@ export default async function handler(req, res) {
   }
 
   // Adzuna — EU countries
-  const adzunaFetches = [];
   for (const country of ADZUNA_COUNTRIES) {
     for (const query of ADZUNA_QUERIES) {
       adzunaFetches.push(
