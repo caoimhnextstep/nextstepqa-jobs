@@ -191,21 +191,38 @@ export default async function handler(req, res) {
     }
   }
 
-  // Reed — Ireland
-  const reedFetches = REED_QUERIES.map(query =>
-    fetch(
-      `https://www.reed.co.uk/api/1.0/search?keywords=${encodeURIComponent(query)}&location=ireland&distancefromlocation=50&resultsToTake=25`,
-      { headers: { 'Authorization': 'Basic ' + Buffer.from(REED_KEY + ':').toString('base64') } }
-    )
-      .then(r => r.ok ? r.json() : null)
-      .then(data => {
-        if (!data?.results) return;
-        const jobs = data.results.map(r => normaliseReed(r));
-        raw.push(...jobs);
-        fetched += jobs.length;
-      })
-      .catch(e => errors.push({ country: "IE", query, error: e.message }))
-  );
+  // Reed — Ireland using location IDs for Dublin, Cork, Galway
+  const reedLocations = [
+    { id: "10009", name: "Dublin" },
+    { id: "10010", name: "Cork" },
+    { id: "10023", name: "Galway" },
+  ];
+
+  const reedFetches = [];
+  for (const loc of reedLocations) {
+    for (const query of REED_QUERIES) {
+      reedFetches.push(
+        fetch(
+          `https://www.reed.co.uk/api/1.0/search?keywords=${encodeURIComponent(query)}&locationId=${loc.id}&distancefromlocation=15&resultsToTake=20`,
+          { headers: { 'Authorization': 'Basic ' + Buffer.from(REED_KEY + ':').toString('base64') } }
+        )
+          .then(r => r.ok ? r.json() : null)
+          .then(data => {
+            if (!data?.results) return;
+            const jobs = data.results.map(r => {
+              const j = normaliseReed(r);
+              // Force IE tag since we're querying by Irish location ID
+              j.country = "IE";
+              if (!j.location || j.location === "Ireland") j.location = loc.name + ", Ireland";
+              return j;
+            });
+            raw.push(...jobs);
+            fetched += jobs.length;
+          })
+          .catch(e => errors.push({ country: "IE", query, error: e.message }))
+      );
+    }
+  }
 
   // Run all fetches in parallel
   await Promise.all([...adzunaFetches, ...reedFetches]);
