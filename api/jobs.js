@@ -3,6 +3,8 @@
 // /api/jobs — fetches from Adzuna + Reed, scores, returns JSON
 // ============================================================
 
+import { fetchIrishSources } from './irish-sources.js';
+
 const APP_ID   = 'a965c5a0';
 const APP_KEY  = 'd44c3937b1afc8717d60d23cb7b16947';
 const REED_KEY = '40163a09-6087-49ca-81fd-0d89a6f1cd25';
@@ -191,41 +193,19 @@ export default async function handler(req, res) {
     }
   }
 
-  // Reed — Ireland using location IDs for Dublin, Cork, Galway
-  const reedLocations = [
-    { id: "10009", name: "Dublin" },
-    { id: "10010", name: "Cork" },
-    { id: "10023", name: "Galway" },
-  ];
-
+  // Reed Ireland — disabled pending proper location ID verification
+  // Will be re-enabled with direct Irish company feeds in Phase 2
   const reedFetches = [];
-  for (const loc of reedLocations) {
-    for (const query of REED_QUERIES) {
-      reedFetches.push(
-        fetch(
-          `https://www.reed.co.uk/api/1.0/search?keywords=${encodeURIComponent(query)}&locationId=${loc.id}&distancefromlocation=15&resultsToTake=20`,
-          { headers: { 'Authorization': 'Basic ' + Buffer.from(REED_KEY + ':').toString('base64') } }
-        )
-          .then(r => r.ok ? r.json() : null)
-          .then(data => {
-            if (!data?.results) return;
-            const jobs = data.results.map(r => {
-              const j = normaliseReed(r);
-              // Force IE tag since we're querying by Irish location ID
-              j.country = "IE";
-              if (!j.location || j.location === "Ireland") j.location = loc.name + ", Ireland";
-              return j;
-            });
-            raw.push(...jobs);
-            fetched += jobs.length;
-          })
-          .catch(e => errors.push({ country: "IE", query, error: e.message }))
-      );
-    }
-  }
+
+  // Irish direct company feeds (Greenhouse + Lever)
+  const irishPromise = fetchIrishSources().then(({ jobs, errors: irishErrors }) => {
+    raw.push(...jobs);
+    fetched += jobs.length;
+    errors.push(...irishErrors);
+  });
 
   // Run all fetches in parallel
-  await Promise.all([...adzunaFetches, ...reedFetches]);
+  await Promise.all([...adzunaFetches, irishPromise]);
 
   const deduped = dedupe(raw);
   const clean   = deduped.filter(j => !isJunk(j));
