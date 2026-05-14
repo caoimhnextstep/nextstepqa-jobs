@@ -12,26 +12,42 @@ const IRISH_SOURCES = [
   { company: "Teamwork",  ats: "lever", slug: "teamwork",       location: "Cork"   },
 ];
 
-const QA_KEYWORDS = [
-  "qa engineer", "quality assurance", "test automation", "software tester",
-  "sdet", "playwright", "selenium", "cypress", "automation engineer",
-  "quality engineer", "test engineer", "qa automation", "manual tester",
-  "performance test", "api testing", "testing engineer"
+const QA_TITLE_KEYWORDS = [
+  "qa", "quality assurance", "test automation", "software test",
+  "sdet", "playwright", "automation engineer", "quality engineer",
+  "test engineer", "manual test", "performance test", "tester"
 ];
 
-// Strip HTML tags and decode entities before matching
+const QA_EXCLUDE_TITLES = [
+  "customer support", "full stack", "frontend", "backend", "data engineer",
+  "product manager", "product designer", "marketing", "sales", "finance",
+  "people", "recruiter", "analyst", "devops", "security engineer",
+  "mobile engineer", "ios engineer", "android engineer", "account",
+  "social media", "technical writer", "legal", "operations"
+];
+
+function isQARole(title, description) {
+  const t = stripHtml(title).toLowerCase();
+
+  // Explicitly exclude non-QA roles by title
+  if (QA_EXCLUDE_TITLES.some(kw => t.includes(kw))) return false;
+
+  // Match on title first — most reliable
+  if (QA_TITLE_KEYWORDS.some(kw => t.includes(kw))) return true;
+
+  // Fall back to description if title doesn't match
+  const d = stripHtml(description).toLowerCase();
+  const combined = `${t} ${d}`;
+  return QA_TITLE_KEYWORDS.some(kw => combined.includes(kw));
+}
+
 function stripHtml(str) {
   return (str || "")
     .replace(/<[^>]*>/g, " ")
     .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
     .replace(/&amp;/g, "&").replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'").replace(/&nbsp;/g, " ")
-    .replace(/\s+/g, " ").trim().toLowerCase();
-}
-
-function isQARole(title, description) {
-  const text = `${stripHtml(title)} ${stripHtml(description)}`;
-  return QA_KEYWORDS.some(kw => text.includes(kw));
+    .replace(/\s+/g, " ").trim();
 }
 
 function fmtSalary(min, max) {
