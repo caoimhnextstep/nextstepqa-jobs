@@ -507,14 +507,13 @@ async function fetchAllJobs(onProgress) {
     }
   }
 
-  // Ireland-specific queries via GB feed
+  // Ireland-specific queries via GB feed - location check only
   for (const query of IRELAND_QUERIES) {
     adzunaPromises.push(
       fetchAdzuna("gb", query).then(jobs => {
         jobs.forEach(j => {
           const loc = j.location.toLowerCase();
-          const desc = j.description.toLowerCase();
-          if (IRISH_CITIES.some(c => loc.includes(c) || desc.includes(c))) {
+          if (IRISH_CITIES.some(c => loc.includes(c))) {
             j.country = "IE";
             raw.push(j);
           }
