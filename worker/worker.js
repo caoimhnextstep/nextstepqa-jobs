@@ -175,14 +175,19 @@ async function run() {
   results.push(...euJobs);
   errors.push(...euErrors);
 
-  // 2. Dedupe
-  const deduped = dedupe(results);
-  console.log(`   After dedupe: ${deduped.length} jobs`);
+  // 3. Dedupe all jobs together
+  const allRaw = results;
+  const deduped = dedupe(allRaw);
+  console.log(`\n   Total raw: ${allRaw.length} | After dedupe: ${deduped.length}`);
 
-  // 3. Classify
+  // 4. Classify everything — Irish ATS and EU jobs
   const classified = deduped.map(classify);
-  classified.sort((a,b) => b.relevance_score - a.relevance_score);
-  console.log(`   Classified: ${classified.length} jobs`);
+  classified.sort((a,b) => {
+    // Irish direct feeds first, then by relevance
+    if (a.source_type === 'direct_company_feed' && b.source_type !== 'direct_company_feed') return -1;
+    if (b.source_type === 'direct_company_feed' && a.source_type !== 'direct_company_feed') return 1;
+    return b.relevance_score - a.relevance_score;
+  });
 
   // Flatten location + add location_display for frontend
   const flatted = classified.map(j => {
