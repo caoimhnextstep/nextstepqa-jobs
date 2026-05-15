@@ -373,206 +373,16 @@
 </div>
 
 <script>
-// ── Scoring engine (browser-side for Adzuna) ─────────────────
-const APP_ID  = 'a965c5a0';
-const APP_KEY = 'd44c3937b1afc8717d60d23cb7b16947';
-
-const ADZUNA_COUNTRIES = ["gb","de","nl","pl","at","fr","be"];
-const ADZUNA_QUERIES   = [
-  "QA automation engineer","test automation engineer","SDET playwright",
-  "software tester automation","QA engineer playwright",
-  "manual QA tester","quality assurance engineer",
-];
-const IRELAND_QUERIES = [
-  "QA engineer Dublin","test automation Dublin",
-  "software tester Dublin","QA automation Ireland",
-  "SDET Ireland","quality assurance Dublin",
-];
-const IRISH_CITIES = ["dublin","cork","galway","limerick","waterford","drogheda","ireland"];
-
-const SIGNALS = {
-  high_demand:  ["playwright","typescript","cypress","sdet","automation framework","ci/cd","github actions","api automation"],
-  transition:   ["some automation","exposure to","manual and automation","moving towards"],
-  manual_heavy: ["manual testing","exploratory testing","uat","regression testing","no automation"],
-  senior:       ["lead","principal","head of qa","qa manager","test architect","director"],
-  junior:       ["junior","graduate","entry level","trainee"],
-};
-const DEMAND_TAGS = {
-  high_demand:  { label:"🔥 High Demand",    color:"yellow" },
-  transition:   { label:"⚠ Transition Role", color:"orange" },
-  manual_heavy: { label:"📋 Manual Focus",   color:"muted"  },
-  senior:       { label:"🎯 Next Level",     color:"purple" },
-  junior:       { label:"🌱 Entry Level",    color:"green"  },
-};
-const STAGE_MAP = { junior:"Entry",manual_heavy:"Manual",transition:"Transitioning",high_demand:"Automation",senior:"Senior+" };
-const GAP_MAP = {
-  Entry:         { qualifyIf:["2+ years manual QA","JIRA / test case writing","Agile"], youNeed:[], nextStep:null },
-  Manual:        { qualifyIf:["2+ years manual QA","JIRA / test case writing"], youNeed:[], nextStep:null },
-  Transitioning: { qualifyIf:["2+ years manual QA","Some automation exposure"], youNeed:["Basic JavaScript or Python","One automation tool"], nextStep:"Start the Playwright course →" },
-  Automation:    { qualifyIf:["Automation framework experience","TypeScript or Python"], youNeed:["Playwright or Cypress","CI/CD pipeline experience"], nextStep:"Close the gap with the course →" },
-  "Senior+":     { qualifyIf:["5+ years QA","Framework design","Team leadership"], youNeed:["Architecture experience","Mentoring / hiring"], nextStep:"Build your portfolio first →" },
-};
-
-function fmtSalary(min,max){ if(!min&&!max)return null; const f=n=>`€${Math.round(n/1000)}k`; if(min&&max)return`${f(min)}–${f(max)}`; return min?`From ${f(min)}`:`Up to ${f(max)}`; }
-function detectRemote(t){ return t.includes("remote")||t.includes("hybrid")||t.includes("work from home"); }
-
-function scoreJob(job) {
-  const text = `${job.title} ${job.description}`.toLowerCase();
-  const scores = {};
-  for (const [cat,kws] of Object.entries(SIGNALS)) scores[cat] = kws.filter(kw=>text.includes(kw)).length;
-  const top = Object.entries(scores).filter(([,v])=>v>0).sort(([,a],[,b])=>b-a)[0]?.[0];
-  const tags=[];
-  if(scores.high_demand>0) tags.push("playwright-required");
-  if(scores.transition>0)  tags.push("transition-friendly");
-  if(scores.manual_heavy>0)tags.push("manual-focus");
-  if(scores.senior>0)      tags.push("senior");
-  if(scores.junior>0)      tags.push("junior");
-  if(job.remote)           tags.push("remote");
-  const stage = top ? STAGE_MAP[top] : "General";
-  const base  = GAP_MAP[stage] || GAP_MAP["Manual"];
-  const extra = [];
-  if(text.includes("playwright"))  extra.push("Playwright");
-  if(text.includes("typescript"))  extra.push("TypeScript");
-  if(text.includes("ci/cd")||text.includes("github actions")) extra.push("CI/CD");
-  if(text.includes("docker"))      extra.push("Docker");
-  if(text.includes("api"))         extra.push("API testing");
-  if(text.includes("java")&&!text.includes("javascript")) extra.push("Java");
-  return {
-    ...job, tags, stage,
-    demand: top ? DEMAND_TAGS[top] : null,
-    gap: { qualifyIf:base.qualifyIf, youNeed:[...new Set([...base.youNeed,...extra])].slice(0,4), nextStep:base.nextStep },
-    archetypeScore:{
-      manual_tester:  scores.transition*3+scores.junior*2-scores.senior,
-      transitioning:  scores.high_demand*3+scores.transition*2,
-      job_hunting:    (job.salary_max||0)>70000?3:1,
-      exploring:      1,
-    },
-    relevanceScore: Object.values(scores).reduce((a,b)=>a+b,0),
-  };
-}
-
-function dedupe(jobs) {
-  const seen = new Set();
-  return jobs.filter(j => {
-    const k = `${j.company}-${j.title}-${j.location}`.toLowerCase().replace(/\s/g,"");
-    if(seen.has(k)) return false;
-    seen.add(k); return true;
-  });
-}
-
-function isJunk(job) {
-  const t = job.title.toLowerCase();
-  return ["devops","backend developer","frontend developer","data engineer",
-    "scrum master","product manager","project manager","machine learning",
-    "solutions architect","network engineer"].some(x=>t.includes(x));
-}
-
-async function fetchAdzuna(country, query) {
-  const url = `https://api.adzuna.com/v1/api/jobs/${country}/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=${encodeURIComponent(query)}`;
-  const res = await fetch(url);
-  if (!res.ok) return [];
-  const data = await res.json();
-  return (data.results || []).map(r => ({
-    id: r.id, title: r.title,
-    company: r.company?.display_name || "Unknown",
-    location: r.location?.display_name || country.toUpperCase(),
-    country: country.toUpperCase(),
-    salary_min: r.salary_min ? Math.round(r.salary_min) : null,
-    salary_max: r.salary_max ? Math.round(r.salary_max) : null,
-    salary_label: fmtSalary(r.salary_min, r.salary_max),
-    remote: detectRemote(`${r.title} ${r.description||""} ${r.location?.display_name||""}`),
-    url: r.redirect_url, posted: r.created,
-    description: (r.description||"").slice(0,400).toLowerCase(),
-    tags:[], stage:null, demand:null, gap:null,
-  }));
-}
-
+// ── API caller — reads from static GitHub JSON ───────────────
 async function fetchAllJobs(onProgress) {
-  const raw = [];
-
-  // 1. Adzuna EU — direct from browser (CORS whitelisted)
-  const total = ADZUNA_COUNTRIES.length * ADZUNA_QUERIES.length + IRELAND_QUERIES.length;
-  let done = 0;
-
-  const adzunaPromises = [];
-  for (const country of ADZUNA_COUNTRIES) {
-    for (const query of ADZUNA_QUERIES) {
-      adzunaPromises.push(
-        fetchAdzuna(country, query).then(jobs => {
-          raw.push(...jobs);
-          done++;
-          onProgress?.(`Fetching EU roles... (${done}/${total})`);
-        }).catch(() => { done++; })
-      );
-    }
-  }
-
-  // Ireland-specific queries via GB feed - location check only
-  for (const query of IRELAND_QUERIES) {
-    adzunaPromises.push(
-      fetchAdzuna("gb", query).then(jobs => {
-        jobs.forEach(j => {
-          const loc = j.location.toLowerCase();
-          if (IRISH_CITIES.some(c => loc.includes(c))) {
-            j.country = "IE";
-            raw.push(j);
-          }
-        });
-        done++;
-        onProgress?.(`Fetching Ireland roles... (${done}/${total})`);
-      }).catch(() => { done++; })
-    );
-  }
-
-  // 2. Irish ATS feeds — via server (no CORS issues)
-  const atsPromise = fetch('/api/jobs')
-    .then(r => r.json())
-    .then(data => {
-      if (data.jobs) raw.push(...data.jobs);
-      onProgress?.("Loading Irish company feeds...");
-    }).catch(() => {});
-
-  await Promise.all([...adzunaPromises, atsPromise]);
-
+  onProgress?.("Loading QA roles...");
+  const url = "https://raw.githubusercontent.com/caoimhnextstep/nextstepqa-jobs/main/data/jobs-snapshot.json";
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Failed to load jobs: ${res.status}`);
   onProgress?.("Scoring and tagging roles...");
-
-  const deduped = dedupe(raw);
-  const clean   = deduped.filter(j => !isJunk(j));
-  const scored  = clean.map(scoreJob).sort((a,b) => b.relevanceScore - a.relevanceScore);
-
-  const byCountry = {}, byStage = {};
-  const tools = {playwright:0,selenium:0,cypress:0,typescript:0,postman:0,api:0};
-  scored.forEach(j => {
-    byCountry[j.country] = (byCountry[j.country]||0)+1;
-    byStage[j.stage]     = (byStage[j.stage]||0)+1;
-    if(j.description.includes("playwright"))  tools.playwright++;
-    if(j.description.includes("selenium"))    tools.selenium++;
-    if(j.description.includes("cypress"))     tools.cypress++;
-    if(j.description.includes("typescript"))  tools.typescript++;
-    if(j.description.includes("postman"))     tools.postman++;
-    if(j.description.includes("api"))         tools.api++;
-  });
-
-  return {
-    jobs: scored,
-    report: {
-      fetched: raw.length,
-      after_dedupe: deduped.length,
-      after_junk_filter: clean.length,
-      final: scored.length,
-      remote: scored.filter(j=>j.remote).length,
-      by_country: byCountry,
-      by_stage: byStage,
-      top_tools: tools,
-      generated_at: new Date().toISOString(),
-    },
-    errors: [],
-    generated_at: new Date().toISOString(),
-  };
+  return await res.json();
 }
-</script>
 
-<script>
 // ── State ────────────────────────────────────────────────────
 let ALL_JOBS = [];
 const PAGE_SIZE = 10;
@@ -618,7 +428,7 @@ async function boot() {
   const cnt = document.getElementById("loadingCount");
 
   const onProgress = (text) => {
-    progress = Math.min(progress + 2, 90);
+    progress = Math.min(progress + 45, 90);
     bar.style.width = progress + "%";
     msg.textContent = text;
   };
