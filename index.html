@@ -435,7 +435,30 @@ async function boot() {
 
   try {
     const result = await fetchAllJobs(onProgress);
-    ALL_JOBS = result.jobs;
+    ALL_JOBS = result.jobs || [];
+
+    // Build report from jobs data if not present
+    const report = result.report || (() => {
+      const by_country = {}, by_stage = {};
+      const top_tools = {playwright:0,selenium:0,cypress:0,typescript:0,postman:0,api:0};
+      ALL_JOBS.forEach(j => {
+        by_country[j.country] = (by_country[j.country]||0)+1;
+        by_stage[j.classification?.role_type||j.stage||"General"] = (by_stage[j.classification?.role_type||j.stage||"General"]||0)+1;
+        const d = j.description||"";
+        if(d.includes("playwright")) top_tools.playwright++;
+        if(d.includes("selenium"))   top_tools.selenium++;
+        if(d.includes("cypress"))    top_tools.cypress++;
+        if(d.includes("typescript")) top_tools.typescript++;
+        if(d.includes("postman"))    top_tools.postman++;
+        if(d.includes(" api "))      top_tools.api++;
+      });
+      return {
+        final: ALL_JOBS.length,
+        fetched: ALL_JOBS.length,
+        remote: ALL_JOBS.filter(j=>j.remote).length,
+        by_country, by_stage, top_tools,
+      };
+    })();
 
     bar.style.width = "100%";
     msg.textContent = "Done.";
@@ -444,16 +467,16 @@ async function boot() {
     await new Promise(r => setTimeout(r, 400));
     document.getElementById("loadingScreen").style.display = "none";
 
-    updateHeroStats(result.report);
+    updateHeroStats(report);
     updateCounts();
-    showReport(result.report);
+    showReport(report);
     applyFilters();
 
     const ago = timeSince(result.generated_at);
     document.getElementById("bbStatus").textContent = `${ALL_JOBS.length} roles · fetched ${ago}`;
     document.getElementById("heroCount").textContent = `${ALL_JOBS.length} live QA roles across Europe · fetched ${ago}`;
 
-    if (result.errors.length) {
+    if (result.errors?.length) {
       console.warn("Fetch errors:", result.errors);
     }
 
