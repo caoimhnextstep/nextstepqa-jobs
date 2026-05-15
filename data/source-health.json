@@ -1,0 +1,34 @@
+{
+  "Axway": {
+    "status": "error",
+    "last_run": "2026-05-15T15:06:13.305Z",
+    "last_error": "HTTP 404"
+  },
+  "Fidelity": {
+    "status": "error",
+    "last_run": "2026-05-15T15:06:20.303Z",
+    "last_error": "HTTP 403"
+  },
+  "Fineos": {
+    "status": "ok",
+    "last_run": "2026-05-15T15:06:21.264Z",
+    "last_change_detected": "2026-05-15T15:06:21.264Z",
+    "new_candidates": 0,
+    "total_titles_seen": 1
+  },
+  "Grouper": {
+    "status": "error",
+    "last_run": "2026-05-15T15:06:33.850Z",
+    "last_error": "HTTP 404"
+  },
+  "LocalEyes": {
+    "status": "error",
+    "last_run": "2026-05-15T15:06:41.181Z",
+    "last_error": "HTTP 404"
+  },
+  "Mastercard": {
+    "status": "error",
+    "last_run": "2026-05-15T15:06:48.584Z",
+    "last_error": "HTTP 404"
+  }
+}
