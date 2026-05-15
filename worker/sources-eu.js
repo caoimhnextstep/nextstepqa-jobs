@@ -174,7 +174,12 @@ export async function fetchReedIreland() {
           salary_label: j.minimumSalary ? `€${Math.round(j.minimumSalary/1000)}k–€${Math.round((j.maximumSalary||j.minimumSalary)/1000)}k` : null,
           remote: (j.locationName||"").toLowerCase().includes("remote"),
           url: j.jobUrl,
-          posted: j.date ? new Date(j.date).toISOString() : new Date().toISOString(),
+          posted: (() => {
+            try {
+              const d = new Date(j.date);
+              return isNaN(d.getTime()) ? new Date().toISOString() : d.toISOString();
+            } catch { return new Date().toISOString(); }
+          })(),
           description: (j.jobDescription||j.jobTitle||"").toLowerCase().slice(0, 600),
           classification: { role_type: null, level: null, transition_friendly: false },
           signals: { playwright: false, typescript: false, cypress: false, selenium: false, api_testing: false, ci_cd: false },
