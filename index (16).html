@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextStepQA Jobs — QA Roles Across Europe</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#13141f; --surface:#1a1b2e; --surface2:#1e2035; --surface3:#242640;
+    --border:#2a2d42; --border2:#333655;
+    --yellow:#f5a623; --ybg:rgba(245,166,35,0.1); --ybrd:rgba(245,166,35,0.28);
+    --orange:#e05a2b; --obg:rgba(224,90,43,0.09); --obrd:rgba(224,90,43,0.28);
+    --green:#4ade80;  --gbg:rgba(74,222,128,0.09); --gbrd:rgba(74,222,128,0.25);
+    --purple:#a78bfa; --pbg:rgba(167,139,250,0.1); --pbrd:rgba(167,139,250,0.28);
+    --blue:#60a5fa;   --bbg:rgba(96,165,250,0.09);
+    --red:#f87171;    --rbg:rgba(248,113,113,0.09); --rbrd:rgba(248,113,113,0.25);
+    --text:#e2e4f0; --text2:#9294aa; --text3:#52546e;
+    --mono:'JetBrains Mono',monospace; --sans:'Inter',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:13px;min-height:100vh;}
+
+  nav{position:sticky;top:0;z-index:200;height:52px;background:rgba(19,20,31,0.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 24px;}
+  .logo{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:var(--text);letter-spacing:-0.3px;}
+  .logo-mark{width:26px;height:26px;background:var(--yellow);border-radius:6px;display:grid;place-items:center;font-size:11px;font-weight:800;color:#1a1200;font-family:var(--mono);}
+  .nav-mid{display:flex;gap:2px;}
+  .nav-link{padding:5px 12px;border-radius:5px;font-size:12px;color:var(--text2);cursor:pointer;transition:all .14s;display:flex;align-items:center;gap:5px;}
+  .nav-link:hover{background:var(--surface2);color:var(--text);}
+  .nav-link.active{color:var(--yellow);}
+  .dot{width:5px;height:5px;border-radius:50%;}
+  .nav-right{display:flex;align-items:center;gap:8px;}
+  .btn-ghost{padding:6px 13px;border-radius:5px;border:1px solid var(--border2);font-size:12px;color:var(--text2);cursor:pointer;background:transparent;}
+  .btn-primary{padding:7px 15px;border-radius:5px;background:var(--yellow);font-size:12px;font-weight:700;color:#1a1200;cursor:pointer;border:none;font-family:var(--sans);}
+
+  /* HERO */
+  .hero{padding:44px 24px 32px;border-bottom:1px solid var(--border);position:relative;overflow:hidden;}
+  .hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:48px 48px;opacity:.15;pointer-events:none;}
+  .hero::after{content:"";position:absolute;top:-60px;right:10%;width:400px;height:300px;background:radial-gradient(ellipse,rgba(245,166,35,.07) 0%,transparent 65%);pointer-events:none;}
+  .hero-inner{max-width:1040px;margin:0 auto;position:relative;z-index:1;}
+  .hero-badge{display:inline-flex;align-items:center;gap:7px;background:var(--surface);border:1px solid var(--border2);border-radius:4px;padding:4px 11px;font-family:var(--mono);font-size:10px;color:var(--text2);margin-bottom:18px;}
+  .live-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:blink 2s infinite;}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+  .hero h1{font-size:32px;font-weight:800;line-height:1.08;letter-spacing:-1px;color:var(--text);margin-bottom:10px;}
+  .hero h1 .yl{color:var(--yellow);}
+  .hero-sub{font-size:14px;color:var(--text2);line-height:1.6;max-width:520px;margin-bottom:20px;}
+  .search-row{display:flex;gap:8px;max-width:620px;margin-bottom:20px;}
+  .search-wrap{flex:1;position:relative;}
+  .s-icon{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--text3);font-size:13px;}
+  .search-input{width:100%;background:var(--surface3);border:1px solid var(--border2);border-radius:6px;padding:9px 11px 9px 32px;color:var(--text);font-family:var(--sans);font-size:13px;outline:none;transition:border-color .14s;}
+  .search-input:focus{border-color:var(--yellow);}
+  .search-input::placeholder{color:var(--text3);}
+  .search-btn{background:var(--yellow);color:#1a1200;font-weight:700;font-size:12px;padding:9px 18px;border-radius:6px;border:none;cursor:pointer;font-family:var(--sans);white-space:nowrap;}
+  .hero-stats{display:flex;gap:0;border:1px solid var(--border);border-radius:7px;overflow:hidden;width:fit-content;}
+  .hstat{padding:10px 18px;border-right:1px solid var(--border);}
+  .hstat:last-child{border-right:none;}
+  .hstat-n{font-family:var(--mono);font-size:18px;font-weight:600;color:var(--yellow);line-height:1;margin-bottom:3px;}
+  .hstat-l{font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.5px;}
+
+  /* Loading screen */
+  .loading-screen{position:fixed;inset:0;background:var(--bg);z-index:500;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;}
+  .loading-logo{font-family:var(--mono);font-size:22px;font-weight:700;color:var(--yellow);}
+  .loading-bar-wrap{width:280px;height:3px;background:var(--border);border-radius:2px;overflow:hidden;}
+  .loading-bar{height:100%;background:var(--yellow);border-radius:2px;transition:width .3s ease;width:0%;}
+  .loading-msg{font-family:var(--mono);font-size:11px;color:var(--text3);text-align:center;max-width:300px;line-height:1.5;}
+  .loading-count{font-family:var(--mono);font-size:13px;color:var(--text2);}
+
+  /* Quality report panel */
+  .report-bar{background:var(--surface);border-bottom:1px solid var(--border);padding:10px 24px;display:none;}
+  .report-inner{max-width:1040px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+  .report-item{font-family:var(--mono);font-size:11px;color:var(--text3);display:flex;align-items:center;gap:5px;}
+  .report-item strong{color:var(--text2);}
+  .report-item.highlight strong{color:var(--yellow);}
+
+  /* LAYOUT */
+  .layout{max-width:1040px;margin:0 auto;padding:20px 24px 80px;display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:start;}
+
+  /* SIDEBAR */
+  .sidebar{position:sticky;top:72px;display:flex;flex-direction:column;gap:8px;}
+  .filter-block{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px;}
+  .fb-title{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--text3);font-family:var(--mono);font-weight:500;margin-bottom:10px;}
+  .fopt{display:flex;align-items:center;justify-content:space-between;padding:6px 8px;border-radius:5px;cursor:pointer;transition:background .12s;margin-bottom:1px;}
+  .fopt:hover{background:var(--surface3);}
+  .fopt.active{background:var(--ybg);}
+  .fopt-label{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--text2);}
+  .fopt.active .fopt-label{color:var(--yellow);}
+  .fcheck{width:13px;height:13px;border:1.5px solid var(--border2);border-radius:3px;display:grid;place-items:center;font-size:8px;flex-shrink:0;}
+  .fopt.active .fcheck{background:var(--yellow);border-color:var(--yellow);color:#1a1200;font-weight:700;}
+  .fcount{font-family:var(--mono);font-size:10px;color:var(--text3);background:var(--surface3);padding:1px 6px;border-radius:3px;}
+  .fopt.active .fcount{background:var(--ybg);color:var(--yellow);}
+  .arch-block{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px;}
+  .arch-title{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--text3);font-family:var(--mono);font-weight:500;margin-bottom:10px;}
+  .arch-opt{padding:8px 10px;border-radius:5px;cursor:pointer;font-size:12px;color:var(--text2);transition:all .12s;margin-bottom:2px;border:1px solid transparent;}
+  .arch-opt:hover{background:var(--surface3);color:var(--text);}
+  .arch-opt.active{background:var(--ybg);border-color:var(--ybrd);color:var(--yellow);}
+  .sidebar-cta{background:var(--surface);border:1px solid var(--obrd);border-radius:8px;padding:16px;position:relative;overflow:hidden;}
+  .sidebar-cta::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--orange);}
+  .cta-tag{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--orange);font-family:var(--mono);margin-bottom:8px;}
+  .cta-msg{font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:6px;}
+  .cta-sub{font-size:11px;color:var(--text2);line-height:1.5;margin-bottom:12px;}
+  .cta-btn{display:block;text-align:center;background:var(--yellow);color:#1a1200;font-weight:700;font-size:12px;padding:9px;border-radius:6px;cursor:pointer;font-family:var(--sans);}
+  .cta-price{text-align:center;font-size:10px;color:var(--text3);margin-top:5px;font-family:var(--mono);}
+
+  /* MAIN */
+  .toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
+  .toolbar-count{font-size:13px;font-weight:600;color:var(--text);}
+  .toolbar-count span{color:var(--yellow);}
+  .sort-sel{background:var(--surface);border:1px solid var(--border);border-radius:5px;color:var(--text2);font-size:12px;padding:5px 9px;font-family:var(--sans);outline:none;cursor:pointer;}
+  .active-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;min-height:20px;}
+  .atag{display:inline-flex;align-items:center;gap:4px;background:var(--ybg);border:1px solid var(--ybrd);color:var(--yellow);font-size:10px;font-family:var(--mono);padding:3px 8px;border-radius:3px;cursor:pointer;}
+  .arch-banner{background:var(--obg);border:1px solid var(--obrd);border-radius:8px;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;}
+  .ab-left{display:flex;align-items:center;gap:10px;}
+  .ab-icon{font-size:16px;flex-shrink:0;}
+  .ab-text strong{display:block;font-size:12px;font-weight:600;color:var(--text);margin-bottom:2px;}
+  .ab-text span{font-size:11px;color:var(--text2);}
+  .ab-cta{background:var(--yellow);color:#1a1200;font-weight:700;font-size:11px;padding:7px 14px;border-radius:5px;white-space:nowrap;cursor:pointer;flex-shrink:0;border:none;font-family:var(--sans);}
+
+  /* JOB CARDS */
+  .job-list{display:flex;flex-direction:column;gap:8px;}
+  .job-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;cursor:pointer;transition:all .14s;position:relative;overflow:hidden;animation:fadeIn .2s ease both;}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+  .job-card:hover{border-color:var(--border2);background:var(--surface2);}
+  .job-card.featured{border-color:var(--ybrd);}
+  .job-card.featured::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--yellow);}
+  /* Age fading — trust signal */
+  .job-card.age-fresh{}
+  .job-card.age-recent{opacity:0.85;}
+  .job-card.age-stale{opacity:0.55;}
+  .job-card.age-stale:hover{opacity:0.85;}
+  .age-badge{font-family:var(--mono);font-size:9px;padding:2px 6px;border-radius:3px;margin-left:4px;}
+  .age-badge.stale{background:var(--rbg);color:var(--red);border:1px solid var(--rbrd);}
+  .age-badge.recent{background:var(--obg);color:var(--orange);border:1px solid var(--obrd);}
+  .card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px;}
+  .card-left{display:flex;align-items:flex-start;gap:11px;flex:1;}
+  .co-logo{width:36px;height:36px;border-radius:6px;border:1px solid var(--border2);display:grid;place-items:center;font-family:var(--mono);font-size:10px;font-weight:600;flex-shrink:0;}
+  .card-info{flex:1;}
+  .card-title-row{display:flex;align-items:center;gap:7px;margin-bottom:3px;flex-wrap:wrap;}
+  .card-title{font-size:13px;font-weight:600;color:var(--text);}
+  .card-company{font-size:12px;color:var(--text2);margin-bottom:3px;}
+  .card-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .meta-i{font-size:11px;color:var(--text3);}
+  .card-right{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex-shrink:0;}
+  .card-salary{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--text);}
+  .card-stage{font-family:var(--mono);font-size:10px;color:var(--text3);}
+  .card-save{width:26px;height:26px;border:1px solid var(--border);border-radius:5px;display:grid;place-items:center;font-size:12px;color:var(--text3);cursor:pointer;transition:all .12s;}
+  .card-save:hover{border-color:var(--yellow);color:var(--yellow);}
+  .card-tags{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-top:10px;border-top:1px solid var(--border);}
+  .tags-left{display:flex;gap:5px;flex-wrap:wrap;}
+  .tag{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:3px;border:1px solid var(--border2);color:var(--text3);}
+  .tag.yt{border-color:var(--ybrd);color:var(--yellow);background:var(--ybg);}
+  .tag.gr{border-color:var(--gbrd);color:var(--green);background:var(--gbg);}
+  .tag.or{border-color:var(--obrd);color:var(--orange);background:var(--obg);}
+  .tag.pu{border-color:var(--pbrd);color:var(--purple);background:var(--pbg);}
+  .tag.bl{border-color:rgba(96,165,250,.25);color:var(--blue);background:var(--bbg);}
+  .apply-btn{font-size:11px;font-weight:600;color:var(--yellow);background:var(--ybg);border:1px solid var(--ybrd);padding:4px 12px;border-radius:4px;cursor:pointer;white-space:nowrap;font-family:var(--sans);text-decoration:none;display:inline-block;}
+  .apply-btn:hover{background:rgba(245,166,35,.18);}
+  .badge{font-family:var(--mono);font-size:9px;padding:2px 6px;border-radius:3px;text-transform:uppercase;}
+  .badge-new{background:var(--gbg);color:var(--green);border:1px solid var(--gbrd);}
+  .badge-remote{background:var(--pbg);color:var(--purple);border:1px solid var(--pbrd);}
+
+  /* Gap callout */
+  .gap-callout{margin-top:10px;padding:10px 14px;background:var(--surface3);border:1px solid var(--border2);border-radius:6px;display:none;}
+  .job-card:hover .gap-callout,.gap-callout.pinned{display:block;}
+  .gap-row{display:flex;gap:6px;align-items:flex-start;font-size:11px;line-height:1.5;margin-bottom:4px;}
+  .gap-row:last-child{margin-bottom:0;}
+  .gap-icon{flex-shrink:0;width:16px;margin-top:1px;}
+  .gap-label{color:var(--text3);flex-shrink:0;width:62px;font-family:var(--mono);}
+  .gap-content{color:var(--text2);}
+  .gap-row.qualify .gap-content{color:var(--green);}
+  .gap-row.need .gap-content{color:var(--orange);}
+  .gap-row.next .gap-content{color:var(--yellow);font-weight:600;cursor:pointer;}
+
+  /* Empty / error */
+  .empty{text-align:center;padding:48px 20px;color:var(--text3);}
+  .empty-icon{font-size:32px;margin-bottom:12px;}
+  .empty-text{font-size:14px;margin-bottom:6px;color:var(--text2);}
+  .empty-sub{font-size:12px;}
+
+  /* Pagination */
+  .pagination{display:flex;align-items:center;justify-content:center;gap:4px;margin-top:20px;padding-top:16px;border-top:1px solid var(--border);}
+  .pg{width:30px;height:30px;border:1px solid var(--border);border-radius:5px;display:grid;place-items:center;font-size:12px;color:var(--text3);cursor:pointer;font-family:var(--mono);transition:all .12s;}
+  .pg:hover{border-color:var(--border2);color:var(--text2);}
+  .pg.active{background:var(--yellow);border-color:var(--yellow);color:#1a1200;font-weight:700;}
+
+  /* Bottom bar */
+  .bottombar{position:fixed;bottom:0;left:0;right:0;height:46px;background:var(--surface);border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 20px;z-index:100;}
+  .bb-left{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--text3);font-family:var(--mono);}
+  .bb-right{display:flex;align-items:center;gap:8px;}
+  .bb-btn{font-size:12px;font-weight:600;padding:7px 14px;border-radius:5px;cursor:pointer;font-family:var(--sans);border:none;}
+  .bb-outline{background:transparent;border:1px solid var(--border2) !important;color:var(--text2);}
+  .bb-cta{background:var(--yellow);color:#1a1200;}
+  .ask-pill{display:flex;align-items:center;gap:5px;background:var(--pbg);border:1px solid var(--pbrd);border-radius:5px;padding:6px 12px;font-size:12px;color:#c4b5fd;cursor:pointer;}
+  .ask-dot{width:5px;height:5px;border-radius:50%;background:#c4b5fd;}
+</style>
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div class="loading-screen" id="loadingScreen">
+  <div class="loading-logo">NextStepQA Jobs</div>
+  <div class="loading-bar-wrap"><div class="loading-bar" id="loadingBar"></div></div>
+  <div class="loading-count" id="loadingCount">Connecting to live feed...</div>
+  <div class="loading-msg" id="loadingMsg">Fetching QA roles across Europe</div>
+</div>
+
+<nav>
+  <div class="logo">
+    <div class="logo-mark">N</div>
+    NextStepQA
+  </div>
+  <div class="nav-mid">
+    <div class="nav-link active"><span class="dot" style="background:var(--yellow)"></span>Jobs</div>
+    <div class="nav-link"><span class="dot" style="background:var(--orange)"></span>Course</div>
+    <div class="nav-link"><span class="dot" style="background:var(--green)"></span>Tools</div>
+    <div class="nav-link"><span class="dot" style="background:var(--purple)"></span>Resources</div>
+  </div>
+  <div class="nav-right">
+    <div class="btn-ghost">Sign in</div>
+    <button class="btn-primary">Get the Course — €19</button>
+  </div>
+</nav>
+
+<!-- QUALITY REPORT BAR -->
+<div class="report-bar" id="reportBar">
+  <div class="report-inner" id="reportInner"></div>
+</div>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <div class="live-dot"></div>
+      <span id="heroCount">Loading live roles...</span>
+    </div>
+    <h1>QA jobs, mapped to<br><span class="yl">your next step.</span></h1>
+    <p class="hero-sub">Every testing role in Europe — tagged by career stage, tooling demand, and what it takes to get there. Not raw aggregation. Curated signal.</p>
+    <div class="search-row">
+      <div class="search-wrap">
+        <span class="s-icon">⌕</span>
+        <input class="search-input" id="searchInput" type="text" placeholder="Search title, company, or tool... e.g. Playwright, SDET">
+      </div>
+      <button class="search-btn" onclick="applyFilters()">Search</button>
+    </div>
+    <div class="hero-stats" id="heroStats">
+      <div class="hstat"><div class="hstat-n" id="statTotal">—</div><div class="hstat-l">Live Roles</div></div>
+      <div class="hstat"><div class="hstat-n" id="statCountries">—</div><div class="hstat-l">Countries</div></div>
+      <div class="hstat"><div class="hstat-n" id="statAuto">—</div><div class="hstat-l">Automation</div></div>
+      <div class="hstat"><div class="hstat-n" id="statRemote">—</div><div class="hstat-l">Remote/Hybrid</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="arch-block">
+      <div class="arch-title">I am...</div>
+      <div class="arch-opt active" data-arch="all"        onclick="setArch(this)">👁 Browsing all roles</div>
+      <div class="arch-opt" data-arch="manual"      onclick="setArch(this)">🖱 A manual tester</div>
+      <div class="arch-opt" data-arch="transition"  onclick="setArch(this)">⚡ Moving to automation</div>
+      <div class="arch-opt" data-arch="hunting"     onclick="setArch(this)">🎯 Actively job hunting</div>
+    </div>
+
+    <div class="filter-block">
+      <div class="fb-title">Role Type</div>
+      <div class="fopt active" data-filter="stage" data-value="all" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck">✓</div>All Roles</div>
+        <div class="fcount" id="count-all">—</div>
+      </div>
+      <div class="fopt" data-filter="stage" data-value="Automation" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>Automation / SDET</div>
+        <div class="fcount" id="count-Automation">—</div>
+      </div>
+      <div class="fopt" data-filter="stage" data-value="Transitioning" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>Transitioning</div>
+        <div class="fcount" id="count-Transitioning">—</div>
+      </div>
+      <div class="fopt" data-filter="stage" data-value="Manual" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>Manual QA</div>
+        <div class="fcount" id="count-Manual">—</div>
+      </div>
+      <div class="fopt" data-filter="stage" data-value="Senior+" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>Lead / Senior</div>
+        <div class="fcount" id="count-Senior+">—</div>
+      </div>
+    </div>
+
+    <div class="filter-block">
+      <div class="fb-title">Country</div>
+      <div class="fopt" data-filter="country" data-value="IE" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇮🇪 Ireland-based</div>
+        <div class="fcount" id="count-IE">—</div>
+      </div>
+      <div class="fopt" data-filter="country" data-value="GB" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇬🇧 UK</div>
+        <div class="fcount" id="count-GB">—</div>
+      </div>
+      <div class="fopt" data-filter="country" data-value="DE" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇩🇪 Germany</div>
+        <div class="fcount" id="count-DE">—</div>
+      </div>
+      <div class="fopt" data-filter="country" data-value="NL" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇳🇱 Netherlands</div>
+        <div class="fcount" id="count-NL">—</div>
+      </div>
+      <div class="fopt" data-filter="country" data-value="PL" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇵🇱 Poland</div>
+        <div class="fcount" id="count-PL">—</div>
+      </div>
+      <div class="fopt" data-filter="country" data-value="AT" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇦🇹 Austria</div>
+        <div class="fcount" id="count-AT">—</div>
+      </div>
+      <div class="fopt" data-filter="country" data-value="FR" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🇫🇷 France</div>
+        <div class="fcount" id="count-FR">—</div>
+      </div>
+      <div class="fopt" data-filter="remote" data-value="true" onclick="toggleFilter(this)">
+        <div class="fopt-label"><div class="fcheck"></div>🌍 Remote / International</div>
+        <div class="fcount" id="count-remote">—</div>
+      </div>
+    </div>
+
+    <div class="sidebar-cta">
+      <div class="cta-tag">NextStepQA Course</div>
+      <div class="cta-msg" id="ctaMsg">Most automation roles assume Playwright.</div>
+      <div class="cta-sub" id="ctaSub">That gap is what stops progression. The course closes it in 8 weeks.</div>
+      <div class="cta-btn">Get the Course — €19 →</div>
+      <div class="cta-price">Lifetime access · Launching soon</div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="arch-banner" id="archBanner">
+      <div class="ab-left">
+        <div class="ab-icon">🎯</div>
+        <div class="ab-text">
+          <strong id="bannerTitle">Live QA roles across Europe — updated now.</strong>
+          <span id="bannerSub">Tagged by career stage. Hover any role to see the skill gap.</span>
+        </div>
+      </div>
+      <button class="ab-cta">Learn Playwright →</button>
+    </div>
+
+    <div class="toolbar">
+      <div class="toolbar-count"><span id="visibleCount">—</span> roles</div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="color:var(--text3);font-size:11px;">Sort</span>
+        <select class="sort-sel" id="sortSelect" onchange="applyFilters()">
+          <option value="relevance">Most Relevant</option>
+          <option value="recent">Most Recent</option>
+          <option value="salary">Salary: High → Low</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="active-tags" id="activeTags"></div>
+    <div class="job-list" id="jobList">
+      <div class="empty"><div class="empty-icon">⏳</div><div class="empty-text">Loading live jobs...</div></div>
+    </div>
+    <div class="pagination" id="pagination"></div>
+  </main>
+</div>
+
+<div class="bottombar">
+  <div class="bb-left">
+    <div class="live-dot"></div>
+    <span id="bbStatus">Fetching live data...</span>
+  </div>
+  <div class="bb-right">
+    <div class="ask-pill"><div class="ask-dot"></div>Ask Ava</div>
+    <button class="bb-btn bb-outline">Save Search</button>
+    <button class="bb-btn bb-cta">Get Job Alerts →</button>
+  </div>
+</div>
+
+<script>
+// ── Adzuna browser-side fetcher ───────────────────────────────
+const APP_ID  = 'a965c5a0';
+const APP_KEY = 'd44c3937b1afc8717d60d23cb7b16947';
+
+const ADZUNA_COUNTRIES = ["gb","de","nl","pl","at","fr","be"];
+const ADZUNA_QUERIES   = [
+  "QA automation engineer","test automation engineer","SDET playwright",
+  "software tester automation","QA engineer playwright",
+  "manual QA tester","quality assurance engineer",
+];
+
+const SIGNALS = {
+  high_demand:  ["playwright","typescript","cypress","sdet","automation framework","ci/cd","github actions"],
+  transition:   ["some automation","exposure to","manual and automation","moving towards"],
+  manual_heavy: ["manual testing","exploratory testing","uat","regression testing"],
+  senior:       ["lead","principal","head of qa","qa manager","test architect","director"],
+  junior:       ["junior","graduate","entry level","trainee"],
+};
+const DEMAND_TAGS = {
+  high_demand:  { label:"🔥 High Demand",    color:"yellow" },
+  transition:   { label:"⚠ Transition Role", color:"orange" },
+  manual_heavy: { label:"📋 Manual Focus",   color:"muted"  },
+  senior:       { label:"🎯 Next Level",     color:"purple" },
+  junior:       { label:"🌱 Entry Level",    color:"green"  },
+};
+const STAGE_MAP = {junior:"Entry",manual_heavy:"Manual",transition:"Transitioning",high_demand:"Automation",senior:"Senior+"};
+const GAP_MAP = {
+  Entry:         {qualifyIf:["2+ years manual QA","JIRA","Agile"],youNeed:[],nextStep:null},
+  Manual:        {qualifyIf:["2+ years manual QA","JIRA"],youNeed:[],nextStep:null},
+  Transitioning: {qualifyIf:["Manual QA background","Some automation"],youNeed:["Basic JS or Python","One automation tool"],nextStep:"Start the Playwright course →"},
+  Automation:    {qualifyIf:["Automation framework","TypeScript or Python"],youNeed:["Playwright or Cypress","CI/CD"],nextStep:"Close the gap with the course →"},
+  "Senior+":     {qualifyIf:["5+ years QA","Framework design","Leadership"],youNeed:["Architecture","Mentoring"],nextStep:"Build your portfolio first →"},
+};
+
+function fmtSalary(min,max){if(!min&&!max)return null;const f=n=>`€${Math.round(n/1000)}k`;if(min&&max)return`${f(min)}–${f(max)}`;return min?`From ${f(min)}`:`Up to ${f(max)}`;}
+function detectRemote(t){return/remote|hybrid/i.test(t);}
+
+function scoreJob(job) {
+  const text = `${job.title} ${job.description}`.toLowerCase();
+  const scores = {};
+  for(const[cat,kws]of Object.entries(SIGNALS)) scores[cat]=kws.filter(kw=>text.includes(kw)).length;
+  const top = Object.entries(scores).filter(([,v])=>v>0).sort(([,a],[,b])=>b-a)[0]?.[0];
+  const tags=[];
+  if(scores.high_demand>0)tags.push("playwright-required");
+  if(scores.transition>0) tags.push("transition-friendly");
+  if(scores.manual_heavy>0)tags.push("manual-focus");
+  if(scores.senior>0)     tags.push("senior");
+  if(scores.junior>0)     tags.push("junior");
+  if(job.remote)          tags.push("remote");
+  const stage=top?STAGE_MAP[top]:"General";
+  const base=GAP_MAP[stage]||GAP_MAP["Manual"];
+  const extra=[];
+  if(text.includes("playwright"))extra.push("Playwright");
+  if(text.includes("typescript"))extra.push("TypeScript");
+  if(text.includes("ci/cd")||text.includes("github actions"))extra.push("CI/CD");
+  if(text.includes("docker"))extra.push("Docker");
+  if(text.includes("api"))extra.push("API testing");
+  if(text.includes("java")&&!text.includes("javascript"))extra.push("Java");
+  return{
+    ...job, tags, stage,
+    demand: top?DEMAND_TAGS[top]:null,
+    gap:{qualifyIf:base.qualifyIf,youNeed:[...new Set([...base.youNeed,...extra])].slice(0,4),nextStep:base.nextStep},
+    archetypeScore:{manual_tester:scores.transition*3+scores.junior*2-scores.senior,transitioning:scores.high_demand*3+scores.transition*2,job_hunting:(job.salary_max||0)>70000?3:1,exploring:1},
+    relevanceScore:Object.values(scores).reduce((a,b)=>a+b,0),
+  };
+}
+
+function dedupe(jobs){
+  const seen=new Set();
+  return jobs.filter(j=>{
+    const k=`${j.company}-${j.title}`.toLowerCase().replace(/\s+/g,"");
+    if(seen.has(k))return false;
+    seen.add(k);return true;
+  });
+}
+
+function isJunk(job){
+  const t=(job.title||"").toLowerCase();
+  return["devops","backend developer","frontend developer","data engineer",
+    "scrum master","product manager","project manager","machine learning",
+    "solutions architect","network engineer"].some(x=>t.includes(x));
+}
+
+async function fetchAdzuna(country, query) {
+  try {
+    const url = `https://api.adzuna.com/v1/api/jobs/${country}/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=${encodeURIComponent(query)}`;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return (data.results||[]).map(r => ({
+      id: r.id, title: r.title,
+      company: r.company?.display_name||"Unknown",
+      location: r.location?.display_name||country.toUpperCase(),
+      country: country.toUpperCase(),
+      salary_min: r.salary_min?Math.round(r.salary_min):null,
+      salary_max: r.salary_max?Math.round(r.salary_max):null,
+      salary_label: fmtSalary(r.salary_min,r.salary_max),
+      remote: detectRemote(`${r.title} ${r.description||""} ${r.location?.display_name||""}`),
+      url: r.redirect_url, posted: r.created,
+      description: (r.description||"").slice(0,400).toLowerCase(),
+      tags:[], stage:null, demand:null, gap:null,
+    }));
+  } catch { return []; }
+}
+
+// ── Main fetcher — GitHub static JSON + Adzuna browser calls ──
+async function fetchAllJobs(onProgress) {
+  onProgress?.("Loading Irish QA roles...");
+
+  // 1. Load Irish direct ATS feeds from GitHub static JSON
+  const githubUrl = "https://raw.githubusercontent.com/caoimhnextstep/nextstepqa-jobs/main/data/jobs-snapshot.json";
+  const irishPromise = fetch(githubUrl)
+    .then(r => r.json())
+    .then(data => data.jobs || [])
+    .catch(() => []);
+
+  // 2. Fetch EU jobs from Adzuna directly in browser (whitelisted)
+  const raw = [];
+  let done = 0;
+  const total = ADZUNA_COUNTRIES.length * ADZUNA_QUERIES.length;
+
+  const adzunaPromises = [];
+  for (const country of ADZUNA_COUNTRIES) {
+    for (const query of ADZUNA_QUERIES) {
+      adzunaPromises.push(
+        fetchAdzuna(country, query).then(jobs => {
+          raw.push(...jobs);
+          done++;
+          onProgress?.(`Fetching EU roles... ${done}/${total}`);
+        }).catch(() => done++)
+      );
+    }
+  }
+
+  // Run both in parallel
+  const [irishJobs] = await Promise.all([irishPromise, Promise.all(adzunaPromises)]);
+
+  onProgress?.("Scoring and filtering...");
+
+  // Merge: Irish direct feeds first, then EU
+  const all = [...irishJobs, ...raw];
+  const deduped = dedupe(all);
+  const clean = deduped.filter(j => !isJunk(j));
+
+  // Score jobs that haven't been scored yet (Adzuna ones)
+  const scored = clean.map(j => j.relevanceScore !== undefined ? j : scoreJob(j));
+  scored.sort((a,b) => {
+    // Irish direct feeds always first
+    if(a.source_type==='direct_company_feed' && b.source_type!=='direct_company_feed') return -1;
+    if(b.source_type==='direct_company_feed' && a.source_type!=='direct_company_feed') return 1;
+    return b.relevanceScore - a.relevanceScore;
+  });
+
+  return {
+    jobs: scored,
+    generated_at: new Date().toISOString(),
+    errors: [],
+  };
+}
+
+// ── State ────────────────────────────────────────────────────
+let ALL_JOBS = [];
+const PAGE_SIZE = 10;
+let currentPage = 1;
+let activeFilters = { stage: "all", country: null, remote: null };
+let currentArch = "all";
+let searchQuery = "";
+
+const ARCH = {
+  all: {
+    banner: ["👁 Live QA roles across Europe — updated now.", "Tagged by career stage. Hover any role to see the skill gap."],
+    cta: ["Most automation roles assume Playwright.", "That gap is what stops progression. The course closes it in 8 weeks."],
+    show: null, hide: [], pin: [], boost: [],
+    sort: j => -j.relevanceScore,
+  },
+  manual: {
+    banner: ["🖱 You're in the most common position in European QA.", "Here are realistic roles — and the ones one step ahead."],
+    cta: ["You're one skill set away from doubling your options.", "Playwright + TypeScript + AI. Built for manual testers. 8 weeks."],
+    show: ["Entry","Manual","Transitioning","Automation"], hide: ["Senior+"],
+    pin: ["Transitioning"], boost: ["transition-friendly","junior"],
+    sort: j => -(j.archetypeScore?.manual_tester || 0),
+  },
+  transition: {
+    banner: ["⚡ You're closer than you think — the gap is specific.", "Automation roles pinned first. Transition roles show what's reachable now."],
+    cta: ["Transition roles pay €60–78k. Automation roles pay €85–110k.", "The course bridges that gap with a real portfolio."],
+    show: ["Transitioning","Automation"], hide: ["Manual","Senior+"],
+    pin: ["Automation"], boost: ["playwright-required","transition-friendly"],
+    sort: j => -(j.archetypeScore?.transitioning || 0),
+  },
+  hunting: {
+    banner: ["🎯 Actively hunting. Highest-value roles shown first.", "Use country and remote filters to narrow fast."],
+    cta: ["Your CV and LinkedIn matter as much as your skills.", "Download the free QA CV checklist — 20 mins to apply it."],
+    show: null, hide: [], pin: ["Senior+","Automation"], boost: ["remote"],
+    sort: j => -(j.salary_max || 0),
+  },
+};
+
+// ── Boot ─────────────────────────────────────────────────────
+async function boot() {
+  let progress = 0;
+  const bar = document.getElementById("loadingBar");
+  const msg = document.getElementById("loadingMsg");
+  const cnt = document.getElementById("loadingCount");
+
+  const onProgress = (text) => {
+    progress = Math.min(progress + 45, 90);
+    bar.style.width = progress + "%";
+    msg.textContent = text;
+  };
+
+  try {
+    const result = await fetchAllJobs(onProgress);
+    ALL_JOBS = result.jobs || [];
+
+    // Build report from jobs data if not present
+    const report = result.report || (() => {
+      const by_country = {}, by_stage = {};
+      const top_tools = {playwright:0,selenium:0,cypress:0,typescript:0,postman:0,api:0};
+      ALL_JOBS.forEach(j => {
+        by_country[j.country] = (by_country[j.country]||0)+1;
+        by_stage[j.classification?.role_type||j.stage||"General"] = (by_stage[j.classification?.role_type||j.stage||"General"]||0)+1;
+        const d = j.description||"";
+        if(d.includes("playwright")) top_tools.playwright++;
+        if(d.includes("selenium"))   top_tools.selenium++;
+        if(d.includes("cypress"))    top_tools.cypress++;
+        if(d.includes("typescript")) top_tools.typescript++;
+        if(d.includes("postman"))    top_tools.postman++;
+        if(d.includes(" api "))      top_tools.api++;
+      });
+      return {
+        final: ALL_JOBS.length,
+        fetched: ALL_JOBS.length,
+        remote: ALL_JOBS.filter(j=>j.remote).length,
+        by_country, by_stage, top_tools,
+      };
+    })();
+
+    bar.style.width = "100%";
+    msg.textContent = "Done.";
+    cnt.textContent = `${ALL_JOBS.length} roles loaded`;
+
+    await new Promise(r => setTimeout(r, 400));
+    document.getElementById("loadingScreen").style.display = "none";
+
+    updateHeroStats(report);
+    updateCounts();
+    showReport(report);
+    applyFilters();
+
+    const ago = timeSince(result.generated_at);
+    document.getElementById("bbStatus").textContent = `${ALL_JOBS.length} roles · fetched ${ago}`;
+    document.getElementById("heroCount").textContent = `${ALL_JOBS.length} live QA roles across Europe · fetched ${ago}`;
+
+    if (result.errors?.length) {
+      console.warn("Fetch errors:", result.errors);
+    }
+
+  } catch(e) {
+    document.getElementById("loadingScreen").style.display = "none";
+    document.getElementById("jobList").innerHTML = `<div class="empty"><div class="empty-icon">⚠️</div><div class="empty-text">Could not load jobs.</div><div class="empty-sub">${e.message}</div></div>`;
+  }
+}
+
+function timeSince(iso) {
+  const d = (Date.now() - new Date(iso)) / 1000;
+  if (d < 60) return "just now";
+  if (d < 3600) return `${Math.round(d/60)} mins ago`;
+  return `${Math.round(d/3600)}h ago`;
+}
+
+function updateHeroStats(report) {
+  document.getElementById("statTotal").textContent = report.final;
+  document.getElementById("statCountries").textContent = Object.keys(report.by_country).length;
+  const auto = (report.by_stage?.Automation || 0) + (report.by_stage?.["Senior+"] || 0);
+  document.getElementById("statAuto").textContent = auto + "+";
+  document.getElementById("statRemote").textContent = report.remote;
+}
+
+function showReport(report) {
+  const bar = document.getElementById("reportBar");
+  const inner = document.getElementById("reportInner");
+  const tools = report.top_tools;
+  inner.innerHTML = `
+    <div class="report-item"><strong>${report.fetched}</strong> fetched</div>
+    <div class="report-item"><strong>${report.after_dedupe}</strong> after dedupe</div>
+    <div class="report-item highlight"><strong>${report.final}</strong> QA-relevant</div>
+    <div class="report-item"><strong>${report.remote}</strong> remote/hybrid</div>
+    <div class="report-item">top tools: <strong>Playwright ${tools.playwright}</strong> · Selenium ${tools.selenium} · Cypress ${tools.cypress} · API ${tools.api}</div>
+    <div class="report-item" style="margin-left:auto;color:var(--text3);">${new Date(report.generated_at).toLocaleTimeString()}</div>
+  `;
+  bar.style.display = "block";
+}
+
+function updateCounts() {
+  const stages = ["all","Automation","Transitioning","Manual","Senior+"];
+  stages.forEach(s => {
+    const el = document.getElementById(`count-${s}`);
+    if (!el) return;
+    el.textContent = s === "all" ? ALL_JOBS.length : ALL_JOBS.filter(j => j.stage === s).length;
+  });
+  ["GB","DE","NL","PL","AT","FR"].forEach(c => {
+    const el = document.getElementById(`count-${c}`);
+    if (el) el.textContent = ALL_JOBS.filter(j => j.country === c).length;
+  });
+  // Ireland-based = genuine IE roles + all remote
+  const ieEl = document.getElementById("count-IE");
+  if (ieEl) ieEl.textContent = ALL_JOBS.filter(j => j.country === "IE" || j.remote).length;
+  const re = document.getElementById("count-remote");
+  if (re) re.textContent = ALL_JOBS.filter(j => j.remote).length;
+}
+
+// ── Filtering ────────────────────────────────────────────────
+function applyFilters() {
+  searchQuery = document.getElementById("searchInput").value.toLowerCase().trim();
+  const sortVal = document.getElementById("sortSelect").value;
+  const arch = ARCH[currentArch];
+  let jobs = [...ALL_JOBS];
+
+  if (arch.show) jobs = jobs.filter(j => arch.show.includes(j.stage) || !j.stage);
+  if (arch.hide?.length) jobs = jobs.filter(j => !arch.hide.includes(j.stage));
+  if (activeFilters.stage && activeFilters.stage !== "all") jobs = jobs.filter(j => j.stage === activeFilters.stage);
+  if (activeFilters.country) {
+    if (activeFilters.country === "IE") {
+      jobs = jobs.filter(j => j.country === "IE" || j.remote);
+    } else {
+      jobs = jobs.filter(j => j.country === activeFilters.country);
+    }
+  }
+  if (activeFilters.remote === "true") jobs = jobs.filter(j => j.remote);
+  if (searchQuery) jobs = jobs.filter(j =>
+    j.title.toLowerCase().includes(searchQuery) ||
+    j.company.toLowerCase().includes(searchQuery) ||
+    j.description.toLowerCase().includes(searchQuery) ||
+    j.location.toLowerCase().includes(searchQuery)
+  );
+
+  if (sortVal === "salary") {
+    jobs.sort((a,b) => (b.salary_max||0) - (a.salary_max||0));
+  } else if (sortVal === "recent") {
+    jobs.sort((a,b) => new Date(b.posted) - new Date(a.posted));
+  } else {
+    jobs.sort((a,b) => {
+      let as = arch.sort ? -arch.sort(a) : a.relevanceScore;
+      let bs = arch.sort ? -arch.sort(b) : b.relevanceScore;
+      (a.tags||[]).forEach(t => { if (arch.boost?.includes(t)) as += 5; });
+      (b.tags||[]).forEach(t => { if (arch.boost?.includes(t)) bs += 5; });
+      return bs - as;
+    });
+  }
+
+  // Always push stale jobs (14+ days) to the bottom regardless of sort
+  const cutoff = 14 * 86400000;
+  const fresh = jobs.filter(j => (Date.now() - new Date(j.posted)) < cutoff);
+  const stale = jobs.filter(j => (Date.now() - new Date(j.posted)) >= cutoff);
+  jobs = [...fresh, ...stale];
+
+  if (arch.pin?.length) {
+    const pinned   = jobs.filter(j => arch.pin.includes(j.stage));
+    const unpinned = jobs.filter(j => !arch.pin.includes(j.stage));
+    jobs = [...pinned, ...unpinned];
+  }
+
+  renderJobs(jobs);
+  renderActiveTags();
+  document.getElementById("visibleCount").textContent = jobs.length;
+
+  // Arch insight
+  const existing = document.getElementById("archInsight");
+  if (currentArch !== "all") {
+    const hidden = ALL_JOBS.length - jobs.length;
+    const txt = hidden > 0 ? `Showing ${jobs.length} relevant roles · ${hidden} filtered for your stage` : `${jobs.length} roles matched to your stage`;
+    if (existing) existing.textContent = txt;
+    else {
+      const el = document.createElement("div");
+      el.id = "archInsight";
+      el.style.cssText = "font-size:11px;color:var(--text3);font-family:var(--mono);padding:6px 2px 10px;border-bottom:1px solid var(--border);margin-bottom:10px;";
+      el.textContent = txt;
+      document.getElementById("jobList").parentNode.insertBefore(el, document.getElementById("jobList"));
+    }
+  } else if (existing) existing.remove();
+}
+
+// ── Render ───────────────────────────────────────────────────
+function renderJobs(jobs) {
+  const list = document.getElementById("jobList");
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const page  = jobs.slice(start, start + PAGE_SIZE);
+  if (!page.length) {
+    list.innerHTML = `<div class="empty"><div class="empty-icon">🔍</div><div class="empty-text">No roles match your filters.</div><div class="empty-sub">Try broadening your search or changing your archetype.</div></div>`;
+    document.getElementById("pagination").innerHTML = "";
+    return;
+  }
+  list.innerHTML = page.map((j,i) => renderCard(j,i)).join("");
+  renderPagination(jobs.length);
+}
+
+const LOGO_PALETTE = [["#1a1b2e","#60a5fa"],["#1a2a1a","#4ade80"],["#1a1a2e","#a78bfa"],["#2a1a0a","#f5a623"],["#0a1a2a","#60a5fa"],["#1a0a2a","#a78bfa"]];
+function logoColors(co) { return LOGO_PALETTE[co.charCodeAt(0) % LOGO_PALETTE.length]; }
+
+function getAge(iso) {
+  const days = (Date.now() - new Date(iso)) / 86400000;
+  if (days < 7)  return { label: timeLabel(iso), cls: "age-fresh",  badge: null };
+  if (days < 14) return { label: timeLabel(iso), cls: "age-recent", badge: "recent" };
+  return { label: timeLabel(iso), cls: "age-stale", badge: "stale" };
+}
+
+function timeLabel(iso) {
+  const d = (Date.now() - new Date(iso)) / 1000;
+  if (d < 3600)  return `${Math.round(d/60)}m ago`;
+  if (d < 86400) return `${Math.round(d/3600)}h ago`;
+  return `${Math.round(d/86400)}d ago`;
+}
+
+const DEMAND_COLOR = {yellow:"yt",green:"gr",orange:"or",purple:"pu",muted:""};
+
+function renderCard(job, i) {
+  const [bg,fg] = logoColors(job.company);
+  const featured = i === 0 ? "featured" : "";
+  const age = getAge(job.posted);
+  const ageBadge = age.badge ? `<span class="age-badge ${age.badge}">${age.badge === "stale" ? "⚠ old listing" : "aging"}</span>` : "";
+  const demandTag = job.demand ? `<span class="tag ${DEMAND_COLOR[job.demand.color]||""}">${job.demand.label}</span>` : "";
+  const remoteBadge = job.remote ? `<span class="badge badge-remote">Remote</span>` : "";
+  const newBadge = age.cls === "age-fresh" && i < 3 ? `<span class="badge badge-new">New</span>` : "";
+  const salary = job.salary_label || "Salary TBC";
+
+  const toolTags = [];
+  if ((job.tags||[]).includes("playwright-required")) toolTags.push(`<span class="tag yt">Playwright</span>`);
+  if ((job.tags||[]).includes("remote"))              toolTags.push(`<span class="tag bl">Remote</span>`);
+  if ((job.tags||[]).includes("senior"))              toolTags.push(`<span class="tag pu">Senior</span>`);
+  if ((job.tags||[]).includes("junior"))              toolTags.push(`<span class="tag gr">Junior</span>`);
+  if ((job.tags||[]).includes("manual-focus"))        toolTags.push(`<span class="tag or">Manual</span>`);
+
+  // Gap callout
+  const g = job.gap;
+  const pinned = (job.stage === "Transitioning" || job.stage === "Automation") ? "pinned" : "";
+  const gapHtml = g && (g.qualifyIf?.length || g.youNeed?.length) ? `
+    <div class="gap-callout ${pinned}">
+      ${g.qualifyIf?.length ? `<div class="gap-row qualify"><span class="gap-icon">✅</span><span class="gap-label">qualify if</span><span class="gap-content">${g.qualifyIf.join(" · ")}</span></div>` : ""}
+      ${g.youNeed?.length   ? `<div class="gap-row need"><span class="gap-icon">⚠️</span><span class="gap-label">you need</span><span class="gap-content">${g.youNeed.join(" · ")}</span></div>` : ""}
+      ${g.nextStep          ? `<div class="gap-row next"><span class="gap-icon">💡</span><span class="gap-label">next step</span><span class="gap-content">${g.nextStep}</span></div>` : ""}
+    </div>` : "";
+
+  return `
+  <div class="job-card ${featured} ${age.cls}">
+    <div class="card-top">
+      <div class="card-left">
+        <div class="co-logo" style="background:${bg};color:${fg};">${job.company.slice(0,2).toUpperCase()}</div>
+        <div class="card-info">
+          <div class="card-title-row">
+            <span class="card-title">${job.title}</span>
+            ${newBadge}${remoteBadge}
+          </div>
+          <div class="card-company">${job.company} · ${job.location}</div>
+          <div class="card-meta">
+            <span class="meta-i">${job.country}</span>
+            <span class="meta-i">Full-time</span>
+            <span class="meta-i">${age.label}${ageBadge}</span>
+          </div>
+        </div>
+      </div>
+      <div class="card-right">
+        <div class="card-salary">${salary}</div>
+        <div class="card-stage">${job.stage || "General"}</div>
+        <div class="card-save">♡</div>
+      </div>
+    </div>
+    <div class="card-tags">
+      <div class="tags-left">${demandTag}${toolTags.join("")}</div>
+      <a href="${job.url}" target="_blank" class="apply-btn">Apply →</a>
+    </div>
+    ${gapHtml}
+  </div>`;
+}
+
+function renderPagination(total) {
+  const pages = Math.ceil(total / PAGE_SIZE);
+  if (pages <= 1) { document.getElementById("pagination").innerHTML = ""; return; }
+  let html = `<div class="pg" onclick="goPage(${currentPage-1})">‹</div>`;
+  for (let i=1; i<=Math.min(pages,7); i++) {
+    html += `<div class="pg ${i===currentPage?"active":""}" onclick="goPage(${i})">${i}</div>`;
+  }
+  if (pages > 7) html += `<div class="pg">…</div><div class="pg" onclick="goPage(${pages})">${pages}</div>`;
+  html += `<div class="pg" onclick="goPage(${currentPage+1})">›</div>`;
+  document.getElementById("pagination").innerHTML = html;
+}
+
+function goPage(p) {
+  const max = Math.ceil(ALL_JOBS.length / PAGE_SIZE);
+  if (p < 1 || p > max) return;
+  currentPage = p;
+  applyFilters();
+  window.scrollTo(0,0);
+}
+
+function toggleFilter(el) {
+  const type = el.dataset.filter, val = el.dataset.value;
+  el.closest(".filter-block").querySelectorAll(".fopt").forEach(o => {
+    o.classList.remove("active");
+    o.querySelector(".fcheck").textContent = "";
+  });
+  el.classList.add("active");
+  el.querySelector(".fcheck").textContent = "✓";
+  if (type === "stage")  activeFilters.stage   = val;
+  if (type === "country") activeFilters.country = activeFilters.country === val ? null : val;
+  if (type === "remote")  activeFilters.remote  = activeFilters.remote  === "true" ? null : "true";
+  currentPage = 1; applyFilters();
+}
+
+function renderActiveTags() {
+  const tags = [];
+  if (activeFilters.stage && activeFilters.stage !== "all") tags.push(activeFilters.stage);
+  if (activeFilters.country) tags.push(activeFilters.country);
+  if (activeFilters.remote)  tags.push("Remote");
+  if (searchQuery)           tags.push(`"${searchQuery}"`);
+  document.getElementById("activeTags").innerHTML = tags.map(t => `<div class="atag">${t} ✕</div>`).join("");
+}
+
+function setArch(el) {
+  document.querySelectorAll(".arch-opt").forEach(o => o.classList.remove("active"));
+  el.classList.add("active");
+  currentArch = el.dataset.arch;
+  const cfg = ARCH[currentArch];
+  if (cfg) {
+    document.getElementById("bannerTitle").textContent = cfg.banner[0];
+    document.getElementById("bannerSub").textContent   = cfg.banner[1];
+    document.getElementById("ctaMsg").textContent      = cfg.cta[0];
+    document.getElementById("ctaSub").textContent      = cfg.cta[1];
+  }
+  currentPage = 1; applyFilters();
+}
+
+document.getElementById("searchInput").addEventListener("keydown", e => {
+  if (e.key === "Enter") applyFilters();
+});
+
+boot();
+</script>
+</body>
+</html>
