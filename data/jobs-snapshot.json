@@ -1,62 +1,6 @@
 {
   "jobs": [
     {
-      "company": "Kaseya",
-      "sector": "IT Mgmt",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "automation",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-kaseya-5922706004",
-      "title": "QA automation Engineer (Python)",
-      "location": "Krakow, Poland",
-      "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
-      "posted": "2026-05-14T09:41:08-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Krakow, Poland"
-    },
-    {
       "company": "Version 1",
       "sector": "Consulting",
       "city": "Dublin",
@@ -103,7 +47,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 14,
+      "age_days": 15,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
     },
@@ -215,6 +159,62 @@
       "age_days": 8,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "company": "Kaseya",
+      "sector": "IT Mgmt",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-kaseya-5922706004",
+      "title": "QA automation Engineer (Python)",
+      "location": "Krakow, Poland",
+      "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
+      "posted": "2026-05-14T09:41:08-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Krakow, Poland"
     },
     {
       "id": "arb-expert-automation-engineer-solingen-251725",
@@ -1267,5 +1267,5 @@
       "location_display": "Hamburg"
     }
   ],
-  "generated_at": "2026-05-15T09:12:14.038Z"
+  "generated_at": "2026-05-15T09:15:58.413Z"
 }
