@@ -1,4 +1,3 @@
-
 // ============================================================
 // NextStepQA — Scheduled Worker
 // Runs every 6 hours on Railway
@@ -8,6 +7,7 @@
 import { SOURCES } from './sources.js';
 import { FETCHERS, isQARole } from './fetch.js';
 import { classify } from './classify.js';
+import { fetchArbeitnow } from './sources-eu.js';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPO  = process.env.GITHUB_REPO || "caoimhnextstep/nextstepqa-jobs";
@@ -163,10 +163,17 @@ async function run() {
   console.log(`\n🚀 NextStepQA Worker starting — ${new Date().toISOString()}`);
   console.log(`📋 Sources: ${SOURCES.length} companies across ${[...new Set(SOURCES.map(s=>s.ats))].join(", ")}`);
 
-  // 1. Fetch
-  console.log("\n📡 Fetching ATS feeds...");
+  // 1. Fetch Irish ATS feeds
+  console.log("\n📡 Fetching Irish ATS feeds...");
   const { results, errors, sourceStats } = await fetchAllSources();
-  console.log(`   Raw: ${results.length} jobs, ${errors.length} errors`);
+  console.log(`   Irish ATS: ${results.length} jobs, ${errors.length} errors`);
+
+  // 2. Fetch EU jobs via Arbeitnow (free, no auth, server-friendly)
+  console.log("\n🌍 Fetching EU jobs via Arbeitnow...");
+  const { jobs: euJobs, errors: euErrors } = await fetchArbeitnow();
+  console.log(`   Arbeitnow: ${euJobs.length} QA jobs found`);
+  results.push(...euJobs);
+  errors.push(...euErrors);
 
   // 2. Dedupe
   const deduped = dedupe(results);
@@ -177,8 +184,21 @@ async function run() {
   classified.sort((a,b) => b.relevance_score - a.relevance_score);
   console.log(`   Classified: ${classified.length} jobs`);
 
+  // Flatten location + add location_display for frontend
+  const flatted = classified.map(j => {
+    const loc = j.location;
+    const location_display = typeof loc === 'object'
+      ? `${loc.city || ''}${loc.country && loc.country !== loc.city ? ', ' + loc.country : ''}${loc.remote ? ' · Remote' : ''}`
+      : (loc || '');
+    return {
+      ...j,
+      location: location_display,
+      location_display,
+    };
+  });
+
   // 4. Stats
-  const stats = generateStats(classified, errors, sourceStats);
+  const stats = generateStats(flatted, errors, sourceStats);
   console.log(`\n📊 Stats:`);
   console.log(`   Total: ${stats.total_jobs} | Irish: ${stats.irish_jobs} | Remote: ${stats.remote_jobs}`);
   console.log(`   Playwright demand: ${stats.playwright_demand_pct}%`);
@@ -194,9 +214,9 @@ async function run() {
   const timestamp = new Date().toISOString();
 
   await pushToGitHub("jobs-snapshot.json", {
-    jobs: classified,
+    jobs: flatted,
     generated_at: timestamp,
-  }, `🤖 Jobs snapshot — ${classified.length} roles (${stats.irish_jobs} Irish)`);
+  }, `🤖 Jobs snapshot — ${flatted.length} roles (${stats.irish_jobs} Irish)`);
 
   await pushToGitHub("stats.json", stats,
     `📊 Stats update — ${stats.total_jobs} jobs, ${stats.playwright_demand_pct}% Playwright`);
