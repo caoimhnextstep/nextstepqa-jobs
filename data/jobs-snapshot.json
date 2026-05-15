@@ -31,11 +31,7 @@
       },
       "id": "gh-kaseya-5922706004",
       "title": "QA automation Engineer (Python)",
-      "location": {
-        "city": "Krakow, Poland",
-        "country": "Krakow, Poland",
-        "remote": false
-      },
+      "location": "Krakow, Poland",
       "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
       "posted": "2026-05-14T09:41:08-04:00",
       "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
@@ -57,7 +53,8 @@
         "nextStep": "Close the gap with the course →"
       },
       "age_days": 0,
-      "relevance_score": 0
+      "relevance_score": 0,
+      "location_display": "Krakow, Poland"
     },
     {
       "company": "Version 1",
@@ -90,11 +87,7 @@
       },
       "id": "sr-Version1-744000123879049",
       "title": "QA/Test Analyst",
-      "location": {
-        "city": "Dublin",
-        "country": "Ireland",
-        "remote": false
-      },
+      "location": "Dublin, Ireland",
       "url": "https://jobs.smartrecruiters.com/Version1/744000123879049",
       "posted": "2026-04-30T09:12:19.193Z",
       "description": "",
@@ -111,7 +104,8 @@
         "nextStep": "Close the gap with the course →"
       },
       "age_days": 14,
-      "relevance_score": 0
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
     },
     {
       "company": "Version 1",
@@ -144,11 +138,7 @@
       },
       "id": "sr-Version1-744000119387087",
       "title": "QA/Test lead",
-      "location": {
-        "city": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast,",
-        "country": "Ireland",
-        "remote": false
-      },
+      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast,, Ireland",
       "url": "https://jobs.smartrecruiters.com/Version1/744000119387087",
       "posted": "2026-04-08T14:25:07.813Z",
       "description": "",
@@ -169,7 +159,8 @@
         "nextStep": "Build your portfolio first →"
       },
       "age_days": 36,
-      "relevance_score": 0
+      "relevance_score": 0,
+      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast,, Ireland"
     },
     {
       "company": "Kitman Labs",
@@ -202,11 +193,7 @@
       },
       "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
       "title": "Senior QA Engineer",
-      "location": {
-        "city": "Dublin, Ireland",
-        "country": "Ireland",
-        "remote": false
-      },
+      "location": "Dublin, Ireland, Ireland",
       "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
       "posted": "2026-05-06T09:55:36.038Z",
       "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
@@ -226,8 +213,1059 @@
         "nextStep": "Close the gap with the course →"
       },
       "age_days": 8,
-      "relevance_score": 0
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "id": "arb-expert-automation-engineer-solingen-251725",
+      "title": "Expert Automation Engineer (m/w/d)",
+      "company": "WÜSTHOF GmbH",
+      "location": "Solingen",
+      "city": "Solingen",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/wusthof-gmbh/expert-automation-engineer-solingen-251725",
+      "posted": "2026-05-15T07:20:11.000Z",
+      "description": "  willkommen   bei   wüsthof!    freue dich auf eine messerscharfe karriere, die zu dir passt.    als hersteller hochwertiger kochmesser wissen wir: schneiden ist teilen! denn mit jedem schnitt vom „kuchen“ kannst du anderen ein stück vom genuss abgeben. genauso verstehen wir teamwork. mit jedem tag bei wüsthof wollen wir unsere vision, unsere erfahrung und unseren erfolg teilen – und zwar mit dir!    wenn du also lust hast, deine persönlichkeit, dein wissen und deine leidenschaft mit uns zu teilen – dann freuen wir uns darauf, gemeinsam mit dir die zukunft von wüsthof zu schmieden! komm rein ",
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Solingen"
+    },
+    {
+      "id": "arb-senior-mobile-test-automation-engineer-munich-285051",
+      "title": "Senior Mobile Test Automation Engineer",
+      "company": "Bragi",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/bragi/senior-mobile-test-automation-engineer-munich-285051",
+      "posted": "2026-05-13T17:00:58.000Z",
+      "description": " bragi was founded in 2013 and launched the world's first truly wireless earphones in 2015 (yes, a whole 12 months before the airpods...) \n since then, we have evolved from a promising startup to a market-moving creator of innovative technology, opening the new category of truly wireless earphones. bragi transformed into a software enabler for consumer brands, focusing on scaling its technology after investing more than $90 million in software and ai. \n now we are a leader in the ai headphone space, known for our smart devices that integrate seamlessly into users' lives. with a focus on innova",
+      "classification": {
+        "role_type": "automation",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 1,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
+      "id": "arb-senior-software-quality-engineer-in-tech-data-team-berlin-356619",
+      "title": "(Senior) Software Quality Engineer (f/x/m) in Tech & Data Team",
+      "company": "Thomann.io",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/thomannio/senior-software-quality-engineer-in-tech-data-team-berlin-356619",
+      "posted": "2026-05-13T15:20:13.000Z",
+      "description": " hello! we are team quality, a dynamic part of the tech &amp; data team at thomann. true to our name, we are passionate about upholding the highest standards in everything we do. as a well-coordinated team, we work every day to continuously improve the experience of our customers and visitors. this drive motivates us to develop and directly implement agile quality concepts and strategies across the entire company.    our goal: not just to maintain the status quo, but to continuously set new standards in the industry.    we are looking for a  senior software quality engineer (f/m/x)  to join us",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 1,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
+      "id": "arb-istqb-certified-qa-tester-mobile-apps-event-discovery-platform-offenbach-207574",
+      "title": "ISTQB® Certified QA Tester (Mobile Apps) Event Discovery Platform (m/f/d)",
+      "company": "Louco Event Media GmbH",
+      "location": "Offenbach",
+      "city": "Offenbach",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/louco-event-media-gmbh/istqb-certified-qa-tester-mobile-apps-event-discovery-platform-offenbach-207574",
+      "posted": "2026-05-13T11:00:37.000Z",
+      "description": " louco is building a new generation event discovery platform that connects users, creators and the entertainment industry. our goal is not just to build another event app – we want to rethink how people find &#x26; attend events. \n we are looking for an experienced  backend developer (php / laravel)  who wants to build a real product and work closely with our founders and tech lead. \n aufgaben \n as a qa tester, you will be responsible for ensuring the quality, stability, and usability of our mobile applications across ios and android platforms. you will work closely with product, development, ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 1,
+      "relevance_score": 0,
+      "location_display": "Offenbach"
+    },
+    {
+      "id": "arb-elektroniker-mechatroniker-fur-automatisierung-und-instandhaltung-hallerndorf-415258",
+      "title": "Elektroniker / Mechatroniker für Automatisierung und Instandhaltung (m/w/d)",
+      "company": "C. Kreul GmbH & Co. KG",
+      "location": "Hallerndorf",
+      "city": "Hallerndorf",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/c-kreul-gmbh-co-kg/elektroniker-mechatroniker-fur-automatisierung-und-instandhaltung-hallerndorf-415258",
+      "posted": "2026-05-13T10:30:32.000Z",
+      "description": " wir sind kreul - die erste deutsche künstlerfarbenfabrik. seit über 180 jahren entwickeln und produzieren wir farben, die kinder, künstler:innen und kreative begeistern. als familiengeführtes markenunternehmen denken wir in generationen und entwickeln uns schritt für schritt weiter: familienbewusst, digital und achtsam im umgang mit material, energie und prozessen. dabei zählt jede:r einzelne, mit ideen, verantwortung und freude an farbe. \n  wir können farbe. wir sind farbe. werde jetzt teil unseres teams.  \n aufgaben \n  hier bringst du dich ein:  \n in deiner rolle sorgst du dafür, dass die t",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 1,
+      "relevance_score": 0,
+      "location_display": "Hallerndorf"
+    },
+    {
+      "id": "arb-software-automation-engineer-fur-software-defined-radio-munich-272763",
+      "title": "Software Automation Engineer für Software Defined Radio (m/w/x)",
+      "company": "K-tronik GmbH",
+      "location": "Hanover",
+      "city": "Hanover",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/software-automation-engineer-fur-software-defined-radio-munich-272763",
+      "posted": "2026-05-13T11:59:03.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der funk- und kommunikationsbranche suchen wir einen software automation engineer für software defined radio (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n du automatisierst und verifizierst komplexe software durch design, spezifikation und orchestrierung von tests, um die qualität unserer pro",
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 1,
+      "relevance_score": 0,
+      "location_display": "Hanover"
+    },
+    {
+      "id": "arb-test-automation-engineer-web-gilching-389366",
+      "title": "Test Automation Engineer (Web) (m/f/d)",
+      "company": "Quantum- Systems GmbH",
+      "location": "Gilching",
+      "city": "Gilching",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/test-automation-engineer-web-gilching-389366",
+      "posted": "2026-05-12T09:20:23.000Z",
+      "description": " as a test automation engineer (m/f/d), you will be responsible for building and maintaining automated tests that ensure the reliability and performance of our web-based software products.  you will work closely with developers and product teams to integrate testing directly into the development workflow and help deliver stable, high-quality releases.  this role is highly hands-on, with a strong emphasis on writing code for automation rather than managing test processes or documentation-heavy workflows.        what is your day to day mission:     design, implement, and maintain automated test ",
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 2,
+      "relevance_score": 0,
+      "location_display": "Gilching"
+    },
+    {
+      "id": "arb-qa-software-testingenieur-braunschweig-87662",
+      "title": "QA Software Testingenieur (m/w/d)",
+      "company": "smartmicro",
+      "location": "Braunschweig",
+      "city": "Braunschweig",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/smartmicro/qa-software-testingenieur-braunschweig-87662",
+      "posted": "2026-05-12T10:29:03.000Z",
+      "description": " einleitung \n wir sind smartmicro, der führende spezialist für leistungsstarke automobil- und verkehrsradar- sowie radar-/kamera-hybridsensortechnologie. wir entwerfen, entwickeln und fertigen hightech-sensoren für autonomes fahren, intelligente verkehrsinfrastruktur und smart cities. unsere mission ist es, straßen sicherer zu machen, autonomes fahren bei jedem wetter zu ermöglichen, den verkehrsfluss zu optimieren, um reisezeiten zu verkürzen, und umweltfreundlichere, intelligentere städte zu schaffen. \n wir sind ein deutsches unternehmen mit internationaler präsenz und eigenen teams in großb",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 2,
+      "relevance_score": 0,
+      "location_display": "Braunschweig"
+    },
+    {
+      "id": "arb-qa-software-test-engineer-braunschweig-131042",
+      "title": "QA Software Test Engineer (m/f/d)",
+      "company": "smartmicro",
+      "location": "Braunschweig",
+      "city": "Braunschweig",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/smartmicro/qa-software-test-engineer-braunschweig-131042",
+      "posted": "2026-05-12T10:29:03.000Z",
+      "description": " introduction \n we are smartmicro, the leading specialist in high-performance automotive and traffic radar- and radar/camera hybrid sensor technology. we design, develop and manufacture high-tech sensors for autonomous driving, intelligent traffic infrastructure and smart cities. our mission is to make roads safer, enable autonomous driving in all-weather scenarios, optimize traffic flow for reduced travel times and enable greener, smarter cities. \n we are a german company with international presence, having own teams in the uk and in the us, while we are headquartered in braunschweig for desi",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 2,
+      "relevance_score": 0,
+      "location_display": "Braunschweig"
+    },
+    {
+      "id": "arb-praktikum-im-business-development-business-analyst-automation-engineer-applied-ai-engineer-berlin-180476",
+      "title": "Praktikum im Business Development (Business Analyst/Automation Engineer/Applied AI Engineer) (m/w/d)",
+      "company": "Pflegia",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/pflegia/praktikum-im-business-development-business-analyst-automation-engineer-applied-ai-engineer-berlin-180476",
+      "posted": "2026-05-11T08:00:48.000Z",
+      "description": " du willst nicht nur zuschauen, sondern aktiv mitgestalten? dann bist du bei pflegia genau richtig. wir suchen einen praktikanten im business development für die drei spezialisierungen business analyst, automation engineer, und applied ai engineer. je nach schwerpunkt arbeitest du an strategischen analysen, technischen workflows oder datengetriebenen ai-lösungen und unterstützt uns dabei, pflegia noch effizienter und skalierbarer zu machen. \n aufgaben \n \n  business analyst:  du analysierst interne prozesse und daten und leitest daraus konkrete lösungen für wachstum, effizienz und operative ver",
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 4,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
+      "id": "arb-testmanager-fur-testautomatisierung-munster-305588",
+      "title": "Testmanager (w/m/d) für Testautomatisierung",
+      "company": "BBHT Beratungsgesellschaft mbH & Co. KG",
+      "location": "Münster",
+      "city": "Münster",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/bbht-beratungsgesellschaft-mbh-co-kg/testmanager-fur-testautomatisierung-munster-305588",
+      "posted": "2026-05-11T08:00:45.000Z",
+      "description": " als testmanager:in übernimmst du verantwortung für die qualitätssicherung komplexer softwarelösungen. du planst und steuerst testaktivitäten, koordinierst testteams und sorgst dafür, dass anforderungen strukturiert geprüft und zuverlässig umgesetzt werden. dabei arbeitest du eng mit entwickler:innen, projektleiter:innen und unseren kunden zusammen, von der teststrategie bis zur erfolgreichen live-schaltung. \n aufgaben \n \n beratung unserer kunden bei der etablierung moderner testmanagement und -automatisierungsmethoden \n begleitung aller phasen des softwaretests sowie die weiterentwicklung der",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 4,
+      "relevance_score": 0,
+      "location_display": "Münster"
+    },
+    {
+      "id": "arb-senior-qa-engineer-gn-berlin-206558",
+      "title": "Senior QA Engineer (gn)",
+      "company": "Bikeleasing-Service GmbH & Co. KG",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/senior-qa-engineer-gn-berlin-206558",
+      "posted": "2026-05-12T13:59:03.000Z",
+      "description": " deine aufgaben \n die bikeleasing-gruppe hat sich zu einer führenden unternehmensgruppe für arbeitgeber-benefits und mobilitätslösungen entwickelt. sie umfasst fünf spezialisierte unternehmen, darunter multi-benefit-anbieter, leasing- und versicherungsdienstleister sowie händler für refurbished bikes. mit unserem anhaltenden profitablen wachstum und unserer expansion befinden wir uns auf einer spannenden technischen transformationsreise. dafür suchen wir dich als  senior   qa engineer (gn)  der/die unser technologie-ökosystem aktiv mitgestaltet und vorantreibt. wir arbeiten nach clean code &#x",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 2,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
+      "id": "arb-junior-business-automation-manager-schwerpunkt-ki-prozessoptimierung-berlin-440183",
+      "title": "Junior Business Automation Manager (m/w/d) – Schwerpunkt KI & Prozessoptimierung",
+      "company": "Sportstech Brands Holding GmbH",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/sportstech-brands-holding-gmbh/junior-business-automation-manager-schwerpunkt-ki-prozessoptimierung-berlin-440183",
+      "posted": "2026-05-09T00:30:54.000Z",
+      "description": "  wer wir sind  \n wir, die sportstech brands holding gmbh, sind ein e-commerce unternehmen im herzen der hauptstadt berlin. unsere marke sportstech steht für fitnessgeräte und well-being der extraklasse. aktuell beschäftigen wir ein hochmotiviertes team mit mehr als 100 mitarbeitenden aus 25 nationen. sie teilen alle eine leidenschaft für innovationen. bei uns zählt eine hohe eigenmotivation, denn wir arbeiten als globales team und unterstützen uns gegenseitig dabei, unser volles potenzial auszuschöpfen. so wurden wir für unseren erfolg vom magazin focus als wachstumschampion 2023, im gründers",
+      "classification": {
+        "role_type": "qa",
+        "level": "junior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🌱 Entry Level",
+        "color": "green"
+      },
+      "gap": {
+        "qualifyIf": [
+          "1-2 years QA",
+          "Manual testing basics"
+        ],
+        "youNeed": [
+          "Any automation tool",
+          "Basic scripting"
+        ],
+        "nextStep": "Start the Playwright course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
+      "id": "arb-automation-engineer-all-levels-berlin-136643",
+      "title": "Automation Engineer (all levels) (d/w/m)",
+      "company": "Rulemapping Group GmbH",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/rulemapping-group-gmbh/automation-engineer-all-levels-berlin-136643",
+      "posted": "2026-05-08T18:00:47.000Z",
+      "description": " die rulemapping group gmbh mit sitz in berlin steht für innovation an der schnittstelle von recht und technologie. unsere mission: komplexe bürokratische prozesse vereinfachen, beschleunigen und für alle nachvollziehbar machen. mit unserer einzigartigen rulemapping-methode und rule ai entwickeln wir lösungen, die unternehmen von bürokratischem aufwand entlasten, menschen den zugang zu recht erleichtern und verwaltung neu denken lassen. unterstützt durch die bundesagentur für sprunginnovationen sprind, gestalten wir den standard für die digitalisierung und automatisierung regelbasierter",
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
+      "id": "arb-software-tester-testautomatisierung-munich-60196",
+      "title": "Software Tester Testautomatisierung (m/w/d)",
+      "company": "MY Humancapital GmbH",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/software-tester-testautomatisierung-munich-60196",
+      "posted": "2026-05-08T17:00:37.000Z",
+      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als „ software tester testautomatisierung (m/w/d)“.  \n  aufgaben  \n \n als software test engineer (m/w/d) planen und entwickeln sie strukturierte testfälle auf basis von anforderungen \n zudem führen sie manuelle und automatisierte tests sowie regressionstests in komplexen systemumgebungen durch \n auch erstellen und pflegen sie testkonzepte, testdaten sowie automatisierte testskripte \n darüber hinaus analysieren, dokumentieren und verfolgen sie fehler bis zur erfolgreichen nachprüfung \n zusätzlich arb",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
+      "id": "arb-supplier-quality-engineer-munich-491907",
+      "title": "Supplier Quality Engineer (m/w/d)",
+      "company": "MY Humancapital GmbH",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/supplier-quality-engineer-munich-491907",
+      "posted": "2026-05-08T17:00:33.000Z",
+      "description": " im auftrag unser partnerunternehmen in münchen sucht sie als  supplier quality engineer (m/w/d) / spezialist (m/w/d) lieferantenqualität.  \n  aufgaben  \n \n als  spezialist (m/w/d) für lieferantenqualität  sichern sie die anlieferqualität und begleiten präventive maßnahmen zur lieferantenentwicklung \n zudem steuern sie das technische fehlermanagement und dokumentieren abweichungen zuverlässig im caq-system \n auch die moderation von ursachenanalysen und die definition nachhaltiger korrekturmaßnahmen gehört zu ihrem aufgabenbereich \n darüber hinaus bewerten sie 8d-reports eigenständig und koordi",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
+      "id": "arb-techniker-systemintegration-mechatronik-munich-497010",
+      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
+      "company": "MY Humancapital GmbH",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-497010",
+      "posted": "2026-05-08T17:00:32.000Z",
+      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
+      "id": "arb-software-test-engineer-stuttgart-231423",
+      "title": "Software Test Engineer (m/w/x)",
+      "company": "K-tronik GmbH",
+      "location": "Stuttgart",
+      "city": "Stuttgart",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/software-test-engineer-stuttgart-231423",
+      "posted": "2026-05-08T14:30:42.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der funk- und kommunikationsbranche suchen wir einen software test engineer (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten \n aufgaben: \n \n du arbeitest in einem agilen und standortübergreifenden software-entwicklungsteam an der neusten generation software defined radios mit - dich erwartet die erstellung und ",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Stuttgart"
+    },
+    {
+      "id": "arb-system-software-test-engineer-munich-232292",
+      "title": "System Software Test Engineer (m/w/x)",
+      "company": "K-tronik GmbH",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/system-software-test-engineer-munich-232292",
+      "posted": "2026-05-11T08:29:03.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der funk- und kommunikationsbranche suchen wir einen system software test engineer (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n erstellung und review von testspezifikationen zur verifikation und validierung der produktanforderungen sicherheitsrelevanter applikationssoftware - identifikation ",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 4,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
+      "id": "arb-support-specialist-software-iot-hamburg-340163",
+      "title": "Application Support & QA Specialist (m/w/d)",
+      "company": "Reos GmbH",
+      "location": "Hamburg",
+      "city": "Hamburg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/reos-gmbh/support-specialist-software-iot-hamburg-340163",
+      "posted": "2026-05-12T06:29:03.000Z",
+      "description": " dein täglicher verantwortungsbereich: \n wir suchen für diese rolle ein person, die application support mit aktiver qa im software development verbindet. die rolle besteht zu 50 % aus support und zu 50 % aus qa: du unterstützt nutzer:innen, business-kund:innen und interne stakeholder bei fragen und problemen rund um unsere web- und mobile-applikationen. gleichzeitig prüfst du im entwicklungsprozess umgesetzte features, bugfixes und tickets, testest acceptance criteria und hilfst dabei, reale fehlerbilder aus dem betrieb in bessere testabdeckung, stabilere releases und eine bessere user experie",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 3,
+      "relevance_score": 0,
+      "location_display": "Hamburg"
     }
   ],
-  "generated_at": "2026-05-15T08:52:08.619Z"
+  "generated_at": "2026-05-15T09:07:51.228Z"
 }
