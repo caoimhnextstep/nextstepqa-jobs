@@ -110,3 +110,83 @@ export async function fetchArbeitnow() {
 
   return { jobs: results, errors };
 }
+
+// ============================================================
+// Reed Ireland — server-side call, no CORS issues from Railway
+// ============================================================
+
+const REED_KEY = '40163a09-6087-49ca-81fd-0d89a6f1cd25';
+const REED_QUERIES = [
+  "QA automation engineer",
+  "test automation engineer", 
+  "software tester",
+  "SDET",
+  "quality assurance engineer",
+  "manual QA",
+  "playwright engineer"
+];
+
+const IRISH_LOCS = ["dublin","cork","galway","limerick","waterford","ireland","wicklow","kildare","meath"];
+
+function isIrishReed(location) {
+  return IRISH_LOCS.some(l => (location||"").toLowerCase().includes(l));
+}
+
+export async function fetchReedIreland() {
+  const results = [];
+  const errors = [];
+  const seen = new Set();
+
+  for (const query of REED_QUERIES) {
+    try {
+      const url = `https://www.reed.co.uk/api/1.0/search?keywords=${encodeURIComponent(query)}&locationName=Ireland&distancefromlocation=50&resultsToTake=25`;
+      const res = await fetch(url, {
+        headers: {
+          'Authorization': 'Basic ' + Buffer.from(REED_KEY + ':').toString('base64'),
+          'Accept': 'application/json',
+        }
+      });
+
+      if (!res.ok) {
+        errors.push({ source: 'reed', query, error: `HTTP ${res.status}` });
+        continue;
+      }
+
+      const data = await res.json();
+      const jobs = (data.results || []).filter(j => isIrishReed(j.locationName));
+
+      for (const j of jobs) {
+        if (seen.has(j.jobId)) continue;
+        seen.add(j.jobId);
+        results.push({
+          id: `reed-${j.jobId}`,
+          title: j.jobTitle,
+          company: j.employerName || "Unknown",
+          location: j.locationName || "Ireland",
+          city: j.locationName || "Ireland",
+          country: "IE",
+          sector: "Tech",
+          ats: "reed",
+          source_type: "aggregator",
+          source_verified: false,
+          salary_min: j.minimumSalary || null,
+          salary_max: j.maximumSalary || null,
+          salary_label: j.minimumSalary ? `€${Math.round(j.minimumSalary/1000)}k–€${Math.round((j.maximumSalary||j.minimumSalary)/1000)}k` : null,
+          remote: (j.locationName||"").toLowerCase().includes("remote"),
+          url: j.jobUrl,
+          posted: j.date ? new Date(j.date).toISOString() : new Date().toISOString(),
+          description: (j.jobDescription||j.jobTitle||"").toLowerCase().slice(0, 600),
+          classification: { role_type: null, level: null, transition_friendly: false },
+          signals: { playwright: false, typescript: false, cypress: false, selenium: false, api_testing: false, ci_cd: false },
+          demand: null, gap: null, age_days: 0, relevance_score: 0,
+        });
+      }
+
+      await new Promise(r => setTimeout(r, 300));
+    } catch(e) {
+      errors.push({ source: 'reed', query, error: e.message });
+    }
+  }
+
+  return { jobs: results, errors };
+}
