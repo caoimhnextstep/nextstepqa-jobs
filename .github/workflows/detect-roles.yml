@@ -1,1 +1,36 @@
 
+name: Detect New Irish QA Roles
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Monday 8am UTC
+    - cron: '0 8 * * 4'  # Thursday 8am UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install node-fetch@3
+
+      - name: Run detection
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node worker/detect.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "bot@nextstepqa.com"
+          git config --global user.name "NextStepQA Bot"
+          git add data/
+          git diff --staged --quiet || git commit -m "🔍 Role detection run $(date -u +%Y-%m-%d)"
+          git push
