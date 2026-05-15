@@ -7,7 +7,7 @@
 import { SOURCES } from './sources.js';
 import { FETCHERS, isQARole } from './fetch.js';
 import { classify } from './classify.js';
-import { fetchArbeitnow } from './sources-eu.js';
+import { fetchArbeitnow, fetchReedIreland } from './sources-eu.js';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPO  = process.env.GITHUB_REPO || "caoimhnextstep/nextstepqa-jobs";
@@ -175,7 +175,12 @@ async function run() {
   results.push(...euJobs);
   errors.push(...euErrors);
 
-  // 3. Dedupe all jobs together
+  // 3. Reed Ireland — server-side call works from Railway
+  console.log("\n🇮🇪 Fetching Reed Ireland...");
+  const { jobs: reedJobs, errors: reedErrors } = await fetchReedIreland();
+  console.log(`   Reed Ireland: ${reedJobs.length} QA jobs found`);
+  results.push(...reedJobs);
+  errors.push(...reedErrors);
   const allRaw = results;
   const deduped = dedupe(allRaw);
   console.log(`\n   Total raw: ${allRaw.length} | After dedupe: ${deduped.length}`);
