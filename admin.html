@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextStepQA — Curation Admin</title>
+<style>
+  :root {
+    --bg: #0d0e17;
+    --surface: #13141f;
+    --surface2: #1a1c2e;
+    --surface3: #1e2035;
+    --border: #252840;
+    --border2: #2e3155;
+    --yellow: #f5a623;
+    --orange: #e05a2b;
+    --green: #34d399;
+    --red: #f87171;
+    --text1: #e8eaf5;
+    --text2: #8b8fa8;
+    --text3: #4a4e6a;
+    --mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text1);
+    font-family: var(--mono);
+    font-size: 13px;
+    min-height: 100vh;
+  }
+
+  /* Login screen */
+  #loginScreen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+  }
+
+  .login-box {
+    width: 340px;
+    padding: 40px;
+    background: var(--surface);
+    border: 1px solid var(--border2);
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .login-logo {
+    font-size: 11px;
+    letter-spacing: .2em;
+    color: var(--text3);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .login-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--yellow);
+    margin-bottom: 32px;
+  }
+
+  .login-input {
+    width: 100%;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    border-radius: 6px;
+    color: var(--text1);
+    font-family: var(--mono);
+    font-size: 14px;
+    padding: 11px 14px;
+    outline: none;
+    letter-spacing: .1em;
+    text-align: center;
+    margin-bottom: 12px;
+    transition: border-color .2s;
+  }
+
+  .login-input:focus { border-color: var(--yellow); }
+
+  .login-btn {
+    width: 100%;
+    padding: 11px;
+    background: var(--yellow);
+    color: #0d0e17;
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: .05em;
+  }
+
+  .login-err {
+    color: var(--red);
+    font-size: 11px;
+    margin-top: 10px;
+    display: none;
+  }
+
+  /* Main app */
+  #app { display: none; }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .header-logo {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--yellow);
+  }
+
+  .header-badge {
+    font-size: 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: var(--text3);
+    letter-spacing: .1em;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 11px;
+    color: var(--text3);
+  }
+
+  .live-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: pulse 2s infinite;
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+  /* Layout */
+  .layout {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 24px;
+    align-items: start;
+  }
+
+  /* Panel */
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .panel-header {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .panel-title {
+    font-size: 11px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--text3);
+  }
+
+  .panel-body { padding: 20px; }
+
+  /* Form */
+  .field { margin-bottom: 16px; }
+
+  label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--text3);
+    margin-bottom: 6px;
+  }
+
+  label .req { color: var(--orange); }
+
+  input, select, textarea {
+    width: 100%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text1);
+    font-family: var(--mono);
+    font-size: 13px;
+    padding: 9px 12px;
+    outline: none;
+    transition: border-color .15s;
+  }
+
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--yellow);
+  }
+
+  input::placeholder, textarea::placeholder { color: var(--text3); }
+
+  select { cursor: pointer; }
+  select option { background: var(--surface2); }
+  textarea { resize: vertical; min-height: 70px; }
+
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+  /* URL fetch area */
+  .url-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .url-input {
+    flex: 1;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    border-radius: 6px;
+    color: var(--text1);
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 9px 12px;
+    outline: none;
+    transition: border-color .15s;
+  }
+
+  .url-input:focus { border-color: var(--yellow); }
+  .url-input::placeholder { color: var(--text3); }
+
+  .fetch-btn {
+    padding: 9px 16px;
+    background: var(--surface3);
+    border: 1px solid var(--border2);
+    border-radius: 6px;
+    color: var(--text2);
+    font-family: var(--mono);
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all .15s;
+  }
+
+  .fetch-btn:hover { border-color: var(--yellow); color: var(--yellow); }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: var(--text3);
+    font-size: 10px;
+    letter-spacing: .1em;
+  }
+
+  .divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* Tags */
+  .tags-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 6px;
+  }
+
+  .tag-btn {
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border2);
+    background: var(--surface2);
+    color: var(--text3);
+    font-family: var(--mono);
+    font-size: 11px;
+    cursor: pointer;
+    transition: all .12s;
+  }
+
+  .tag-btn:hover { border-color: var(--yellow); color: var(--yellow); }
+  .tag-btn.on { background: rgba(245,166,35,.12); border-color: var(--yellow); color: var(--yellow); }
+
+  /* Buttons */
+  .btn-publish {
+    width: 100%;
+    padding: 12px;
+    background: var(--yellow);
+    color: #0d0e17;
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: .03em;
+    transition: opacity .15s;
+    margin-top: 8px;
+  }
+
+  .btn-publish:hover { opacity: .9; }
+  .btn-publish:disabled { opacity: .4; cursor: not-allowed; }
+
+  /* Sidebar */
+  .sidebar { display: flex; flex-direction: column; gap: 16px; }
+
+  /* Company list */
+  .company-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background .12s;
+    border: 1px solid transparent;
+  }
+
+  .company-item:hover { background: var(--surface2); }
+
+  .company-name {
+    font-size: 12px;
+    color: var(--text1);
+  }
+
+  .company-meta {
+    font-size: 10px;
+    color: var(--text3);
+    margin-top: 2px;
+  }
+
+  .company-status {
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 3px;
+  }
+
+  .status-check { background: rgba(52,211,153,.1); color: var(--green); }
+  .status-manual { background: rgba(245,166,35,.1); color: var(--yellow); }
+  .status-auto { background: rgba(96,165,250,.1); color: #60a5fa; }
+
+  /* Published jobs list */
+  .job-item {
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .job-item:last-child { border-bottom: none; }
+
+  .job-title { font-size: 12px; color: var(--text1); margin-bottom: 3px; }
+  .job-meta { font-size: 10px; color: var(--text3); }
+
+  .delete-btn {
+    background: none;
+    border: none;
+    color: var(--text3);
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: all .12s;
+    flex-shrink: 0;
+  }
+
+  .delete-btn:hover { background: var(--surface3); color: var(--red); }
+
+  /* Status messages */
+  .status-bar {
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-bottom: 16px;
+    display: none;
+  }
+
+  .status-bar.success { background: rgba(52,211,153,.1); border: 1px solid rgba(52,211,153,.3); color: var(--green); }
+  .status-bar.error   { background: rgba(248,113,113,.1); border: 1px solid rgba(248,113,113,.3); color: var(--red); }
+  .status-bar.loading { background: rgba(245,166,35,.08); border: 1px solid rgba(245,166,35,.2); color: var(--yellow); }
+
+  .empty-state {
+    padding: 24px;
+    text-align: center;
+    color: var(--text3);
+    font-size: 11px;
+  }
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginScreen">
+  <div class="login-box">
+    <div class="login-logo">NextStepQA</div>
+    <div class="login-title">// curation.admin</div>
+    <input class="login-input" type="password" id="pwInput" placeholder="••••••••" onkeydown="if(event.key==='Enter')login()">
+    <button class="login-btn" onclick="login()">Enter →</button>
+    <div class="login-err" id="loginErr">incorrect password</div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+
+  <header>
+    <div class="header-left">
+      <div class="header-logo">NextStepQA</div>
+      <div class="header-badge">CURATION ADMIN</div>
+    </div>
+    <div class="header-right">
+      <span><span class="live-dot"></span>connected to github</span>
+      <span id="jobCount">— jobs published</span>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <!-- Left: Add job form -->
+    <div>
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Add Irish QA Role</span>
+          <span style="font-size:10px;color:var(--text3);">manual curation</span>
+        </div>
+        <div class="panel-body">
+
+          <div id="statusBar" class="status-bar"></div>
+
+          <!-- URL fetch -->
+          <div class="url-row">
+            <input class="url-input" id="urlInput" type="url" placeholder="Paste job URL to auto-fill... (optional)">
+            <button class="fetch-btn" onclick="fetchUrl()">↓ Fetch</button>
+          </div>
+
+          <div class="divider">OR FILL IN MANUALLY</div>
+
+          <!-- Form fields -->
+          <div class="field">
+            <label>Job Title <span class="req">*</span></label>
+            <input type="text" id="f_title" placeholder="e.g. Senior QA Automation Engineer">
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label>Company <span class="req">*</span></label>
+              <input type="text" id="f_company" placeholder="e.g. Fineos">
+            </div>
+            <div class="field">
+              <label>Location <span class="req">*</span></label>
+              <select id="f_location">
+                <option value="">Select...</option>
+                <option>Dublin, Ireland</option>
+                <option>Cork, Ireland</option>
+                <option>Galway, Ireland</option>
+                <option>Limerick, Ireland</option>
+                <option>Remote (Ireland)</option>
+                <option>Remote (EU/GMT)</option>
+                <option>Hybrid - Dublin</option>
+                <option>Hybrid - Cork</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label>Role Type</label>
+              <select id="f_stage">
+                <option value="General">General QA</option>
+                <option value="Automation">Automation / SDET</option>
+                <option value="Manual">Manual QA</option>
+                <option value="Transitioning">Transition Role</option>
+                <option value="Senior+">Lead / Senior</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>Contract</label>
+              <select id="f_contract">
+                <option value="permanent">Permanent</option>
+                <option value="contract">Contract</option>
+                <option value="contract_perm">Contract to Perm</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label>Salary (optional)</label>
+              <input type="text" id="f_salary" placeholder="e.g. €55k–€70k">
+            </div>
+            <div class="field">
+              <label>Source label</label>
+              <select id="f_source">
+                <option value="company">Direct company feed</option>
+                <option value="curated">Curated by NextStepQA</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Apply URL <span class="req">*</span></label>
+            <input type="url" id="f_url" placeholder="https://...">
+          </div>
+
+          <div class="field">
+            <label>Description (1–2 sentences)</label>
+            <textarea id="f_desc" placeholder="What will this person do? What tools/stack?"></textarea>
+          </div>
+
+          <div class="field">
+            <label>Key Tools</label>
+            <div class="tags-row" id="toolTags">
+              <button class="tag-btn" onclick="tog(this)">Playwright</button>
+              <button class="tag-btn" onclick="tog(this)">Cypress</button>
+              <button class="tag-btn" onclick="tog(this)">Selenium</button>
+              <button class="tag-btn" onclick="tog(this)">TypeScript</button>
+              <button class="tag-btn" onclick="tog(this)">Python</button>
+              <button class="tag-btn" onclick="tog(this)">Java</button>
+              <button class="tag-btn" onclick="tog(this)">API Testing</button>
+              <button class="tag-btn" onclick="tog(this)">CI/CD</button>
+              <button class="tag-btn" onclick="tog(this)">Manual</button>
+              <button class="tag-btn" onclick="tog(this)">Performance</button>
+            </div>
+          </div>
+
+          <button class="btn-publish" id="publishBtn" onclick="publishJob()">
+            → Publish to Board
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Right sidebar -->
+    <div class="sidebar">
+
+      <!-- Companies to check -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Check This Week</span>
+          <span style="font-size:10px;color:var(--text3);">mon + thu</span>
+        </div>
+        <div class="panel-body" style="padding:8px;">
+          <div id="companyList"></div>
+        </div>
+      </div>
+
+      <!-- Published manual jobs -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Published Jobs</span>
+          <span id="publishedCount" style="font-size:10px;color:var(--text3);">0 manual</span>
+        </div>
+        <div id="publishedList">
+          <div class="empty-state">No manual jobs published yet</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Config ────────────────────────────────────────────────────
+const PASSWORD     = 'nextstepadmin2026';
+const GITHUB_TOKEN = ''; // Set your GitHub token here after setup
+const GITHUB_REPO  = 'caoimhnextstep/nextstepqa-jobs';
+const FILE_PATH    = 'data/manual-jobs.json';
+
+// ── Companies to check ────────────────────────────────────────
+const COMPANIES = [
+  { name: "Fineos",           url: "https://careers.fineos.com",         type: "manual", city: "Dublin/Cork" },
+  { name: "Grouper",          url: "https://www.grouper.ie/careers",     type: "manual", city: "Dublin" },
+  { name: "T-Pro",            url: "https://www.t-pro.ie/careers",       type: "manual", city: "Dublin" },
+  { name: "Kefron",           url: "https://www.kefron.com/careers",     type: "manual", city: "Dublin" },
+  { name: "BearingPoint",     url: "https://www.bearingpoint.com/en-ie/careers", type: "manual", city: "Dublin" },
+  { name: "Verizon Connect",  url: "https://www.verizonconnect.com/ie/careers",  type: "manual", city: "Dublin" },
+  { name: "Binance",          url: "https://www.binance.com/en/careers", type: "manual", city: "Dublin" },
+  { name: "Nutritics",        url: "https://www.nutritics.com/en/careers", type: "manual", city: "Swords" },
+  { name: "Transact Campus",  url: "https://transactcampus.com/careers", type: "manual", city: "Limerick" },
+  { name: "Axway",            url: "https://www.axway.com/en/careers",   type: "manual", city: "Dublin" },
+  { name: "Deutsche Börse",   url: "https://deutsche-boerse.com/dbg-en/careers", type: "manual", city: "Cork" },
+  { name: "Mastercard",       url: "https://www.mastercard.com/global/en/vision/corp-responsibility/commitment-to-inclusion/careers.html", type: "manual", city: "Dublin" },
+  // Auto-fed (just for reference)
+  { name: "Kitman Labs",  url: "https://jobs.lever.co/kitmanlabs",  type: "auto",   city: "Dublin" },
+  { name: "Version 1",   url: "https://jobs.smartrecruiters.com/Version1", type: "auto", city: "Dublin" },
+  { name: "Kaseya",      url: "https://boards.greenhouse.io/kaseya", type: "auto",  city: "Dublin" },
+];
+
+// ── Login ────────────────────────────────────────────────────
+function login() {
+  const pw = document.getElementById('pwInput').value;
+  if (pw === PASSWORD) {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    init();
+  } else {
+    document.getElementById('loginErr').style.display = 'block';
+    document.getElementById('pwInput').value = '';
+  }
+}
+
+document.getElementById('pwInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') login();
+});
+
+// ── Init ─────────────────────────────────────────────────────
+async function init() {
+  renderCompanyList();
+  await loadPublishedJobs();
+}
+
+function renderCompanyList() {
+  const el = document.getElementById('companyList');
+  el.innerHTML = COMPANIES.map(c => `
+    <div class="company-item" onclick="prefill('${c.name}', '${c.url}')">
+      <div>
+        <div class="company-name">${c.name}</div>
+        <div class="company-meta">${c.city}</div>
+      </div>
+      <span class="company-status ${c.type === 'auto' ? 'status-auto' : 'status-manual'}">
+        ${c.type === 'auto' ? '⚡ auto' : '👁 check'}
+      </span>
+    </div>
+  `).join('');
+}
+
+function prefill(company, url) {
+  document.getElementById('f_company').value = company;
+  document.getElementById('f_url').value = url;
+  document.getElementById('f_title').focus();
+}
+
+// ── Fetch URL metadata ────────────────────────────────────────
+async function fetchUrl() {
+  const url = document.getElementById('urlInput').value.trim();
+  if (!url) return;
+
+  showStatus('loading', '↓ Fetching page metadata...');
+
+  try {
+    // Use allorigins proxy to bypass CORS
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const res = await fetch(proxy);
+    const data = await res.json();
+    const html = data.contents;
+
+    // Extract title
+    const titleMatch = html.match(/<title[^>]*>([^<]+)<\/title>/i);
+    const ogTitle = html.match(/<meta[^>]*property="og:title"[^>]*content="([^"]+)"/i);
+    const title = ogTitle?.[1] || titleMatch?.[1] || '';
+
+    // Extract description
+    const ogDesc = html.match(/<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i);
+    const metaDesc = html.match(/<meta[^>]*name="description"[^>]*content="([^"]+)"/i);
+    const desc = ogDesc?.[1] || metaDesc?.[1] || '';
+
+    // Extract company from domain
+    const domain = new URL(url).hostname.replace('www.','').split('.')[0];
+    const company = domain.charAt(0).toUpperCase() + domain.slice(1);
+
+    // Fill form
+    if (title) document.getElementById('f_title').value = title.replace(/\s*[\|\-–]\s*.*/,'').trim();
+    if (desc)  document.getElementById('f_desc').value = desc.slice(0, 200);
+    if (!document.getElementById('f_company').value) document.getElementById('f_company').value = company;
+    document.getElementById('f_url').value = url;
+
+    showStatus('success', '✓ Metadata extracted — review and publish');
+  } catch(e) {
+    showStatus('error', '✗ Could not fetch page — fill in manually');
+  }
+}
+
+// ── Load published jobs from GitHub ──────────────────────────
+let publishedJobs = [];
+
+async function loadPublishedJobs() {
+  try {
+    const url = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/${FILE_PATH}?t=${Date.now()}`;
+    const res = await fetch(url);
+    if (res.ok) {
+      const data = await res.json();
+      publishedJobs = data.jobs || [];
+    }
+  } catch(e) {
+    publishedJobs = [];
+  }
+  renderPublishedJobs();
+  document.getElementById('jobCount').textContent = `${publishedJobs.length} jobs published`;
+}
+
+function renderPublishedJobs() {
+  const el = document.getElementById('publishedList');
+  document.getElementById('publishedCount').textContent = `${publishedJobs.length} manual`;
+
+  if (!publishedJobs.length) {
+    el.innerHTML = '<div class="empty-state">No manual jobs published yet</div>';
+    return;
+  }
+
+  el.innerHTML = publishedJobs.map((j, i) => `
+    <div class="job-item">
+      <div>
+        <div class="job-title">${j.title}</div>
+        <div class="job-meta">${j.company} · ${j.location}</div>
+      </div>
+      <button class="delete-btn" onclick="deleteJob(${i})" title="Remove">✕</button>
+    </div>
+  `).join('');
+}
+
+// ── Publish job ───────────────────────────────────────────────
+async function publishJob() {
+  const title    = document.getElementById('f_title').value.trim();
+  const company  = document.getElementById('f_company').value.trim();
+  const location = document.getElementById('f_location').value;
+  const url      = document.getElementById('f_url').value.trim();
+
+  if (!title || !company || !location || !url) {
+    showStatus('error', '✗ Title, company, location and URL are required');
+    return;
+  }
+
+  const tools = [...document.querySelectorAll('.tag-btn.on')].map(b => b.textContent);
+  const tags  = [];
+  if (tools.includes('Playwright')) tags.push('playwright-required');
+  if (tools.includes('Manual'))     tags.push('manual-focus');
+  if (tools.includes('CI/CD'))      tags.push('ci-cd');
+
+  const job = {
+    id:           `manual-${Date.now()}`,
+    title,
+    company,
+    location,
+    city:         location.split(',')[0],
+    country:      "IE",
+    sector:       "Tech",
+    ats:          "manual",
+    source_type:  document.getElementById('f_source').value === 'company' ? 'direct_company_feed' : 'curated',
+    source_label: document.getElementById('f_source').value === 'company' ? '✓ Direct company feed' : 'Curated by NextStepQA',
+    verified:     true,
+    salary_label: document.getElementById('f_salary').value || null,
+    salary_min:   null,
+    salary_max:   null,
+    remote:       location.toLowerCase().includes('remote'),
+    url,
+    posted:       new Date().toISOString(),
+    description:  document.getElementById('f_desc').value.toLowerCase(),
+    stage:        document.getElementById('f_stage').value,
+    tags,
+    demand:       null,
+    gap:          null,
+    relevance_score: 5,
+    classification: {
+      role_type:          document.getElementById('f_stage').value.toLowerCase(),
+      level:              'mid',
+      transition_friendly: document.getElementById('f_stage').value === 'Transitioning',
+    },
+    signals: {
+      playwright:   tools.includes('Playwright'),
+      typescript:   tools.includes('TypeScript'),
+      cypress:      tools.includes('Cypress'),
+      selenium:     tools.includes('Selenium'),
+      api_testing:  tools.includes('API Testing'),
+      ci_cd:        tools.includes('CI/CD'),
+    },
+    curated_by: 'admin',
+    curated_at: new Date().toISOString(),
+  };
+
+  showStatus('loading', '↑ Publishing to GitHub...');
+  document.getElementById('publishBtn').disabled = true;
+
+  const success = await saveToGitHub([...publishedJobs, job]);
+
+  if (success) {
+    publishedJobs.push(job);
+    renderPublishedJobs();
+    clearForm();
+    showStatus('success', `✓ "${title}" published to board`);
+    document.getElementById('jobCount').textContent = `${publishedJobs.length} jobs published`;
+  } else {
+    showStatus('error', '✗ GitHub save failed — check token in config');
+  }
+
+  document.getElementById('publishBtn').disabled = false;
+}
+
+// ── Delete job ────────────────────────────────────────────────
+async function deleteJob(index) {
+  if (!confirm('Remove this job from the board?')) return;
+  publishedJobs.splice(index, 1);
+  const success = await saveToGitHub(publishedJobs);
+  if (success) {
+    renderPublishedJobs();
+    showStatus('success', '✓ Job removed');
+  } else {
+    showStatus('error', '✗ Failed to remove — check token');
+  }
+}
+
+// ── GitHub API ────────────────────────────────────────────────
+async function saveToGitHub(jobs) {
+  if (!GITHUB_TOKEN) {
+    // No token — download JSON instead
+    const json = JSON.stringify({ jobs, updated_at: new Date().toISOString() }, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'manual-jobs.json';
+    a.click();
+    showStatus('success', '✓ Downloaded manual-jobs.json — upload to GitHub data/ folder');
+    return true;
+  }
+
+  try {
+    // Get current file SHA
+    const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}`, {
+      headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: 'application/vnd.github+json' }
+    });
+
+    let sha;
+    if (getRes.ok) {
+      const existing = await getRes.json();
+      sha = existing.sha;
+    }
+
+    const content = { jobs, updated_at: new Date().toISOString() };
+    const body = {
+      message: `📝 Manual curation — ${jobs.length} jobs`,
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2)))),
+      ...(sha ? { sha } : {}),
+    };
+
+    const putRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}`, {
+      method: 'PUT',
+      headers: {
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
+        Accept: 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
+    });
+
+    return putRes.ok;
+  } catch(e) {
+    console.error('GitHub error:', e);
+    return false;
+  }
+}
+
+// ── Helpers ───────────────────────────────────────────────────
+function tog(btn) { btn.classList.toggle('on'); }
+
+function clearForm() {
+  ['f_title','f_company','f_salary','f_url','f_desc'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('f_location').value = '';
+  document.getElementById('f_stage').value = 'General';
+  document.getElementById('urlInput').value = '';
+  document.querySelectorAll('.tag-btn.on').forEach(b => b.classList.remove('on'));
+}
+
+function showStatus(type, msg) {
+  const el = document.getElementById('statusBar');
+  el.className = `status-bar ${type}`;
+  el.textContent = msg;
+  el.style.display = 'block';
+  if (type === 'success') setTimeout(() => el.style.display = 'none', 4000);
+}
+</script>
+</body>
+</html>
