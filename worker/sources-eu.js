@@ -73,7 +73,7 @@ export async function fetchArbeitnow() {
   const results = [];
   const errors = [];
   let page = 1;
-  const maxPages = 10; // up to 200 jobs
+  const maxPages = 20; // up to 400 jobs
 
   while (page <= maxPages) {
     try {
