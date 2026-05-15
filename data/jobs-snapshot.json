@@ -60,63 +60,6 @@
       "relevance_score": 0
     },
     {
-      "company": "Kitman Labs",
-      "sector": "SportsTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
-      "title": "Senior QA Engineer",
-      "location": {
-        "city": "Dublin, Ireland",
-        "country": "Ireland",
-        "remote": false
-      },
-      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
-      "posted": "2026-05-06T09:55:36.038Z",
-      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 8,
-      "relevance_score": 0
-    },
-    {
       "company": "Version 1",
       "sector": "Consulting",
       "city": "Dublin",
@@ -227,7 +170,64 @@
       },
       "age_days": 36,
       "relevance_score": 0
+    },
+    {
+      "company": "Kitman Labs",
+      "sector": "SportsTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
+      "title": "Senior QA Engineer",
+      "location": {
+        "city": "Dublin, Ireland",
+        "country": "Ireland",
+        "remote": false
+      },
+      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
+      "posted": "2026-05-06T09:55:36.038Z",
+      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 8,
+      "relevance_score": 0
     }
   ],
-  "generated_at": "2026-05-15T08:49:35.628Z"
+  "generated_at": "2026-05-15T08:52:08.619Z"
 }
