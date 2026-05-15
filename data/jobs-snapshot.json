@@ -1267,6 +1267,57 @@
       "location_display": "Hamburg"
     },
     {
+      "id": "arb-quality-engineer-schwerpunkt-testautomatisierung-all-genders-karlsruhe-444114",
+      "title": "Quality Engineer - Schwerpunkt Testautomatisierung (all genders)",
+      "company": "Starface GmbH",
+      "location": "Karlsruhe",
+      "city": "Karlsruhe",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/starface-gmbh/quality-engineer-schwerpunkt-testautomatisierung-all-genders-karlsruhe-444114",
+      "posted": "2026-05-12T10:29:03.000Z",
+      "description": " wen wir suchen \n du bist erfahren im testen von hardware und software? testautomatisierung und die kontinuierliche weiterentwicklung von testmethoden und -prozessen sind dein steckenpferd? dann bist du bei uns genau richtig! im rahmen der erweiterung unseres qe-teams suchen wir einen quality engineer - schwerpunkt testautomatisierung (all genders) \n deine aufgaben \n \n mitarbeit in einem cross-funktionalen scrum-team \n erstellen und verwalten von testcases, testplänen und teststrategien basierend auf projektanforderungen \n erarbeitung und erstellung von automatisierten tests zur ergänzung unse",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 2,
+      "relevance_score": 0,
+      "location_display": "Karlsruhe"
+    },
+    {
       "id": "reed-56761248",
       "title": "Senior Electrical Commissioning Engineer",
       "company": "Matchtech ",
@@ -1430,5 +1481,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-05-15T09:30:41.142Z"
+  "generated_at": "2026-05-15T09:38:04.537Z"
 }
