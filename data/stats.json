@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T09:12:14.038Z",
+  "generated_at": "2026-05-15T09:15:58.413Z",
   "total_jobs": 24,
   "irish_jobs": 4,
   "remote_jobs": 4,
@@ -12,21 +12,21 @@
     "REMOTE": 4
   },
   "by_ats": {
-    "greenhouse": 1,
     "smartrecruiters": 2,
     "lever": 1,
+    "greenhouse": 1,
     "arbeitnow": 20
   },
   "by_sector": {
-    "IT Mgmt": 1,
     "Consulting": 2,
     "SportsTech": 1,
+    "IT Mgmt": 1,
     "Tech": 20
   },
   "by_role_type": {
-    "automation": 7,
     "qa": 16,
-    "lead": 1
+    "lead": 1,
+    "automation": 7
   },
   "tool_signals": {
     "playwright": 0,
