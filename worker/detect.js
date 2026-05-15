@@ -9,17 +9,17 @@ import { createHash } from 'crypto';
 
 const ALL_COMPANIES = [
   // Monday batch (A-M)
-  { company: "Axway",           url: "https://www.axway.com/en/careers",                                        city: "Dublin",   sector: "API",        batch: "A-M" },
+  { company: "Axway",           url: "https://www.axway.com/en/careers/job-openings",                           city: "Dublin",   sector: "API",        batch: "A-M" },
   { company: "BearingPoint",    url: "https://www.bearingpoint.com/en-ie/careers/",                             city: "Dublin",   sector: "Consulting", batch: "A-M" },
   { company: "Binance",         url: "https://www.binance.com/en/careers/job-opportunities",                    city: "Dublin",   sector: "Fintech",    batch: "A-M" },
   { company: "Citi",            url: "https://jobs.citi.com/search-jobs/ireland",                               city: "Dublin",   sector: "Fintech",    batch: "A-M" },
-  { company: "Fidelity",        url: "https://jobs.fidelity.com/search-jobs/ireland",                           city: "Galway",   sector: "Fintech",    batch: "A-M" },
   { company: "Fineos",          url: "https://careers.fineos.com/search/?q=quality+assurance",                  city: "Dublin",   sector: "InsureTech", batch: "A-M" },
   { company: "GlobeTech",       url: "https://www.globetechgroup.com/careers",                                  city: "Cork",     sector: "L10n QA",    batch: "A-M" },
-  { company: "Grouper",         url: "https://www.grouper.ie/careers",                                          city: "Dublin",   sector: "SaaS",       batch: "A-M" },
   { company: "Kefron",          url: "https://www.kefron.com/careers",                                          city: "Dublin",   sector: "SaaS",       batch: "A-M" },
-  { company: "LocalEyes",       url: "https://www.localeyes.com/careers",                                       city: "Cork",     sector: "L10n QA",    batch: "A-M" },
-  { company: "Mastercard",      url: "https://careers.mastercard.com/us/en/ireland-jobs",                       city: "Dublin",   sector: "Fintech",    batch: "A-M" },
+  { company: "LocalEyes",       url: "https://localeyes.com/about-us/careers/",                                 city: "Cork",     sector: "L10n QA",    batch: "A-M" },
+  { company: "Mastercard",      url: "https://careers.mastercard.com/us/en/search-results?keywords=quality+assurance&location=Dublin", city: "Dublin", sector: "Fintech", batch: "A-M" },
+  { company: "Phorest",         url: "https://www.phorest.com/careers",                                         city: "Dublin",   sector: "SaaS",       batch: "A-M" },
+  { company: "T-Pro",           url: "https://www.t-pro.ie/careers",                                            city: "Dublin",   sector: "HealthTech", batch: "A-M" },
   // Thursday batch (N-Z)
   { company: "Nutritics",       url: "https://www.nutritics.com/en/careers",                                    city: "Swords",   sector: "HealthTech", batch: "N-Z" },
   { company: "Phorest",         url: "https://www.phorest.com/careers",                                         city: "Dublin",   sector: "SaaS",       batch: "N-Z" },
@@ -69,6 +69,12 @@ function cleanHtml(html) {
     .replace(/\s+/g, ' ').trim();
 }
 
+const NOISE_PHRASES = [
+  'cookie', 'navigate', 'continuing to use', 'privacy policy', 'terms',
+  'sign in', 'log in', 'register', 'subscribe', 'newsletter', 'follow us',
+  'copyright', 'all rights reserved', 'powered by', 'skip to'
+];
+
 function extractTitleCandidates(text) {
   const QA = ['qa','quality assurance','test engineer','test automation','software tester',
     'sdet','playwright','automation engineer','quality engineer','manual test',
@@ -78,6 +84,7 @@ function extractTitleCandidates(text) {
       .map(l => l.trim())
       .filter(l => l.length > 8 && l.length < 120)
       .filter(l => QA.some(s => l.toLowerCase().includes(s)))
+      .filter(l => !NOISE_PHRASES.some(n => l.toLowerCase().includes(n)))
   )].slice(0, 30);
 }
 
