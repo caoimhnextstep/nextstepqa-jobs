@@ -456,9 +456,9 @@ function isJunk(job){
     "solutions architect","network engineer"].some(x=>t.includes(x));
 }
 
-async function fetchAdzuna(country, query) {
+async function fetchAdzuna(country, query, page = 1) {
   try {
-    const url = `https://api.adzuna.com/v1/api/jobs/${country}/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=20&what=${encodeURIComponent(query)}`;
+    const url = `https://api.adzuna.com/v1/api/jobs/${country}/search/${page}?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=50&what=${encodeURIComponent(query)}`;
     const res = await fetch(url);
     if (!res.ok) return [];
     const data = await res.json();
@@ -497,13 +497,16 @@ async function fetchAllJobs(onProgress) {
   const adzunaPromises = [];
   for (const country of ADZUNA_COUNTRIES) {
     for (const query of ADZUNA_QUERIES) {
-      adzunaPromises.push(
-        fetchAdzuna(country, query).then(jobs => {
-          raw.push(...jobs);
-          done++;
-          onProgress?.(`Fetching EU roles... ${done}/${total}`);
-        }).catch(() => done++)
-      );
+      // Fetch pages 1 and 2 for each query
+      for (const page of [1, 2]) {
+        adzunaPromises.push(
+          fetchAdzuna(country, query, page).then(jobs => {
+            raw.push(...jobs);
+            done++;
+            onProgress?.(`Fetching EU roles... ${done}/${total}`);
+          }).catch(() => done++)
+        );
+      }
     }
   }
 
