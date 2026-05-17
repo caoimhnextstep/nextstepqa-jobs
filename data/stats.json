@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-05-17T10:33:54.001Z",
-  "total_jobs": 37,
+  "generated_at": "2026-05-17T10:38:07.636Z",
+  "total_jobs": 36,
   "irish_jobs": 18,
   "remote_jobs": 4,
   "transition_friendly": 0,
   "sources_ok": 31,
-  "sources_failed": 5,
+  "sources_failed": 0,
   "by_country": {
     "IE": 18,
-    "EU": 15,
+    "EU": 14,
     "REMOTE": 4
   },
   "by_ats": {
     "greenhouse": 1,
-    "lever": 1,
     "smartrecruiters": 2,
+    "lever": 1,
     "reed": 14,
-    "arbeitnow": 19
+    "arbeitnow": 18
   },
   "by_sector": {
     "IT Mgmt": 1,
-    "SportsTech": 1,
     "Consulting": 2,
-    "Tech": 33
+    "SportsTech": 1,
+    "Tech": 32
   },
   "by_role_type": {
     "automation": 7,
-    "qa": 28,
+    "qa": 27,
     "lead": 2
   },
   "tool_signals": {
@@ -38,5 +38,5 @@
     "ci_cd": 0
   },
   "playwright_demand_pct": 0,
-  "errors": 5
+  "errors": 1
 }
