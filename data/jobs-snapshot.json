@@ -103,7 +103,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 18,
+      "age_days": 19,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
     },
@@ -212,9 +212,60 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 12,
+      "age_days": 13,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-05-19T04:54:46-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
     },
     {
       "id": "reed-56755756",
@@ -268,6 +319,159 @@
       "location_display": "Dublin"
     },
     {
+      "id": "arb-elektroingenieur-projektingenieur-projektleitung-gebaudeautomatisierung-hamburg-53232",
+      "title": "Elektroingenieur, Projektingenieur (m/w/d) Projektleitung Gebäudeautomatisierung",
+      "company": "ISG - automation GmbH",
+      "location": "Hamburg",
+      "city": "Hamburg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/isg-automation-gmbh/elektroingenieur-projektingenieur-projektleitung-gebaudeautomatisierung-hamburg-53232",
+      "posted": "2026-05-19T09:30:30.000Z",
+      "description": "  übernehmen sie verantwortung – als projektleiter (m/w/d) gebäudeautomation  \n die  isg – automation gmbh  ist ein unabhängiges, inhabergeführtes ingenieurbüro für  gebäude-, industrie- und schiffsautomation  mit sitz in rostock. seit 2013 entwickeln wir ganzheitliche automationslösungen, die innovation, effizienz und praxis verbinden. \nmit einem engagierten team erfahrener ingenieure realisieren wir anspruchsvolle projekte für öffentliche und private auftraggeber. \n zur verstärkung unseres teams suchen wir einen  projektleiter ,  elektroingenieur ,  projektingenieur  oder  meister / technike",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Hamburg"
+    },
+    {
+      "id": "arb-embedded-softwaretester-all-genders-luftfahrt-dresden-459761",
+      "title": "Embedded Softwaretester (all genders) Luftfahrt",
+      "company": "TECOSIM GmbH",
+      "location": "Dresden",
+      "city": "Dresden",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/tecosim-gmbh/embedded-softwaretester-all-genders-luftfahrt-dresden-459761",
+      "posted": "2026-05-19T09:20:20.000Z",
+      "description": "  du stellst dich herausforderungen wie     der übernahme der verantwortung für die umsetzung automatisierter softwaretests für ein fire-smoke-system    der definition von test cases auf grundlage von software requirements    der verifizierung der testabdeckung im requirement-management-tool ibm rational doors    der entwicklung von testskripten in python    der durchführung von hardware-/software-integrationstests (high-level-testing)    der erstellung von testskripten mit dem tool vectorcast/c++    der durchführung von low-level-tests    der arbeit mit schnittstellen wie digitalen und analog",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Dresden"
+    },
+    {
+      "id": "arb-qa-software-tester-berlin-437653",
+      "title": "QA Software Tester (m/f/x)",
+      "company": "Atolls",
+      "location": "Berlin, Berlin, Germany",
+      "city": "Berlin, Berlin, Germany",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/atolls/qa-software-tester-berlin-437653",
+      "posted": "2026-05-19T06:45:21.000Z",
+      "description": "    \n \n  atolls is the world's largest community-driven shopping platform, active in 20+ markets.&nbsp;  \n we help millions make smarter spending decisions across discovery, evaluation, and (re-)purchase by connecting people with the right brands and retailers. \n our 1,000+ team across 10 countries builds products used every day at global scale, where you'll have real ownership and see your impact. want to shape the destinations people rely on to shop with confidence? keep reading.   \n  \n  about this role:  \nwe are looking for a  qa software tester  to join our product team in  berlin . your r",
+      "classification": {
+        "role_type": "manual",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "📋 Manual Focus",
+        "color": "muted"
+      },
+      "gap": {
+        "qualifyIf": [
+          "2+ years manual QA",
+          "JIRA / test cases"
+        ],
+        "youNeed": [],
+        "nextStep": null
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Berlin, Berlin, Germany"
+    },
+    {
       "id": "arb-embedded-softwaretester-im-bereich-der-luftfahrt-dresden-376028",
       "title": "Embedded Softwaretester (m/w/d) im Bereich der Luftfahrt",
       "company": "cigus GmbH",
@@ -314,7 +518,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Dresden"
     },
@@ -571,7 +775,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Solingen"
     },
@@ -735,7 +939,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Offenbach"
     },
@@ -786,7 +990,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Hallerndorf"
     },
@@ -839,218 +1043,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Hanover"
-    },
-    {
-      "id": "arb-test-automation-engineer-web-gilching-389366",
-      "title": "Test Automation Engineer (Web) (m/f/d)",
-      "company": "Quantum- Systems GmbH",
-      "location": "Gilching",
-      "city": "Gilching",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/test-automation-engineer-web-gilching-389366",
-      "posted": "2026-05-12T09:20:23.000Z",
-      "description": " as a test automation engineer (m/f/d), you will be responsible for building and maintaining automated tests that ensure the reliability and performance of our web-based software products.  you will work closely with developers and product teams to integrate testing directly into the development workflow and help deliver stable, high-quality releases.  this role is highly hands-on, with a strong emphasis on writing code for automation rather than managing test processes or documentation-heavy workflows.        what is your day to day mission:     design, implement, and maintain automated test ",
-      "classification": {
-        "role_type": "automation",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Gilching"
-    },
-    {
-      "id": "arb-qa-software-testingenieur-braunschweig-87662",
-      "title": "QA Software Testingenieur (m/w/d)",
-      "company": "smartmicro",
-      "location": "Braunschweig",
-      "city": "Braunschweig",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/smartmicro/qa-software-testingenieur-braunschweig-87662",
-      "posted": "2026-05-12T10:29:03.000Z",
-      "description": " einleitung \n wir sind smartmicro, der führende spezialist für leistungsstarke automobil- und verkehrsradar- sowie radar-/kamera-hybridsensortechnologie. wir entwerfen, entwickeln und fertigen hightech-sensoren für autonomes fahren, intelligente verkehrsinfrastruktur und smart cities. unsere mission ist es, straßen sicherer zu machen, autonomes fahren bei jedem wetter zu ermöglichen, den verkehrsfluss zu optimieren, um reisezeiten zu verkürzen, und umweltfreundlichere, intelligentere städte zu schaffen. \n wir sind ein deutsches unternehmen mit internationaler präsenz und eigenen teams in großb",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Braunschweig"
-    },
-    {
-      "id": "arb-qa-software-test-engineer-braunschweig-131042",
-      "title": "QA Software Test Engineer (m/f/d)",
-      "company": "smartmicro",
-      "location": "Braunschweig",
-      "city": "Braunschweig",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/smartmicro/qa-software-test-engineer-braunschweig-131042",
-      "posted": "2026-05-12T10:29:03.000Z",
-      "description": " introduction \n we are smartmicro, the leading specialist in high-performance automotive and traffic radar- and radar/camera hybrid sensor technology. we design, develop and manufacture high-tech sensors for autonomous driving, intelligent traffic infrastructure and smart cities. our mission is to make roads safer, enable autonomous driving in all-weather scenarios, optimize traffic flow for reduced travel times and enable greener, smarter cities. \n we are a german company with international presence, having own teams in the uk and in the us, while we are headquartered in braunschweig for desi",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Braunschweig"
-    },
-    {
-      "id": "arb-support-specialist-software-iot-hamburg-340163",
-      "title": "Application Support & QA Specialist (m/w/d)",
-      "company": "Reos GmbH",
-      "location": "Hamburg",
-      "city": "Hamburg",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/reos-gmbh/support-specialist-software-iot-hamburg-340163",
-      "posted": "2026-05-12T06:29:03.000Z",
-      "description": " dein täglicher verantwortungsbereich: \n wir suchen für diese rolle ein person, die application support mit aktiver qa im software development verbindet. die rolle besteht zu 50 % aus support und zu 50 % aus qa: du unterstützt nutzer:innen, business-kund:innen und interne stakeholder bei fragen und problemen rund um unsere web- und mobile-applikationen. gleichzeitig prüfst du im entwicklungsprozess umgesetzte features, bugfixes und tickets, testest acceptance criteria und hilfst dabei, reale fehlerbilder aus dem betrieb in bessere testabdeckung, stabilere releases und eine bessere user experie",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Hamburg"
     },
     {
       "id": "arb-quality-engineer-schwerpunkt-testautomatisierung-all-genders-karlsruhe-444114",
@@ -1173,7 +1168,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-05-19T06:04:14.008Z",
+      "posted": "2026-05-19T12:04:28.295Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1227,7 +1222,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-05-19T06:04:14.008Z",
+      "posted": "2026-05-19T12:04:28.295Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1278,7 +1273,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-05-19T06:04:14.480Z",
+      "posted": "2026-05-19T12:04:28.771Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1385,7 +1380,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-05-19T06:04:14.480Z",
+      "posted": "2026-05-19T12:04:28.771Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1439,7 +1434,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/software-engineer-ii-in-test-sdet/56899450",
-      "posted": "2026-05-19T06:04:14.480Z",
+      "posted": "2026-05-19T12:04:28.771Z",
       "description": "our purpose mastercard powers economies and empowers people in 200 countries and territories worldwide. together with our customers, we’re helping build a&nbsp;sustainable&nbsp;economy where everyone can prosper. we support a wide range of digital payments choices, making transactions&nbsp;secure, simple, smart and accessible. our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that h... ",
       "classification": {
         "role_type": "automation",
@@ -1492,7 +1487,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-05-19T06:04:15.966Z",
+      "posted": "2026-05-19T12:04:30.266Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1546,7 +1541,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-05-19T06:04:15.966Z",
+      "posted": "2026-05-19T12:04:30.266Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1600,7 +1595,7 @@
       "salary_label": "€32k–€35k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-control-inspector/56815670",
-      "posted": "2026-05-19T06:04:15.966Z",
+      "posted": "2026-05-19T12:04:30.266Z",
       "description": "your new company a well-established fabrication and engineering facility with over 40 years of expertise in laser-cutting, welding, and heavy fabrication. it operates from a modern large manufacturing space and employs around 110 skilled team members, known for delivering high-quality, precision-engineered components. the role as a quality controller, you will play a key role in inspecting chassis, fabricated parts, and associated equipment. you... ",
       "classification": {
         "role_type": "qa",
@@ -1651,7 +1646,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-05-19T06:04:15.966Z",
+      "posted": "2026-05-19T12:04:30.266Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1864,7 +1859,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-lead-electrical/56900258",
-      "posted": "2026-05-19T06:04:15.967Z",
+      "posted": "2026-05-19T12:04:30.266Z",
       "description": "commissioning lead (electrical) – data centres (critical power) silent aire dublin what you will do we are seeking a senior electrical commissioning engineer to lead the commissioning strategy and execution governance of critical electrical infrastructure for advanced, liquid-cooled data centres. this role is responsible for defining how power systems are safely energised, tested, integrated, and demonstrated—working closely with mechanical syst... ",
       "classification": {
         "role_type": "qa",
@@ -1958,5 +1953,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-05-19T06:04:17.224Z"
+  "generated_at": "2026-05-19T12:04:31.537Z"
 }
