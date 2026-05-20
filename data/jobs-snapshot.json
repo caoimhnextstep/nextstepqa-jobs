@@ -52,7 +52,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
     },
@@ -209,7 +209,7 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": 41,
+      "age_days": 42,
       "relevance_score": 0,
       "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast,, Ireland"
     },
@@ -317,6 +317,62 @@
       "age_days": -76,
       "relevance_score": 1,
       "location_display": "Dublin"
+    },
+    {
+      "id": "arb-test-automation-engineer-5-months-limited-munich-93058",
+      "title": "Test Automation Engineer - 5 months limited",
+      "company": "Bragi",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/bragi/test-automation-engineer-5-months-limited-munich-93058",
+      "posted": "2026-05-20T14:00:36.000Z",
+      "description": " bragi was founded in 2013 and launched the world's first truly wireless earphones in 2015 (yes, a whole 12 months before the airpods...) \n since then, we have evolved from a promising startup to a market-moving creator of innovative technology, opening the new category of truly wireless earphones. bragi transformed into a software enabler for consumer brands, focusing on scaling its technology after investing more than $90 million in software and ai. \n now we are a leader in the ai headphone space, known for our smart devices that integrate seamlessly into users' lives. with a focus on innova",
+      "classification": {
+        "role_type": "automation",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Munich"
     },
     {
       "id": "arb-embedded-softwaretester-luftfahrt-munich-425422",
@@ -671,7 +727,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -722,7 +778,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -773,7 +829,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -831,169 +887,6 @@
       "location_display": "Solingen"
     },
     {
-      "id": "arb-senior-mobile-test-automation-engineer-munich-285051",
-      "title": "Senior Mobile Test Automation Engineer",
-      "company": "Bragi",
-      "location": "Munich",
-      "city": "Munich",
-      "country": "REMOTE",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": true,
-      "url": "https://www.arbeitnow.com/jobs/companies/bragi/senior-mobile-test-automation-engineer-munich-285051",
-      "posted": "2026-05-13T17:00:58.000Z",
-      "description": " bragi was founded in 2013 and launched the world's first truly wireless earphones in 2015 (yes, a whole 12 months before the airpods...) \n since then, we have evolved from a promising startup to a market-moving creator of innovative technology, opening the new category of truly wireless earphones. bragi transformed into a software enabler for consumer brands, focusing on scaling its technology after investing more than $90 million in software and ai. \n now we are a leader in the ai headphone space, known for our smart devices that integrate seamlessly into users' lives. with a focus on innova",
-      "classification": {
-        "role_type": "automation",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Munich"
-    },
-    {
-      "id": "arb-senior-software-quality-engineer-in-tech-data-team-berlin-356619",
-      "title": "(Senior) Software Quality Engineer (f/x/m) in Tech & Data Team",
-      "company": "Thomann.io",
-      "location": "Berlin",
-      "city": "Berlin",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/thomannio/senior-software-quality-engineer-in-tech-data-team-berlin-356619",
-      "posted": "2026-05-13T15:20:13.000Z",
-      "description": " hello! we are team quality, a dynamic part of the tech &amp; data team at thomann. true to our name, we are passionate about upholding the highest standards in everything we do. as a well-coordinated team, we work every day to continuously improve the experience of our customers and visitors. this drive motivates us to develop and directly implement agile quality concepts and strategies across the entire company.    our goal: not just to maintain the status quo, but to continuously set new standards in the industry.    we are looking for a  senior software quality engineer (f/m/x)  to join us",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Berlin"
-    },
-    {
-      "id": "arb-software-automation-engineer-fur-software-defined-radio-munich-272763",
-      "title": "Software Automation Engineer für Software Defined Radio (m/w/x)",
-      "company": "K-tronik GmbH",
-      "location": "Hanover",
-      "city": "Hanover",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/software-automation-engineer-fur-software-defined-radio-munich-272763",
-      "posted": "2026-05-13T11:59:03.000Z",
-      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der funk- und kommunikationsbranche suchen wir einen software automation engineer für software defined radio (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n du automatisierst und verifizierst komplexe software durch design, spezifikation und orchestrierung von tests, um die qualität unserer pro",
-      "classification": {
-        "role_type": "automation",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 7,
-      "relevance_score": 0,
-      "location_display": "Hanover"
-    },
-    {
       "id": "arb-quality-engineer-schwerpunkt-testautomatisierung-all-genders-karlsruhe-444114",
       "title": "Quality Engineer - Schwerpunkt Testautomatisierung (all genders)",
       "company": "Starface GmbH",
@@ -1040,7 +933,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Karlsruhe"
     },
@@ -1114,7 +1007,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-05-20T12:00:39.662Z",
+      "posted": "2026-05-20T18:00:40.511Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1168,7 +1061,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-05-20T12:00:39.662Z",
+      "posted": "2026-05-20T18:00:40.511Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1219,7 +1112,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-05-20T12:00:40.359Z",
+      "posted": "2026-05-20T18:00:41.033Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1326,7 +1219,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-05-20T12:00:40.359Z",
+      "posted": "2026-05-20T18:00:41.033Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1380,7 +1273,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-05-20T12:00:41.873Z",
+      "posted": "2026-05-20T18:00:42.593Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1434,7 +1327,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-05-20T12:00:41.873Z",
+      "posted": "2026-05-20T18:00:42.593Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1488,7 +1381,7 @@
       "salary_label": "€32k–€35k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-control-inspector/56815670",
-      "posted": "2026-05-20T12:00:41.873Z",
+      "posted": "2026-05-20T18:00:42.593Z",
       "description": "your new company a well-established fabrication and engineering facility with over 40 years of expertise in laser-cutting, welding, and heavy fabrication. it operates from a modern large manufacturing space and employs around 110 skilled team members, known for delivering high-quality, precision-engineered components. the role as a quality controller, you will play a key role in inspecting chassis, fabricated parts, and associated equipment. you... ",
       "classification": {
         "role_type": "qa",
@@ -1539,7 +1432,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-05-20T12:00:41.873Z",
+      "posted": "2026-05-20T18:00:42.593Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1701,7 +1594,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-manager/56924558",
-      "posted": "2026-05-20T12:00:41.873Z",
+      "posted": "2026-05-20T18:00:42.593Z",
       "description": "project manager silent aire what you will do this is a phenomenal opportunity to join our silent aire team at johnson controls as a project manager. this opportunity is of great importance. pm’s are fully responsible for ensuring that the project is managed and supported in a very disciplined manner across the multiple stakeholders and departments, so that our customers continually receive a high-quality product and service at every step of the ... ",
       "classification": {
         "role_type": "qa",
@@ -1752,7 +1645,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-lead-electrical/56900258",
-      "posted": "2026-05-20T12:00:41.873Z",
+      "posted": "2026-05-20T18:00:42.593Z",
       "description": "commissioning lead (electrical) – data centres (critical power) silent aire dublin what you will do we are seeking a senior electrical commissioning engineer to lead the commissioning strategy and execution governance of critical electrical infrastructure for advanced, liquid-cooled data centres. this role is responsible for defining how power systems are safely energised, tested, integrated, and demonstrated—working closely with mechanical syst... ",
       "classification": {
         "role_type": "qa",
@@ -1846,5 +1739,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-05-20T12:00:43.189Z"
+  "generated_at": "2026-05-20T18:00:43.950Z"
 }
