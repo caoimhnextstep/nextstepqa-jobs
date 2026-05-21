@@ -66,14 +66,58 @@
     "job_titles": []
   },
   "Phorest": {
-    "page_hash": "caba89e0d5d6d0f3283bbc9048e7efc3",
+    "page_hash": "4f81ee28716d2e7395169135e81c4874",
     "url": "https://www.phorest.com/careers",
-    "last_checked": "2026-05-18T11:43:46.875Z",
-    "last_success": "2026-05-18T11:43:46.875Z",
+    "last_checked": "2026-05-21T10:58:34.869Z",
+    "last_success": "2026-05-21T10:58:34.869Z",
     "job_titles": []
   },
   "T-Pro": {
     "last_error": "fetch failed",
-    "last_checked": "2026-05-18T11:43:53.409Z"
+    "last_checked": "2026-05-21T10:58:54.278Z"
+  },
+  "Nutritics": {
+    "last_error": "HTTP 404",
+    "last_checked": "2026-05-21T10:58:33.567Z"
+  },
+  "ServiceNow": {
+    "last_error": "HTTP 403",
+    "last_checked": "2026-05-21T10:58:41.006Z"
+  },
+  "Sophos": {
+    "page_hash": "3afff530dfdc3ccf05b26a30b03639a4",
+    "url": "https://www.sophos.com/en-us/company/careers",
+    "last_checked": "2026-05-21T10:58:41.214Z",
+    "last_success": "2026-05-21T10:58:41.214Z",
+    "job_titles": []
+  },
+  "State Street": {
+    "last_error": "HTTP 404",
+    "last_checked": "2026-05-21T10:58:48.090Z"
+  },
+  "Transact Campus": {
+    "last_error": "HTTP 404",
+    "last_checked": "2026-05-21T10:59:01.168Z"
+  },
+  "Verizon Connect": {
+    "page_hash": "6fe9379ec5dbe8c9244ca03f97064ab1",
+    "url": "https://www.verizonconnect.com/ie/careers/",
+    "last_checked": "2026-05-21T10:59:01.728Z",
+    "last_success": "2026-05-21T10:59:01.728Z",
+    "job_titles": []
+  },
+  "Workhuman": {
+    "page_hash": "367882f536f65e2cc3af6635ca15faab",
+    "url": "https://www.workhuman.com/company/careers/",
+    "last_checked": "2026-05-21T10:59:02.168Z",
+    "last_success": "2026-05-21T10:59:02.168Z",
+    "job_titles": []
+  },
+  "Workvivo": {
+    "page_hash": "f1e79996a4560dc4cf75962df67e299f",
+    "url": "https://www.workvivo.com/careers",
+    "last_checked": "2026-05-21T10:59:04.348Z",
+    "last_success": "2026-05-21T10:59:04.348Z",
+    "job_titles": []
   }
 }
