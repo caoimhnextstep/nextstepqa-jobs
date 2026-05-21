@@ -268,57 +268,6 @@
       "location_display": "Dublin, Ireland, Ireland"
     },
     {
-      "id": "reed-56755756",
-      "title": "Cloud Security Architect",
-      "company": "Randstad Technologies",
-      "location": "Dublin",
-      "city": "Dublin",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 70000,
-      "salary_max": 80000,
-      "salary_label": "€70k–€80k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/cloud-security-architect/56755756",
-      "posted": "2026-08-04T00:00:00.000Z",
-      "description": "job opportunity: cloud security architect we are seeking a hands-on cloud security architect to secure large-scale, multi-cloud, and kubernetes-based environments. in this role, you will be a specialist responsible for defining and enforcing security standards, hardening baselines, and embedding security into design and automation by partnering with devops, networking, and soc teams. role overview location: dublin, ireland (hybrid: 2 days/week f... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": true,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": -76,
-      "relevance_score": 1,
-      "location_display": "Dublin"
-    },
-    {
       "id": "arb-test-automation-engineer-5-months-limited-munich-93058",
       "title": "Test Automation Engineer - 5 months limited",
       "company": "Bragi",
@@ -987,7 +936,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -107,
+      "age_days": -106,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -1007,7 +956,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-05-20T18:00:40.511Z",
+      "posted": "2026-05-21T00:00:40.002Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1061,7 +1010,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-05-20T18:00:40.511Z",
+      "posted": "2026-05-21T00:00:40.002Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1112,7 +1061,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-05-20T18:00:41.033Z",
+      "posted": "2026-05-21T00:00:40.529Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1199,7 +1148,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -16,
+      "age_days": -15,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1219,7 +1168,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-05-20T18:00:41.033Z",
+      "posted": "2026-05-21T00:00:40.529Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1273,7 +1222,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-05-20T18:00:42.593Z",
+      "posted": "2026-05-21T00:00:42.077Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1327,7 +1276,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-05-20T18:00:42.593Z",
+      "posted": "2026-05-21T00:00:42.077Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1381,7 +1330,7 @@
       "salary_label": "€32k–€35k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-control-inspector/56815670",
-      "posted": "2026-05-20T18:00:42.593Z",
+      "posted": "2026-05-21T00:00:42.077Z",
       "description": "your new company a well-established fabrication and engineering facility with over 40 years of expertise in laser-cutting, welding, and heavy fabrication. it operates from a modern large manufacturing space and employs around 110 skilled team members, known for delivering high-quality, precision-engineered components. the role as a quality controller, you will play a key role in inspecting chassis, fabricated parts, and associated equipment. you... ",
       "classification": {
         "role_type": "qa",
@@ -1432,7 +1381,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-05-20T18:00:42.593Z",
+      "posted": "2026-05-21T00:00:42.077Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1520,7 +1469,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -199,
+      "age_days": -198,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1574,7 +1523,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 137,
+      "age_days": 138,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -1594,7 +1543,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-manager/56924558",
-      "posted": "2026-05-20T18:00:42.593Z",
+      "posted": "2026-05-21T00:00:42.077Z",
       "description": "project manager silent aire what you will do this is a phenomenal opportunity to join our silent aire team at johnson controls as a project manager. this opportunity is of great importance. pm’s are fully responsible for ensuring that the project is managed and supported in a very disciplined manner across the multiple stakeholders and departments, so that our customers continually receive a high-quality product and service at every step of the ... ",
       "classification": {
         "role_type": "qa",
@@ -1645,7 +1594,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-lead-electrical/56900258",
-      "posted": "2026-05-20T18:00:42.593Z",
+      "posted": "2026-05-21T00:00:42.077Z",
       "description": "commissioning lead (electrical) – data centres (critical power) silent aire dublin what you will do we are seeking a senior electrical commissioning engineer to lead the commissioning strategy and execution governance of critical electrical infrastructure for advanced, liquid-cooled data centres. this role is responsible for defining how power systems are safely energised, tested, integrated, and demonstrated—working closely with mechanical syst... ",
       "classification": {
         "role_type": "qa",
@@ -1734,10 +1683,10 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": -199,
+      "age_days": -198,
       "relevance_score": 0,
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-05-20T18:00:43.950Z"
+  "generated_at": "2026-05-21T00:00:43.438Z"
 }
