@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T18:02:39.425Z",
+  "generated_at": "2026-05-24T00:03:46.957Z",
   "total_jobs": 35,
   "irish_jobs": 18,
   "remote_jobs": 4,
@@ -21,9 +21,9 @@
   "by_sector": {
     "IT Mgmt": 1,
     "SportsTech": 1,
-    "Gaming": 1,
-    "Consulting": 1,
     "Security": 1,
+    "Consulting": 1,
+    "Gaming": 1,
     "Tech": 30
   },
   "by_role_type": {
