@@ -57,6 +57,57 @@
       "location_display": "Krakow, Poland"
     },
     {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-05-20T21:58:07-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 4,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
+    },
+    {
       "company": "Kitman Labs",
       "sector": "SportsTech",
       "city": "Dublin",
@@ -109,57 +160,6 @@
       "age_days": 19,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
-      "company": "Version 1",
-      "sector": "Consulting",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-Version1-744000123879049",
-      "title": "QA/Test Analyst",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000123879049",
-      "posted": "2026-04-30T09:12:19.193Z",
-      "description": "",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 25,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
     },
     {
       "company": "Keywords Studios",
@@ -216,6 +216,57 @@
       "location_display": "Box Hill"
     },
     {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000123879049",
+      "title": "QA/Test Analyst",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000123879049",
+      "posted": "2026-04-30T09:12:19.193Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 25,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
+    },
+    {
       "company": "CarTrawler",
       "sector": "TravelTech",
       "city": "Dublin",
@@ -265,57 +316,6 @@
       "age_days": 0,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
-    },
-    {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-05-20T21:58:07-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 4,
-      "relevance_score": 0,
-      "location_display": "Bengaluru, India"
     },
     {
       "id": "arb-software-tester-testautomatisierung-munich-39701",
@@ -1166,7 +1166,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-05-25T18:02:08.904Z",
+      "posted": "2026-05-26T00:02:10.621Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1217,7 +1217,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-05-25T18:02:08.904Z",
+      "posted": "2026-05-26T00:02:10.621Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1271,7 +1271,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-05-25T18:02:08.904Z",
+      "posted": "2026-05-26T00:02:10.621Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1322,7 +1322,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-05-25T18:02:09.455Z",
+      "posted": "2026-05-26T00:02:11.141Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1409,7 +1409,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -11,
+      "age_days": -10,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1429,7 +1429,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-05-25T18:02:09.455Z",
+      "posted": "2026-05-26T00:02:11.141Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1483,7 +1483,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-05-25T18:02:11.004Z",
+      "posted": "2026-05-26T00:02:12.682Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1537,7 +1537,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-05-25T18:02:11.004Z",
+      "posted": "2026-05-26T00:02:12.682Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1591,7 +1591,7 @@
       "salary_label": "€32k–€35k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-control-inspector/56815670",
-      "posted": "2026-05-25T18:02:11.004Z",
+      "posted": "2026-05-26T00:02:12.682Z",
       "description": "your new company a well-established fabrication and engineering facility with over 40 years of expertise in laser-cutting, welding, and heavy fabrication. it operates from a modern large manufacturing space and employs around 110 skilled team members, known for delivering high-quality, precision-engineered components. the role as a quality controller, you will play a key role in inspecting chassis, fabricated parts, and associated equipment. you... ",
       "classification": {
         "role_type": "qa",
@@ -1642,7 +1642,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-05-25T18:02:11.004Z",
+      "posted": "2026-05-26T00:02:12.682Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1730,7 +1730,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -194,
+      "age_days": -193,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1750,7 +1750,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-05-25T18:02:11.004Z",
+      "posted": "2026-05-26T00:02:12.682Z",
       "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
@@ -1835,7 +1835,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 142,
+      "age_days": 143,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -1855,7 +1855,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-lead-electrical/56900258",
-      "posted": "2026-05-25T18:02:11.004Z",
+      "posted": "2026-05-26T00:02:12.682Z",
       "description": "commissioning lead (electrical) – data centres (critical power) silent aire dublin what you will do we are seeking a senior electrical commissioning engineer to lead the commissioning strategy and execution governance of critical electrical infrastructure for advanced, liquid-cooled data centres. this role is responsible for defining how power systems are safely energised, tested, integrated, and demonstrated—working closely with mechanical syst... ",
       "classification": {
         "role_type": "qa",
@@ -1944,10 +1944,10 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": -194,
+      "age_days": -193,
       "relevance_score": 0,
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-05-25T18:02:12.374Z"
+  "generated_at": "2026-05-26T00:02:13.999Z"
 }
