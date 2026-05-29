@@ -1,44 +1,45 @@
 {
-  "generated_at": "2026-05-29T12:02:49.461Z",
-  "total_jobs": 38,
+  "generated_at": "2026-05-29T18:03:05.279Z",
+  "total_jobs": 37,
   "irish_jobs": 25,
-  "remote_jobs": 0,
+  "remote_jobs": 1,
   "transition_friendly": 0,
   "sources_ok": 31,
   "sources_failed": 0,
   "by_country": {
     "IE": 25,
-    "EU": 13
+    "EU": 11,
+    "REMOTE": 1
   },
   "by_ats": {
     "greenhouse": 5,
-    "lever": 1,
     "smartrecruiters": 1,
-    "arbeitnow": 13,
+    "lever": 1,
+    "arbeitnow": 12,
     "reed": 18
   },
   "by_sector": {
     "HealthTech": 1,
     "Consulting": 1,
-    "SportsTech": 1,
     "IT Mgmt": 2,
     "Gaming": 1,
     "Security": 1,
-    "Tech": 31
+    "SportsTech": 1,
+    "Tech": 30
   },
   "by_role_type": {
-    "qa": 32,
-    "automation": 5,
-    "lead": 1
+    "qa": 31,
+    "automation": 4,
+    "lead": 2
   },
   "tool_signals": {
-    "playwright": 1,
-    "typescript": 1,
+    "playwright": 0,
+    "typescript": 0,
     "cypress": 0,
     "selenium": 0,
     "api_testing": 0,
-    "ci_cd": 1
+    "ci_cd": 0
   },
-  "playwright_demand_pct": 3,
-  "errors": 1
+  "playwright_demand_pct": 0,
+  "errors": 0
 }
