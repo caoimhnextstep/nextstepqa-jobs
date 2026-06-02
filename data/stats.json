@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-01T18:04:08.922Z",
-  "total_jobs": 42,
-  "irish_jobs": 25,
+  "generated_at": "2026-06-02T00:00:51.372Z",
+  "total_jobs": 43,
+  "irish_jobs": 26,
   "remote_jobs": 1,
   "transition_friendly": 0,
   "sources_ok": 31,
   "sources_failed": 0,
   "by_country": {
-    "IE": 25,
+    "IE": 26,
     "EU": 16,
     "REMOTE": 1
   },
@@ -16,19 +16,19 @@
     "smartrecruiters": 1,
     "lever": 1,
     "arbeitnow": 17,
-    "reed": 18
+    "reed": 19
   },
   "by_sector": {
     "HealthTech": 1,
     "Consulting": 1,
-    "IT Mgmt": 2,
+    "Security": 1,
     "Gaming": 1,
     "SportsTech": 1,
-    "Security": 1,
-    "Tech": 35
+    "IT Mgmt": 2,
+    "Tech": 36
   },
   "by_role_type": {
-    "qa": 35,
+    "qa": 36,
     "automation": 5,
     "lead": 2
   },
