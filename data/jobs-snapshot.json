@@ -1,60 +1,6 @@
 {
   "jobs": [
     {
-      "company": "Kitman Labs",
-      "sector": "SportsTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
-      "title": "Senior QA Engineer",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
-      "posted": "2026-05-06T09:55:36.038Z",
-      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 27,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
       "company": "LetsGetChecked",
       "sector": "HealthTech",
       "city": "Dublin",
@@ -272,6 +218,60 @@
       "location_display": "Bangalore, India"
     },
     {
+      "company": "Kitman Labs",
+      "sector": "SportsTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
+      "title": "Senior QA Engineer",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
+      "posted": "2026-05-06T09:55:36.038Z",
+      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 28,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
       "company": "Okta",
       "sector": "Security",
       "city": "Dublin",
@@ -377,6 +377,108 @@
       "location_display": "Box Hill"
     },
     {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000129972109",
+      "title": "Automation Test Engineer",
+      "location": "London",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000129972109",
+      "posted": "2026-06-03T11:09:14.651Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "London"
+    },
+    {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000129967457",
+      "title": "GCP Test Engineer",
+      "location": "London",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000129967457",
+      "posted": "2026-06-03T11:00:18.369Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "London"
+    },
+    {
       "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
       "title": "(Senior) Test Automation Engineer, AI-Native (d/m/w) - Remote",
       "company": "ZEP GmbH",
@@ -431,6 +533,57 @@
       "age_days": 0,
       "relevance_score": 1,
       "location_display": "Ditzingen"
+    },
+    {
+      "id": "arb-automatisierungstechniker-programmierer-als-projektleitung-senftenberg-132548",
+      "title": "Automatisierungstechniker / Programmierer (m/w/d) als Projektleitung",
+      "company": "EMIS Electrics GmbH",
+      "location": "Senftenberg",
+      "city": "Senftenberg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/emis-electrics-gmbh/automatisierungstechniker-programmierer-als-projektleitung-senftenberg-132548",
+      "posted": "2026-06-03T10:00:33.000Z",
+      "description": " emis ist ein familiengeführtes, mittelständisches unternehmen aus der lausitz. an 5 standorten deutschlandweit arbeiten wir mit rund 350 mitarbeitern an innovativen projekten in den bereichen elektrotechnik, energieversorgung, automatisierung und robotik. \n die wasserbewirtschaftungszentrale lausitzer revier steuert und überwacht komplexe wasserwirtschaftliche prozesse in einer vom bergbau geprägten region. ziel ist es, wasserstände, durchflüsse und wasserqualität langfristig zu sichern und umweltauflagen zuverlässig einzuhalten. als automatisierungstechniker/programmierer (m/w/d) bei emis tr",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Senftenberg"
     },
     {
       "id": "arb-conversion-rate-optimization-cro-specialist-a-b-tester-mulheim-265824",
@@ -533,7 +686,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Aachen"
     },
@@ -1050,60 +1203,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
-      "relevance_score": 0,
-      "location_display": "Minden"
-    },
-    {
-      "id": "arb-praktikum-abschlussarbeit-software-testing-medizinprodukte-jena-92065",
-      "title": "Praktikum / Abschlussarbeit (m/w/d): Software Testing Medizinprodukte",
-      "company": "Preventicus GmbH",
-      "location": "Jena",
-      "city": "Jena",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/preventicus-gmbh/praktikum-abschlussarbeit-software-testing-medizinprodukte-jena-92065",
-      "posted": "2026-05-27T09:00:36.000Z",
-      "description": "  preventicus – das sind wir  \n gesundheitslösungen von morgen machen wir schon heute. wir schaffen mobile und wearable produkte für den gesundheitssektor. \n  deine mission:  \n im rahmen eines praktikums bei der preventicus gmbh erhältst du einen umfassenden einblick in das thema  software testing in den bereichen web, mobile und wearables  (smartwatches). du erlernst das testen von software basierend auf spezifikationen. nach erfolgreichem abschluss des praktikums gibt es die möglichkeit ein thema für eine abschlussarbeit (bachelor/master) zu erstellen oder auch längerfristig als werkstudent/",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
       "age_days": 6,
       "relevance_score": 0,
-      "location_display": "Jena"
+      "location_display": "Minden"
     },
     {
       "id": "arb-praktikum-im-business-development-business-analyst-automation-engineer-applied-ai-engineer-berlin-180476",
@@ -1205,7 +1307,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1225,7 +1327,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-03T06:03:18.716Z",
+      "posted": "2026-06-03T12:01:12.089Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1276,7 +1378,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-06-03T06:03:18.716Z",
+      "posted": "2026-06-03T12:01:12.089Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1330,7 +1432,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-03T06:03:18.716Z",
+      "posted": "2026-06-03T12:01:12.089Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1381,7 +1483,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-03T06:03:19.223Z",
+      "posted": "2026-06-03T12:01:12.613Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1488,7 +1590,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-03T06:03:19.223Z",
+      "posted": "2026-06-03T12:01:12.613Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1542,7 +1644,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/lead-site-reliability-engineer-infrastructure-operations/56943704",
-      "posted": "2026-06-03T06:03:19.223Z",
+      "posted": "2026-06-03T12:01:12.613Z",
       "description": "our purpose mastercard powers economies and empowers people in 200 countries and territories worldwide. together with our customers, we’re helping build a&nbsp;sustainable&nbsp;economy where everyone can prosper. we support a wide range of digital payments choices, making transactions&nbsp;secure, simple, smart and accessible. our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that h... ",
       "classification": {
         "role_type": "qa",
@@ -1596,7 +1698,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-06-03T06:03:20.720Z",
+      "posted": "2026-06-03T12:01:14.160Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1650,7 +1752,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-03T06:03:20.720Z",
+      "posted": "2026-06-03T12:01:14.160Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1704,7 +1806,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-03T06:03:20.720Z",
+      "posted": "2026-06-03T12:01:14.160Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1758,7 +1860,7 @@
       "salary_label": "€32k–€35k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-control-inspector/56815670",
-      "posted": "2026-06-03T06:03:20.720Z",
+      "posted": "2026-06-03T12:01:14.160Z",
       "description": "your new company a well-established fabrication and engineering facility with over 40 years of expertise in laser-cutting, welding, and heavy fabrication. it operates from a modern large manufacturing space and employs around 110 skilled team members, known for delivering high-quality, precision-engineered components. the role as a quality controller, you will play a key role in inspecting chassis, fabricated parts, and associated equipment. you... ",
       "classification": {
         "role_type": "qa",
@@ -1863,7 +1965,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-03T06:03:20.720Z",
+      "posted": "2026-06-03T12:01:14.160Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -2170,5 +2272,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-03T06:03:22.023Z"
+  "generated_at": "2026-06-03T12:01:15.496Z"
 }
