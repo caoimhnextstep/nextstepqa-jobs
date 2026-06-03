@@ -47,9 +47,228 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "company": "Kaseya",
+      "sector": "IT Mgmt",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-kaseya-5988017004",
+      "title": "QA Automation Engineer ",
+      "location": "Medellin, Colombia",
+      "url": "https://www.kaseya.com/careers/jobs/id/5988017004/?gh_jid=5988017004",
+      "posted": "2026-06-03T08:31:26-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Medellin, Colombia"
+    },
+    {
+      "company": "Kaseya",
+      "sector": "IT Mgmt",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-kaseya-5922706004",
+      "title": "QA automation Engineer (Python)",
+      "location": "Krakow, Poland",
+      "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
+      "posted": "2026-05-14T09:41:08-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 20,
+      "relevance_score": 0,
+      "location_display": "Krakow, Poland"
+    },
+    {
+      "company": "Kaseya",
+      "sector": "IT Mgmt",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-kaseya-5977467004",
+      "title": "Staff Software Development Engineer in Test (Staff SDET)",
+      "location": "Bangalore, India",
+      "url": "https://www.kaseya.com/careers/jobs/id/5977467004/?gh_jid=5977467004",
+      "posted": "2026-05-28T10:37:54-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Bangalore, India"
+    },
+    {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-01T14:12:00-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 1,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
     },
     {
       "company": "NearForm",
@@ -106,11 +325,11 @@
       "location_display": "Contract"
     },
     {
-      "company": "Kaseya",
-      "sector": "IT Mgmt",
+      "company": "Version 1",
+      "sector": "Consulting",
       "city": "Dublin",
       "country": "IE",
-      "ats": "greenhouse",
+      "ats": "smartrecruiters",
       "source_type": "direct_company_feed",
       "source_verified": true,
       "salary_min": null,
@@ -119,172 +338,6 @@
       "remote": false,
       "classification": {
         "role_type": "automation",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-kaseya-5922706004",
-      "title": "QA automation Engineer (Python)",
-      "location": "Krakow, Poland",
-      "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
-      "posted": "2026-05-14T09:41:08-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 19,
-      "relevance_score": 0,
-      "location_display": "Krakow, Poland"
-    },
-    {
-      "company": "Kaseya",
-      "sector": "IT Mgmt",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "automation",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-kaseya-5977467004",
-      "title": "Staff Software Development Engineer in Test (Staff SDET)",
-      "location": "Bangalore, India",
-      "url": "https://www.kaseya.com/careers/jobs/id/5977467004/?gh_jid=5977467004",
-      "posted": "2026-05-28T10:37:54-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 5,
-      "relevance_score": 0,
-      "location_display": "Bangalore, India"
-    },
-    {
-      "company": "Kitman Labs",
-      "sector": "SportsTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
-      "title": "Senior QA Engineer",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
-      "posted": "2026-05-06T09:55:36.038Z",
-      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 28,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
         "level": "mid",
         "transition_friendly": false
       },
@@ -300,12 +353,12 @@
         "java": false,
         "performance": false
       },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-01T14:12:00-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "id": "sr-Version1-744000130018179",
+      "title": "Test Automation Engineer",
+      "location": "Belfast, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000130018179",
+      "posted": "2026-06-03T14:22:58.931Z",
+      "description": "",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -314,67 +367,15 @@
         ],
         "youNeed": [
           "Playwright or Cypress",
-          "CI/CD pipeline"
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Bengaluru, India"
-    },
-    {
-      "company": "Keywords Studios",
-      "sector": "Gaming",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-KeywordsStudios-744000127793779",
-      "title": "Senior Quality Assurance Analyst - Video Games",
-      "location": "Box Hill",
-      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
-      "posted": "2026-05-22T01:57:05.528Z",
-      "description": "",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 12,
-      "relevance_score": 0,
-      "location_display": "Box Hill"
+      "location_display": "Belfast, Ireland"
     },
     {
       "company": "Version 1",
@@ -479,6 +480,114 @@
       "location_display": "London"
     },
     {
+      "company": "Kitman Labs",
+      "sector": "SportsTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
+      "title": "Senior QA Engineer",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
+      "posted": "2026-05-06T09:55:36.038Z",
+      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 28,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "company": "Keywords Studios",
+      "sector": "Gaming",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-KeywordsStudios-744000127793779",
+      "title": "Senior Quality Assurance Analyst - Video Games",
+      "location": "Box Hill",
+      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
+      "posted": "2026-05-22T01:57:05.528Z",
+      "description": "",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 12,
+      "relevance_score": 0,
+      "location_display": "Box Hill"
+    },
+    {
       "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
       "title": "(Senior) Test Automation Engineer, AI-Native (d/m/w) - Remote",
       "company": "ZEP GmbH",
@@ -530,7 +639,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 1,
       "location_display": "Ditzingen"
     },
@@ -788,7 +897,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Kassel"
     },
@@ -893,7 +1002,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -944,7 +1053,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "München"
     },
@@ -999,7 +1108,7 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -1101,7 +1210,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Frankfurt am Main"
     },
@@ -1152,7 +1261,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Frankfurt am Main"
     },
@@ -1208,11 +1317,11 @@
       "location_display": "Minden"
     },
     {
-      "id": "arb-praktikum-im-business-development-business-analyst-automation-engineer-applied-ai-engineer-berlin-180476",
-      "title": "Praktikum im Business Development (Business Analyst/Automation Engineer/Applied AI Engineer) (m/w/d)",
-      "company": "Pflegia",
-      "location": "Berlin",
-      "city": "Berlin",
+      "id": "arb-embedded-softwaretester-luftfahrt-munich-425422",
+      "title": "Embedded Softwaretester (m/w/x) Luftfahrt",
+      "company": "K-tronik GmbH",
+      "location": "Dresden",
+      "city": "Dresden",
       "country": "EU",
       "sector": "Tech",
       "ats": "arbeitnow",
@@ -1222,62 +1331,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/pflegia/praktikum-im-business-development-business-analyst-automation-engineer-applied-ai-engineer-berlin-180476",
-      "posted": "2026-06-01T16:29:02.000Z",
-      "description": " du willst nicht nur zuschauen, sondern aktiv mitgestalten? dann bist du bei pflegia genau richtig. wir suchen einen praktikanten im business development für die drei spezialisierungen business analyst, automation engineer, und applied ai engineer. je nach schwerpunkt arbeitest du an strategischen analysen, technischen workflows oder datengetriebenen ai-lösungen und unterstützt uns dabei, pflegia noch effizienter und skalierbarer zu machen. \n aufgaben \n \n  business analyst:  du analysierst interne prozesse und daten und leitest daraus konkrete lösungen für wachstum, effizienz und operative ver",
-      "classification": {
-        "role_type": "automation",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 1,
-      "relevance_score": 0,
-      "location_display": "Berlin"
-    },
-    {
-      "id": "arb-werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-2259",
-      "title": "Werkstudent (gn) für Automatisierungstechnik und 3D-Vision",
-      "company": "3D.aero GmbH",
-      "location": "Hamburg",
-      "city": "Hamburg",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/3daero-gmbh/werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-2259",
-      "posted": "2026-05-29T11:29:03.000Z",
-      "description": " die  3d-aero gmbh  ist ein tech-unternehmen aus hamburg mit etwa 70 mitarbeitenden und ist seit dezember 2024 ein stolzer teil der  mtu aero engines ag  – einem der weltweit führenden unternehmen der luftfahrtindustrie. wir entwickeln kundenspezifische automatisierungslösungen für die flugzeugproduktion und andere industriebereiche. dabei nutzen wir optische sensorik und moderne industrieroboter zusammen mit ki-basierter datenverarbeitung, um maßgeschneiderte systeme für unsere kunden zu entwickeln. \n wir suchen einen  werkstudenten (gn) für automatisierungstechnik und 3d-vision , der mithilf",
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/embedded-softwaretester-luftfahrt-munich-425422",
+      "posted": "2026-06-03T17:29:02.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der luftfahrt suchen wir einen embedded softwaretester (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennenzulernen – und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n verantwortung für die umsetzung von automatisierten softwaretests für ein fire-smoke-system - definition von test cases auf grundlage von software requirements - verifizieren der testabdeckung i",
       "classification": {
         "role_type": "qa",
         "level": "mid",
@@ -1307,9 +1363,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Hamburg"
+      "location_display": "Dresden"
     },
     {
       "id": "reed-56937279",
@@ -1327,7 +1383,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-03T12:01:12.089Z",
+      "posted": "2026-06-03T18:03:48.356Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1378,7 +1434,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-06-03T12:01:12.089Z",
+      "posted": "2026-06-03T18:03:48.356Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1432,7 +1488,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-03T12:01:12.089Z",
+      "posted": "2026-06-03T18:03:48.356Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1483,7 +1539,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-03T12:01:12.613Z",
+      "posted": "2026-06-03T18:03:48.876Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1590,7 +1646,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-03T12:01:12.613Z",
+      "posted": "2026-06-03T18:03:48.876Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1644,7 +1700,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/lead-site-reliability-engineer-infrastructure-operations/56943704",
-      "posted": "2026-06-03T12:01:12.613Z",
+      "posted": "2026-06-03T18:03:48.876Z",
       "description": "our purpose mastercard powers economies and empowers people in 200 countries and territories worldwide. together with our customers, we’re helping build a&nbsp;sustainable&nbsp;economy where everyone can prosper. we support a wide range of digital payments choices, making transactions&nbsp;secure, simple, smart and accessible. our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that h... ",
       "classification": {
         "role_type": "qa",
@@ -1698,7 +1754,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-06-03T12:01:14.160Z",
+      "posted": "2026-06-03T18:03:50.420Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1752,7 +1808,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-03T12:01:14.160Z",
+      "posted": "2026-06-03T18:03:50.420Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1806,7 +1862,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-03T12:01:14.160Z",
+      "posted": "2026-06-03T18:03:50.420Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1860,7 +1916,7 @@
       "salary_label": "€32k–€35k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-control-inspector/56815670",
-      "posted": "2026-06-03T12:01:14.160Z",
+      "posted": "2026-06-03T18:03:50.420Z",
       "description": "your new company a well-established fabrication and engineering facility with over 40 years of expertise in laser-cutting, welding, and heavy fabrication. it operates from a modern large manufacturing space and employs around 110 skilled team members, known for delivering high-quality, precision-engineered components. the role as a quality controller, you will play a key role in inspecting chassis, fabricated parts, and associated equipment. you... ",
       "classification": {
         "role_type": "qa",
@@ -1950,6 +2006,60 @@
       "location_display": "Ireland"
     },
     {
+      "id": "reed-56980752",
+      "title": "Senior/Associate Electrical Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "salary_label": "€55k–€70k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
+      "posted": "2026-03-06T00:00:00.000Z",
+      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 89,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
       "id": "reed-56902036",
       "title": "Head of Health & Safety (Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
@@ -1965,7 +2075,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-03T12:01:14.160Z",
+      "posted": "2026-06-03T18:03:50.420Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -2058,7 +2168,7 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56976300",
+      "id": "reed-56974583",
       "title": "Project Engineer",
       "company": "Appcast Enterprise",
       "location": "Dublin",
@@ -2072,114 +2182,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.reed.co.uk/jobs/project-engineer/56976300",
+      "url": "https://www.reed.co.uk/jobs/project-engineer/56974583",
       "posted": "2026-03-06T00:00:00.000Z",
       "description": "project engineer – silent aire silent aire, a johnson controls company, is a global leader in designing, engineering, and manufacturing innovative cooling and hvac solutions for mission-critical environments. specializing in data centers and advanced technology facilities, silent aire delivers cutting-edge systems that ensure reliability, energy efficiency, and sustainability. with a strong focus on quality and continuous improvement, the compan... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 89,
-      "relevance_score": 0,
-      "location_display": "Dublin"
-    },
-    {
-      "id": "reed-56976358",
-      "title": "Project Manager",
-      "company": "Appcast Enterprise",
-      "location": "Dublin",
-      "city": "Dublin",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/project-manager/56976358",
-      "posted": "2026-03-06T00:00:00.000Z",
-      "description": "project manager silent aire what you will do this is a phenomenal opportunity to join our silent aire team at johnson controls as a project manager. this opportunity is of great importance. pm’s are fully responsible for ensuring that the project is managed and supported in a very disciplined manner across the multiple stakeholders and departments, so that our customers continually receive a high-quality product and service at every step of the ... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 89,
-      "relevance_score": 0,
-      "location_display": "Dublin"
-    },
-    {
-      "id": "reed-56976352",
-      "title": "Commissioning Lead Electrical",
-      "company": "Appcast Enterprise",
-      "location": "Dublin",
-      "city": "Dublin",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/commissioning-lead-electrical/56976352",
-      "posted": "2026-03-06T00:00:00.000Z",
-      "description": "commissioning lead (electrical) – data centres (critical power) silent aire dublin what you will do we are seeking a senior electrical commissioning engineer to lead the commissioning strategy and execution governance of critical electrical infrastructure for advanced, liquid-cooled data centres. this role is responsible for defining how power systems are safely energised, tested, integrated, and demonstrated—working closely with mechanical syst... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -2272,5 +2277,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-03T12:01:15.496Z"
+  "generated_at": "2026-06-03T18:03:51.761Z"
 }
