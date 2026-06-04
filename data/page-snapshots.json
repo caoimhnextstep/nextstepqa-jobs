@@ -69,56 +69,58 @@
   "Phorest": {
     "page_hash": "88457fe323c163bfdd77ab6bb40a17bf",
     "url": "https://www.phorest.com/careers",
-    "last_checked": "2026-06-01T13:35:56.872Z",
+    "last_checked": "2026-06-04T10:54:04.752Z",
     "last_success": "2026-06-01T13:35:56.872Z",
-    "job_titles": []
+    "job_titles": [],
+    "last_error": "HTTP 403"
   },
   "T-Pro": {
     "last_error": "fetch failed",
-    "last_checked": "2026-06-01T13:36:03.180Z"
+    "last_checked": "2026-06-04T10:54:24.629Z"
   },
   "Nutritics": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-05-28T11:29:06.030Z"
+    "last_checked": "2026-06-04T10:53:57.963Z"
   },
   "ServiceNow": {
     "last_error": "HTTP 403",
-    "last_checked": "2026-05-28T11:29:13.168Z"
+    "last_checked": "2026-06-04T10:54:11.054Z"
   },
   "Sophos": {
     "page_hash": "3afff530dfdc3ccf05b26a30b03639a4",
     "url": "https://www.sophos.com/en-us/company/careers",
-    "last_checked": "2026-05-28T11:29:13.461Z",
-    "last_success": "2026-05-28T11:29:13.461Z",
+    "last_checked": "2026-06-04T10:54:11.389Z",
+    "last_success": "2026-06-04T10:54:11.389Z",
     "job_titles": []
   },
   "State Street": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-05-28T11:29:20.039Z"
+    "last_checked": "2026-06-04T10:54:18.282Z"
   },
   "Transact Campus": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-05-28T11:29:33.439Z"
+    "last_checked": "2026-06-04T10:54:31.317Z"
   },
   "Verizon Connect": {
-    "page_hash": "bd3ede969535b6f34f8a5224bb7ae893",
+    "page_hash": "50b0f8f36b4c20952d68921fe963b590",
     "url": "https://www.verizonconnect.com/ie/careers/",
-    "last_checked": "2026-05-28T11:29:33.665Z",
-    "last_success": "2026-05-28T11:29:33.665Z",
+    "last_checked": "2026-06-04T10:54:31.872Z",
+    "last_success": "2026-06-04T10:54:31.872Z",
     "job_titles": []
   },
   "Workhuman": {
     "page_hash": "4f3f1969ced95637b2ba639d7a65db02",
     "url": "https://www.workhuman.com/company/careers/",
-    "last_checked": "2026-05-28T11:29:33.985Z",
-    "last_success": "2026-05-28T11:29:33.985Z",
+    "last_checked": "2026-06-04T10:54:32.307Z",
+    "last_success": "2026-06-04T10:54:32.307Z",
     "job_titles": []
   },
   "Workvivo": {
     "page_hash": "4f9f2004a5e4023043624ba4c3d750c1",
     "url": "https://www.workvivo.com/careers",
-    "last_checked": "2026-05-28T11:29:35.386Z",
+    "last_checked": "2026-06-04T10:54:38.540Z",
     "last_success": "2026-05-28T11:29:35.387Z",
-    "job_titles": []
+    "job_titles": [],
+    "last_error": "HTTP 403"
   }
 }

@@ -33,32 +33,42 @@
   },
   "T-Pro": {
     "status": "error",
-    "last_run": "2026-06-01T13:36:03.180Z",
+    "last_run": "2026-06-04T10:54:24.629Z",
     "last_error": "fetch failed"
   },
   "Nutritics": {
     "status": "error",
-    "last_run": "2026-05-28T11:29:06.030Z",
+    "last_run": "2026-06-04T10:53:57.963Z",
     "last_error": "HTTP 404"
   },
   "ServiceNow": {
     "status": "error",
-    "last_run": "2026-05-28T11:29:13.168Z",
+    "last_run": "2026-06-04T10:54:11.054Z",
     "last_error": "HTTP 403"
   },
   "State Street": {
     "status": "error",
-    "last_run": "2026-05-28T11:29:20.039Z",
+    "last_run": "2026-06-04T10:54:18.282Z",
     "last_error": "HTTP 404"
   },
   "Transact Campus": {
     "status": "error",
-    "last_run": "2026-05-28T11:29:33.439Z",
+    "last_run": "2026-06-04T10:54:31.317Z",
     "last_error": "HTTP 404"
   },
   "GlobeTech": {
     "status": "error",
     "last_run": "2026-05-25T11:52:53.977Z",
     "last_error": "fetch failed"
+  },
+  "Phorest": {
+    "status": "error",
+    "last_run": "2026-06-04T10:54:04.752Z",
+    "last_error": "HTTP 403"
+  },
+  "Workvivo": {
+    "status": "error",
+    "last_run": "2026-06-04T10:54:38.540Z",
+    "last_error": "HTTP 403"
   }
 }
