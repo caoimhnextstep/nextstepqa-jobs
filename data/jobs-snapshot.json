@@ -47,7 +47,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 7,
+      "age_days": 8,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
     },
@@ -157,7 +157,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Medellin, Colombia"
     },
@@ -213,7 +213,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 21,
+      "age_days": 22,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
     },
@@ -269,7 +269,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 7,
+      "age_days": 8,
       "relevance_score": 0,
       "location_display": "Bangalore, India"
     },
@@ -326,60 +326,6 @@
       "age_days": 30,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
-      "company": "Keywords Studios",
-      "sector": "Gaming",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-KeywordsStudios-744000127793779",
-      "title": "Senior Quality Assurance Analyst - Video Games",
-      "location": "Box Hill",
-      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
-      "posted": "2026-05-22T01:57:05.528Z",
-      "description": "",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 14,
-      "relevance_score": 0,
-      "location_display": "Box Hill"
     },
     {
       "company": "Okta",
@@ -481,7 +427,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Belfast, Ireland"
     },
@@ -588,6 +534,114 @@
       "location_display": "London"
     },
     {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000110343655",
+      "title": "Senior Automation Test Engineer",
+      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000110343655",
+      "posted": "2026-02-20T10:04:59.837Z",
+      "description": "",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 105,
+      "relevance_score": 0,
+      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
+    },
+    {
+      "company": "Keywords Studios",
+      "sector": "Gaming",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-KeywordsStudios-744000127793779",
+      "title": "Senior Quality Assurance Analyst - Video Games",
+      "location": "Box Hill",
+      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
+      "posted": "2026-05-22T01:57:05.528Z",
+      "description": "",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 14,
+      "relevance_score": 0,
+      "location_display": "Box Hill"
+    },
+    {
       "company": "CarTrawler",
       "sector": "TravelTech",
       "city": "Dublin",
@@ -690,9 +744,63 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 1,
       "location_display": "Ditzingen"
+    },
+    {
+      "id": "arb-senior-testmanagement-consultant-hamburg-381247",
+      "title": "Senior Testmanagement Consultant (m/w/d)",
+      "company": "red6 enterprise software GmbH",
+      "location": "Hamburg",
+      "city": "Hamburg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/red6-enterprise-software-gmbh/senior-testmanagement-consultant-hamburg-381247",
+      "posted": "2026-06-05T12:30:36.000Z",
+      "description": " die red6 enterprise software gmbh ist ein unternehmen im hansemerkur-konzern. als dienstleister entwickeln wir softwarelösungen für die versicherungsbranche sowohl für die hansemerkur als auch für andere unternehmen. wir unterstützen unsere kunden von der idee bis zum livegang. dabei setzen wir auf neueste technologien und agile zusammenarbeit. \n unsere firma besteht aus 70 mitarbeitenden aus den unterschiedlichsten fachgebieten wie softwareentwicklung, qualitätssicherung, ux/ui design, anforderungs- und projektmanagement. ein starker teamgeist, selbstorganisation und agilität prägen unsere a",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Hamburg"
     },
     {
       "id": "arb-automatisierer-sps-programmierer-bohmte-13270",
@@ -999,7 +1107,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Kassel"
     },
@@ -1058,163 +1166,6 @@
       "location_display": "Berlin, Berlin, Germany"
     },
     {
-      "id": "arb-techniker-systemintegration-mechatronik-munich-89499",
-      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
-      "company": "MY Humancapital GmbH",
-      "location": "Munich",
-      "city": "Munich",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-89499",
-      "posted": "2026-05-29T17:02:48.000Z",
-      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Munich"
-    },
-    {
-      "id": "arb-test-engineer-fernride-gmbh-munchen-22773",
-      "title": "Test Engineer (m/f/d) - Fernride GmbH",
-      "company": "Quantum- Systems GmbH",
-      "location": "München",
-      "city": "München",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/test-engineer-fernride-gmbh-munchen-22773",
-      "posted": "2026-05-29T15:20:13.000Z",
-      "description": "    we are looking for an experienced test engineer who thrives in the broad spectrum between initial concept and final validation for cutting-edge autonomy products. you will bridge the gap between abstract system requirements and concrete, executable test scenarios, ensuring our autonomy products are safe, reliable, and intelligent. you’ll thrive in a high-stakes, dynamic environment where the processes aren't \"set in  stone\" yet—because you’re the one who will help carve them. if you are motivated by the challenge of autonomous mobility and have a knack for finding the \"edge\" in edge cases,",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "München"
-    },
-    {
-      "id": "arb-teamlead-qa-gn-berlin-83601",
-      "title": "Teamlead QA (gn)",
-      "company": "Bikeleasing-Service GmbH & Co. KG",
-      "location": "Berlin",
-      "city": "Berlin",
-      "country": "REMOTE",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": true,
-      "url": "https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/teamlead-qa-gn-berlin-83601",
-      "posted": "2026-05-29T13:30:33.000Z",
-      "description": " deine aufgaben \n bei der bikeleasing gruppe entwickeln wir digitale lösungen, die täglich von tausenden nutzerinnen und nutzern eingesetzt werden. dafür setzen wir auf moderne technologien, saubere architekturen und teams, die verantwortung übernehmen. mitten in einer signifikanten technischen transformation – modernisierung von legacy-systemen, aufbau domänenorientierter services und professionalisierung unserer engineering-organisation – suchen wir eine erfahrene führungspersönlichkeit, die unser qa-team übernimmt und auf das nächste level bringt. als  team lead qa (gn)  führst du ein einge",
-      "classification": {
-        "role_type": "lead",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "5+ years QA",
-          "Framework design",
-          "Leadership"
-        ],
-        "youNeed": [
-          "Architecture experience",
-          "Mentoring"
-        ],
-        "nextStep": "Build your portfolio first →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Berlin"
-    },
-    {
       "id": "arb-embedded-softwaretester-luftfahrt-munich-425422",
       "title": "Embedded Softwaretester (m/w/x) Luftfahrt",
       "company": "K-tronik GmbH",
@@ -1261,7 +1212,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Dresden"
     },
@@ -1314,60 +1265,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Berlin"
-    },
-    {
-      "id": "arb-werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-2259",
-      "title": "Werkstudent (gn) für Automatisierungstechnik und 3D-Vision",
-      "company": "3D.aero GmbH",
-      "location": "Hamburg",
-      "city": "Hamburg",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/3daero-gmbh/werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-2259",
-      "posted": "2026-05-29T11:29:03.000Z",
-      "description": " die  3d-aero gmbh  ist ein tech-unternehmen aus hamburg mit etwa 70 mitarbeitenden und ist seit dezember 2024 ein stolzer teil der  mtu aero engines ag  – einem der weltweit führenden unternehmen der luftfahrtindustrie. wir entwickeln kundenspezifische automatisierungslösungen für die flugzeugproduktion und andere industriebereiche. dabei nutzen wir optische sensorik und moderne industrieroboter zusammen mit ki-basierter datenverarbeitung, um maßgeschneiderte systeme für unsere kunden zu entwickeln. \n wir suchen einen  werkstudenten (gn) für automatisierungstechnik und 3d-vision , der mithilf",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 7,
-      "relevance_score": 0,
-      "location_display": "Hamburg"
     },
     {
       "id": "reed-56937279",
@@ -1385,7 +1285,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-05T12:04:45.278Z",
+      "posted": "2026-06-05T18:03:56.167Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1436,7 +1336,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-06-05T12:04:45.278Z",
+      "posted": "2026-06-05T18:03:56.167Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1490,7 +1390,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-05T12:04:45.278Z",
+      "posted": "2026-06-05T18:03:56.167Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1541,7 +1441,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-05T12:04:45.788Z",
+      "posted": "2026-06-05T18:03:56.686Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1648,7 +1548,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-05T12:04:45.788Z",
+      "posted": "2026-06-05T18:03:56.686Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1702,7 +1602,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-06-05T12:04:47.296Z",
+      "posted": "2026-06-05T18:03:58.314Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1756,7 +1656,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-05T12:04:47.296Z",
+      "posted": "2026-06-05T18:03:58.314Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1810,7 +1710,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-05T12:04:47.296Z",
+      "posted": "2026-06-05T18:03:58.314Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1849,9 +1749,9 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56967870",
-      "title": "Lead Electrical Design Engineer",
-      "company": "Hays Specialist Recruitment Limited",
+      "id": "reed-56991429",
+      "title": "Design Engineer (Excavator Attachments)",
+      "company": "Ernest Gordon Recruitment Limited",
       "location": "Ireland",
       "city": "Ireland",
       "country": "IE",
@@ -1859,13 +1759,13 @@
       "ats": "reed",
       "source_type": "aggregator",
       "source_verified": false,
-      "salary_min": 40000,
-      "salary_max": 60000,
-      "salary_label": "€40k–€60k",
+      "salary_min": 37000,
+      "salary_max": 42000,
+      "salary_label": "€37k–€42k",
       "remote": false,
-      "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/56967870",
-      "posted": "2026-01-06T00:00:00.000Z",
-      "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
+      "url": "https://www.reed.co.uk/jobs/design-engineer-excavator-attachments/56991429",
+      "posted": "2026-05-06T00:00:00.000Z",
+      "description": "mechanical design engineer (excavator attachments) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a mechanical design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfa... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -1898,7 +1798,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 150,
+      "age_days": 30,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1957,6 +1857,60 @@
       "location_display": "Ireland"
     },
     {
+      "id": "reed-56967870",
+      "title": "Lead Electrical Design Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_label": "€40k–€60k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/56967870",
+      "posted": "2026-01-06T00:00:00.000Z",
+      "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 150,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
       "id": "reed-56902036",
       "title": "Head of Health & Safety (Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
@@ -1972,7 +1926,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-05T12:04:47.296Z",
+      "posted": "2026-06-05T18:03:58.314Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -2225,5 +2179,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-05T12:04:48.608Z"
+  "generated_at": "2026-06-05T18:03:59.639Z"
 }
