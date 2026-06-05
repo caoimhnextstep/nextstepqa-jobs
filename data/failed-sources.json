@@ -8,40 +8,13 @@
   ],
   "source_stats": [
     {
-      "company": "Wayflyer",
-      "ats": "ashby",
-      "slug": "wayflyer",
+      "company": "Teamwork",
+      "ats": "workable",
+      "slug": "teamwork",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 65,
-      "last_success": "2026-06-04T18:04:02.119Z"
-    },
-    {
-      "company": "HubSpot",
-      "ats": "greenhouse",
-      "slug": "hubspot",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 72,
-      "last_success": "2026-06-04T18:04:02.133Z"
-    },
-    {
-      "company": "LetsGetChecked",
-      "ats": "greenhouse",
-      "slug": "letsgetchecked",
-      "jobs_found": 1,
-      "status": "ok",
-      "latency_ms": 76,
-      "last_success": "2026-06-04T18:04:02.140Z"
-    },
-    {
-      "company": "Flipdish",
-      "ats": "greenhouse",
-      "slug": "flipdish",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 82,
-      "last_success": "2026-06-04T18:04:02.145Z"
+      "latency_ms": 227,
+      "last_success": "2026-06-05T00:01:57.182Z"
     },
     {
       "company": "LearnUpon",
@@ -49,8 +22,8 @@
       "slug": "learnupon",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 90,
-      "last_success": "2026-06-04T18:04:02.153Z"
+      "latency_ms": 238,
+      "last_success": "2026-06-05T00:01:57.192Z"
     },
     {
       "company": "Fenergo",
@@ -58,26 +31,26 @@
       "slug": "fenergocareers",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 101,
-      "last_success": "2026-06-04T18:04:02.154Z"
+      "latency_ms": 268,
+      "last_success": "2026-06-05T00:01:57.194Z"
     },
     {
-      "company": "Teamwork",
-      "ats": "workable",
-      "slug": "teamwork",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 99,
-      "last_success": "2026-06-04T18:04:02.163Z"
-    },
-    {
-      "company": "Tines",
+      "company": "LetsGetChecked",
       "ats": "greenhouse",
-      "slug": "tines",
+      "slug": "letsgetchecked",
+      "jobs_found": 1,
+      "status": "ok",
+      "latency_ms": 254,
+      "last_success": "2026-06-05T00:01:57.210Z"
+    },
+    {
+      "company": "Flipdish",
+      "ats": "greenhouse",
+      "slug": "flipdish",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 103,
-      "last_success": "2026-06-04T18:04:02.164Z"
+      "latency_ms": 267,
+      "last_success": "2026-06-05T00:01:57.220Z"
     },
     {
       "company": "Poppulo",
@@ -85,17 +58,26 @@
       "slug": "poppulo",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 109,
-      "last_success": "2026-06-04T18:04:02.173Z"
+      "latency_ms": 277,
+      "last_success": "2026-06-05T00:01:57.233Z"
     },
     {
-      "company": "Squarespace",
+      "company": "Tines",
       "ats": "greenhouse",
-      "slug": "squarespace",
+      "slug": "tines",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 114,
-      "last_success": "2026-06-04T18:04:02.176Z"
+      "latency_ms": 288,
+      "last_success": "2026-06-05T00:01:57.236Z"
+    },
+    {
+      "company": "Wayflyer",
+      "ats": "ashby",
+      "slug": "wayflyer",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 325,
+      "last_success": "2026-06-05T00:01:57.253Z"
     },
     {
       "company": "Rent the Runway",
@@ -103,8 +85,17 @@
       "slug": "renttherunway",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 113,
-      "last_success": "2026-06-04T18:04:02.180Z"
+      "latency_ms": 294,
+      "last_success": "2026-06-05T00:01:57.256Z"
+    },
+    {
+      "company": "Squarespace",
+      "ats": "greenhouse",
+      "slug": "squarespace",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 312,
+      "last_success": "2026-06-05T00:01:57.261Z"
     },
     {
       "company": "NearForm",
@@ -112,8 +103,8 @@
       "slug": "nearform",
       "jobs_found": 1,
       "status": "ok",
-      "latency_ms": 119,
-      "last_success": "2026-06-04T18:04:02.183Z"
+      "latency_ms": 349,
+      "last_success": "2026-06-05T00:01:57.306Z"
     },
     {
       "company": "Qualtrics",
@@ -121,8 +112,8 @@
       "slug": "qualtrics",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 135,
-      "last_success": "2026-06-04T18:04:02.197Z"
+      "latency_ms": 412,
+      "last_success": "2026-06-05T00:01:57.362Z"
     },
     {
       "company": "Contentful",
@@ -130,8 +121,8 @@
       "slug": "contentful",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 138,
-      "last_success": "2026-06-04T18:04:02.201Z"
+      "latency_ms": 419,
+      "last_success": "2026-06-05T00:01:57.370Z"
     },
     {
       "company": "New Relic",
@@ -139,116 +130,8 @@
       "slug": "newrelic",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 145,
-      "last_success": "2026-06-04T18:04:02.205Z"
-    },
-    {
-      "company": "Kaseya",
-      "ats": "greenhouse",
-      "slug": "kaseya",
-      "jobs_found": 3,
-      "status": "ok",
-      "latency_ms": 176,
-      "last_success": "2026-06-04T18:04:02.232Z"
-    },
-    {
-      "company": "Intercom",
-      "ats": "greenhouse",
-      "slug": "intercom",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 182,
-      "last_success": "2026-06-04T18:04:02.243Z"
-    },
-    {
-      "company": "Elastic",
-      "ats": "greenhouse",
-      "slug": "elastic",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 218,
-      "last_success": "2026-06-04T18:04:02.276Z"
-    },
-    {
-      "company": "Cloudflare",
-      "ats": "greenhouse",
-      "slug": "cloudflare",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 235,
-      "last_success": "2026-06-04T18:04:02.297Z"
-    },
-    {
-      "company": "Klaviyo",
-      "ats": "greenhouse",
-      "slug": "klaviyo",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 254,
-      "last_success": "2026-06-04T18:04:02.317Z"
-    },
-    {
-      "company": "Stripe",
-      "ats": "greenhouse",
-      "slug": "stripe",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 311,
-      "last_success": "2026-06-04T18:04:02.335Z"
-    },
-    {
-      "company": "Okta",
-      "ats": "greenhouse",
-      "slug": "okta",
-      "jobs_found": 1,
-      "status": "ok",
-      "latency_ms": 306,
-      "last_success": "2026-06-04T18:04:02.363Z"
-    },
-    {
-      "company": "MongoDB",
-      "ats": "greenhouse",
-      "slug": "mongodb",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 331,
-      "last_success": "2026-06-04T18:04:02.389Z"
-    },
-    {
-      "company": "Deloitte",
-      "ats": "smartrecruiters",
-      "slug": "DeloitteIreland",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 406,
-      "last_success": "2026-06-04T18:04:02.472Z"
-    },
-    {
-      "company": "Ergo",
-      "ats": "smartrecruiters",
-      "slug": "ErgoGroup",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 417,
-      "last_success": "2026-06-04T18:04:02.483Z"
-    },
-    {
-      "company": "Accenture",
-      "ats": "smartrecruiters",
-      "slug": "AccentureIreland",
-      "jobs_found": 0,
-      "status": "ok",
-      "latency_ms": 437,
-      "last_success": "2026-06-04T18:04:02.502Z"
-    },
-    {
-      "company": "Keywords Studios",
-      "ats": "smartrecruiters",
-      "slug": "KeywordsStudios",
-      "jobs_found": 1,
-      "status": "ok",
-      "latency_ms": 466,
-      "last_success": "2026-06-04T18:04:02.533Z"
+      "latency_ms": 447,
+      "last_success": "2026-06-05T00:01:57.391Z"
     },
     {
       "company": "Kitman Labs",
@@ -256,8 +139,71 @@
       "slug": "kitmanlabs",
       "jobs_found": 2,
       "status": "ok",
-      "latency_ms": 501,
-      "last_success": "2026-06-04T18:04:02.556Z"
+      "latency_ms": 532,
+      "last_success": "2026-06-05T00:01:57.463Z"
+    },
+    {
+      "company": "Kaseya",
+      "ats": "greenhouse",
+      "slug": "kaseya",
+      "jobs_found": 3,
+      "status": "ok",
+      "latency_ms": 549,
+      "last_success": "2026-06-05T00:01:57.482Z"
+    },
+    {
+      "company": "Ergo",
+      "ats": "smartrecruiters",
+      "slug": "ErgoGroup",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 525,
+      "last_success": "2026-06-05T00:01:57.486Z"
+    },
+    {
+      "company": "Deloitte",
+      "ats": "smartrecruiters",
+      "slug": "DeloitteIreland",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 530,
+      "last_success": "2026-06-05T00:01:57.490Z"
+    },
+    {
+      "company": "Accenture",
+      "ats": "smartrecruiters",
+      "slug": "AccentureIreland",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 538,
+      "last_success": "2026-06-05T00:01:57.498Z"
+    },
+    {
+      "company": "Intercom",
+      "ats": "greenhouse",
+      "slug": "intercom",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 570,
+      "last_success": "2026-06-05T00:01:57.516Z"
+    },
+    {
+      "company": "Elastic",
+      "ats": "greenhouse",
+      "slug": "elastic",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 612,
+      "last_success": "2026-06-05T00:01:57.552Z"
+    },
+    {
+      "company": "Keywords Studios",
+      "ats": "smartrecruiters",
+      "slug": "KeywordsStudios",
+      "jobs_found": 1,
+      "status": "ok",
+      "latency_ms": 607,
+      "last_success": "2026-06-05T00:01:57.569Z"
     },
     {
       "company": "Version 1",
@@ -265,17 +211,35 @@
       "slug": "Version1",
       "jobs_found": 3,
       "status": "ok",
-      "latency_ms": 527,
-      "last_success": "2026-06-04T18:04:02.592Z"
+      "latency_ms": 616,
+      "last_success": "2026-06-05T00:01:57.574Z"
     },
     {
-      "company": "Datadog",
+      "company": "Klaviyo",
       "ats": "greenhouse",
-      "slug": "datadog",
+      "slug": "klaviyo",
       "jobs_found": 0,
       "status": "ok",
-      "latency_ms": 679,
-      "last_success": "2026-06-04T18:04:02.736Z"
+      "latency_ms": 716,
+      "last_success": "2026-06-05T00:01:57.668Z"
+    },
+    {
+      "company": "Stripe",
+      "ats": "greenhouse",
+      "slug": "stripe",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 874,
+      "last_success": "2026-06-05T00:01:57.709Z"
+    },
+    {
+      "company": "Okta",
+      "ats": "greenhouse",
+      "slug": "okta",
+      "jobs_found": 1,
+      "status": "ok",
+      "latency_ms": 836,
+      "last_success": "2026-06-05T00:01:57.771Z"
     },
     {
       "company": "CarTrawler",
@@ -283,9 +247,45 @@
       "slug": "cartrawler",
       "jobs_found": 1,
       "status": "ok",
-      "latency_ms": 1007,
-      "last_success": "2026-06-04T18:04:03.072Z"
+      "latency_ms": 825,
+      "last_success": "2026-06-05T00:01:57.783Z"
+    },
+    {
+      "company": "MongoDB",
+      "ats": "greenhouse",
+      "slug": "mongodb",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 911,
+      "last_success": "2026-06-05T00:01:57.850Z"
+    },
+    {
+      "company": "Datadog",
+      "ats": "greenhouse",
+      "slug": "datadog",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 984,
+      "last_success": "2026-06-05T00:01:57.921Z"
+    },
+    {
+      "company": "HubSpot",
+      "ats": "greenhouse",
+      "slug": "hubspot",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 1088,
+      "last_success": "2026-06-05T00:01:58.035Z"
+    },
+    {
+      "company": "Cloudflare",
+      "ats": "greenhouse",
+      "slug": "cloudflare",
+      "jobs_found": 0,
+      "status": "ok",
+      "latency_ms": 1580,
+      "last_success": "2026-06-05T00:01:58.530Z"
     }
   ],
-  "generated_at": "2026-06-04T18:04:09.064Z"
+  "generated_at": "2026-06-05T00:02:04.537Z"
 }
