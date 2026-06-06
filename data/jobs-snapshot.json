@@ -274,60 +274,6 @@
       "location_display": "Bangalore, India"
     },
     {
-      "company": "Kitman Labs",
-      "sector": "SportsTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
-      "title": "Senior QA Engineer",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
-      "posted": "2026-05-06T09:55:36.038Z",
-      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 30,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
       "company": "Okta",
       "sector": "Security",
       "city": "Dublin",
@@ -379,57 +325,6 @@
       "location_display": "Bengaluru, India"
     },
     {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 11,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
-    },
-    {
       "company": "Keywords Studios",
       "sector": "Gaming",
       "city": "Dublin",
@@ -479,7 +374,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 14,
+      "age_days": 15,
       "relevance_score": 0,
       "location_display": "Box Hill"
     },
@@ -691,6 +586,111 @@
       "age_days": 105,
       "relevance_score": 0,
       "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
+    },
+    {
+      "company": "Kitman Labs",
+      "sector": "SportsTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
+      "title": "Senior QA Engineer",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
+      "posted": "2026-05-06T09:55:36.038Z",
+      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 30,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "company": "CarTrawler",
+      "sector": "TravelTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 11,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
     },
     {
       "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
@@ -1107,7 +1107,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Rosenheim"
     },
@@ -1282,7 +1282,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-06T00:02:10.624Z",
+      "posted": "2026-06-06T06:03:49.278Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1333,7 +1333,7 @@
       "salary_label": "€80k–€100k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/commissioning-engineer/56828062",
-      "posted": "2026-06-06T00:02:10.624Z",
+      "posted": "2026-06-06T06:03:49.278Z",
       "description": "commissioning engineer - job description role overview responsible for carrying out the commissioning process from receipt of the project handover file from senior management through to final project handover and closure. this includes completion of all records and preparation of the project operation &amp; maintenance (o&amp;m) file where required. the role also involves documenting and maintaining the schedule of works for all commissioning ac... ",
       "classification": {
         "role_type": "qa",
@@ -1387,7 +1387,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-06T00:02:10.624Z",
+      "posted": "2026-06-06T06:03:49.278Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1438,7 +1438,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-06T00:02:11.141Z",
+      "posted": "2026-06-06T06:03:49.788Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1545,7 +1545,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-06T00:02:11.141Z",
+      "posted": "2026-06-06T06:03:49.788Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1599,7 +1599,7 @@
       "salary_label": "€42k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/qa-localization-engineer-multilingual/56838758",
-      "posted": "2026-06-06T00:02:12.682Z",
+      "posted": "2026-06-06T06:03:51.276Z",
       "description": "job description location: cork, ireland (100% onsite) contract duration: 6 months start date: asap salary: 42,000/year pro rata languages: french canadian , danish, norwegian, hebrew, portuguese, romanian, swedish, slovak, canadian english, australian english, british english, brazilian portuguese, czech, french, spanish latin american, slovenian join a global leader as a multilingual qa localisation engineer in cork, ireland benefits first: emb... ",
       "classification": {
         "role_type": "qa",
@@ -1653,7 +1653,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-06T00:02:12.682Z",
+      "posted": "2026-06-06T06:03:51.276Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1707,7 +1707,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-06T00:02:12.682Z",
+      "posted": "2026-06-06T06:03:51.276Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1800,60 +1800,6 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56980752",
-      "title": "Senior/Associate Electrical Engineer",
-      "company": "Hays Specialist Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 55000,
-      "salary_max": 70000,
-      "salary_label": "€55k–€70k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
-      "posted": "2026-03-06T00:00:00.000Z",
-      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 92,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
       "id": "reed-56967870",
       "title": "Lead Electrical Design Engineer",
       "company": "Hays Specialist Recruitment Limited",
@@ -1908,6 +1854,60 @@
       "location_display": "Ireland"
     },
     {
+      "id": "reed-56980752",
+      "title": "Senior/Associate Electrical Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "salary_label": "€55k–€70k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
+      "posted": "2026-03-06T00:00:00.000Z",
+      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 92,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
       "id": "reed-56902036",
       "title": "Head of Health & Safety (Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
@@ -1923,7 +1923,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-06T00:02:12.682Z",
+      "posted": "2026-06-06T06:03:51.276Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -2016,7 +2016,7 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56772727",
+      "id": "reed-56987647",
       "title": "Project Engineer",
       "company": "Appcast Enterprise",
       "location": "Dublin",
@@ -2030,9 +2030,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-06-06T00:02:12.682Z",
-      "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
+      "url": "https://www.reed.co.uk/jobs/project-engineer/56987647",
+      "posted": "2026-04-06T00:00:00.000Z",
+      "description": "project engineer – silent aire silent aire, a johnson controls company, is a global leader in designing, engineering, and manufacturing innovative cooling and hvac solutions for mission-critical environments. specializing in data centers and advanced technology facilities, silent aire delivers cutting-edge systems that ensure reliability, energy efficiency, and sustainability. with a strong focus on quality and continuous improvement, the compan... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -2065,7 +2065,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 61,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -2176,5 +2176,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-06T00:02:14.018Z"
+  "generated_at": "2026-06-06T06:03:52.578Z"
 }
