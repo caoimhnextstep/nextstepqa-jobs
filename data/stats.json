@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T18:02:55.146Z",
+  "generated_at": "2026-06-07T00:03:50.720Z",
   "total_jobs": 41,
   "irish_jobs": 30,
   "remote_jobs": 2,
@@ -13,8 +13,8 @@
   },
   "by_ats": {
     "greenhouse": 6,
-    "smartrecruiters": 5,
     "lever": 2,
+    "smartrecruiters": 5,
     "arbeitnow": 11,
     "reed": 17
   },
@@ -22,10 +22,10 @@
     "HealthTech": 1,
     "Consulting": 5,
     "IT Mgmt": 3,
-    "Security": 1,
-    "Gaming": 1,
     "SportsTech": 1,
+    "Gaming": 1,
     "TravelTech": 1,
+    "Security": 1,
     "Tech": 28
   },
   "by_role_type": {
