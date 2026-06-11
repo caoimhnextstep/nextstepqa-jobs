@@ -267,7 +267,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 35,
+      "age_days": 36,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
     },
@@ -527,7 +527,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 7,
+      "age_days": 8,
       "relevance_score": 0,
       "location_display": "London"
     },
@@ -581,7 +581,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 110,
+      "age_days": 111,
       "relevance_score": 0,
       "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
     },
@@ -632,9 +632,60 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 16,
+      "age_days": 17,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
+    },
+    {
+      "id": "arb-manual-quality-assurance-engineer-simba-team-germany-382326",
+      "title": "Manual Quality Assurance Engineer, SIMBA Team",
+      "company": "Speechify",
+      "location": "Germany",
+      "city": "Germany",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/speechify/manual-quality-assurance-engineer-simba-team-germany-382326",
+      "posted": "2026-06-11T06:45:29.000Z",
+      "description": " \n  about simba voice agents by speechify  simba lets companies deploy natural, human-sounding ai voice agents in 71+ languages with sub-second latency. we don't just hand customers a product and wish them luck — every customer gets a forward deployed engineer who builds their agents, joins their slack, and iterates with them weekly. we're building the future of voice ai, and we're looking for someone who can sell that vision and help bring it to life. \n &nbsp; \n \n  overview  \n our team is committed to changing the way people read and with our exponential growth, we are looking for a strong qa",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Germany"
     },
     {
       "id": "arb-softwaretest-engineer-kempten-80036",
@@ -683,7 +734,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Kempten"
     },
@@ -842,7 +893,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Gilching"
     },
@@ -944,7 +995,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Lehrte"
     },
@@ -1054,57 +1105,6 @@
       "location_display": "Hamburg"
     },
     {
-      "id": "arb-automatisierer-sps-programmierer-bohmte-13270",
-      "title": "Automatisierer / SPS-Programmierer (m/w/d)",
-      "company": "Keil Anlagenbau GmbH & Co. KG",
-      "location": "Bohmte",
-      "city": "Bohmte",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/keil-anlagenbau-gmbh-co-kg/automatisierer-sps-programmierer-bohmte-13270",
-      "posted": "2026-06-04T11:00:33.000Z",
-      "description": "  technik, die bewegt. automatisierung, die funktioniert.  \n bei keil anlagenbau entwickeln und realisieren wir individuelle verfahrenstechnische anlagen für unterschiedlichste industrien – von chemie und bauchemie über polyurethan bis hin zu energie- und umwelttechnik. \n damit unsere anlagen weltweit zuverlässig laufen, braucht es intelligente automatisierungslösungen. genau hier kommst du ins spiel. \n zur verstärkung unseres automationsteams suchen wir zum nächstmöglichen zeitpunkt einen \n  automatisierer / sps-programmierer (m/w/d)  \n am standort bohmte. \n aufgaben \n \n erstellung von sps-pr",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Bohmte"
-    },
-    {
       "id": "reed-57002255",
       "title": "Site Manager",
       "company": "Matchtech ",
@@ -1174,7 +1174,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-11T06:00:41.249Z",
+      "posted": "2026-06-11T12:00:39.289Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1225,7 +1225,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-11T06:00:41.249Z",
+      "posted": "2026-06-11T12:00:39.289Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1327,7 +1327,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-11T06:00:41.751Z",
+      "posted": "2026-06-11T12:00:39.790Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1434,7 +1434,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-11T06:00:41.751Z",
+      "posted": "2026-06-11T12:00:39.790Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1488,7 +1488,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-11T06:00:43.253Z",
+      "posted": "2026-06-11T12:00:41.354Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1542,7 +1542,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-11T06:00:43.253Z",
+      "posted": "2026-06-11T12:00:41.354Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1635,60 +1635,6 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56980752",
-      "title": "Senior/Associate Electrical Engineer",
-      "company": "Hays Specialist Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 55000,
-      "salary_max": 70000,
-      "salary_label": "€55k–€70k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
-      "posted": "2026-03-06T00:00:00.000Z",
-      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 97,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
       "id": "reed-56967870",
       "title": "Lead Electrical Design Engineer",
       "company": "Hays Specialist Recruitment Limited",
@@ -1739,6 +1685,60 @@
         "nextStep": "Close the gap with the course →"
       },
       "age_days": 156,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-56980752",
+      "title": "Senior/Associate Electrical Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "salary_label": "€55k–€70k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
+      "posted": "2026-03-06T00:00:00.000Z",
+      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 97,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1812,7 +1812,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-11T06:00:43.253Z",
+      "posted": "2026-06-11T12:00:41.354Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1851,7 +1851,7 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56993471",
+      "id": "reed-56772727",
       "title": "Project Engineer",
       "company": "Appcast Enterprise",
       "location": "Dublin",
@@ -1865,9 +1865,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.reed.co.uk/jobs/project-engineer/56993471",
-      "posted": "2026-07-06T00:00:00.000Z",
-      "description": "project engineer – silent aire silent aire, a johnson controls company, is a global leader in designing, engineering, and manufacturing innovative cooling and hvac solutions for mission-critical environments. specializing in data centers and advanced technology facilities, silent aire delivers cutting-edge systems that ensure reliability, energy efficiency, and sustainability. with a strong focus on quality and continuous improvement, the compan... ",
+      "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
+      "posted": "2026-06-11T12:00:41.354Z",
+      "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -1900,7 +1900,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -25,
+      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -2011,5 +2011,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-11T06:00:44.565Z"
+  "generated_at": "2026-06-11T12:00:42.628Z"
 }
