@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T00:04:16.432Z",
+  "generated_at": "2026-06-12T06:01:33.747Z",
   "total_jobs": 40,
   "irish_jobs": 30,
   "remote_jobs": 2,
@@ -13,8 +13,8 @@
   },
   "by_ats": {
     "greenhouse": 6,
-    "lever": 2,
     "smartrecruiters": 5,
+    "lever": 2,
     "arbeitnow": 10,
     "reed": 17
   },
@@ -43,5 +43,5 @@
     "ci_cd": 0
   },
   "playwright_demand_pct": 0,
-  "errors": 0
+  "errors": 1
 }
