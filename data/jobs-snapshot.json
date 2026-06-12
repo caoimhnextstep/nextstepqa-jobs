@@ -47,7 +47,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 14,
+      "age_days": 15,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
     },
@@ -101,7 +101,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Permanent · Remote"
     },
@@ -155,7 +155,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Contract"
     },
@@ -211,7 +211,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 28,
+      "age_days": 29,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
     },
@@ -267,7 +267,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 14,
+      "age_days": 15,
       "relevance_score": 0,
       "location_display": "Bangalore, India"
     },
@@ -324,57 +324,6 @@
       "age_days": 37,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 18,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
     },
     {
       "company": "Keywords Studios",
@@ -477,7 +426,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "London"
     },
@@ -530,7 +479,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
@@ -691,6 +640,108 @@
       "location_display": "Bengaluru, India"
     },
     {
+      "company": "CarTrawler",
+      "sector": "TravelTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 18,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
+    },
+    {
+      "id": "arb-techniker-systemintegration-mechatronik-munich-317719",
+      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
+      "company": "MY Humancapital GmbH",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-317719",
+      "posted": "2026-06-12T16:30:44.000Z",
+      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
       "id": "arb-projektleiter-automation-elektrotechnik-hamburg-329707",
       "title": "Projektleiter (m/w/d) Automation Elektrotechnik",
       "company": "Ward Howell International Prasuhn GmbH",
@@ -737,7 +788,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -894,7 +945,7 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -945,7 +996,7 @@
         "youNeed": [],
         "nextStep": null
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -1003,57 +1054,6 @@
       "location_display": "Gilching"
     },
     {
-      "id": "arb-quality-assurance-engineer-wiesbaden-478276",
-      "title": "Quality Assurance Engineer (m/f/d)",
-      "company": "Yalwa GmbH",
-      "location": "Wiesbaden",
-      "city": "Wiesbaden",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/yalwa-gmbh/quality-assurance-engineer-wiesbaden-478276",
-      "posted": "2026-06-08T15:20:10.000Z",
-      "description": "   full-time •  first experience   • wiesbaden • (m/f/d)      at yalwa, bringing people together is our mission. we strive to make the digital world a place where people build real-life connections. working at yalwa means being part of a friendly, passionate team of people from over twenty-five different countries. with the support of your colleagues, you’ll have the opportunity to challenge yourself, evolve, share your knowledge, hone your skills and work on ambitious projects.     ready to take the next step in your career? we're looking for a dedicated qa engineer to join our team!      you",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 3,
-      "relevance_score": 0,
-      "location_display": "Wiesbaden"
-    },
-    {
       "id": "arb-teilprojektleiter-automatisierung-und-telekommunikation-offshore-lehrte-228247",
       "title": "Teilprojektleiter Automatisierung und Telekommunikation Offshore (m/w/d)",
       "company": "ATLAS TITAN Ost GmbH",
@@ -1105,11 +1105,11 @@
       "location_display": "Lehrte"
     },
     {
-      "id": "arb-techniker-systemintegration-mechatronik-munich-374557",
-      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
-      "company": "MY Humancapital GmbH",
-      "location": "Munich",
-      "city": "Munich",
+      "id": "arb-software-tester-mit-schwerpunkt-sap-stuttgart-62794",
+      "title": "Software-Tester (m/w/d) mit Schwerpunkt SAP®",
+      "company": "Software4Professionals GmbH & Co. KG",
+      "location": "Stuttgart",
+      "city": "Stuttgart",
       "country": "EU",
       "sector": "Tech",
       "ats": "arbeitnow",
@@ -1119,9 +1119,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-374557",
-      "posted": "2026-06-05T17:00:34.000Z",
-      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
+      "url": "https://www.arbeitnow.com/jobs/companies/software4professionals-gmbh-co-kg/software-tester-mit-schwerpunkt-sap-stuttgart-62794",
+      "posted": "2026-06-12T07:29:02.000Z",
+      "description": " denkbar wäre, dass sap®-prozesse im finanz- und rechnungswesen vollständig automatisiert sind und unsere kunden sich nie mehr mit lästigen aufgaben herumschlagen, oder? auf geht‘s, dann packen wir das an! seit mehr als 20 jahren machen wir das denkbare möglich und entwickeln im sap®-umfeld sehr erfolgreich softwareprodukte, die es unseren kunden einfach machen. \n für unser team suchen wir eine/n \n  software-tester (m/w/d) mit schwerpunkt sap®  \n eintrittsdatum: ab sofort \nvertragsart: festanstellung \n  deine mission:  \n du liebst es, fehler zu finden, bevor andere sie überhaupt bemerken? perf",
       "classification": {
         "role_type": "qa",
         "level": "mid",
@@ -1151,63 +1151,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 6,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Munich"
-    },
-    {
-      "id": "arb-senior-testmanagement-consultant-hamburg-381247",
-      "title": "Senior Testmanagement Consultant (m/w/d)",
-      "company": "red6 enterprise software GmbH",
-      "location": "Hamburg",
-      "city": "Hamburg",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/red6-enterprise-software-gmbh/senior-testmanagement-consultant-hamburg-381247",
-      "posted": "2026-06-05T12:30:36.000Z",
-      "description": " die red6 enterprise software gmbh ist ein unternehmen im hansemerkur-konzern. als dienstleister entwickeln wir softwarelösungen für die versicherungsbranche sowohl für die hansemerkur als auch für andere unternehmen. wir unterstützen unsere kunden von der idee bis zum livegang. dabei setzen wir auf neueste technologien und agile zusammenarbeit. \n unsere firma besteht aus 70 mitarbeitenden aus den unterschiedlichsten fachgebieten wie softwareentwicklung, qualitätssicherung, ux/ui design, anforderungs- und projektmanagement. ein starker teamgeist, selbstorganisation und agilität prägen unsere a",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Hamburg"
+      "location_display": "Stuttgart"
     },
     {
       "id": "reed-57002255",
@@ -1279,7 +1225,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-12T12:00:18.239Z",
+      "posted": "2026-06-12T18:03:32.596Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1330,7 +1276,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-12T12:00:18.239Z",
+      "posted": "2026-06-12T18:03:32.596Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1432,7 +1378,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-12T12:00:18.742Z",
+      "posted": "2026-06-12T18:03:33.119Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1539,7 +1485,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-12T12:00:18.742Z",
+      "posted": "2026-06-12T18:03:33.119Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1593,7 +1539,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-12T12:00:20.229Z",
+      "posted": "2026-06-12T18:03:34.619Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1647,7 +1593,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-12T12:00:20.229Z",
+      "posted": "2026-06-12T18:03:34.619Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1902,6 +1848,57 @@
       "location_display": "Ireland"
     },
     {
+      "id": "reed-57014883",
+      "title": "SHEQ Manager (UK & Ireland)",
+      "company": "Ernest Gordon Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 65000,
+      "salary_max": 75000,
+      "salary_label": "€65k–€75k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57014883",
+      "posted": "2026-12-06T00:00:00.000Z",
+      "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": -177,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
       "id": "reed-56902036",
       "title": "Head of Health & Safety (Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
@@ -1917,7 +1914,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-12T12:00:20.229Z",
+      "posted": "2026-06-12T18:03:34.619Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1956,7 +1953,7 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56993471",
+      "id": "reed-56772727",
       "title": "Project Engineer",
       "company": "Appcast Enterprise",
       "location": "Dublin",
@@ -1970,9 +1967,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.reed.co.uk/jobs/project-engineer/56993471",
-      "posted": "2026-07-06T00:00:00.000Z",
-      "description": "project engineer – silent aire silent aire, a johnson controls company, is a global leader in designing, engineering, and manufacturing innovative cooling and hvac solutions for mission-critical environments. specializing in data centers and advanced technology facilities, silent aire delivers cutting-edge systems that ensure reliability, energy efficiency, and sustainability. with a strong focus on quality and continuous improvement, the compan... ",
+      "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
+      "posted": "2026-06-12T18:03:34.619Z",
+      "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -2005,7 +2002,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -24,
+      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -2116,5 +2113,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-12T12:00:21.546Z"
+  "generated_at": "2026-06-12T18:03:35.928Z"
 }
