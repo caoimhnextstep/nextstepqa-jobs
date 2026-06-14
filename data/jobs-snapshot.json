@@ -1205,7 +1205,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -85,
+      "age_days": -84,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1225,7 +1225,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-13T18:00:13.651Z",
+      "posted": "2026-06-14T00:04:40.838Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1276,7 +1276,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-13T18:00:13.651Z",
+      "posted": "2026-06-14T00:04:40.838Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1358,7 +1358,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -85,
+      "age_days": -84,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1378,7 +1378,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-13T18:00:14.144Z",
+      "posted": "2026-06-14T00:04:41.345Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1465,7 +1465,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 8,
+      "age_days": 9,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1485,7 +1485,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-13T18:00:14.144Z",
+      "posted": "2026-06-14T00:04:41.345Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1539,7 +1539,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-13T18:00:15.621Z",
+      "posted": "2026-06-14T00:04:42.844Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1593,7 +1593,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-13T18:00:15.621Z",
+      "posted": "2026-06-14T00:04:42.844Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1681,61 +1681,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 38,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
-      "id": "reed-56980752",
-      "title": "Senior/Associate Electrical Engineer",
-      "company": "Hays Specialist Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 55000,
-      "salary_max": 70000,
-      "salary_label": "€55k–€70k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
-      "posted": "2026-03-06T00:00:00.000Z",
-      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 99,
+      "age_days": 39,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1789,7 +1735,61 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 158,
+      "age_days": 159,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-56980752",
+      "title": "Senior/Associate Electrical Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "salary_label": "€55k–€70k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
+      "posted": "2026-03-06T00:00:00.000Z",
+      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 100,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1843,7 +1843,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -54,
+      "age_days": -53,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1894,7 +1894,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -176,
+      "age_days": -175,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1914,7 +1914,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-13T18:00:15.621Z",
+      "posted": "2026-06-14T00:04:42.844Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1953,7 +1953,7 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56993471",
+      "id": "reed-56772727",
       "title": "Project Engineer",
       "company": "Appcast Enterprise",
       "location": "Dublin",
@@ -1967,9 +1967,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.reed.co.uk/jobs/project-engineer/56993471",
-      "posted": "2026-07-06T00:00:00.000Z",
-      "description": "project engineer – silent aire silent aire, a johnson controls company, is a global leader in designing, engineering, and manufacturing innovative cooling and hvac solutions for mission-critical environments. specializing in data centers and advanced technology facilities, silent aire delivers cutting-edge systems that ensure reliability, energy efficiency, and sustainability. with a strong focus on quality and continuous improvement, the compan... ",
+      "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
+      "posted": "2026-06-14T00:04:42.844Z",
+      "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -2002,7 +2002,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -23,
+      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -2053,7 +2053,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 68,
+      "age_days": 69,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -2108,10 +2108,10 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": -175,
+      "age_days": -174,
       "relevance_score": 0,
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-13T18:00:16.927Z"
+  "generated_at": "2026-06-14T00:04:44.153Z"
 }
