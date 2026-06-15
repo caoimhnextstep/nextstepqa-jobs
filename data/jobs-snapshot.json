@@ -272,60 +272,6 @@
       "location_display": "Bangalore, India"
     },
     {
-      "company": "Kitman Labs",
-      "sector": "SportsTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
-      "title": "Senior QA Engineer",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
-      "posted": "2026-05-06T09:55:36.038Z",
-      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 39,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
       "company": "Okta",
       "sector": "Security",
       "city": "Dublin",
@@ -375,6 +321,60 @@
       "age_days": 3,
       "relevance_score": 0,
       "location_display": "Bengaluru, India"
+    },
+    {
+      "company": "Kitman Labs",
+      "sector": "SportsTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
+      "title": "Senior QA Engineer",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
+      "posted": "2026-05-06T09:55:36.038Z",
+      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 40,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
     },
     {
       "company": "Keywords Studios",
@@ -581,7 +581,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 11,
+      "age_days": 12,
       "relevance_score": 0,
       "location_display": "London"
     },
@@ -632,9 +632,60 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 20,
+      "age_days": 21,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
+    },
+    {
+      "id": "arb-informationsspezialistin-isms-berlin-11675",
+      "title": "Informationsspezialist:in ISMS",
+      "company": "wabcon",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/wabcon/informationsspezialistin-isms-berlin-11675",
+      "posted": "2026-06-15T06:00:26.000Z",
+      "description": " unser kunde ist eine der erfolgreichsten unternehmensberatungen in deutschland im bereich informationssicherheit mit sitz in berlin. das unternehmen unterstützt kunden aus unterschiedlichen branchen bei der einführung, weiterentwicklung und zertifizierung von informationssicherheitsmanagementsystemen (isms) nach iso/iec 27001 und bsi it-grundschutz. durch die verbindung von strategischer beratung, technischem know-how und praxisnaher umsetzung begleitet es organisationen dabei, ihre informationssicherheit nachhaltig zu stärken und regulatorische anforderungen erfolgreich zu erfüllen. \n zur ve",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Berlin"
     },
     {
       "id": "arb-techniker-systemintegration-mechatronik-munich-317719",
@@ -785,7 +836,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Germany"
     },
@@ -836,7 +887,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Kempten"
     },
@@ -995,60 +1046,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
-      "relevance_score": 0,
-      "location_display": "Gilching"
-    },
-    {
-      "id": "arb-teilprojektleiter-automatisierung-und-telekommunikation-offshore-lehrte-228247",
-      "title": "Teilprojektleiter Automatisierung und Telekommunikation Offshore (m/w/d)",
-      "company": "ATLAS TITAN Ost GmbH",
-      "location": "Lehrte",
-      "city": "Lehrte",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/atlas-titan-ost-gmbh/teilprojektleiter-automatisierung-und-telekommunikation-offshore-lehrte-228247",
-      "posted": "2026-06-08T09:30:46.000Z",
-      "description": " im rahmen eines anspruchsvollen offshore-netzanbindungsprojekts verantworten sie die technische steuerung und umsetzung von automatisierungs- und telekommunikationssystemen auf konverterplattformen und landstationen. der fokus liegt auf der sicherstellung von qualität, compliance und termingerechter realisierung über sämtliche projektphasen hinweg. \n aufgaben \n \n verantwortung für die vertragskonforme umsetzung der automatisierungs- und telekommunikationssysteme auf offshore-konverterplattform und landstation über alle projektphasen hinweg \n sicherstellung der einhaltung von genehmigungen, te",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
       "age_days": 6,
       "relevance_score": 0,
-      "location_display": "Lehrte"
+      "location_display": "Gilching"
     },
     {
       "id": "arb-software-tester-mit-schwerpunkt-sap-stuttgart-62794",
@@ -1097,7 +1097,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Stuttgart"
     },
@@ -1171,7 +1171,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-15T06:03:05.678Z",
+      "posted": "2026-06-15T12:00:37.713Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1222,7 +1222,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-15T06:03:05.678Z",
+      "posted": "2026-06-15T12:00:37.713Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1324,7 +1324,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-15T06:03:06.177Z",
+      "posted": "2026-06-15T12:00:38.176Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1431,7 +1431,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-15T06:03:06.177Z",
+      "posted": "2026-06-15T12:00:38.176Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1485,7 +1485,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-15T06:03:07.656Z",
+      "posted": "2026-06-15T12:00:39.642Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1539,7 +1539,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-15T06:03:07.656Z",
+      "posted": "2026-06-15T12:00:39.642Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1860,7 +1860,7 @@
       "salary_label": "€65k–€75k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/head-of-health-safety-manufacturing/56902036",
-      "posted": "2026-06-15T06:03:07.656Z",
+      "posted": "2026-06-15T12:00:39.642Z",
       "description": "head of health &amp; safety (manufacturing) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you from a health &amp; safety background looking for a leading, senior role, responsible for driving change and influencing the future success of one of the most recognisable companies in ireland? are you looking to utilise your h&amp;s expertise to make a positive impact across multiple industrial sites... ",
       "classification": {
         "role_type": "qa",
@@ -1914,7 +1914,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-06-15T06:03:07.656Z",
+      "posted": "2026-06-15T12:00:39.642Z",
       "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
@@ -2059,5 +2059,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-15T06:03:08.947Z"
+  "generated_at": "2026-06-15T12:00:40.950Z"
 }
