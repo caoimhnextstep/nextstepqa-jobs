@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T06:03:54.814Z",
+  "generated_at": "2026-06-16T12:00:20.690Z",
   "total_jobs": 41,
   "irish_jobs": 30,
   "remote_jobs": 2,
@@ -19,13 +19,13 @@
     "reed": 18
   },
   "by_sector": {
-    "HealthTech": 1,
     "Consulting": 5,
-    "IT Mgmt": 2,
+    "HealthTech": 1,
     "Security": 1,
+    "IT Mgmt": 2,
     "Gaming": 1,
-    "TravelTech": 1,
     "SportsTech": 1,
+    "TravelTech": 1,
     "Tech": 29
   },
   "by_role_type": {
