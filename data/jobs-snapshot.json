@@ -1,6 +1,57 @@
 {
   "jobs": [
     {
+      "company": "LetsGetChecked",
+      "sector": "HealthTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-letsgetchecked-4877532101",
+      "title": "QA Engineer - Fuze Services",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
+      "posted": "2026-05-28T08:45:21-04:00",
+      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 20,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
       "company": "NearForm",
       "sector": "Consulting",
       "city": "Remote",
@@ -221,11 +272,11 @@
       "location_display": "Bangalore, India"
     },
     {
-      "company": "Okta",
-      "sector": "Security",
+      "company": "Keywords Studios",
+      "sector": "Gaming",
       "city": "Dublin",
       "country": "IE",
-      "ats": "greenhouse",
+      "ats": "smartrecruiters",
       "source_type": "direct_company_feed",
       "source_verified": false,
       "salary_min": null,
@@ -234,7 +285,7 @@
       "remote": false,
       "classification": {
         "role_type": "qa",
-        "level": "mid",
+        "level": "senior",
         "transition_friendly": false
       },
       "signals": {
@@ -249,13 +300,16 @@
         "java": false,
         "performance": false
       },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-11T20:54:12-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
+      "id": "sr-KeywordsStudios-744000127793779",
+      "title": "Senior Quality Assurance Analyst - Video Games",
+      "location": "Box Hill",
+      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
+      "posted": "2026-05-22T01:57:05.528Z",
+      "description": "",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
       "gap": {
         "qualifyIf": [
           "Automation framework exp",
@@ -267,9 +321,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 26,
       "relevance_score": 0,
-      "location_display": "Bengaluru, India"
+      "location_display": "Box Hill"
     },
     {
       "company": "Version 1",
@@ -427,111 +481,6 @@
       "location_display": "London"
     },
     {
-      "company": "Keywords Studios",
-      "sector": "Gaming",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-KeywordsStudios-744000127793779",
-      "title": "Senior Quality Assurance Analyst - Video Games",
-      "location": "Box Hill",
-      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
-      "posted": "2026-05-22T01:57:05.528Z",
-      "description": "",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 26,
-      "relevance_score": 0,
-      "location_display": "Box Hill"
-    },
-    {
-      "company": "LetsGetChecked",
-      "sector": "HealthTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-letsgetchecked-4877532101",
-      "title": "QA Engineer - Fuze Services",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
-      "posted": "2026-05-28T08:45:21-04:00",
-      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 20,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
       "company": "Kitman Labs",
       "sector": "SportsTech",
       "city": "Dublin",
@@ -635,6 +584,57 @@
       "age_days": 23,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
+    },
+    {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-11T20:54:12-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 5,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
     },
     {
       "id": "arb-qa-manager-teilzeit-hamburg-104137",
@@ -1047,7 +1047,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -81,
+      "age_days": -80,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1067,7 +1067,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-17T18:01:43.115Z",
+      "posted": "2026-06-18T00:00:38.559Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1118,7 +1118,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-17T18:01:43.115Z",
+      "posted": "2026-06-18T00:00:38.559Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1200,7 +1200,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -81,
+      "age_days": -80,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1220,7 +1220,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-17T18:01:43.624Z",
+      "posted": "2026-06-18T00:00:39.075Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1258,60 +1258,6 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56864632",
-      "title": "Data Engineer - Belfast",
-      "company": "Tenth Revolution Group",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 30000,
-      "salary_max": 40000,
-      "salary_label": "€30k–€40k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/data-engineer-belfast/56864632",
-      "posted": "2026-06-05T00:00:00.000Z",
-      "description": "data &amp; ai engineer - up to 40,000 location: belfast (hybrid working) security clearance: uk sc eligibility required the opportunity we are supporting a leading organisation within the technology and data space that deliver large-scale, technology-enabled transformations. this team specialises in building modern, data-driven solutions that enable better decision-making, automation, and innovation. this role is ideal for a data engineer or ai ... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 12,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
       "id": "reed-56896248",
       "title": "Java Engineer - Multiple Opportunities",
       "company": "Hays Specialist Recruitment Limited",
@@ -1327,7 +1273,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-17T18:01:43.624Z",
+      "posted": "2026-06-18T00:00:39.075Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1381,7 +1327,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-17T18:01:45.094Z",
+      "posted": "2026-06-18T00:00:40.590Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1435,7 +1381,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-17T18:01:45.095Z",
+      "posted": "2026-06-18T00:00:40.590Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1523,7 +1469,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 42,
+      "age_days": 43,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1577,7 +1523,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 162,
+      "age_days": 163,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1631,7 +1577,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 103,
+      "age_days": 104,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1685,7 +1631,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -50,
+      "age_days": -49,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1705,7 +1651,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-17T18:01:45.095Z",
+      "posted": "2026-06-18T00:00:40.590Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1756,7 +1702,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-06-17T18:01:45.095Z",
+      "posted": "2026-06-18T00:00:40.590Z",
       "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
@@ -1841,7 +1787,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 72,
+      "age_days": 73,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -1896,10 +1842,10 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": -171,
+      "age_days": -170,
       "relevance_score": 0,
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-17T18:01:46.386Z"
+  "generated_at": "2026-06-18T00:00:41.900Z"
 }
