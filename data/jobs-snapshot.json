@@ -1,6 +1,57 @@
 {
   "jobs": [
     {
+      "company": "LetsGetChecked",
+      "sector": "HealthTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-letsgetchecked-4877532101",
+      "title": "QA Engineer - Fuze Services",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
+      "posted": "2026-06-18T08:14:53-04:00",
+      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
       "company": "NearForm",
       "sector": "Consulting",
       "city": "Remote",
@@ -50,7 +101,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "UK · Remote"
     },
@@ -104,7 +155,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 9,
+      "age_days": 10,
       "relevance_score": 0,
       "location_display": "Contract"
     },
@@ -160,7 +211,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 34,
+      "age_days": 35,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
     },
@@ -216,7 +267,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 20,
+      "age_days": 21,
       "relevance_score": 0,
       "location_display": "Bangalore, India"
     },
@@ -371,7 +422,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 9,
+      "age_days": 10,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
@@ -425,6 +476,60 @@
       "age_days": 15,
       "relevance_score": 0,
       "location_display": "London"
+    },
+    {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000110343655",
+      "title": "Senior Automation Test Engineer",
+      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000110343655",
+      "posted": "2026-02-20T10:04:59.837Z",
+      "description": "",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 118,
+      "relevance_score": 0,
+      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
     },
     {
       "company": "Keywords Studios",
@@ -584,57 +689,6 @@
       "age_days": 24,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
-    },
-    {
-      "company": "LetsGetChecked",
-      "sector": "HealthTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-letsgetchecked-4877532101",
-      "title": "QA Engineer - Fuze Services",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
-      "posted": "2026-05-28T08:45:21-04:00",
-      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 20,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
     },
     {
       "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
@@ -950,7 +1004,7 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1103,16 +1157,16 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Munich"
     },
     {
-      "id": "arb-projektleiter-automation-elektrotechnik-hamburg-329707",
-      "title": "Projektleiter (m/w/d) Automation Elektrotechnik",
-      "company": "Ward Howell International Prasuhn GmbH",
-      "location": "Hamburg",
-      "city": "Hamburg",
+      "id": "arb-test-engineer-web-ui-braunschweig-272879",
+      "title": "Test Engineer WEB UI (m/f/d)",
+      "company": "smartmicro",
+      "location": "Braunschweig",
+      "city": "Braunschweig",
       "country": "EU",
       "sector": "Tech",
       "ats": "arbeitnow",
@@ -1122,12 +1176,12 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/ward-howell-international-prasuhn-gmbh/projektleiter-automation-elektrotechnik-hamburg-329707",
-      "posted": "2026-06-11T16:00:35.000Z",
-      "description": " unser kunde ist ein führendes unternehmen im bereich industrieller wasseraufbereitung und umwelttechnologie. aufgrund des weiteren wachstums des unternehmens suchen wir für unseren kunden eine/n  projektleiter (m/w/d) region hamburg.  \n du bist ein erfahrener elektrotechnikingenieur und hast das gefühl, dass du in deiner aktuellen position zu sehr eingeschränkt wirst? du wünschst dir mehr freiheit, möchtest langfristig strategisch wachsen und stück für stück mehr verantwortung übernehmen? dann könnte diese position genau das richtige für dich sein! \n  deine chance:  als  projektleiter elektro",
+      "url": "https://www.arbeitnow.com/jobs/companies/smartmicro/test-engineer-web-ui-braunschweig-272879",
+      "posted": "2026-06-18T14:29:02.000Z",
+      "description": " introduction \n we are smartmicro, the leading specialist in high-performance automotive and traffic radar- and radar/camera hybrid sensor technology. we design, develop and manufacture high-tech sensors for autonomous driving, intelligent traffic infrastructure and smart cities. our mission is to make roads safer, enable autonomous driving in all-weather scenarios, optimize traffic flow for reduced travel times and enable greener, smarter cities. \n we are a german company with international presence in the uk and in the us, while we are headquartered in braunschweig for design, development an",
       "classification": {
         "role_type": "qa",
-        "level": "mid",
+        "level": "senior",
         "transition_friendly": false
       },
       "signals": {
@@ -1142,7 +1196,10 @@
         "java": false,
         "performance": false
       },
-      "demand": null,
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
       "gap": {
         "qualifyIf": [
           "Automation framework exp",
@@ -1154,9 +1211,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 6,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Hamburg"
+      "location_display": "Braunschweig"
     },
     {
       "id": "arb-software-tester-mit-schwerpunkt-sap-stuttgart-62794",
@@ -1279,7 +1336,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-18T12:04:24.759Z",
+      "posted": "2026-06-18T18:02:32.417Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1330,7 +1387,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-18T12:04:24.759Z",
+      "posted": "2026-06-18T18:02:32.417Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1432,7 +1489,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-18T12:04:25.260Z",
+      "posted": "2026-06-18T18:02:32.917Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1485,7 +1542,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-18T12:04:25.260Z",
+      "posted": "2026-06-18T18:02:32.917Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1539,7 +1596,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-18T12:04:26.724Z",
+      "posted": "2026-06-18T18:02:34.455Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1593,7 +1650,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-18T12:04:26.724Z",
+      "posted": "2026-06-18T18:02:34.455Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1863,7 +1920,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-18T12:04:26.724Z",
+      "posted": "2026-06-18T18:02:34.455Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1914,7 +1971,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-06-18T12:04:26.724Z",
+      "posted": "2026-06-18T18:02:34.455Z",
       "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
@@ -2059,5 +2116,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-18T12:04:28.017Z"
+  "generated_at": "2026-06-18T18:02:35.758Z"
 }
