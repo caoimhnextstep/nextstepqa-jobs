@@ -369,7 +369,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
     },
@@ -473,7 +473,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 15,
+      "age_days": 16,
       "relevance_score": 0,
       "location_display": "London"
     },
@@ -527,7 +527,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 118,
+      "age_days": 119,
       "relevance_score": 0,
       "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
     },
@@ -632,63 +632,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 24,
+      "age_days": 25,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
-    },
-    {
-      "company": "Kitman Labs",
-      "sector": "SportsTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-kitmanlabs-3af59790-3b32-4519-bc79-6373de53c062",
-      "title": "Senior QA Engineer",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://jobs.lever.co/kitmanlabs/3af59790-3b32-4519-bc79-6373de53c062",
-      "posted": "2026-05-06T09:55:36.038Z",
-      "description": "kitman labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes. driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers. kitman labs’ advanced operating system, the intelligence platform (ip) is now used by over 2000 teams in 50 leagues on 6 continents, including the nfl, premier league, national women’s soc",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 43,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
     },
     {
       "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
@@ -742,7 +688,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 1,
       "location_display": "Ditzingen"
     },
@@ -844,7 +790,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Wallerfing"
     },
@@ -895,7 +841,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Gelsenkirchen"
     },
@@ -946,7 +892,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -1000,7 +946,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -1106,7 +1052,7 @@
         "youNeed": [],
         "nextStep": null
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -1267,11 +1213,11 @@
       "location_display": "Braunschweig"
     },
     {
-      "id": "arb-software-tester-mit-schwerpunkt-sap-stuttgart-62794",
-      "title": "Software-Tester (m/w/d) mit Schwerpunkt SAP®",
-      "company": "Software4Professionals GmbH & Co. KG",
-      "location": "Stuttgart",
-      "city": "Stuttgart",
+      "id": "arb-praktikum-im-business-development-business-analyst-automation-engineer-applied-ai-engineer-berlin-180476",
+      "title": "Praktikum im Business Development (Business Analyst/Automation Engineer/Applied AI Engineer) (m/w/d)",
+      "company": "Pflegia",
+      "location": "Berlin",
+      "city": "Berlin",
       "country": "EU",
       "sector": "Tech",
       "ats": "arbeitnow",
@@ -1281,11 +1227,11 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/software4professionals-gmbh-co-kg/software-tester-mit-schwerpunkt-sap-stuttgart-62794",
-      "posted": "2026-06-12T07:29:02.000Z",
-      "description": " denkbar wäre, dass sap®-prozesse im finanz- und rechnungswesen vollständig automatisiert sind und unsere kunden sich nie mehr mit lästigen aufgaben herumschlagen, oder? auf geht‘s, dann packen wir das an! seit mehr als 20 jahren machen wir das denkbare möglich und entwickeln im sap®-umfeld sehr erfolgreich softwareprodukte, die es unseren kunden einfach machen. \n für unser team suchen wir eine/n \n  software-tester (m/w/d) mit schwerpunkt sap®  \n eintrittsdatum: ab sofort \nvertragsart: festanstellung \n  deine mission:  \n du liebst es, fehler zu finden, bevor andere sie überhaupt bemerken? perf",
+      "url": "https://www.arbeitnow.com/jobs/companies/pflegia/praktikum-im-business-development-business-analyst-automation-engineer-applied-ai-engineer-berlin-180476",
+      "posted": "2026-06-19T08:29:03.000Z",
+      "description": " du willst nicht nur zuschauen, sondern aktiv mitgestalten? dann bist du bei pflegia genau richtig. wir suchen einen praktikanten im business development für die drei spezialisierungen business analyst, automation engineer, und applied ai engineer. je nach schwerpunkt arbeitest du an strategischen analysen, technischen workflows oder datengetriebenen ai-lösungen und unterstützt uns dabei, pflegia noch effizienter und skalierbarer zu machen. \n aufgaben \n \n  business analyst:  du analysierst interne prozesse und daten und leitest daraus konkrete lösungen für wachstum, effizienz und operative ver",
       "classification": {
-        "role_type": "qa",
+        "role_type": "automation",
         "level": "mid",
         "transition_friendly": false
       },
@@ -1309,13 +1255,15 @@
         ],
         "youNeed": [
           "Playwright or Cypress",
-          "CI/CD pipeline"
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 6,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Stuttgart"
+      "location_display": "Berlin"
     },
     {
       "id": "reed-57002255",
@@ -1387,7 +1335,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-19T06:01:10.293Z",
+      "posted": "2026-06-19T12:00:55.860Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1438,7 +1386,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-19T06:01:10.293Z",
+      "posted": "2026-06-19T12:00:55.860Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1540,7 +1488,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-19T06:01:10.793Z",
+      "posted": "2026-06-19T12:00:56.355Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1593,7 +1541,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-19T06:01:10.793Z",
+      "posted": "2026-06-19T12:00:56.355Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1647,7 +1595,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-19T06:01:12.297Z",
+      "posted": "2026-06-19T12:00:57.852Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1701,7 +1649,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-19T06:01:12.297Z",
+      "posted": "2026-06-19T12:00:57.852Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1971,7 +1919,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-19T06:01:12.297Z",
+      "posted": "2026-06-19T12:00:57.852Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -2022,7 +1970,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-06-19T06:01:12.297Z",
+      "posted": "2026-06-19T12:00:57.852Z",
       "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
@@ -2167,5 +2115,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-19T06:01:13.583Z"
+  "generated_at": "2026-06-19T12:00:59.154Z"
 }
