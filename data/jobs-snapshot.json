@@ -272,57 +272,6 @@
       "location_display": "Bangalore, India"
     },
     {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-11T20:54:12-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Bengaluru, India"
-    },
-    {
       "company": "Version 1",
       "sector": "Consulting",
       "city": "Dublin",
@@ -640,6 +589,57 @@
       "location_display": "Dublin, Ireland, Ireland"
     },
     {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-11T20:54:12-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
+    },
+    {
       "company": "CarTrawler",
       "sector": "TravelTech",
       "city": "Dublin",
@@ -745,6 +745,57 @@
       "age_days": 0,
       "relevance_score": 1,
       "location_display": "Ditzingen"
+    },
+    {
+      "id": "arb-werkstudentin-quality-assurance-grafik-content-gesucht-kassel-29845",
+      "title": "Werkstudent:in Quality Assurance – Grafik & Content (m/w/d) gesucht",
+      "company": "Stacvalley",
+      "location": "Kassel",
+      "city": "Kassel",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/stacvalley/werkstudentin-quality-assurance-grafik-content-gesucht-kassel-29845",
+      "posted": "2026-06-18T17:20:09.000Z",
+      "description": " werkstudent:in quality assurance – grafik &amp; content (m/w/d) gesucht  100 % remote · werkstudent:in · mind. 80 std./monat · flexible zeiteinteilung rund um dein studium · junges team, echte verantwortung ab tag eins.   werde teil der stacvalley amasulting group (sag).  du bist die letzte instanz, bevor unsere arbeit beim kunden landet.  wir sind die stacvalley amasulting group — entstanden aus der fusion von stacvalley, europas erster ai-first amazon-agentur, und amasulting. wir helfen brands wie clatronic, redbull und purelei, auf amazon zu skalieren. unsere ki cora ai ist im markt einzig",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Kassel"
     },
     {
       "id": "arb-customer-quality-engineer-gn-wallerfing-242976",
@@ -1316,7 +1367,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -80,
+      "age_days": -79,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1336,7 +1387,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-18T18:02:32.417Z",
+      "posted": "2026-06-19T00:00:57.318Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1387,7 +1438,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-18T18:02:32.417Z",
+      "posted": "2026-06-19T00:00:57.318Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1469,7 +1520,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -80,
+      "age_days": -79,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1489,7 +1540,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-18T18:02:32.917Z",
+      "posted": "2026-06-19T00:00:57.820Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1542,7 +1593,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-18T18:02:32.917Z",
+      "posted": "2026-06-19T00:00:57.820Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1596,7 +1647,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-18T18:02:34.455Z",
+      "posted": "2026-06-19T00:00:59.258Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1650,7 +1701,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-18T18:02:34.455Z",
+      "posted": "2026-06-19T00:00:59.258Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1738,7 +1789,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 43,
+      "age_days": 44,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1792,7 +1843,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 163,
+      "age_days": 164,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1846,7 +1897,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 104,
+      "age_days": 105,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1900,7 +1951,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -49,
+      "age_days": -48,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1920,7 +1971,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-18T18:02:34.455Z",
+      "posted": "2026-06-19T00:00:59.258Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1971,7 +2022,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-06-18T18:02:34.455Z",
+      "posted": "2026-06-19T00:00:59.258Z",
       "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
@@ -2056,7 +2107,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 73,
+      "age_days": 74,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -2111,10 +2162,10 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": -170,
+      "age_days": -169,
       "relevance_score": 0,
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-18T18:02:35.758Z"
+  "generated_at": "2026-06-19T00:01:00.565Z"
 }
