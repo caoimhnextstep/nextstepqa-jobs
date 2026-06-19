@@ -47,117 +47,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
-      "company": "NearForm",
-      "sector": "Consulting",
-      "city": "Remote",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": true,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-nearform-7770254003",
-      "title": "Lead Test Engineer (Perm, UK, Remote)",
-      "location": "UK · Remote",
-      "url": "https://job-boards.greenhouse.io/nearform/jobs/7770254003",
-      "posted": "2026-06-16T11:33:57-04:00",
-      "description": "<p><strong>lead test engineer - python (perm, uk, remote)</strong></p> <p><em>this is a permanent full time remote opportunity for those based in the uk.<br><br></em></p> <p><strong>about nearform<br></strong></p> <p>nearform is an independent team of data &amp; ai experts, engineers, and designers who build intelligent digital solutions and capability at pace. we create ai-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. in these ways, we partner with ambitious enterprises to deliver enduring impact.</p> <p>our deep expertise in solving t",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 2,
-      "relevance_score": 0,
-      "location_display": "UK · Remote"
-    },
-    {
-      "company": "NearForm",
-      "sector": "Consulting",
-      "city": "Remote",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-nearform-7748853003",
-      "title": "Senior Test Engineer (Contract, Brazil, Remote)",
-      "location": "Contract",
-      "url": "https://job-boards.greenhouse.io/nearform/jobs/7748853003",
-      "posted": "2026-06-08T09:46:27-04:00",
-      "description": "<p><em>this is a contract position for those based in brazil. the initial contract is for 7 months, with potential extensions.</em></p> <p><strong>about nearform<br></strong></p> <p>nearform is an independent team of data &amp; ai experts, engineers, and designers who build intelligent digital solutions and capability at pace. we create ai-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. in these ways, we partner with ambitious enterprises to deliver enduring impact.</p> <p>our deep expertise in solving the world’s most complex digital pro",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 10,
-      "relevance_score": 0,
-      "location_display": "Contract"
     },
     {
       "company": "Kaseya",
@@ -211,7 +103,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 35,
+      "age_days": 36,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
     },
@@ -267,18 +159,126 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 21,
+      "age_days": 22,
       "relevance_score": 0,
       "location_display": "Bangalore, India"
     },
     {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
+      "company": "NearForm",
+      "sector": "Consulting",
+      "city": "Remote",
       "country": "IE",
       "ats": "greenhouse",
       "source_type": "direct_company_feed",
-      "source_verified": false,
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-nearform-7770254003",
+      "title": "Lead Test Engineer (Perm, UK, Remote)",
+      "location": "UK · Remote",
+      "url": "https://job-boards.greenhouse.io/nearform/jobs/7770254003",
+      "posted": "2026-06-16T11:33:57-04:00",
+      "description": "<p><strong>lead test engineer - python (perm, uk, remote)</strong></p> <p><em>this is a permanent full time remote opportunity for those based in the uk.<br><br></em></p> <p><strong>about nearform<br></strong></p> <p>nearform is an independent team of data &amp; ai experts, engineers, and designers who build intelligent digital solutions and capability at pace. we create ai-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. in these ways, we partner with ambitious enterprises to deliver enduring impact.</p> <p>our deep expertise in solving t",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 3,
+      "relevance_score": 0,
+      "location_display": "UK · Remote"
+    },
+    {
+      "company": "NearForm",
+      "sector": "Consulting",
+      "city": "Remote",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-nearform-7748853003",
+      "title": "Senior Test Engineer (Contract, Brazil, Remote)",
+      "location": "Contract",
+      "url": "https://job-boards.greenhouse.io/nearform/jobs/7748853003",
+      "posted": "2026-06-08T09:46:27-04:00",
+      "description": "<p><em>this is a contract position for those based in brazil. the initial contract is for 7 months, with potential extensions.</em></p> <p><strong>about nearform<br></strong></p> <p>nearform is an independent team of data &amp; ai experts, engineers, and designers who build intelligent digital solutions and capability at pace. we create ai-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. in these ways, we partner with ambitious enterprises to deliver enduring impact.</p> <p>our deep expertise in solving the world’s most complex digital pro",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 11,
+      "relevance_score": 0,
+      "location_display": "Contract"
+    },
+    {
+      "company": "CarTrawler",
+      "sector": "TravelTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
@@ -300,12 +300,12 @@
         "java": false,
         "performance": false
       },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-11T20:54:12-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -318,9 +318,62 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 7,
+      "age_days": 25,
       "relevance_score": 0,
-      "location_display": "Bengaluru, India"
+      "location_display": "Dublin, Ireland"
+    },
+    {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000133066135",
+      "title": "QA/Test Automation Engineer",
+      "location": "London",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000133066135",
+      "posted": "2026-06-19T13:10:08.700Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "London"
     },
     {
       "company": "Version 1",
@@ -422,7 +475,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 10,
+      "age_days": 11,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
@@ -476,60 +529,6 @@
       "age_days": 16,
       "relevance_score": 0,
       "location_display": "London"
-    },
-    {
-      "company": "Version 1",
-      "sector": "Consulting",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-Version1-744000110343655",
-      "title": "Senior Automation Test Engineer",
-      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000110343655",
-      "posted": "2026-02-20T10:04:59.837Z",
-      "description": "",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 119,
-      "relevance_score": 0,
-      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
     },
     {
       "company": "Keywords Studios",
@@ -586,13 +585,13 @@
       "location_display": "Box Hill"
     },
     {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
+      "company": "Okta",
+      "sector": "Security",
       "city": "Dublin",
       "country": "IE",
-      "ats": "lever",
+      "ats": "greenhouse",
       "source_type": "direct_company_feed",
-      "source_verified": true,
+      "source_verified": false,
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
@@ -614,12 +613,12 @@
         "java": false,
         "performance": false
       },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-11T20:54:12-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -632,9 +631,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 25,
+      "age_days": 7,
       "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
+      "location_display": "Bengaluru, India"
     },
     {
       "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
@@ -693,6 +692,108 @@
       "location_display": "Ditzingen"
     },
     {
+      "id": "arb-techniker-systemintegration-mechatronik-munich-475771",
+      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
+      "company": "MY Humancapital GmbH",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-475771",
+      "posted": "2026-06-19T16:31:04.000Z",
+      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
+      "id": "arb-softwareingenieurin-aufbau-testcenter-berlin-hybrid-65000-80000-185231",
+      "title": "Softwareingenieur:in Aufbau Testcenter, Berlin hybrid, 65.000 - 80.000",
+      "company": "wabcon",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/wabcon/softwareingenieurin-aufbau-testcenter-berlin-hybrid-65000-80000-185231",
+      "posted": "2026-06-19T16:00:59.000Z",
+      "description": " unser kunde entwickelt und vermarktet seit jahrzehnten zukunftsweisende kommunikationssysteme, welche vornehmlich im behördlichen umfeld zum einsatz kommen. das hauptaugenmerk des kunden liegt auf der entwicklung, produktion und distribution von lösungen für sichere und störungsfreie sprach- und datenübertragung. speziell feuerwehr und polizei vertrauen im einsatz auf die produkte unseres kunden \"made in germany\". \n wir suchen für den kunden einen erfahrenen systemtester (m/w/d) der das testingumfeld auf eine neues level bringt. \n wir freuen uns über deine bewerbung! \n aufgaben \n \n end-to-end",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
       "id": "arb-werkstudentin-quality-assurance-grafik-content-gesucht-kassel-29845",
       "title": "Werkstudent:in Quality Assurance – Grafik & Content (m/w/d) gesucht",
       "company": "Stacvalley",
@@ -739,7 +840,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Kassel"
     },
@@ -1001,7 +1102,7 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1108,11 +1209,11 @@
       "location_display": "Berlin"
     },
     {
-      "id": "arb-techniker-systemintegration-mechatronik-munich-317719",
-      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
-      "company": "MY Humancapital GmbH",
-      "location": "Munich",
-      "city": "Munich",
+      "id": "arb-software-tester-saarbrucken-394771",
+      "title": "Software Tester (m/w/d)",
+      "company": "Ergosign GmbH",
+      "location": "Saarbrücken",
+      "city": "Saarbrücken",
       "country": "EU",
       "sector": "Tech",
       "ats": "arbeitnow",
@@ -1122,9 +1223,9 @@
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-317719",
-      "posted": "2026-06-12T16:30:44.000Z",
-      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
+      "url": "https://www.arbeitnow.com/jobs/companies/ergosign-gmbh/software-tester-saarbrucken-394771",
+      "posted": "2026-06-19T13:59:03.000Z",
+      "description": " deine aufgaben \n deine aufgaben \n als software tester arbeitest du mit unseren ux designern und entwickler:innen zusammen an innovativen user interfaces für kunden aus verschiedenen branchen. dabei verantwortest du sowohl neuentwicklungen als auch weiterentwicklungen bestehender anwendungen in einem agilen umfeld. du planst und steuerst eigenständig die qualitätssicherung und übernimmst verantwortung für die qualität und funktionsfähigkeit der entwickelten software. \n typische aufgaben sind dabei: \n \n entwicklung von teststrategien und -methoden in enger abstimmung mit dem rest des teams \n sp",
       "classification": {
         "role_type": "qa",
         "level": "mid",
@@ -1154,9 +1255,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 6,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Munich"
+      "location_display": "Saarbrücken"
     },
     {
       "id": "arb-test-engineer-web-ui-braunschweig-272879",
@@ -1208,7 +1309,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Braunschweig"
     },
@@ -1335,7 +1436,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-19T12:00:55.860Z",
+      "posted": "2026-06-19T18:03:54.534Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1386,7 +1487,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-19T12:00:55.860Z",
+      "posted": "2026-06-19T18:03:54.534Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1488,7 +1589,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-19T12:00:56.355Z",
+      "posted": "2026-06-19T18:03:55.031Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1541,7 +1642,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-19T12:00:56.355Z",
+      "posted": "2026-06-19T18:03:55.031Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1595,7 +1696,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-19T12:00:57.852Z",
+      "posted": "2026-06-19T18:03:56.534Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1649,7 +1750,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-19T12:00:57.852Z",
+      "posted": "2026-06-19T18:03:56.535Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1742,60 +1843,6 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-56967870",
-      "title": "Lead Electrical Design Engineer",
-      "company": "Hays Specialist Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 40000,
-      "salary_max": 60000,
-      "salary_label": "€40k–€60k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/56967870",
-      "posted": "2026-01-06T00:00:00.000Z",
-      "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 164,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
       "id": "reed-56980752",
       "title": "Senior/Associate Electrical Engineer",
       "company": "Hays Specialist Recruitment Limited",
@@ -1846,6 +1893,60 @@
         "nextStep": "Close the gap with the course →"
       },
       "age_days": 105,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-56967870",
+      "title": "Lead Electrical Design Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_label": "€40k–€60k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/56967870",
+      "posted": "2026-01-06T00:00:00.000Z",
+      "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 164,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1919,7 +2020,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-19T12:00:57.852Z",
+      "posted": "2026-06-19T18:03:56.535Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1970,7 +2071,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/project-engineer/56772727",
-      "posted": "2026-06-19T12:00:57.852Z",
+      "posted": "2026-06-19T18:03:56.535Z",
       "description": "project engineer silent aire – dublin who we are silent aire, part of johnson controls, is a global leader in designing and manufacturing mission-critical custom air handlers and modular data centres for hyperscale cloud and colocation providers. we deliver high-performance solutions that prioritise quality, scalability, and rapid deployment. what you will do support project managers with day-to-day project coordination manage multiple projects ... ",
       "classification": {
         "role_type": "qa",
@@ -2115,5 +2216,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-19T12:00:59.154Z"
+  "generated_at": "2026-06-19T18:03:57.831Z"
 }
