@@ -272,13 +272,13 @@
       "location_display": "Bangalore, India"
     },
     {
-      "company": "Okta",
-      "sector": "Security",
+      "company": "CarTrawler",
+      "sector": "TravelTech",
       "city": "Dublin",
       "country": "IE",
-      "ats": "greenhouse",
+      "ats": "lever",
       "source_type": "direct_company_feed",
-      "source_verified": false,
+      "source_verified": true,
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
@@ -300,12 +300,12 @@
         "java": false,
         "performance": false
       },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-11T20:54:12-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -318,9 +318,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 8,
+      "age_days": 26,
       "relevance_score": 0,
-      "location_display": "Bengaluru, India"
+      "location_display": "Dublin, Ireland"
     },
     {
       "company": "Version 1",
@@ -585,13 +585,13 @@
       "location_display": "Box Hill"
     },
     {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
+      "company": "Okta",
+      "sector": "Security",
       "city": "Dublin",
       "country": "IE",
-      "ats": "lever",
+      "ats": "greenhouse",
       "source_type": "direct_company_feed",
-      "source_verified": true,
+      "source_verified": false,
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
@@ -613,12 +613,12 @@
         "java": false,
         "performance": false
       },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-11T20:54:12-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -631,9 +631,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 26,
+      "age_days": 8,
       "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
+      "location_display": "Bengaluru, India"
     },
     {
       "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
@@ -690,6 +690,57 @@
       "age_days": 2,
       "relevance_score": 1,
       "location_display": "Ditzingen"
+    },
+    {
+      "id": "arb-testingenieurin-softwareentwicklerin-hybrid-berlin-65000-75000-336181",
+      "title": "Testingenieur:in / Softwareentwickler:in, hybrid, Berlin 65.000 - 75.000",
+      "company": "wabcon",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/wabcon/testingenieurin-softwareentwicklerin-hybrid-berlin-65000-75000-336181",
+      "posted": "2026-06-20T20:31:45.000Z",
+      "description": " unser kunde entwickelt und vermarktet seit jahrzehnten zukunftsweisende kommunikationssysteme, welche vornehmlich im behördlichen umfeld zum einsatz kommen. das hauptaugenmerk des kunden liegt auf der entwicklung, produktion und distribution von lösungen für sichere und störungsfreie sprach- und datenübertragung. speziell feuerwehr und polizei vertrauen im einsatz auf die produkte unseres kunden \"made in germany\". \n wir suchen für den kunden einen erfahrenen systemtester (m/w/d) der das testingumfeld auf eine neues level bringt. \n wir freuen uns über deine bewerbung! \n aufgaben \n \n end-to-end",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Berlin"
     },
     {
       "id": "arb-techniker-systemintegration-mechatronik-munich-475771",
@@ -1416,7 +1467,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -78,
+      "age_days": -77,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1436,7 +1487,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-20T18:02:31.967Z",
+      "posted": "2026-06-21T00:02:25.382Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1487,7 +1538,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-20T18:02:31.967Z",
+      "posted": "2026-06-21T00:02:25.382Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1569,7 +1620,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -78,
+      "age_days": -77,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1589,7 +1640,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-20T18:02:32.474Z",
+      "posted": "2026-06-21T00:02:25.841Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1642,7 +1693,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-20T18:02:32.474Z",
+      "posted": "2026-06-21T00:02:25.841Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1696,7 +1747,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-20T18:02:33.961Z",
+      "posted": "2026-06-21T00:02:27.307Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1750,7 +1801,7 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-20T18:02:33.961Z",
+      "posted": "2026-06-21T00:02:27.307Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
       "classification": {
         "role_type": "qa",
@@ -1838,61 +1889,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 45,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
-      "id": "reed-56980752",
-      "title": "Senior/Associate Electrical Engineer",
-      "company": "Hays Specialist Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 55000,
-      "salary_max": 70000,
-      "salary_label": "€55k–€70k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
-      "posted": "2026-03-06T00:00:00.000Z",
-      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 106,
+      "age_days": 46,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1946,7 +1943,61 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 165,
+      "age_days": 166,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-56980752",
+      "title": "Senior/Associate Electrical Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 55000,
+      "salary_max": 70000,
+      "salary_label": "€55k–€70k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/senior-associate-electrical-engineer/56980752",
+      "posted": "2026-03-06T00:00:00.000Z",
+      "description": "your new company we're working with a growing, multi-disciplinary building services consultancy with a strong reputation for delivering high-quality engineering solutions across the uk &amp; ireland. due to continued growth, they are looking to appoint an associate / senior electrical engineer to join their belfast team. you'll play a key role in delivering large-scale residential, mixed-use, and industrial projects across the uk and europe. you... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 107,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -2000,7 +2051,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -47,
+      "age_days": -46,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -2020,7 +2071,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-20T18:02:33.961Z",
+      "posted": "2026-06-21T00:02:27.307Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -2102,7 +2153,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 75,
+      "age_days": 76,
       "relevance_score": 0,
       "location_display": "Dublin"
     },
@@ -2157,10 +2208,10 @@
         ],
         "nextStep": "Build your portfolio first →"
       },
-      "age_days": -168,
+      "age_days": -167,
       "relevance_score": 0,
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-20T18:02:35.241Z"
+  "generated_at": "2026-06-21T00:02:28.565Z"
 }
