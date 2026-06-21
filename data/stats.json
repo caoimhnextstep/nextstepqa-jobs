@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-21T06:03:31.740Z",
+  "generated_at": "2026-06-21T12:03:25.447Z",
   "total_jobs": 42,
-  "irish_jobs": 27,
+  "irish_jobs": 26,
   "remote_jobs": 2,
   "transition_friendly": 0,
   "sources_ok": 31,
   "sources_failed": 0,
   "by_country": {
-    "IE": 27,
+    "IE": 26,
     "REMOTE": 1,
-    "EU": 14
+    "EU": 15
   },
   "by_ats": {
     "greenhouse": 6,
     "smartrecruiters": 5,
     "lever": 1,
-    "arbeitnow": 15,
-    "reed": 15
+    "arbeitnow": 16,
+    "reed": 14
   },
   "by_sector": {
     "HealthTech": 1,
