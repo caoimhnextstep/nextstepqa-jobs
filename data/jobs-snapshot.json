@@ -47,7 +47,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
     },
@@ -101,7 +101,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "UK · Remote"
     },
@@ -155,7 +155,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 13,
+      "age_days": 14,
       "relevance_score": 0,
       "location_display": "Contract"
     },
@@ -192,7 +192,7 @@
       "title": "QA automation Engineer (Python)",
       "location": "Krakow, Poland",
       "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
-      "posted": "2026-05-14T09:41:08-04:00",
+      "posted": "2026-06-22T08:29:48-04:00",
       "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
       "demand": {
         "label": "🎯 Next Level",
@@ -211,7 +211,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 38,
+      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
     },
@@ -248,7 +248,7 @@
       "title": "Staff Software Development Engineer in Test (Staff SDET)",
       "location": "Bangalore, India",
       "url": "https://www.kaseya.com/careers/jobs/id/5977467004/?gh_jid=5977467004",
-      "posted": "2026-05-28T10:37:54-04:00",
+      "posted": "2026-06-22T08:29:48-04:00",
       "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
       "demand": {
         "label": "🎯 Next Level",
@@ -267,7 +267,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 24,
+      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Bangalore, India"
     },
@@ -320,7 +320,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "London"
     },
@@ -424,7 +424,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 13,
+      "age_days": 14,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
@@ -478,6 +478,57 @@
       "age_days": 19,
       "relevance_score": 0,
       "location_display": "London"
+    },
+    {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-11T20:54:12-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 10,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
     },
     {
       "company": "Keywords Studios",
@@ -583,57 +634,6 @@
       "age_days": 31,
       "relevance_score": 0,
       "location_display": "Box Hill"
-    },
-    {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-11T20:54:12-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 10,
-      "relevance_score": 0,
-      "location_display": "Bengaluru, India"
     },
     {
       "company": "CarTrawler",
@@ -792,7 +792,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Leipzig"
     },
@@ -894,7 +894,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -945,7 +945,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -996,7 +996,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Kassel"
     },
@@ -1208,112 +1208,6 @@
       "location_display": "Munich"
     },
     {
-      "id": "arb-qa-manager-teilzeit-hamburg-104137",
-      "title": "QA Manager (m/w/d, Teilzeit)",
-      "company": "Oxolo GmbH",
-      "location": "Hamburg",
-      "city": "Hamburg",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/oxolo-gmbh/qa-manager-teilzeit-hamburg-104137",
-      "posted": "2026-06-15T16:30:32.000Z",
-      "description": " oxolo ist ein ki-start-up aus hamburg. wir entwickeln moderne ki-software, die unternehmen dabei hilft, tägliche arbeitsprozesse intelligenter, schneller und einfacher zu gestalten. unsere neue ki solution richtet sich an die bauindustrie - insbesondere an architekturbüros, handwerksbetriebe, bauunternehmen und weitere unternehmen entlang der wertschöpfungskette bau. \n unser anspruch ist es, ki-lösungen zu bauen, die im echten arbeitsalltag messbaren nutzen schaffen: weniger manuelle arbeit, bessere vorbereitung, schnellere kommunikation und klarere entscheidungsgrundlagen für teams, die tägl",
-      "classification": {
-        "role_type": "lead",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "5+ years QA",
-          "Framework design",
-          "Leadership"
-        ],
-        "youNeed": [
-          "Architecture experience",
-          "Mentoring"
-        ],
-        "nextStep": "Build your portfolio first →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Hamburg"
-    },
-    {
-      "id": "arb-qa-analyst-berlin-327980",
-      "title": "QA Analyst (m/f/d) - Berlin",
-      "company": "Bees & Bears",
-      "location": "Berlin",
-      "city": "Berlin",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/bees-bears/qa-analyst-berlin-327980",
-      "posted": "2026-06-15T11:30:28.000Z",
-      "description": " your mission \n we're looking for a qa analyst to join our product team and help raise the quality bar across everything we ship. you'll work closely with developers, product managers, and other stakeholders to define and uphold quality standards, from feature design through to release. \n tasks \n \n design, write, and maintain automated test suites to support continuous delivery. \n perform exploratory and manual testing, catching issues before they reach users. \n collaborate with engineers during development to embed quality early - reviewing requirements, flagging edge cases, and contributing ",
-      "classification": {
-        "role_type": "manual",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "📋 Manual Focus",
-        "color": "muted"
-      },
-      "gap": {
-        "qualifyIf": [
-          "2+ years manual QA",
-          "JIRA / test cases"
-        ],
-        "youNeed": [],
-        "nextStep": null
-      },
-      "age_days": 7,
-      "relevance_score": 0,
-      "location_display": "Berlin"
-    },
-    {
       "id": "arb-software-tester-saarbrucken-394771",
       "title": "Software Tester (m/w/d)",
       "company": "Ergosign GmbH",
@@ -1360,7 +1254,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Saarbrücken"
     },
@@ -1414,7 +1308,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Braunschweig"
     },
@@ -1541,7 +1435,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-22T12:02:44.648Z",
+      "posted": "2026-06-22T18:00:48.240Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1592,7 +1486,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-22T12:02:44.648Z",
+      "posted": "2026-06-22T18:00:48.240Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1694,7 +1588,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-22T12:02:45.156Z",
+      "posted": "2026-06-22T18:00:48.748Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1747,7 +1641,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/java-engineer-multiple-opportunities/56896248",
-      "posted": "2026-06-22T12:02:45.156Z",
+      "posted": "2026-06-22T18:00:48.748Z",
       "description": "senior java developer - build at scale, shape what's nextbelfast | hybrid | multiple roles | highly competitive package why this role? if you're a strong java engineer who wants to do more than just code, this is your opportunity to work on some of the most complex, high-impact technology programmes in the uk &amp; ireland. you'll be joining a fast-growing, high-performing engineering team delivering large-scale digital transformation projects f... ",
       "classification": {
         "role_type": "qa",
@@ -1801,7 +1695,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-22T12:02:46.636Z",
+      "posted": "2026-06-22T18:00:50.257Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1855,8 +1749,62 @@
       "salary_label": "€40k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-systems-engineer/56916269",
-      "posted": "2026-06-22T12:02:46.636Z",
+      "posted": "2026-06-22T18:00:50.257Z",
       "description": "the company our client is a leading manufacturer within the advanced engineering sector, supplying high-quality products to a global customer base. the organisation is known for its commitment to operational excellence, continuous improvement and world-class manufacturing standards. with ongoing investment in people, processes and technology, this is an environment where innovation is encouraged, professional development is supported and employe... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-57045470",
+      "title": "Quality Manager",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 45000,
+      "salary_max": 45000,
+      "salary_label": "€45k–€45k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
+      "posted": "2026-06-22T18:00:50.257Z",
+      "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -1944,6 +1892,60 @@
         "nextStep": "Close the gap with the course →"
       },
       "age_days": 47,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-57043563",
+      "title": "Lead Electrical Design Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_label": "€40k–€60k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/57043563",
+      "posted": "2026-06-22T18:00:50.257Z",
+      "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -2071,7 +2073,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-22T12:02:46.636Z",
+      "posted": "2026-06-22T18:00:50.257Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -2213,5 +2215,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-22T12:02:47.915Z"
+  "generated_at": "2026-06-22T18:00:51.562Z"
 }
