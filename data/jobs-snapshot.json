@@ -155,7 +155,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Brazil"
     },
@@ -272,6 +272,57 @@
       "location_display": "Bangalore, India"
     },
     {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-24T14:05:51-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
+    },
+    {
       "company": "Version 1",
       "sector": "Consulting",
       "city": "Dublin",
@@ -371,7 +422,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 6,
+      "age_days": 7,
       "relevance_score": 0,
       "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
     },
@@ -427,57 +478,6 @@
       "age_days": 16,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
-    },
-    {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-24T14:05:51-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Bengaluru, India"
     },
     {
       "company": "Keywords Studios",
@@ -585,12 +585,12 @@
       "location_display": "Box Hill"
     },
     {
-      "id": "arb-senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
-      "title": "(Senior) Test Automation Engineer, AI-Native (d/m/w) - Remote",
-      "company": "ZEP GmbH",
-      "location": "Ditzingen",
-      "city": "Ditzingen",
-      "country": "REMOTE",
+      "id": "arb-messtechnikerin-entwicklung-von-prufablaufen-in-python-hybrid-berlin-55000-75000-195386",
+      "title": "Messtechniker:in Entwicklung von Prüfabläufen in Python, hybrid Berlin 55.000 - 75.000",
+      "company": "wabcon",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
       "sector": "Tech",
       "ats": "arbeitnow",
       "source_type": "aggregator",
@@ -598,17 +598,17 @@
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
-      "remote": true,
-      "url": "https://www.arbeitnow.com/jobs/companies/zep-gmbh/senior-test-automation-engineer-ai-native-remote-ditzingen-219156",
-      "posted": "2026-06-18T10:59:04.000Z",
-      "description": " bei zep gestalten wir die zukunft der arbeit für 3.000+ unternehmen im deutschen mittelstand. aktuell bauen wir unsere nächste produktgeneration komplett neu (laravel/vue.js) und entwickeln parallel neue ai-produkte, die die projektarbeit von grund auf neu denken. dafür suchen wir einen test automation engineer, der ai nicht nur kennt, sondern damit lebt. claude, cursor und playwright mit ai-codegen sind für dich keine experimente, sondern dein alltägliches handwerkszeug. du schreibst tests in stunden, wofür andere tage brauchen. du verstehst, dass moderne qualitätssicherung heute aus der kom",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/wabcon/messtechnikerin-entwicklung-von-prufablaufen-in-python-hybrid-berlin-55000-75000-195386",
+      "posted": "2026-06-25T10:30:37.000Z",
+      "description": " unser kunde entwickelt und vermarktet seit jahrzehnten zukunftsweisende kommunikationssysteme, welche vornehmlich im behördlichen umfeld zum einsatz kommen. das hauptaugenmerk des kunden liegt auf der entwicklung, produktion und distribution von lösungen für sichere und störungsfreie sprach- und datenübertragung. speziell feuerwehr und polizei vertrauen im einsatz auf die produkte unseres kunden \"made in germany\". \n wir suchen für den kunden einen erfahrenen ingenieur für messtechnik (m/w/d) mit einer affinität für software und automation. du solltest einen fokus auf dem python-stack mitbring",
       "classification": {
-        "role_type": "automation",
-        "level": "senior",
+        "role_type": "qa",
+        "level": "mid",
         "transition_friendly": false
       },
       "signals": {
-        "playwright": true,
+        "playwright": false,
         "typescript": false,
         "cypress": false,
         "selenium": false,
@@ -619,10 +619,7 @@
         "java": false,
         "performance": false
       },
-      "demand": {
-        "label": "🔥 High Demand",
-        "color": "yellow"
-      },
+      "demand": null,
       "gap": {
         "qualifyIf": [
           "Automation framework exp",
@@ -630,15 +627,13 @@
         ],
         "youNeed": [
           "Playwright or Cypress",
-          "CI/CD pipeline",
-          "TypeScript",
-          "CI/CD experience"
+          "CI/CD pipeline"
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 6,
-      "relevance_score": 1,
-      "location_display": "Ditzingen"
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Berlin"
     },
     {
       "id": "arb-werkstudentin-praktikantin-product-testing-ai-automation-berlin-40623",
@@ -687,7 +682,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -738,7 +733,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Wiesbaden"
     },
@@ -840,7 +835,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Freiberg"
     },
@@ -891,7 +886,7 @@
         "youNeed": [],
         "nextStep": null
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -944,7 +939,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Cologne"
     },
@@ -995,7 +990,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1207,213 +1202,6 @@
       "location_display": "Kassel"
     },
     {
-      "id": "arb-customer-quality-engineer-gn-wallerfing-242976",
-      "title": "Customer Quality Engineer (gn)",
-      "company": "Ideematec Deutschland GmbH",
-      "location": "Wallerfing",
-      "city": "Wallerfing",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/ideematec-deutschland-gmbh/customer-quality-engineer-gn-wallerfing-242976",
-      "posted": "2026-06-18T10:00:40.000Z",
-      "description": " wir sind ideematec – ein weltweit führender hersteller innovativer solar tracker für große photovoltaik-kraftwerke. \nseit über 20 jahren gestalten unsere mitarbeitenden unseren erfolg: menschen, die mit fachwissen, neugier und engagement zukunftsweisende lösungen entwickeln. mit über 80 patenten und mehr als 10 gw installierten trackern in über 30 ländern steigern wir weltweit energieerträge, erhöhen langfristige zuverlässigkeit und fördern eine nachhaltige energieversorgung und so die energiewende. \n im zuge unseres weiteren wachstums und steigender projektzahlen stärken wir unseren bereich ",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Wallerfing"
-    },
-    {
-      "id": "arb-fachprojektleiter-elektrotechnik-gelsenkirchen-124407",
-      "title": "Fachprojektleiter / Elektrotechnik (m/w/d)",
-      "company": "IDG GmbH",
-      "location": "Gelsenkirchen",
-      "city": "Gelsenkirchen",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/idg-gmbh/fachprojektleiter-elektrotechnik-gelsenkirchen-124407",
-      "posted": "2026-06-18T09:30:30.000Z",
-      "description": " als mittelständisches inhabergeführtes ingenieurbüro mit sitz in tönisvorst sind wir seit über 30 jahren kompetenter und flexibler entwicklungspartner für den mittelstand und großkonzerne. unser know-how liegt im modernen maschinen- und anlagebau sowie in der elektro- und automatisierungstechnik. \n  i ch  d u  g emeinsam – zusammen schaffen wir alles! unser teamspirit ist der größte erfolgsfaktor um unsere projekte erfolgreich abzuschließen. sie identifizieren sich mit unserem motto, haben ein auge fürs detail und hegen großes interesse für die welt der automatisierungstechnik. dann suchen wi",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Gelsenkirchen"
-    },
-    {
-      "id": "arb-techniker-fur-testsysteme-munich-431424",
-      "title": "Techniker für Testsysteme (m/w/x)",
-      "company": "K-tronik GmbH",
-      "location": "Munich",
-      "city": "Munich",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/techniker-fur-testsysteme-munich-431424",
-      "posted": "2026-06-18T08:30:50.000Z",
-      "description": " projektbeschreibung: \n begeistert sie technologie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus den bereichen elektromobilität und batterietechnologie suchen wir einen test system technician (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennenzulernen – und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n aufbau, integration, wartung und weiterentwicklung von hil- und eol-testsystemen zur validierung von batteriemanagement- und embedded-systemen im automobi",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Munich"
-    },
-    {
-      "id": "arb-senior-test-engineer-munich-143622",
-      "title": "Senior Test Engineer (m/w/x)",
-      "company": "K-tronik GmbH",
-      "location": "Munich",
-      "city": "Munich",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/senior-test-engineer-munich-143622",
-      "posted": "2026-06-18T08:30:49.000Z",
-      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der elektromobilität und batterietechnologie suchen wir einen senior test engineer (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennenzulernen – und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n mitarbeit in einem interdisziplinären team aus hardware-, software- und systemingenieuren zur entwicklung und absicherung intelligenter batteriesensoren und batteriem",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Munich"
-    },
-    {
       "id": "arb-projektleiter-automation-elektrotechnik-hamburg-329707",
       "title": "Projektleiter (m/w/d) Automation Elektrotechnik -  Hamburg oder Osnabrück",
       "company": "Ward Howell International Prasuhn GmbH",
@@ -1463,6 +1251,61 @@
       "age_days": 1,
       "relevance_score": 0,
       "location_display": "Hamburg"
+    },
+    {
+      "id": "arb-teamlead-qa-gn-berlin-83601",
+      "title": "Teamlead QA (gn)",
+      "company": "Bikeleasing-Service GmbH & Co. KG",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/teamlead-qa-gn-berlin-83601",
+      "posted": "2026-06-25T09:29:03.000Z",
+      "description": " deine aufgaben \n bei der bikeleasing gruppe entwickeln wir digitale lösungen, die täglich von tausenden nutzerinnen und nutzern eingesetzt werden. dafür setzen wir auf moderne technologien, saubere architekturen und teams, die verantwortung übernehmen. mitten in einer signifikanten technischen transformation – modernisierung von legacy-systemen, aufbau domänenorientierter services und professionalisierung unserer engineering-organisation – suchen wir eine erfahrene führungspersönlichkeit, die unser qa-team übernimmt und auf das nächste level bringt. als  team lead qa (gn)  führst du ein einge",
+      "classification": {
+        "role_type": "lead",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "5+ years QA",
+          "Framework design",
+          "Leadership"
+        ],
+        "youNeed": [
+          "Architecture experience",
+          "Mentoring"
+        ],
+        "nextStep": "Build your portfolio first →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Berlin"
     },
     {
       "id": "arb-software-tester-saarbrucken-394771",
@@ -1618,60 +1461,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Berlin"
-    },
-    {
-      "id": "arb-fachplaner-der-gebaudeautomation-ga-kiel-438799",
-      "title": "Fachplaner (m/w/d) der Gebäudeautomation GA",
-      "company": "TeGA-plan Heidemann GmbH",
-      "location": "Kiel",
-      "city": "Kiel",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/tega-plan-heidemann-gmbh/fachplaner-der-gebaudeautomation-ga-kiel-438799",
-      "posted": "2026-06-24T11:59:03.000Z",
-      "description": "  technik gestalten. zukunft planen.  \n wir sind die  tega-plan heidemann gmbh  – ein interdisziplinäres ingenieurbüro für technische gebäudeausrüstung mit sitz in kiel. mit rund 30 kolleginnen und kollegen planen wir anspruchsvolle projekte in den bereichen hls, elektrotechnik und gebäudeautomation – vom ersten konzept bis zur umsetzung auf der baustelle. \n  was uns auszeichnet?  \nkurze entscheidungswege, echte teamarbeit und der anspruch, technik nicht nur normgerecht, sondern intelligent und nachhaltig zu denken. wir verbinden klassische ingenieurplanung mit modernen planungsmethoden und le",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Kiel"
     },
     {
       "id": "reed-57002255",
@@ -1743,7 +1535,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-25T06:04:33.193Z",
+      "posted": "2026-06-25T12:02:44.348Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1794,7 +1586,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-25T06:04:33.193Z",
+      "posted": "2026-06-25T12:02:44.348Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1896,7 +1688,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-25T06:04:33.692Z",
+      "posted": "2026-06-25T12:02:44.863Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1949,7 +1741,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-25T06:04:35.190Z",
+      "posted": "2026-06-25T12:02:46.374Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -2003,7 +1795,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-06-25T06:04:35.190Z",
+      "posted": "2026-06-25T12:02:46.374Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -2057,7 +1849,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-06-25T06:04:35.190Z",
+      "posted": "2026-06-25T12:02:46.374Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -2219,7 +2011,7 @@
       "salary_label": "€40k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/57043563",
-      "posted": "2026-06-25T06:04:35.190Z",
+      "posted": "2026-06-25T12:02:46.374Z",
       "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
       "classification": {
         "role_type": "qa",
@@ -2327,7 +2119,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-25T06:04:35.190Z",
+      "posted": "2026-06-25T12:02:46.374Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -2347,6 +2139,60 @@
         "performance": false
       },
       "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-57057564",
+      "title": "Electrical Project Manager (No Travel)",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
+      "posted": "2026-06-25T12:02:46.374Z",
+      "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
       "gap": {
         "qualifyIf": [
           "Automation framework exp",
@@ -2414,5 +2260,5 @@
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-06-25T06:04:36.485Z"
+  "generated_at": "2026-06-25T12:02:48.109Z"
 }
