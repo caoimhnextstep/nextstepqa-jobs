@@ -272,57 +272,6 @@
       "location_display": "Bangalore, India"
     },
     {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-24T14:05:51-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Bengaluru, India"
-    },
-    {
       "company": "Version 1",
       "sector": "Consulting",
       "city": "Dublin",
@@ -480,6 +429,57 @@
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
     {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-24T14:05:51-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
+    },
+    {
       "company": "Keywords Studios",
       "sector": "Gaming",
       "city": "Dublin",
@@ -526,7 +526,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Box Hill"
     },
@@ -580,7 +580,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 33,
+      "age_days": 34,
       "relevance_score": 0,
       "location_display": "Box Hill"
     },
@@ -1623,6 +1623,57 @@
       "location_display": "Berlin"
     },
     {
+      "id": "arb-fachplaner-der-gebaudeautomation-ga-kiel-438799",
+      "title": "Fachplaner (m/w/d) der Gebäudeautomation GA",
+      "company": "TeGA-plan Heidemann GmbH",
+      "location": "Kiel",
+      "city": "Kiel",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/tega-plan-heidemann-gmbh/fachplaner-der-gebaudeautomation-ga-kiel-438799",
+      "posted": "2026-06-24T11:59:03.000Z",
+      "description": "  technik gestalten. zukunft planen.  \n wir sind die  tega-plan heidemann gmbh  – ein interdisziplinäres ingenieurbüro für technische gebäudeausrüstung mit sitz in kiel. mit rund 30 kolleginnen und kollegen planen wir anspruchsvolle projekte in den bereichen hls, elektrotechnik und gebäudeautomation – vom ersten konzept bis zur umsetzung auf der baustelle. \n  was uns auszeichnet?  \nkurze entscheidungswege, echte teamarbeit und der anspruch, technik nicht nur normgerecht, sondern intelligent und nachhaltig zu denken. wir verbinden klassische ingenieurplanung mit modernen planungsmethoden und le",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Kiel"
+    },
+    {
       "id": "reed-57002255",
       "title": "Site Manager",
       "company": "Matchtech ",
@@ -1692,7 +1743,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-25T00:02:44.355Z",
+      "posted": "2026-06-25T06:04:33.193Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1743,7 +1794,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-25T00:02:44.355Z",
+      "posted": "2026-06-25T06:04:33.193Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1845,7 +1896,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-25T00:02:44.812Z",
+      "posted": "2026-06-25T06:04:33.692Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1898,7 +1949,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-25T00:02:46.256Z",
+      "posted": "2026-06-25T06:04:35.190Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1952,8 +2003,62 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-06-25T00:02:46.256Z",
+      "posted": "2026-06-25T06:04:35.190Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-57046935",
+      "title": "Design Engineer (Mechanical Equipment)",
+      "company": "Ernest Gordon Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 37000,
+      "salary_max": 42000,
+      "salary_label": "€37k–€42k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
+      "posted": "2026-06-25T06:04:35.190Z",
+      "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -2045,60 +2150,6 @@
       "location_display": "Ireland"
     },
     {
-      "id": "reed-57046935",
-      "title": "Design Engineer (Mechanical Equipment)",
-      "company": "Ernest Gordon Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 37000,
-      "salary_max": 42000,
-      "salary_label": "€37k–€42k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-06-25T00:02:46.256Z",
-      "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
       "id": "reed-56980752",
       "title": "Senior/Associate Electrical Engineer",
       "company": "Hays Specialist Recruitment Limited",
@@ -2168,7 +2219,7 @@
       "salary_label": "€40k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/57043563",
-      "posted": "2026-06-25T00:02:46.256Z",
+      "posted": "2026-06-25T06:04:35.190Z",
       "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
       "classification": {
         "role_type": "qa",
@@ -2276,7 +2327,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-25T00:02:46.256Z",
+      "posted": "2026-06-25T06:04:35.190Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -2363,5 +2414,5 @@
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-06-25T00:02:47.553Z"
+  "generated_at": "2026-06-25T06:04:36.485Z"
 }
