@@ -208,7 +208,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Bengaluru, India"
     },
@@ -416,7 +416,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Box Hill"
     },
@@ -470,7 +470,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 35,
+      "age_days": 36,
       "relevance_score": 0,
       "location_display": "Box Hill"
     },
@@ -779,6 +779,108 @@
       "age_days": 1,
       "relevance_score": 0,
       "location_display": "Berlin"
+    },
+    {
+      "id": "arb-werkstudentin-praktikantin-product-testing-ai-automation-berlin-40623",
+      "title": "Werkstudent:in / Praktikant:in (m/w/d) Product Testing & AI Automation",
+      "company": "Placed Technologies GmbH",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/placed-technologies-gmbh/werkstudentin-praktikantin-product-testing-ai-automation-berlin-40623",
+      "posted": "2026-06-24T11:00:22.000Z",
+      "description": " placed ist ein technologieunternehmen aus berlin-mitte. wir entwickeln ki-software für personalvermittler:innen, die den vertrieb ihrer kandidat:innen besser steuern wollen. unser produkt hilft teams, aus profilen von kandidat:innen konkrete vertriebschancen zu machen: passende stellen, zielunternehmen, ansprechpartner:innen, kontaktdaten und vorbereitete ansprache. \n wir suchen dich als werkstudent:in oder praktikant:in im bereich product testing &#x26; ai automation. du arbeitest direkt mit dem gründungsteam und dem product team daran, neue produktfunktionen, datenflüsse und ki-gestützte wo",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 2,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
+      "id": "arb-quality-assurance-engineer-wiesbaden-288665",
+      "title": "Quality Assurance Engineer (m/f/d)",
+      "company": "Yalwa GmbH",
+      "location": "Wiesbaden",
+      "city": "Wiesbaden",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/yalwa-gmbh/quality-assurance-engineer-wiesbaden-288665",
+      "posted": "2026-06-24T09:20:30.000Z",
+      "description": "   full-time •  first experience   • wiesbaden • (m/f/d)      at yalwa, bringing people together is our mission. we strive to make the digital world a place where people build real-life connections. working at yalwa means being part of a friendly, passionate team of people from over twenty-five different countries. with the support of your colleagues, you’ll have the opportunity to challenge yourself, evolve, share your knowledge, hone your skills and work on ambitious projects.     ready to take the next step in your career? we're looking for a dedicated qa engineer to join our team!      you",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 2,
+      "relevance_score": 0,
+      "location_display": "Wiesbaden"
     },
     {
       "id": "arb-sps-siemens-engineer-leipzig-257179",
@@ -1138,7 +1240,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 5,
+      "age_days": 6,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -1349,7 +1451,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -72,
+      "age_days": -71,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1369,7 +1471,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-26T18:04:39.670Z",
+      "posted": "2026-06-27T06:03:57.350Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1420,7 +1522,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/python-engineer-up-to-60000--bonus-hybrid/56916059",
-      "posted": "2026-06-26T18:04:39.670Z",
+      "posted": "2026-06-27T06:03:57.350Z",
       "description": "python engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced python engineer to join a high-performing technology team delivering scalable enterprise applications and backend services within a complex environment. this is a hands-on engineering role focused on building rob... ",
       "classification": {
         "role_type": "qa",
@@ -1454,60 +1556,6 @@
       "age_days": 0,
       "relevance_score": 0,
       "location_display": "Ireland"
-    },
-    {
-      "id": "reed-57061018",
-      "title": "Senior Site Reliability Engineer",
-      "company": "Appcast Enterprise",
-      "location": "Dublin",
-      "city": "Dublin",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/senior-site-reliability-engineer/57061018",
-      "posted": "2026-06-26T18:04:39.670Z",
-      "description": "our purpose mastercard powers economies and empowers people in 200 countries and territories worldwide. together with our customers, we’re helping build a&nbsp;sustainable&nbsp;economy where everyone can prosper. we support a wide range of digital payments choices, making transactions&nbsp;secure, simple, smart and accessible. our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that h... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Dublin"
     },
     {
       "id": "reed-57002049",
@@ -1556,7 +1604,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -72,
+      "age_days": -71,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1576,7 +1624,7 @@
       "salary_label": "€50k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/test-automation-engineer-up-to-60000--bonus-hybrid/56916056",
-      "posted": "2026-06-26T18:04:40.171Z",
+      "posted": "2026-06-27T06:03:57.845Z",
       "description": "test automation engineer salary: up to 60,000 + bonus + benefits location: belfast - hybrid (2-3 days per week onsite) working hours: 40 hours per week - full time job type: permanent a globally established organisation is seeking an experienced test automation engineer to join a high-performing technology team delivering modern enterprise applications and platforms. this is a hands-on automation role focused on building scalable testing framewo... ",
       "classification": {
         "role_type": "automation",
@@ -1629,7 +1677,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-06-26T18:04:40.171Z",
+      "posted": "2026-06-27T06:03:57.845Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1683,7 +1731,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-26T18:04:41.688Z",
+      "posted": "2026-06-27T06:03:59.311Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1737,7 +1785,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-06-26T18:04:41.688Z",
+      "posted": "2026-06-27T06:03:59.311Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1791,7 +1839,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-06-26T18:04:41.688Z",
+      "posted": "2026-06-27T06:03:59.311Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1879,7 +1927,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 51,
+      "age_days": 52,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1933,7 +1981,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 112,
+      "age_days": 113,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1953,7 +2001,7 @@
       "salary_label": "€40k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/57043563",
-      "posted": "2026-06-26T18:04:41.688Z",
+      "posted": "2026-06-27T06:03:59.311Z",
       "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
       "classification": {
         "role_type": "qa",
@@ -2041,7 +2089,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -41,
+      "age_days": -40,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -2061,7 +2109,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-26T18:04:41.688Z",
+      "posted": "2026-06-27T06:03:59.311Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -2112,7 +2160,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-06-26T18:04:41.688Z",
+      "posted": "2026-06-27T06:03:59.311Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -2151,5 +2199,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-26T18:04:42.954Z"
+  "generated_at": "2026-06-27T06:04:00.573Z"
 }
