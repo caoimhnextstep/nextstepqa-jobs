@@ -47,7 +47,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 11,
+      "age_days": 12,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
     },
@@ -157,7 +157,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 7,
+      "age_days": 8,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
     },
@@ -211,163 +211,6 @@
       "age_days": 5,
       "relevance_score": 0,
       "location_display": "Bengaluru, India"
-    },
-    {
-      "company": "Version 1",
-      "sector": "Consulting",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "automation",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-Version1-744000133066135",
-      "title": "QA/Test Automation Engineer",
-      "location": "London",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000133066135",
-      "posted": "2026-06-19T13:10:08.700Z",
-      "description": "",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 10,
-      "relevance_score": 0,
-      "location_display": "London"
-    },
-    {
-      "company": "Version 1",
-      "sector": "Consulting",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-Version1-744000132807644",
-      "title": "Automation Test Engineer",
-      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000132807644",
-      "posted": "2026-06-18T08:42:38.928Z",
-      "description": "",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 12,
-      "relevance_score": 0,
-      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
-    },
-    {
-      "company": "Version 1",
-      "sector": "Consulting",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "automation",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-Version1-744000130808610",
-      "title": "Test Automation Engineer",
-      "location": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000130808610",
-      "posted": "2026-06-08T13:51:24.608Z",
-      "description": "",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 21,
-      "relevance_score": 0,
-      "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
     {
       "company": "Keywords Studios",
@@ -475,6 +318,163 @@
       "location_display": "Box Hill"
     },
     {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000133066135",
+      "title": "QA/Test Automation Engineer",
+      "location": "London",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000133066135",
+      "posted": "2026-06-19T13:10:08.700Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 11,
+      "relevance_score": 0,
+      "location_display": "London"
+    },
+    {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000132807644",
+      "title": "Automation Test Engineer",
+      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000132807644",
+      "posted": "2026-06-18T08:42:38.928Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 12,
+      "relevance_score": 0,
+      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
+    },
+    {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000130808610",
+      "title": "Test Automation Engineer",
+      "location": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000130808610",
+      "posted": "2026-06-08T13:51:24.608Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 22,
+      "relevance_score": 0,
+      "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
+    },
+    {
       "company": "CarTrawler",
       "sector": "TravelTech",
       "city": "Dublin",
@@ -524,6 +524,108 @@
       "age_days": 36,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
+    },
+    {
+      "id": "arb-software-development-test-engineer-c-python-kiel-10921",
+      "title": "Software Development & Test Engineer (C++/Python) (m/w/x)",
+      "company": "K-tronik GmbH",
+      "location": "Kiel",
+      "city": "Kiel",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/software-development-test-engineer-c-python-kiel-10921",
+      "posted": "2026-06-30T14:30:30.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der funk- und kommunikationsbranche suchen wir einen software development &#x26; test engineer (c++/python) (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n du arbeitest in einem agilen entwicklungsteam an unseren softwareprodukten im bereich marinekommunikation und machst den qualitätsgedanken ",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Kiel"
+    },
+    {
+      "id": "arb-app-tester-testanwender-remote-flexibel-nebenjob-leipzig-155722",
+      "title": "App-Tester / Testanwender (m/w/d) - remote - flexibel - Nebenjob",
+      "company": "Winkler & Company",
+      "location": "Leipzig",
+      "city": "Leipzig",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/winkler-company/app-tester-testanwender-remote-flexibel-nebenjob-leipzig-155722",
+      "posted": "2026-06-30T12:30:30.000Z",
+      "description": " du nutzt regelmäßig apps, onlineshops oder webseiten und bemerkst schnell, wenn etwas unübersichtlich oder kompliziert ist? dann könnte diese tätigkeit genau das richtige für dich sein. \n die plattform  testees  sucht für verschiedene marktforschungs- und usability-projekte zuverlässige testanwender, die digitale anwendungen aus sicht echter nutzer bewerten. deine rückmeldungen helfen unternehmen dabei, apps, websites und digitale services benutzerfreundlicher und verständlicher zu gestalten. \n die tätigkeit erfolgt vollständig online und lässt sich flexibel von zuhause aus durchführen. \n auf",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Leipzig"
     },
     {
       "id": "arb-werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-333384",
@@ -677,7 +779,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -988,108 +1090,6 @@
       "location_display": "Wiesbaden"
     },
     {
-      "id": "arb-sps-siemens-engineer-leipzig-257179",
-      "title": "SPS Siemens Engineer",
-      "company": "ekvip automation GmbH",
-      "location": "Leipzig",
-      "city": "Leipzig",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/ekvip-automation-gmbh/sps-siemens-engineer-leipzig-257179",
-      "posted": "2026-06-23T13:00:42.000Z",
-      "description": " ekvip automation gmbh ist ein softwarehaus \nfür den maschinen- und anlagenbau mit sitz in leipzig und \ntochtergesellschaften in den usa und in sarajevo. wir entwickeln \ntwincat-3-frameworks (darunter unser open-source-framework  cinnamon ), c#-applikationen für die maschinen- und linienebene sowie services rund um die inbetriebnahme. unser leitsatz ist einfach:  wir gestalten automatisierung.  \n deine aufgaben \n tasks \n \n entwurf und programmierung von steuerungssystemen für industriemaschinen unter verwendung des siemens tia portal \n koordination der technischen inbetriebnahme – vor ort, rem",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Leipzig"
-    },
-    {
-      "id": "arb-mess-testingenieur-test-engineer-end-of-line-testing-industrialisierung-freiberg-77858",
-      "title": "Mess- & Testingenieur / Test Engineer (m/w/d) - End-of-Line Testing & Industrialisierung",
-      "company": "batterium GmbH",
-      "location": "Freiberg",
-      "city": "Freiberg",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/batterium-gmbh/mess-testingenieur-test-engineer-end-of-line-testing-industrialisierung-freiberg-77858",
-      "posted": "2026-06-23T12:00:39.000Z",
-      "description": " du willst nicht nur produkte prüfen, sondern prüfstandards aufbauen, die echte wirkung haben? \n bei ective entwickeln und vertreiben wir produkte und systemlösungen für mobile und autarke stromversorgung im caravaning-bereich - von lithium-batterien über wechselrichter und ladegeräte bis hin zu vernetzten systemlösungen. \n wir wachsen weiter und wollen unsere produktqualität, lieferantensteuerung und prüfprozesse konsequent professionalisieren. dafür schaffen wir diese neue schlüsselposition. \n aufgaben \n als mess- &#x26; testingenieur / test engineer (m/w/d) baust du bei uns den bereich end-",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 7,
-      "relevance_score": 0,
-      "location_display": "Freiberg"
-    },
-    {
       "id": "arb-manual-qa-tester-mobile-f2p-games-berlin-48017",
       "title": "Manual QA Tester - Mobile F2P Games (f/m/d*)",
       "company": "GameDuell",
@@ -1136,7 +1136,7 @@
         "youNeed": [],
         "nextStep": null
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -1190,60 +1190,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Leipzig"
-    },
-    {
-      "id": "arb-projektleiter-automation-elektrotechnik-hamburg-329707",
-      "title": "Projektleiter (m/w/d) Automation Elektrotechnik -  Hamburg oder Osnabrück",
-      "company": "Ward Howell International Prasuhn GmbH",
-      "location": "Hamburg",
-      "city": "Hamburg",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/ward-howell-international-prasuhn-gmbh/projektleiter-automation-elektrotechnik-hamburg-329707",
-      "posted": "2026-06-23T14:59:02.000Z",
-      "description": " unser kunde ist ein führendes unternehmen im bereich industrieller wasseraufbereitung und umwelttechnologie. aufgrund des weiteren wachstums des unternehmens suchen wir für unseren kunden eine/n  projektleiter (m/w/d) region hamburg oder osnabrück.  \n du bist ein erfahrener elektrotechnikingenieur und hast das gefühl, dass du in deiner aktuellen position zu sehr eingeschränkt wirst? du wünschst dir mehr freiheit, möchtest langfristig strategisch wachsen und stück für stück mehr verantwortung übernehmen? dann könnte diese position genau das richtige für dich sein! \n  deine chance:  als  projek",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Hamburg"
     },
     {
       "id": "arb-teamlead-qa-gn-berlin-83601",
@@ -1421,7 +1370,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-06-30T12:02:40.505Z",
+      "posted": "2026-06-30T18:01:54.244Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1523,7 +1472,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-06-30T12:02:41.001Z",
+      "posted": "2026-06-30T18:01:54.747Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1577,7 +1526,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-06-30T12:02:42.474Z",
+      "posted": "2026-06-30T18:01:56.207Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1631,62 +1580,8 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-06-30T12:02:42.474Z",
+      "posted": "2026-06-30T18:01:56.207Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
-      "id": "reed-57046935",
-      "title": "Design Engineer (Mechanical Equipment)",
-      "company": "Ernest Gordon Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 37000,
-      "salary_max": 42000,
-      "salary_label": "€37k–€42k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-06-30T12:02:42.474Z",
-      "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
         "level": "senior",
@@ -1778,6 +1673,114 @@
       "location_display": "Ireland"
     },
     {
+      "id": "reed-57046935",
+      "title": "Design Engineer (Mechanical Equipment)",
+      "company": "Ernest Gordon Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 37000,
+      "salary_max": 42000,
+      "salary_label": "€37k–€42k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
+      "posted": "2026-06-30T18:01:56.207Z",
+      "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
+      "id": "reed-57043563",
+      "title": "Lead Electrical Design Engineer",
+      "company": "Hays Specialist Recruitment Limited",
+      "location": "Ireland",
+      "city": "Ireland",
+      "country": "IE",
+      "sector": "Tech",
+      "ats": "reed",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_label": "€40k–€60k",
+      "remote": false,
+      "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/57043563",
+      "posted": "2026-06-30T18:01:56.208Z",
+      "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Ireland"
+    },
+    {
       "id": "reed-56980752",
       "title": "Senior/Associate Electrical Engineer",
       "company": "Hays Specialist Recruitment Limited",
@@ -1828,60 +1831,6 @@
         "nextStep": "Close the gap with the course →"
       },
       "age_days": 116,
-      "relevance_score": 0,
-      "location_display": "Ireland"
-    },
-    {
-      "id": "reed-57043563",
-      "title": "Lead Electrical Design Engineer",
-      "company": "Hays Specialist Recruitment Limited",
-      "location": "Ireland",
-      "city": "Ireland",
-      "country": "IE",
-      "sector": "Tech",
-      "ats": "reed",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": 40000,
-      "salary_max": 60000,
-      "salary_label": "€40k–€60k",
-      "remote": false,
-      "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/57043563",
-      "posted": "2026-06-30T12:02:42.474Z",
-      "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1955,7 +1904,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-06-30T12:02:42.474Z",
+      "posted": "2026-06-30T18:01:56.208Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -2006,7 +1955,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-06-30T12:02:42.474Z",
+      "posted": "2026-06-30T18:01:56.208Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -2045,5 +1994,5 @@
       "location_display": "Ireland"
     }
   ],
-  "generated_at": "2026-06-30T12:02:43.777Z"
+  "generated_at": "2026-06-30T18:01:57.476Z"
 }
