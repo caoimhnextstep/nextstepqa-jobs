@@ -47,7 +47,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 14,
+      "age_days": 15,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
     },
@@ -157,60 +157,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 10,
+      "age_days": 11,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
-    },
-    {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 39,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
     },
     {
       "company": "Version 1",
@@ -261,7 +210,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 13,
+      "age_days": 14,
       "relevance_score": 0,
       "location_display": "London"
     },
@@ -365,7 +314,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 24,
+      "age_days": 25,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
@@ -475,6 +424,57 @@
       "location_display": "Box Hill"
     },
     {
+      "company": "CarTrawler",
+      "sector": "TravelTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 39,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
+    },
+    {
       "company": "Okta",
       "sector": "Security",
       "city": "Dublin",
@@ -526,6 +526,57 @@
       "location_display": "Bengaluru, India"
     },
     {
+      "id": "arb-techniker-systemintegration-mechatronik-munich-460424",
+      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
+      "company": "MY Humancapital GmbH",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-460424",
+      "posted": "2026-07-03T16:30:44.000Z",
+      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
       "id": "arb-werkstudent-quality-assurance-qa-gn-dusseldorf-433655",
       "title": "Werkstudent Quality Assurance (QA) (gn)",
       "company": "i-doit GmbH",
@@ -541,8 +592,8 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.arbeitnow.com/jobs/companies/i-doit-gmbh/werkstudent-quality-assurance-qa-gn-dusseldorf-433655",
-      "posted": "2026-07-03T08:00:52.000Z",
-      "description": " du interessierst dich für softwarequalität und möchtest praktische erfahrung im bereich quality assurance sammeln? du arbeitest strukturiert, denkst analytisch und hast interesse daran, moderne ki-gestützte arbeitsweisen kennenzulernen? dann freuen wir uns darauf, dich kennenzulernen! \n wir suchen ab sofort verstärkung für unser qa-team. \n aufgaben \n  aufgabenbeschreibung  \n \n unterstützung bei der nutzung von ki-gestützten qa-workflows, die vom qa-team vorbereitet werden. \n mithilfe bei der erstellung, überprüfung und organisation von testfällen auf grundlage von tickets, anforderungen und a",
+      "posted": "2026-07-03T12:29:02.000Z",
+      "description": " du interessierst dich für softwarequalität und möchtest praktische erfahrung im bereich quality assurance sammeln? du arbeitest strukturiert, denkst analytisch und hast interesse daran, moderne ai-gestützte arbeitsweisen kennenzulernen? dann freuen wir uns darauf, dich kennenzulernen! \n wir suchen ab sofort eine:n werkstudierenden zur verstärkung für unser qa-team. \n aufgaben \n  du behältst den überblick - deine verantwortlichkeiten  \n als  werkstudierende qa  wirst du als teil unseres teams den bereich qa vor allem in den folgenden aufgaben unterstützen: \n \n unterstützung bei der nutzung von",
       "classification": {
         "role_type": "qa",
         "level": "mid",
@@ -628,7 +679,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Münster"
     },
@@ -784,7 +835,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Kiel"
     },
@@ -835,7 +886,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Leipzig"
     },
@@ -943,57 +994,6 @@
       "age_days": 3,
       "relevance_score": 0,
       "location_display": "Berlin, Berlin, Germany"
-    },
-    {
-      "id": "arb-techniker-systemintegration-mechatronik-munich-254356",
-      "title": "Techniker Systemintegration / Mechatronik (m/w/d)",
-      "company": "MY Humancapital GmbH",
-      "location": "Munich",
-      "city": "Munich",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/techniker-systemintegration-mechatronik-munich-254356",
-      "posted": "2026-06-26T16:30:34.000Z",
-      "description": " im auftrag unseres partnerunternehmens in münchen suchen wir sie zum nächstmöglichen zeitpunkt als  „techniker systemintegration / mechatronik (m/w/d)“.  \n  aufgaben  \n \n als  techniker systemintegration / mechatronik (m/w/d)  verantworten sie die komplette systemintegration von der montage bis zur inbetriebnahme \n dabei begleiten sie systeme im gesamten projektverlauf – von der entwicklungsunterstützung über die hardware- und softwareintegration bis zur erfolgreichen übergabe an den nutzer \n sie übernehmen die hardwareintegration, führen inbetriebnahmen durch und entwickeln technische lösung",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Munich"
     },
     {
       "id": "arb-servicetechniker-spannende-karrierechancen-fur-sie-nordlingen-436158",
@@ -1116,7 +1116,7 @@
       "salary_label": "€0k–€1k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-engineer--dublin/56937279",
-      "posted": "2026-07-03T12:01:07.150Z",
+      "posted": "2026-07-03T18:03:13.392Z",
       "description": "quality engineer – dublin atrium global are seeking an innovative hands-on quality engineer to be an integral part of the design, build out and rollout of exciting new product and service solutions. you must be able to work with a wide range of resources: architects, technical analysts, developers, data engineers, managers and product owners to support rapid deployment and adoption activities in an agile scrum based methodology. primary responsi... ",
       "classification": {
         "role_type": "qa",
@@ -1218,7 +1218,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-03T12:01:07.649Z",
+      "posted": "2026-07-03T18:03:13.890Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1272,7 +1272,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-03T12:01:09.134Z",
+      "posted": "2026-07-03T18:03:15.406Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1326,7 +1326,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-03T12:01:09.134Z",
+      "posted": "2026-07-03T18:03:15.406Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1380,7 +1380,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-03T12:01:09.134Z",
+      "posted": "2026-07-03T18:03:15.406Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1488,7 +1488,7 @@
       "salary_label": "€40k–€60k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/lead-electrical-design-engineer/57043563",
-      "posted": "2026-07-03T12:01:09.134Z",
+      "posted": "2026-07-03T18:03:15.406Z",
       "description": "your new company hays engineering are working with our client in cookstown who are looking to add a lead electrical design engineer to their team due to growth. you will be joining a long-established engineering organisation, recognised for providing innovative, industry-leading solutions to clients across the uk, ireland and international markets. this company has built a strong reputation for technical excellence, quality workmanship and a com... ",
       "classification": {
         "role_type": "qa",
@@ -1596,7 +1596,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-03T12:01:09.134Z",
+      "posted": "2026-07-03T18:03:15.406Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1647,7 +1647,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-03T12:01:09.134Z",
+      "posted": "2026-07-03T18:03:15.406Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1740,5 +1740,5 @@
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-03T12:01:10.439Z"
+  "generated_at": "2026-07-03T18:03:16.717Z"
 }
