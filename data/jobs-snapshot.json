@@ -101,9 +101,65 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Brazil"
+    },
+    {
+      "company": "Kaseya",
+      "sector": "IT Mgmt",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-kaseya-5922706004",
+      "title": "QA automation Engineer (Python)",
+      "location": "Krakow, Poland",
+      "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
+      "posted": "2026-06-22T08:29:48-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 12,
+      "relevance_score": 0,
+      "location_display": "Krakow, Poland"
     },
     {
       "company": "Okta",
@@ -152,7 +208,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 9,
+      "age_days": 10,
       "relevance_score": 0,
       "location_display": "Bengaluru, India"
     },
@@ -314,6 +370,57 @@
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
     {
+      "company": "CarTrawler",
+      "sector": "TravelTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 40,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
+    },
+    {
       "company": "Keywords Studios",
       "sector": "Gaming",
       "city": "Dublin",
@@ -417,113 +524,6 @@
       "age_days": 43,
       "relevance_score": 0,
       "location_display": "Box Hill"
-    },
-    {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 40,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
-    },
-    {
-      "company": "Kaseya",
-      "sector": "IT Mgmt",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "automation",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-kaseya-5922706004",
-      "title": "QA automation Engineer (Python)",
-      "location": "Krakow, Poland",
-      "url": "https://www.kaseya.com/careers/jobs/id/5922706004/?gh_jid=5922706004",
-      "posted": "2026-06-22T08:29:48-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>about kaseya</strong></p> <p data-start=\"226\" data-end=\"568\">kaseya is the leading provider of ai-powered it management and cybersecurity software, serving managed service providers (msps) and internal it organizations worldwide. our comprehensive platform helps organizations efficiently manage, secure, and automate their it environments, driving operational efficiency and long-term business success.</p> <p data-start=\"570\" data-end=\"898\">backed by <a class=\"decorated-link\" href=\"https://www.insightpartners.com?utm_source=chatgpt.com\" target=\"_new\" data-st",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 12,
-      "relevance_score": 0,
-      "location_display": "Krakow, Poland"
     },
     {
       "id": "arb-techniker-systemintegration-mechatronik-munich-460424",
@@ -991,7 +991,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Berlin, Berlin, Germany"
     },
@@ -1096,7 +1096,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -64,
+      "age_days": -63,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1147,7 +1147,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -64,
+      "age_days": -63,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1167,7 +1167,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-04T18:01:08.076Z",
+      "posted": "2026-07-05T00:02:03.502Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1221,7 +1221,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-04T18:01:09.602Z",
+      "posted": "2026-07-05T00:02:04.948Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1275,7 +1275,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-04T18:01:09.602Z",
+      "posted": "2026-07-05T00:02:04.948Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1329,7 +1329,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-04T18:01:09.602Z",
+      "posted": "2026-07-05T00:02:04.948Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1417,7 +1417,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -33,
+      "age_days": -32,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1437,7 +1437,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-04T18:01:09.602Z",
+      "posted": "2026-07-05T00:02:04.948Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1488,7 +1488,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-04T18:01:09.602Z",
+      "posted": "2026-07-05T00:02:04.948Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1576,10 +1576,10 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 28,
+      "age_days": 29,
       "relevance_score": 0,
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-04T18:01:10.856Z"
+  "generated_at": "2026-07-05T00:02:06.193Z"
 }
