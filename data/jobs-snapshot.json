@@ -162,66 +162,13 @@
       "location_display": "Krakow, Poland"
     },
     {
-      "company": "Version 1",
-      "sector": "Consulting",
+      "company": "Okta",
+      "sector": "Security",
       "city": "Dublin",
       "country": "IE",
-      "ats": "smartrecruiters",
+      "ats": "greenhouse",
       "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "automation",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-Version1-744000133066135",
-      "title": "QA/Test Automation Engineer",
-      "location": "London",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000133066135",
-      "posted": "2026-06-19T13:10:08.700Z",
-      "description": "",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 15,
-      "relevance_score": 0,
-      "location_display": "London"
-    },
-    {
-      "company": "Version 1",
-      "sector": "Consulting",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
+      "source_verified": false,
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
@@ -243,12 +190,12 @@
         "java": false,
         "performance": false
       },
-      "id": "sr-Version1-744000132807644",
-      "title": "Automation Test Engineer",
-      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000132807644",
-      "posted": "2026-06-18T08:42:38.928Z",
-      "description": "",
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-24T14:05:51-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -261,62 +208,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 16,
+      "age_days": 10,
       "relevance_score": 0,
-      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
-    },
-    {
-      "company": "Version 1",
-      "sector": "Consulting",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "automation",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-Version1-744000130808610",
-      "title": "Test Automation Engineer",
-      "location": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland",
-      "url": "https://jobs.smartrecruiters.com/Version1/744000130808610",
-      "posted": "2026-06-08T13:51:24.608Z",
-      "description": "",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 26,
-      "relevance_score": 0,
-      "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
+      "location_display": "Bengaluru, India"
     },
     {
       "company": "Keywords Studios",
@@ -424,6 +318,163 @@
       "location_display": "Box Hill"
     },
     {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000133066135",
+      "title": "QA/Test Automation Engineer",
+      "location": "London",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000133066135",
+      "posted": "2026-06-19T13:10:08.700Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 15,
+      "relevance_score": 0,
+      "location_display": "London"
+    },
+    {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000132807644",
+      "title": "Automation Test Engineer",
+      "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000132807644",
+      "posted": "2026-06-18T08:42:38.928Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 17,
+      "relevance_score": 0,
+      "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
+    },
+    {
+      "company": "Version 1",
+      "sector": "Consulting",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "automation",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-Version1-744000130808610",
+      "title": "Test Automation Engineer",
+      "location": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland",
+      "url": "https://jobs.smartrecruiters.com/Version1/744000130808610",
+      "posted": "2026-06-08T13:51:24.608Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline",
+          "Playwright",
+          "CI/CD experience"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 26,
+      "relevance_score": 0,
+      "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
+    },
+    {
       "company": "CarTrawler",
       "sector": "TravelTech",
       "city": "Dublin",
@@ -470,60 +521,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 40,
+      "age_days": 41,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
-    },
-    {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-24T14:05:51-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 10,
-      "relevance_score": 0,
-      "location_display": "Bengaluru, India"
     },
     {
       "id": "arb-techniker-systemintegration-mechatronik-munich-460424",
@@ -733,7 +733,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 3,
+      "age_days": 4,
       "relevance_score": 0,
       "location_display": "Dresden"
     },
@@ -937,7 +937,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1042,7 +1042,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 2,
+      "age_days": 3,
       "relevance_score": 0,
       "location_display": "Nördlingen"
     },
@@ -1167,7 +1167,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-05T06:04:05.163Z",
+      "posted": "2026-07-05T12:03:30.814Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1221,7 +1221,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-05T06:04:06.641Z",
+      "posted": "2026-07-05T12:03:32.305Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1275,7 +1275,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-05T06:04:06.641Z",
+      "posted": "2026-07-05T12:03:32.305Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1329,7 +1329,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-05T06:04:06.641Z",
+      "posted": "2026-07-05T12:03:32.305Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1437,7 +1437,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-05T06:04:06.641Z",
+      "posted": "2026-07-05T12:03:32.305Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1488,7 +1488,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-05T06:04:06.641Z",
+      "posted": "2026-07-05T12:03:32.305Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1581,5 +1581,5 @@
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-05T06:04:07.928Z"
+  "generated_at": "2026-07-05T12:03:33.548Z"
 }
