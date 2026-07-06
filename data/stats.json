@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T00:01:51.490Z",
+  "generated_at": "2026-07-06T06:03:01.192Z",
   "total_jobs": 31,
   "irish_jobs": 21,
   "remote_jobs": 2,
@@ -23,8 +23,8 @@
     "Consulting": 4,
     "IT Mgmt": 1,
     "Security": 1,
-    "Gaming": 2,
     "TravelTech": 1,
+    "Gaming": 2,
     "Tech": 21
   },
   "by_role_type": {
@@ -40,5 +40,5 @@
     "ci_cd": 0
   },
   "playwright_demand_pct": 0,
-  "errors": 1
+  "errors": 0
 }
