@@ -1,57 +1,6 @@
 {
   "jobs": [
     {
-      "company": "LetsGetChecked",
-      "sector": "HealthTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-letsgetchecked-4877532101",
-      "title": "QA Engineer - Fuze Services",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
-      "posted": "2026-06-18T08:14:53-04:00",
-      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 19,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
       "company": "NearForm",
       "sector": "Consulting",
       "city": "Remote",
@@ -101,7 +50,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Brazil"
     },
@@ -160,6 +109,264 @@
       "age_days": 15,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
+    },
+    {
+      "company": "LetsGetChecked",
+      "sector": "HealthTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-letsgetchecked-4877532101",
+      "title": "QA Engineer - Fuze Services",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
+      "posted": "2026-06-18T08:14:53-04:00",
+      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 19,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-06-24T14:05:51-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 13,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
+    },
+    {
+      "company": "CarTrawler",
+      "sector": "TravelTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 43,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
+    },
+    {
+      "company": "Keywords Studios",
+      "sector": "Gaming",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-KeywordsStudios-744000133236499",
+      "title": "Quality Assurance Manager - AAA Games",
+      "location": "Box Hill",
+      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000133236499",
+      "posted": "2026-06-22T00:36:35.414Z",
+      "description": "",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 15,
+      "relevance_score": 0,
+      "location_display": "Box Hill"
+    },
+    {
+      "company": "Keywords Studios",
+      "sector": "Gaming",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "smartrecruiters",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "sr-KeywordsStudios-744000127793779",
+      "title": "Senior Quality Assurance Analyst - Video Games",
+      "location": "Box Hill",
+      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
+      "posted": "2026-05-22T01:57:05.528Z",
+      "description": "",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 46,
+      "relevance_score": 0,
+      "location_display": "Box Hill"
     },
     {
       "company": "Version 1",
@@ -319,17 +526,23 @@
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
     {
-      "company": "Keywords Studios",
-      "sector": "Gaming",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
+      "id": "arb-test-engineer-communication-management-berlin-377975",
+      "title": "Test Engineer Communication Management (m/w/x)",
+      "company": "K-tronik GmbH",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
       "source_verified": false,
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
       "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/test-engineer-communication-management-berlin-377975",
+      "posted": "2026-07-07T19:39:29.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der funk- und kommunikationsbranche suchen wir einen test engineer communication management (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n du konzipierst, erstellst und spezifizierst neue automatisierte und manuelle testfälle auf basis der systemrequirements - du führst die automatisierten tes",
       "classification": {
         "role_type": "qa",
         "level": "mid",
@@ -347,12 +560,6 @@
         "java": false,
         "performance": false
       },
-      "id": "sr-KeywordsStudios-744000133236499",
-      "title": "Quality Assurance Manager - AAA Games",
-      "location": "Box Hill",
-      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000133236499",
-      "posted": "2026-06-22T00:36:35.414Z",
-      "description": "",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -365,76 +572,28 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 15,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Box Hill"
+      "location_display": "Berlin"
     },
     {
-      "company": "Keywords Studios",
-      "sector": "Gaming",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "smartrecruiters",
-      "source_type": "direct_company_feed",
+      "id": "arb-technischer-projektmanager-gn-robotik-automatisierung-hamburg-393557",
+      "title": "Technischer Projektmanager (gn) Robotik & Automatisierung",
+      "company": "3D.aero GmbH",
+      "location": "Hamburg",
+      "city": "Hamburg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
       "source_verified": false,
       "salary_min": null,
       "salary_max": null,
       "salary_label": null,
       "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "sr-KeywordsStudios-744000127793779",
-      "title": "Senior Quality Assurance Analyst - Video Games",
-      "location": "Box Hill",
-      "url": "https://jobs.smartrecruiters.com/KeywordsStudios/744000127793779",
-      "posted": "2026-05-22T01:57:05.528Z",
-      "description": "",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 46,
-      "relevance_score": 0,
-      "location_display": "Box Hill"
-    },
-    {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/3daero-gmbh/technischer-projektmanager-gn-robotik-automatisierung-hamburg-393557",
+      "posted": "2026-07-07T19:39:11.000Z",
+      "description": " die  3d-aero gmbh  ist ein tech-unternehmen aus hamburg mit etwa 70 mitarbeitenden und ist seit dezember 2024 ein stolzer teil der  mtu aero engines ag  – einem der weltweit führenden unternehmen der luftfahrtindustrie. wir entwickeln kundenspezifische automatisierungslösungen für die flugzeugproduktion und andere industriebereiche. dabei nutzen wir optische sensorik und moderne industrieroboter zusammen mit ki-basierter datenverarbeitung, um maßgeschneiderte systeme für unsere kunden zu entwickeln. \n wir suchen ab sofort einen  technischen projektmanager (gn) , der mit uns innovative sonderm",
       "classification": {
         "role_type": "qa",
         "level": "mid",
@@ -452,12 +611,6 @@
         "java": false,
         "performance": false
       },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-06-24T14:05:51-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
       "demand": null,
       "gap": {
         "qualifyIf": [
@@ -470,64 +623,13 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 12,
+      "age_days": 0,
       "relevance_score": 0,
-      "location_display": "Bengaluru, India"
-    },
-    {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 43,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
+      "location_display": "Hamburg"
     },
     {
       "id": "arb-application-support-qa-specialist-hamburg-99011",
-      "title": "Application Support & QA Specialist (m/w/d)",
+      "title": "Application Support & Software Tester (m/w/d)",
       "company": "Reos GmbH",
       "location": "Hamburg",
       "city": "Hamburg",
@@ -541,8 +643,8 @@
       "salary_label": null,
       "remote": true,
       "url": "https://www.arbeitnow.com/jobs/companies/reos-gmbh/application-support-qa-specialist-hamburg-99011",
-      "posted": "2026-07-06T13:00:28.000Z",
-      "description": " dein täglicher verantwortungsbereich: \n wir suchen für diese rolle eine person, die application support mit aktiver qa im software development verbindet. die rolle besteht zu 50 % aus support und zu 50 % aus qa: du unterstützt nutzer:innen, business-kund:innen und interne stakeholder bei fragen und problemen rund um unsere web- und mobile-applikationen. gleichzeitig prüfst du im entwicklungsprozess umgesetzte features, bugfixes und tickets, testest acceptance criteria und hilfst dabei, reale fehlerbilder aus dem betrieb in bessere testabdeckung, stabilere releases und eine bessere user experi",
+      "posted": "2026-07-07T22:59:03.000Z",
+      "description": " dein täglicher verantwortungsbereich: \n wir suchen für diese rolle eine person, die  application support und aktive qa im software development zu gleichen teilen verbindet . du unterstützt nutzer:innen, business-kund:innen und interne stakeholder bei fragen und problemen rund um unsere web- und mobile-applikationen. gleichzeitig testest du neue funktionen und bugfixes und hilfst uns dabei, fehler frühzeitig zu erkennen und unsere anwendungen kontinuierlich zu verbessern. \nwichtiger für diese rolle ist, dass du probleme gerne systematisch untersuchst, sorgfältig arbeitest und lust hast, dich t",
       "classification": {
         "role_type": "qa",
         "level": "mid",
@@ -572,7 +674,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 0,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -840,6 +942,57 @@
       "location_display": "Gilching"
     },
     {
+      "id": "arb-werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-333384",
+      "title": "Werkstudent (gn) für Automatisierungstechnik und Bildverarbeitung",
+      "company": "3D.aero GmbH",
+      "location": "Hamburg",
+      "city": "Hamburg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/3daero-gmbh/werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-333384",
+      "posted": "2026-07-07T20:29:03.000Z",
+      "description": " die  3d-aero gmbh  ist ein tech-unternehmen aus hamburg mit etwa 70 mitarbeitenden und ist seit dezember 2024 ein stolzer teil der  mtu aero engines ag  – einem der weltweit führenden unternehmen der luftfahrtindustrie. wir entwickeln kundenspezifische automatisierungslösungen für die flugzeugproduktion und andere industriebereiche. dabei nutzen wir optische sensorik und moderne industrieroboter zusammen mit ki-basierter datenverarbeitung, um maßgeschneiderte systeme für unsere kunden zu entwickeln. \n wir suchen einen  werkstudenten (gn) für automatisierungstechnik und 3d-vision , der mithilf",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Hamburg"
+    },
+    {
       "id": "arb-servicetechniker-spannende-karrierechancen-fur-sie-nordlingen-436158",
       "title": "SPS-Programmierer (m/w/d) - spannende Karrierechancen!",
       "company": "VOLENTUM Deutschland GmbH",
@@ -939,7 +1092,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 30,
+      "age_days": 31,
       "relevance_score": 0,
       "location_display": "County Wicklow"
     },
@@ -993,7 +1146,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -61,
+      "age_days": -60,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1044,7 +1197,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -61,
+      "age_days": -60,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1064,7 +1217,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-07T18:01:25.942Z",
+      "posted": "2026-07-08T00:00:34.767Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1118,7 +1271,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-07T18:01:27.414Z",
+      "posted": "2026-07-08T00:00:36.122Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1172,7 +1325,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-07T18:01:27.414Z",
+      "posted": "2026-07-08T00:00:36.122Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1226,7 +1379,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-07T18:01:27.414Z",
+      "posted": "2026-07-08T00:00:36.122Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1314,7 +1467,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 61,
+      "age_days": 62,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1334,7 +1487,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-07T18:01:27.414Z",
+      "posted": "2026-07-08T00:00:36.123Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1385,7 +1538,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-07T18:01:27.414Z",
+      "posted": "2026-07-08T00:00:36.123Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1473,10 +1626,10 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 31,
+      "age_days": 32,
       "relevance_score": 0,
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-07T18:01:28.740Z"
+  "generated_at": "2026-07-08T00:00:37.363Z"
 }
