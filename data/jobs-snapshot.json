@@ -1,6 +1,57 @@
 {
   "jobs": [
     {
+      "company": "LetsGetChecked",
+      "sector": "HealthTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-letsgetchecked-4877532101",
+      "title": "QA Engineer - Fuze Services",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
+      "posted": "2026-06-18T08:14:53-04:00",
+      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 19,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
       "company": "NearForm",
       "sector": "Consulting",
       "city": "Remote",
@@ -111,57 +162,6 @@
       "location_display": "Krakow, Poland"
     },
     {
-      "company": "LetsGetChecked",
-      "sector": "HealthTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-letsgetchecked-4877532101",
-      "title": "QA Engineer - Fuze Services",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
-      "posted": "2026-06-18T08:14:53-04:00",
-      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 19,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
       "company": "Okta",
       "sector": "Security",
       "city": "Dublin",
@@ -213,57 +213,6 @@
       "location_display": "Bengaluru, India"
     },
     {
-      "company": "CarTrawler",
-      "sector": "TravelTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "lever",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "title": "QA Engineer",
-      "location": "Dublin, Ireland",
-      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
-      "posted": "2026-05-25T08:16:49.576Z",
-      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 43,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland"
-    },
-    {
       "company": "Keywords Studios",
       "sector": "Gaming",
       "city": "Dublin",
@@ -310,7 +259,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 15,
+      "age_days": 16,
       "relevance_score": 0,
       "location_display": "Box Hill"
     },
@@ -364,7 +313,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 46,
+      "age_days": 47,
       "relevance_score": 0,
       "location_display": "Box Hill"
     },
@@ -524,6 +473,57 @@
       "age_days": 29,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
+    },
+    {
+      "company": "CarTrawler",
+      "sector": "TravelTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "lever",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "lv-cartrawler-9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "title": "QA Engineer",
+      "location": "Dublin, Ireland",
+      "url": "https://jobs.lever.co/cartrawler/9a9275b8-0d72-4bbf-9c99-b2889e03d89c",
+      "posted": "2026-05-25T08:16:49.576Z",
+      "description": "tech that takes you places we’re cartrawler, the global travel tech company behind seamless connections between people, places and possibilities. from powering car rental to creating smarter ways to move, we make travel smoother for millions worldwide. our culture is built on curiosity, collaboration and craic where every idea counts and every journey matters. ready to make an impact? let’s go places together. as a qa engineer, you will help drive the delivery of high-quality, reliable software across front-end and back-end systems. working within a collaborative agile team, you will design an",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 43,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland"
     },
     {
       "id": "arb-test-engineer-communication-management-berlin-377975",
@@ -937,9 +937,60 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 6,
+      "age_days": 7,
       "relevance_score": 0,
       "location_display": "Gilching"
+    },
+    {
+      "id": "arb-software-development-test-engineer-c-python-kiel-10921",
+      "title": "Software Development & Test Engineer (C++/Python) (m/w/x)",
+      "company": "K-tronik GmbH",
+      "location": "Kiel",
+      "city": "Kiel",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/software-development-test-engineer-c-python-kiel-10921",
+      "posted": "2026-07-07T23:29:02.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der funk- und kommunikationsbranche suchen wir einen software development &#x26; test engineer (c++/python) (m/w/x) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n du arbeitest in einem agilen entwicklungsteam an unseren softwareprodukten im bereich marinekommunikation und machst den qualitätsgedanken ",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Kiel"
     },
     {
       "id": "arb-werkstudent-gn-fur-automatisierungstechnik-und-3d-vision-hamburg-333384",
@@ -1217,7 +1268,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-08T00:00:34.767Z",
+      "posted": "2026-07-08T06:04:48.897Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1271,7 +1322,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-08T00:00:36.122Z",
+      "posted": "2026-07-08T06:04:50.424Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1325,7 +1376,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-08T00:00:36.122Z",
+      "posted": "2026-07-08T06:04:50.424Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1379,7 +1430,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-08T00:00:36.122Z",
+      "posted": "2026-07-08T06:04:50.424Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1487,7 +1538,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-08T00:00:36.123Z",
+      "posted": "2026-07-08T06:04:50.424Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1538,7 +1589,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-08T00:00:36.123Z",
+      "posted": "2026-07-08T06:04:50.424Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1631,5 +1682,5 @@
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-08T00:00:37.363Z"
+  "generated_at": "2026-07-08T06:04:51.719Z"
 }
