@@ -1,57 +1,6 @@
 {
   "jobs": [
     {
-      "company": "LetsGetChecked",
-      "sector": "HealthTech",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-letsgetchecked-4877532101",
-      "title": "QA Engineer - Fuze Services",
-      "location": "Dublin, Ireland, Ireland",
-      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
-      "posted": "2026-06-18T08:14:53-04:00",
-      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 19,
-      "relevance_score": 0,
-      "location_display": "Dublin, Ireland, Ireland"
-    },
-    {
       "company": "NearForm",
       "sector": "Consulting",
       "city": "Remote",
@@ -104,6 +53,57 @@
       "age_days": 5,
       "relevance_score": 0,
       "location_display": "Brazil"
+    },
+    {
+      "company": "LetsGetChecked",
+      "sector": "HealthTech",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-letsgetchecked-4877532101",
+      "title": "QA Engineer - Fuze Services",
+      "location": "Dublin, Ireland, Ireland",
+      "url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4877532101",
+      "posted": "2026-06-18T08:14:53-04:00",
+      "description": "<div class=\"content-intro\"><p>letsgetchecked is a global healthcare solutions company that provides the tools to manage health from home through health testing, virtual care, genetic sequencing, and medication delivery for a wide range of health and wellness conditions. letsgetchecked's end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfillment. founded in 2015 and co-headquartered in dublin and atlanta, letsgetchecked empowers people to take control of their health and live longer, happier lives.</p></div><p>our qa engineers take pride in",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 20,
+      "relevance_score": 0,
+      "location_display": "Dublin, Ireland, Ireland"
     },
     {
       "company": "Kaseya",
@@ -261,7 +261,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 18,
+      "age_days": 19,
       "relevance_score": 0,
       "location_display": "London"
     },
@@ -365,7 +365,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 29,
+      "age_days": 30,
       "relevance_score": 0,
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
@@ -524,6 +524,108 @@
       "age_days": 44,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
+    },
+    {
+      "id": "arb-quality-engineer-produktentwicklung-automotive-munich-157236",
+      "title": "Quality Engineer Produktentwicklung Automotive (w/m/d)",
+      "company": "PRIME HR Agentur®",
+      "location": "Munich",
+      "city": "Munich",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/prime-hr-agentur/quality-engineer-produktentwicklung-automotive-munich-157236",
+      "posted": "2026-07-08T14:30:34.000Z",
+      "description": " standort: raum münchen | anstellung: unbefristete festanstellung in vollzeit, direktvermittlung über prime hr agentur gmbh. \n unser mandant ist ein etablierter entwicklungs- und fertigungspartner für embedded systems und lichttechnik in der automobilindustrie. seit fast zwei jahrzehnten entstehen hier steuergeräte und beleuchtungssysteme für renommierte premium-hersteller, exklusive sonderserien und führende motorradmarken. als teil eines international aufgestellten automobilzulieferers vereint das unternehmen die wendigkeit eines mittelständlers mit der globalen reichweite und innovationskra",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Munich"
+    },
+    {
+      "id": "arb-system-test-engineer-sigint-products-nuremberg-254572",
+      "title": "System Test Engineer - SigInt Products (m/w/d)",
+      "company": "K-tronik GmbH",
+      "location": "Nuremberg",
+      "city": "Nuremberg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/system-test-engineer-sigint-products-nuremberg-254572",
+      "posted": "2026-07-08T14:03:55.000Z",
+      "description": " projektbeschreibung: \n technologie begeistert sie? uns auch! zur verstärkung unseres expertenteams bei unserem kunden aus der verteidigungsbranche suchen wir einen system test engineer - sigint products (m/w/d) in festanstellung bei k-tronik. wir freuen uns darauf, sie persönlich kennen zu lernen - und gemeinsam mit leidenschaft und teamgeist an spannenden projekten und zukunftsweisenden technologien zu arbeiten. \n aufgaben: \n \n sie entwickeln anspruchsvolle testfälle und präzise testvorgaben für komplexe systeme und deren subsysteme - eigenverantwortlich übernehmen sie die verifikation, vali",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Nuremberg"
     },
     {
       "id": "arb-senior-qa-engineer-payments-all-genders-berlin-175378",
@@ -779,7 +881,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Munich"
     },
@@ -830,65 +932,9 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 4,
+      "age_days": 5,
       "relevance_score": 0,
       "location_display": "Düsseldorf"
-    },
-    {
-      "id": "arb-senior-testautomation-engineer-robot-framework-munster-161248",
-      "title": "Senior Testautomation Engineer - Robot Framework",
-      "company": "Polarstern Experts",
-      "location": "Münster",
-      "city": "Münster",
-      "country": "EU",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/polarstern-experts/senior-testautomation-engineer-robot-framework-munster-161248",
-      "posted": "2026-07-01T13:30:31.000Z",
-      "description": " du möchtest nicht nur tests automatisieren, sondern aktiv die qualität moderner softwarelösungen mitgestalten? dann erwartet dich bei uns ein umfeld, in dem technische exzellenz, eigenverantwortung und kollegiale zusammenarbeit zusammenkommen. \n wir sind ein interdisziplinäres team aus erfahrenen fachexpert:innen, das anspruchsvolle it-projekte für kunden aus banken, versicherungen, logistik und handel umsetzt. statt standardlösungen entwickeln wir individuelle ansätze, die fachlich und technisch wirklich passen. dabei arbeiten wir partnerschaftlich, pragmatisch und mit einer offenen fehlerku",
-      "classification": {
-        "role_type": "automation",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline",
-          "Playwright",
-          "CI/CD experience"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Münster"
     },
     {
       "id": "arb-software-development-test-engineer-c-python-kiel-10921",
@@ -1217,7 +1263,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-08T12:02:14.653Z",
+      "posted": "2026-07-08T18:00:36.727Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1271,7 +1317,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-08T12:02:16.161Z",
+      "posted": "2026-07-08T18:00:38.199Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1325,7 +1371,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-08T12:02:16.161Z",
+      "posted": "2026-07-08T18:00:38.199Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1379,7 +1425,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-08T12:02:16.161Z",
+      "posted": "2026-07-08T18:00:38.199Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1487,7 +1533,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-08T12:02:16.161Z",
+      "posted": "2026-07-08T18:00:38.199Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1538,7 +1584,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-08T12:02:16.161Z",
+      "posted": "2026-07-08T18:00:38.199Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1631,5 +1677,5 @@
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-08T12:02:17.465Z"
+  "generated_at": "2026-07-08T18:00:39.500Z"
 }
