@@ -1,35 +1,36 @@
 {
-  "generated_at": "2026-07-09T06:02:49.704Z",
+  "generated_at": "2026-07-09T12:02:41.770Z",
   "total_jobs": 32,
-  "irish_jobs": 21,
+  "irish_jobs": 20,
   "remote_jobs": 2,
   "transition_friendly": 0,
   "sources_ok": 31,
   "sources_failed": 0,
   "by_country": {
-    "IE": 21,
-    "EU": 9,
-    "REMOTE": 2
+    "IE": 20,
+    "REMOTE": 2,
+    "EU": 10
   },
   "by_ats": {
-    "greenhouse": 4,
+    "greenhouse": 3,
     "smartrecruiters": 5,
     "lever": 1,
-    "arbeitnow": 11,
+    "arbeitnow": 12,
     "reed": 11
   },
   "by_sector": {
     "HealthTech": 1,
-    "Consulting": 4,
     "IT Mgmt": 1,
-    "Gaming": 2,
     "Security": 1,
+    "Gaming": 2,
+    "Consulting": 3,
     "TravelTech": 1,
-    "Tech": 22
+    "Tech": 23
   },
   "by_role_type": {
-    "qa": 28,
-    "automation": 4
+    "qa": 27,
+    "automation": 4,
+    "manual": 1
   },
   "tool_signals": {
     "playwright": 0,
