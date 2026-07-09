@@ -1,60 +1,6 @@
 {
   "jobs": [
     {
-      "company": "NearForm",
-      "sector": "Consulting",
-      "city": "Remote",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-nearform-7748853003",
-      "title": "Senior Test Engineer (Contract, Brazil, Remote)",
-      "location": "Brazil",
-      "url": "https://job-boards.greenhouse.io/nearform/jobs/7748853003",
-      "posted": "2026-07-02T14:54:49-04:00",
-      "description": "<p><em>this is a contract position for those based in brazil. the initial contract is for 7 months, with potential extensions.</em></p> <p><strong>about nearform<br></strong></p> <p>nearform is an independent team of data &amp; ai experts, engineers, and designers who build intelligent digital solutions and capability at pace. we create ai-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. in these ways, we partner with ambitious enterprises to deliver enduring impact.</p> <p>our deep expertise in solving the world’s most complex digital pro",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 5,
-      "relevance_score": 0,
-      "location_display": "Brazil"
-    },
-    {
       "company": "LetsGetChecked",
       "sector": "HealthTech",
       "city": "Dublin",
@@ -104,6 +50,60 @@
       "age_days": 20,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland, Ireland"
+    },
+    {
+      "company": "NearForm",
+      "sector": "Consulting",
+      "city": "Remote",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": true,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-nearform-7748853003",
+      "title": "Senior Test Engineer (Contract, Brazil, Remote)",
+      "location": "Brazil",
+      "url": "https://job-boards.greenhouse.io/nearform/jobs/7748853003",
+      "posted": "2026-07-02T14:54:49-04:00",
+      "description": "<p><em>this is a contract position for those based in brazil. the initial contract is for 7 months, with potential extensions.</em></p> <p><strong>about nearform<br></strong></p> <p>nearform is an independent team of data &amp; ai experts, engineers, and designers who build intelligent digital solutions and capability at pace. we create ai-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. in these ways, we partner with ambitious enterprises to deliver enduring impact.</p> <p>our deep expertise in solving the world’s most complex digital pro",
+      "demand": {
+        "label": "🎯 Next Level",
+        "color": "purple"
+      },
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 6,
+      "relevance_score": 0,
+      "location_display": "Brazil"
     },
     {
       "company": "Kaseya",
@@ -728,7 +728,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -779,7 +779,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -830,7 +830,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -983,7 +983,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Kiel"
     },
@@ -1034,7 +1034,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1138,7 +1138,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 31,
+      "age_days": 32,
       "relevance_score": 0,
       "location_display": "County Wicklow"
     },
@@ -1192,7 +1192,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -60,
+      "age_days": -59,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1243,7 +1243,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -60,
+      "age_days": -59,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1263,7 +1263,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-08T18:00:36.727Z",
+      "posted": "2026-07-09T00:03:35.009Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1317,7 +1317,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-08T18:00:38.199Z",
+      "posted": "2026-07-09T00:03:36.493Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1371,7 +1371,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-08T18:00:38.199Z",
+      "posted": "2026-07-09T00:03:36.493Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1425,7 +1425,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-08T18:00:38.199Z",
+      "posted": "2026-07-09T00:03:36.493Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1513,7 +1513,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 62,
+      "age_days": 63,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1533,7 +1533,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-08T18:00:38.199Z",
+      "posted": "2026-07-09T00:03:36.494Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1584,7 +1584,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-08T18:00:38.199Z",
+      "posted": "2026-07-09T00:03:36.494Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1672,10 +1672,10 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 32,
+      "age_days": 33,
       "relevance_score": 0,
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-08T18:00:39.500Z"
+  "generated_at": "2026-07-09T00:03:37.778Z"
 }
