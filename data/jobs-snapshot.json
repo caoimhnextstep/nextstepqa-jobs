@@ -52,60 +52,6 @@
       "location_display": "Dublin, Ireland, Ireland"
     },
     {
-      "company": "NearForm",
-      "sector": "Consulting",
-      "city": "Remote",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": true,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "senior",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-nearform-7748853003",
-      "title": "Senior Test Engineer (Contract, Brazil, Remote)",
-      "location": "Brazil",
-      "url": "https://job-boards.greenhouse.io/nearform/jobs/7748853003",
-      "posted": "2026-07-02T14:54:49-04:00",
-      "description": "<p><em>this is a contract position for those based in brazil. the initial contract is for 7 months, with potential extensions.</em></p> <p><strong>about nearform<br></strong></p> <p>nearform is an independent team of data &amp; ai experts, engineers, and designers who build intelligent digital solutions and capability at pace. we create ai-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. in these ways, we partner with ambitious enterprises to deliver enduring impact.</p> <p>our deep expertise in solving the world’s most complex digital pro",
-      "demand": {
-        "label": "🎯 Next Level",
-        "color": "purple"
-      },
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Brazil"
-    },
-    {
       "company": "Kaseya",
       "sector": "IT Mgmt",
       "city": "Dublin",
@@ -157,9 +103,60 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Krakow, Poland"
+    },
+    {
+      "company": "Okta",
+      "sector": "Security",
+      "city": "Dublin",
+      "country": "IE",
+      "ats": "greenhouse",
+      "source_type": "direct_company_feed",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "id": "gh-okta-7926062",
+      "title": "Data Quality Analyst II",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
+      "posted": "2026-07-09T02:51:08-04:00",
+      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Bengaluru, India"
     },
     {
       "company": "Keywords Studios",
@@ -366,7 +363,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 20,
+      "age_days": 21,
       "relevance_score": 0,
       "location_display": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, Ireland"
     },
@@ -424,57 +421,6 @@
       "location_display": "Belfast, London, Newcastle Upon Tyne, Birmingham, Edinburgh, Ireland"
     },
     {
-      "company": "Okta",
-      "sector": "Security",
-      "city": "Dublin",
-      "country": "IE",
-      "ats": "greenhouse",
-      "source_type": "direct_company_feed",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": false,
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "id": "gh-okta-7926062",
-      "title": "Data Quality Analyst II",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7926062?gh_jid=7926062",
-      "posted": "2026-07-08T07:19:27-04:00",
-      "description": "<div class=\"content-intro\"><p><strong>secure every identity, from ai to human<br><br></strong>identity is the key to unlocking the potential of ai. okta secures ai by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. this work requires a relentless drive to solve complex challenges with real-world stakes. we are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>this is an opportunity to do career-defining work. we're all in on this mission. if you are too, let's talk.</p></div><p>detail-o",
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 0,
-      "relevance_score": 0,
-      "location_display": "Bengaluru, India"
-    },
-    {
       "company": "CarTrawler",
       "sector": "TravelTech",
       "city": "Dublin",
@@ -521,9 +467,111 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 44,
+      "age_days": 45,
       "relevance_score": 0,
       "location_display": "Dublin, Ireland"
+    },
+    {
+      "id": "arb-quality-assurance-rater-german-germany-berlin-207437",
+      "title": "Quality Assurance Rater - German (Germany)",
+      "company": "TELUS Digital",
+      "location": "Berlin",
+      "city": "Berlin",
+      "country": "REMOTE",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/telus-digital/quality-assurance-rater-german-germany-berlin-207437",
+      "posted": "2026-07-09T09:00:38.000Z",
+      "description": " join our elite team of senior raters as a critical contributor to high-quality validation data that directly influences product development and quality assurance for leading search engines and ai technologies. \n this flexible, remote opportunity allows you to apply your analytical and research skills to evaluate search results and ai-generated content while contributing to the development of high-quality ai systems. \n tasks \n  a day in the life of a quality assurance rater  \n \n in this role, you'll conduct analytical assessments of search results and ai responses, providing ratings and feedba",
+      "classification": {
+        "role_type": "manual",
+        "level": "senior",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": {
+        "label": "📋 Manual Focus",
+        "color": "muted"
+      },
+      "gap": {
+        "qualifyIf": [
+          "2+ years manual QA",
+          "JIRA / test cases"
+        ],
+        "youNeed": [],
+        "nextStep": null
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Berlin"
+    },
+    {
+      "id": "arb-werkstudent-software-testing-qualitatssicherung-regensburg-411624",
+      "title": "Werkstudent (m/w/d) Software Testing / Qualitätssicherung",
+      "company": "321 MED GmbH",
+      "location": "Regensburg",
+      "city": "Regensburg",
+      "country": "EU",
+      "sector": "Tech",
+      "ats": "arbeitnow",
+      "source_type": "aggregator",
+      "source_verified": false,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_label": null,
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/321-med-gmbh/werkstudent-software-testing-qualitatssicherung-regensburg-411624",
+      "posted": "2026-07-09T06:30:35.000Z",
+      "description": " über 321 med \n 321 med unterstützt medizinische einrichtungen dabei, effizienter, wirtschaftlicher und zukunftsfähiger zu arbeiten. wir stehen für klare kommunikation, starke partnerschaften und lösungen, die im praxisalltag wirklich funktionieren. \n aufgaben \n \n  durchführung manueller tests unserer webanwendungen und digitalen produkte  \n  erstellung, pflege und dokumentation von testfällen, testplänen und testergebnissen  \n  identifikation, analyse und nachverfolgung von softwarefehlern in enger zusammenarbeit mit dem entwicklungsteam  \n  unterstützung bei der qualitätssicherung von fronte",
+      "classification": {
+        "role_type": "qa",
+        "level": "mid",
+        "transition_friendly": false
+      },
+      "signals": {
+        "playwright": false,
+        "typescript": false,
+        "cypress": false,
+        "selenium": false,
+        "api_testing": false,
+        "ci_cd": false,
+        "docker": false,
+        "python": false,
+        "java": false,
+        "performance": false
+      },
+      "demand": null,
+      "gap": {
+        "qualifyIf": [
+          "Automation framework exp",
+          "TypeScript or Python"
+        ],
+        "youNeed": [
+          "Playwright or Cypress",
+          "CI/CD pipeline"
+        ],
+        "nextStep": "Close the gap with the course →"
+      },
+      "age_days": 0,
+      "relevance_score": 0,
+      "location_display": "Regensburg"
     },
     {
       "id": "arb-quality-engineer-produktentwicklung-automotive-munich-157236",
@@ -677,7 +725,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 0,
+      "age_days": 1,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -1039,57 +1087,6 @@
       "location_display": "Hamburg"
     },
     {
-      "id": "arb-servicetechniker-spannende-karrierechancen-fur-sie-nordlingen-436158",
-      "title": "SPS-Programmierer (m/w/d) - spannende Karrierechancen!",
-      "company": "VOLENTUM Deutschland GmbH",
-      "location": "Nördlingen",
-      "city": "Nördlingen",
-      "country": "REMOTE",
-      "sector": "Tech",
-      "ats": "arbeitnow",
-      "source_type": "aggregator",
-      "source_verified": false,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_label": null,
-      "remote": true,
-      "url": "https://www.arbeitnow.com/jobs/companies/volentum-deutschland-gmbh/servicetechniker-spannende-karrierechancen-fur-sie-nordlingen-436158",
-      "posted": "2026-07-02T07:29:02.000Z",
-      "description": " du bist sps-programmierer*, automatisierungstechniker* oder im bereich steuerungs- und automatisierungstechnik tätig, möchtest dich beruflich weiterentwickeln und bist offen für spannende karrierechancen, die zu deinen erfahrungen, wünschen und vorstellungen passen? \n wir von volentum sind in regelmäßigem austausch mit unternehmen, die qualifizierte und motivierte sps-programmierer*innen in unterschiedlichen technischen bereichen suchen. \n eine konkrete stelle steht dabei nicht im vordergrund. vielmehr möchten wir gemeinsam mit dir herausfinden, welche aufgaben, branchen, technologien, einsat",
-      "classification": {
-        "role_type": "qa",
-        "level": "mid",
-        "transition_friendly": false
-      },
-      "signals": {
-        "playwright": false,
-        "typescript": false,
-        "cypress": false,
-        "selenium": false,
-        "api_testing": false,
-        "ci_cd": false,
-        "docker": false,
-        "python": false,
-        "java": false,
-        "performance": false
-      },
-      "demand": null,
-      "gap": {
-        "qualifyIf": [
-          "Automation framework exp",
-          "TypeScript or Python"
-        ],
-        "youNeed": [
-          "Playwright or Cypress",
-          "CI/CD pipeline"
-        ],
-        "nextStep": "Close the gap with the course →"
-      },
-      "age_days": 6,
-      "relevance_score": 0,
-      "location_display": "Nördlingen"
-    },
-    {
       "id": "reed-57093994",
       "title": "Automation Engineer",
       "company": "Nicholas Howard",
@@ -1263,7 +1260,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-09T06:02:46.937Z",
+      "posted": "2026-07-09T12:02:39.065Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1317,7 +1314,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/materials-engineer--bitumen-surface-treatments/56943265",
-      "posted": "2026-07-09T06:02:48.452Z",
+      "posted": "2026-07-09T12:02:40.482Z",
       "description": "about us:&nbsp; breedon is a leading construction and materials group in ireland and great britain with a group turnover of c. 1.6 billion per annum.&nbsp; we operate 2 cement plants, 2 bitumen terminals, an emulsion plant, over 100 quarries, 50 asphalt plants, 170 ready-mixed concrete plants, as well as a range of contract surfacing and other essential products to help our customers build the places where we all live, work, and play.&nbsp; our ... ",
       "classification": {
         "role_type": "qa",
@@ -1371,7 +1368,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-09T06:02:48.452Z",
+      "posted": "2026-07-09T12:02:40.482Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1425,7 +1422,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-09T06:02:48.452Z",
+      "posted": "2026-07-09T12:02:40.482Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1533,7 +1530,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-09T06:02:48.452Z",
+      "posted": "2026-07-09T12:02:40.482Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1584,7 +1581,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-09T06:02:48.452Z",
+      "posted": "2026-07-09T12:02:40.482Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1677,5 +1674,5 @@
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-09T06:02:49.704Z"
+  "generated_at": "2026-07-09T12:02:41.770Z"
 }
