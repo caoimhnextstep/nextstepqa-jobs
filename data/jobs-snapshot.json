@@ -779,7 +779,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Berlin"
     },
@@ -830,7 +830,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -881,7 +881,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1034,7 +1034,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Kiel"
     },
@@ -1085,7 +1085,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 1,
+      "age_days": 2,
       "relevance_score": 0,
       "location_display": "Hamburg"
     },
@@ -1138,7 +1138,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 32,
+      "age_days": 33,
       "relevance_score": 0,
       "location_display": "County Wicklow"
     },
@@ -1192,7 +1192,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -59,
+      "age_days": -58,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1243,7 +1243,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": -59,
+      "age_days": -58,
       "relevance_score": 0,
       "location_display": "Cork"
     },
@@ -1263,7 +1263,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/control-panel-designer-electrical-design-bms/57063561",
-      "posted": "2026-07-09T18:03:33.108Z",
+      "posted": "2026-07-10T00:01:30.982Z",
       "description": "control panel designer (electrical design / bms) competitive salary + employee ownership + training + progression + company benefits newtownabbey, northern ireland are you an electrical design engineer looking to join one of the uk's leading building management systems specialists where you'll work on bespoke projects while benefiting from long-term career development and employee ownership? this is an exciting opportunity to join a market-leadi... ",
       "classification": {
         "role_type": "qa",
@@ -1317,7 +1317,7 @@
       "salary_label": "€45k–€45k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/quality-manager/57045470",
-      "posted": "2026-07-09T18:03:34.587Z",
+      "posted": "2026-07-10T00:01:32.482Z",
       "description": "your new company a well-established and highly regarded manufacturing organisation operating across regulated industries. the business is committed to maintaining the highest quality standards and continuous improvement, supported by accredited systems and a customer-centric approach. your new role as quality manager, you will take full responsibility for leading the quality function while working closely with production to ensure all products m... ",
       "classification": {
         "role_type": "qa",
@@ -1371,7 +1371,7 @@
       "salary_label": "€37k–€42k",
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/design-engineer-mechanical-equipment/57046935",
-      "posted": "2026-07-09T18:03:34.587Z",
+      "posted": "2026-07-10T00:01:32.483Z",
       "description": "design engineer (mechanical equipment) 37,000 - 42,000 +progression +training + life assurance +early friday finish +overtime newry are you a design engineer looking for an exciting opportunity to join a growing excavation attachment company that offers career development and actively supports your progression? the company are a growing manufacturer and since becoming leaders in their field they prioritise customer satisfaction while suppling in... ",
       "classification": {
         "role_type": "qa",
@@ -1459,7 +1459,7 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 63,
+      "age_days": 64,
       "relevance_score": 0,
       "location_display": "Ireland"
     },
@@ -1479,7 +1479,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/sheq-manager-uk-ireland/57030464",
-      "posted": "2026-07-09T18:03:34.587Z",
+      "posted": "2026-07-10T00:01:32.483Z",
       "description": "sheq manager (uk &amp; ireland) 65,000 - 75,000 + 6% pension + life assurance + company benefits enniskillen, county fermanagh are you a health &amp; safety manager looking for a diverse and challenging new role, with plenty of responsibilities, recognition, and to be driving change and heavily influencing the future success of one of the most recognisable companies in the country? in this role you will be split between office and site based, en... ",
       "classification": {
         "role_type": "qa",
@@ -1530,7 +1530,7 @@
       "salary_label": null,
       "remote": false,
       "url": "https://www.reed.co.uk/jobs/electrical-project-manager-no-travel/57057564",
-      "posted": "2026-07-09T18:03:34.587Z",
+      "posted": "2026-07-10T00:01:32.483Z",
       "description": "overview a leading building services contractor specialising in large-scale prefabricated and energy-focused m&amp;e solutions across the uk &amp; ireland is seeking an experienced electrical project manager to join their team in mallusk. this role is suited to someone who has hands-on experience managing electrical projects within building services, ideally from an electrical trades background and who is comfortable taking full ownership of del... ",
       "classification": {
         "role_type": "qa",
@@ -1618,10 +1618,10 @@
         ],
         "nextStep": "Close the gap with the course →"
       },
-      "age_days": 33,
+      "age_days": 34,
       "relevance_score": 0,
       "location_display": "Dublin"
     }
   ],
-  "generated_at": "2026-07-09T18:03:35.877Z"
+  "generated_at": "2026-07-10T00:01:33.742Z"
 }
