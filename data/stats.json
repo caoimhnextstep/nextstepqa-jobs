@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T18:03:35.877Z",
+  "generated_at": "2026-07-10T00:01:33.742Z",
   "total_jobs": 31,
   "irish_jobs": 19,
   "remote_jobs": 2,
@@ -40,5 +40,5 @@
     "ci_cd": 0
   },
   "playwright_demand_pct": 0,
-  "errors": 1
+  "errors": 0
 }
