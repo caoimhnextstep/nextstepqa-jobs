@@ -33,12 +33,12 @@
   },
   "T-Pro": {
     "status": "error",
-    "last_run": "2026-08-03T11:20:53.175Z",
+    "last_run": "2026-08-06T10:26:57.489Z",
     "last_error": "fetch failed"
   },
   "Nutritics": {
     "status": "error",
-    "last_run": "2026-07-30T10:11:08.926Z",
+    "last_run": "2026-08-06T10:26:40.731Z",
     "last_error": "HTTP 404"
   },
   "ServiceNow": {
@@ -48,7 +48,7 @@
   },
   "State Street": {
     "status": "error",
-    "last_run": "2026-07-30T10:11:20.037Z",
+    "last_run": "2026-08-06T10:26:51.251Z",
     "last_error": "HTTP 404"
   },
   "Transact Campus": {
