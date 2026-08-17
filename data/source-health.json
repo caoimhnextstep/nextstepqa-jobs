@@ -1,7 +1,7 @@
 {
   "Axway": {
     "status": "error",
-    "last_run": "2026-08-10T09:18:04.283Z",
+    "last_run": "2026-08-17T08:40:24.939Z",
     "last_error": "HTTP 404"
   },
   "Fidelity": {
@@ -23,7 +23,7 @@
   },
   "LocalEyes": {
     "status": "error",
-    "last_run": "2026-08-10T09:18:16.910Z",
+    "last_run": "2026-08-17T08:40:36.696Z",
     "last_error": "HTTP 404"
   },
   "Mastercard": {
@@ -33,7 +33,7 @@
   },
   "T-Pro": {
     "status": "error",
-    "last_run": "2026-08-13T09:02:08.098Z",
+    "last_run": "2026-08-17T08:40:44.885Z",
     "last_error": "fetch failed"
   },
   "Nutritics": {
