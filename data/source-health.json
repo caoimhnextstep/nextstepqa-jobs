@@ -1,7 +1,7 @@
 {
   "Axway": {
     "status": "error",
-    "last_run": "2026-08-17T08:40:24.939Z",
+    "last_run": "2026-08-24T08:45:08.426Z",
     "last_error": "HTTP 404"
   },
   "Fidelity": {
@@ -23,7 +23,7 @@
   },
   "LocalEyes": {
     "status": "error",
-    "last_run": "2026-08-17T08:40:36.696Z",
+    "last_run": "2026-08-24T08:45:22.870Z",
     "last_error": "HTTP 404"
   },
   "Mastercard": {
@@ -33,7 +33,7 @@
   },
   "T-Pro": {
     "status": "error",
-    "last_run": "2026-08-20T08:24:39.025Z",
+    "last_run": "2026-08-24T08:45:30.985Z",
     "last_error": "fetch failed"
   },
   "Nutritics": {
@@ -72,5 +72,12 @@
     "status": "error",
     "last_run": "2026-06-04T10:54:38.540Z",
     "last_error": "HTTP 403"
+  },
+  "Citi": {
+    "status": "ok",
+    "last_run": "2026-08-24T08:45:09.704Z",
+    "last_change_detected": "2026-08-24T08:45:09.704Z",
+    "new_candidates": 0,
+    "total_titles_seen": 1
   }
 }
