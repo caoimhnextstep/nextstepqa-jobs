@@ -1,27 +1,27 @@
 {
   "Axway": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-09-07T13:58:46.219Z"
+    "last_checked": "2026-09-14T14:44:01.183Z"
   },
   "BearingPoint": {
     "page_hash": "311bdd1bd8d39601f6d5fc8f83fefc9d",
     "url": "https://www.bearingpoint.com/en-ie/careers/",
-    "last_checked": "2026-09-07T13:58:46.831Z",
-    "last_success": "2026-09-07T13:58:46.831Z",
+    "last_checked": "2026-09-14T14:44:01.710Z",
+    "last_success": "2026-09-14T14:44:01.710Z",
     "job_titles": []
   },
   "Binance": {
     "page_hash": "79262a7fb91d60c61373a27f94e7bc56",
     "url": "https://www.binance.com/en/careers/job-opportunities",
-    "last_checked": "2026-09-07T13:58:46.927Z",
-    "last_success": "2026-09-07T13:58:46.927Z",
+    "last_checked": "2026-09-14T14:44:02.017Z",
+    "last_success": "2026-09-14T14:44:02.017Z",
     "job_titles": []
   },
   "Citi": {
-    "page_hash": "c373f0ee840099038cd26107aaf2a553",
+    "page_hash": "e941a4ccde38446d425734313b4fc1f5",
     "url": "https://jobs.citi.com/search-jobs/ireland",
-    "last_checked": "2026-09-07T13:58:47.484Z",
-    "last_success": "2026-09-07T13:58:47.484Z",
+    "last_checked": "2026-09-14T14:44:03.452Z",
+    "last_success": "2026-09-14T14:44:03.452Z",
     "job_titles": []
   },
   "Fidelity": {
@@ -29,16 +29,16 @@
     "last_checked": "2026-05-15T15:06:20.303Z"
   },
   "Fineos": {
-    "page_hash": "ff5b19aa1ac96e83021f794c7c8acc08",
+    "page_hash": "6cbf2488128e3b6dbb580ec1fb8b4dc1",
     "url": "https://careers.fineos.com/search/?q=quality+assurance",
-    "last_checked": "2026-09-07T13:58:49.381Z",
-    "last_success": "2026-09-07T13:58:49.381Z",
+    "last_checked": "2026-09-14T14:44:04.958Z",
+    "last_success": "2026-09-14T14:44:04.958Z",
     "job_titles": []
   },
   "GlobeTech": {
     "page_hash": "17ac39e6d5438016d577c54835b15a99",
     "url": "https://www.globetechgroup.com/careers",
-    "last_checked": "2026-09-07T13:58:49.884Z",
+    "last_checked": "2026-09-14T14:44:12.641Z",
     "last_success": "2026-09-07T13:58:49.884Z",
     "job_titles": [],
     "last_error": "fetch failed"
@@ -50,33 +50,33 @@
   "Kefron": {
     "page_hash": "2a8c92d7216208a138b5a3c14a384c60",
     "url": "https://www.kefron.com/careers",
-    "last_checked": "2026-09-07T13:58:51.322Z",
-    "last_success": "2026-09-07T13:58:51.322Z",
+    "last_checked": "2026-09-14T14:44:13.784Z",
+    "last_success": "2026-09-14T14:44:13.784Z",
     "job_titles": []
   },
   "LocalEyes": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-09-07T13:58:59.422Z"
+    "last_checked": "2026-09-14T14:44:21.657Z"
   },
   "Mastercard": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-09-07T13:59:00.153Z",
-    "page_hash": "7709127d1d331777a8bdb6aa3f349569",
+    "last_checked": "2026-09-14T14:44:22.288Z",
+    "page_hash": "fc52242dd30eec3e3c37425e484292cb",
     "url": "https://careers.mastercard.com/us/en/search-results?keywords=quality+assurance&location=Dublin",
-    "last_success": "2026-09-07T13:59:00.153Z",
+    "last_success": "2026-09-14T14:44:22.288Z",
     "job_titles": []
   },
   "Phorest": {
-    "page_hash": "0e38aaa0dd1e553801711291eb1a2f8a",
+    "page_hash": "196c146e2b54b7b011aa65899d48d49f",
     "url": "https://www.phorest.com/careers",
-    "last_checked": "2026-09-10T12:27:24.643Z",
-    "last_success": "2026-09-10T12:27:24.643Z",
+    "last_checked": "2026-09-14T14:44:23.411Z",
+    "last_success": "2026-09-14T14:44:23.411Z",
     "job_titles": [],
     "last_error": "HTTP 403"
   },
   "T-Pro": {
     "last_error": "fetch failed",
-    "last_checked": "2026-09-10T12:27:40.228Z"
+    "last_checked": "2026-09-14T14:44:29.736Z"
   },
   "Nutritics": {
     "last_error": "HTTP 404",
