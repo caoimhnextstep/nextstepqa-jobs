@@ -1,7 +1,7 @@
 {
   "Axway": {
     "status": "error",
-    "last_run": "2026-09-28T16:27:27.430Z",
+    "last_run": "2026-10-05T16:48:16.003Z",
     "last_error": "HTTP 404"
   },
   "Fidelity": {
@@ -23,7 +23,7 @@
   },
   "LocalEyes": {
     "status": "error",
-    "last_run": "2026-09-28T16:27:48.919Z",
+    "last_run": "2026-10-05T16:48:36.197Z",
     "last_error": "HTTP 404"
   },
   "Mastercard": {
@@ -33,7 +33,7 @@
   },
   "T-Pro": {
     "status": "error",
-    "last_run": "2026-10-01T14:54:52.073Z",
+    "last_run": "2026-10-05T16:48:45.009Z",
     "last_error": "fetch failed"
   },
   "Nutritics": {
@@ -58,7 +58,7 @@
   },
   "GlobeTech": {
     "status": "error",
-    "last_run": "2026-09-28T16:27:40.164Z",
+    "last_run": "2026-10-05T16:48:27.627Z",
     "last_error": "fetch failed"
   },
   "Phorest": {
@@ -75,8 +75,8 @@
   },
   "Citi": {
     "status": "ok",
-    "last_run": "2026-09-28T16:27:28.413Z",
-    "last_change_detected": "2026-09-28T16:27:28.413Z",
+    "last_run": "2026-10-05T16:48:17.067Z",
+    "last_change_detected": "2026-10-05T16:48:17.067Z",
     "new_candidates": 0,
     "total_titles_seen": 1
   }
