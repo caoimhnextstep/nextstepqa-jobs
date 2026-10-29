@@ -33,12 +33,12 @@
   },
   "T-Pro": {
     "status": "error",
-    "last_run": "2026-10-26T14:51:39.082Z",
+    "last_run": "2026-10-29T14:44:36.240Z",
     "last_error": "fetch failed"
   },
   "Nutritics": {
     "status": "error",
-    "last_run": "2026-10-22T13:16:48.494Z",
+    "last_run": "2026-10-29T14:44:16.662Z",
     "last_error": "HTTP 404"
   },
   "ServiceNow": {
@@ -48,12 +48,12 @@
   },
   "State Street": {
     "status": "error",
-    "last_run": "2026-10-22T13:16:59.841Z",
+    "last_run": "2026-10-29T14:44:30.072Z",
     "last_error": "HTTP 404"
   },
   "Transact Campus": {
     "status": "error",
-    "last_run": "2026-10-22T13:17:13.621Z",
+    "last_run": "2026-10-29T14:44:42.904Z",
     "last_error": "HTTP 404"
   },
   "GlobeTech": {
@@ -63,8 +63,8 @@
   },
   "Phorest": {
     "status": "ok",
-    "last_run": "2026-07-13T11:09:20.849Z",
-    "last_change_detected": "2026-07-13T11:09:20.849Z",
+    "last_run": "2026-10-29T14:44:17.520Z",
+    "last_change_detected": "2026-10-29T14:44:17.520Z",
     "new_candidates": 0,
     "total_titles_seen": 1
   },
