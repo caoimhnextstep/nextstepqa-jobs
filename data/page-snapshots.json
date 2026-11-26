@@ -67,67 +67,67 @@
     "job_titles": []
   },
   "Phorest": {
-    "page_hash": "731b950f2eea4309987fdc5bdf00717b",
+    "page_hash": "97b969eae80dd1271ac32129fecf8aa7",
     "url": "https://www.phorest.com/careers",
-    "last_checked": "2026-11-23T19:51:19.948Z",
-    "last_success": "2026-11-23T19:51:19.948Z",
+    "last_checked": "2026-11-26T17:57:35.932Z",
+    "last_success": "2026-11-26T17:57:35.932Z",
     "job_titles": [],
     "last_error": "HTTP 403"
   },
   "T-Pro": {
     "last_error": "fetch failed",
-    "last_checked": "2026-11-23T19:51:26.179Z"
+    "last_checked": "2026-11-26T17:57:51.659Z"
   },
   "Nutritics": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-11-19T16:55:05.057Z"
+    "last_checked": "2026-11-26T17:57:34.536Z"
   },
   "ServiceNow": {
     "last_error": "HTTP 403",
-    "last_checked": "2026-11-19T16:55:08.116Z",
-    "page_hash": "76b42d6ed8100f091895e3b327158811",
+    "last_checked": "2026-11-26T17:57:38.149Z",
+    "page_hash": "3e5832fa42e10ccae3f38cc6f5f27c79",
     "url": "https://careers.servicenow.com/en/jobs/?search=quality&location=Ireland",
-    "last_success": "2026-11-19T16:55:08.116Z",
+    "last_success": "2026-11-26T17:57:38.149Z",
     "job_titles": []
   },
   "Sophos": {
-    "page_hash": "ed4e67dd9faba5aa69d18c3ccb70c8a4",
+    "page_hash": "fb9fc7f888ca01ca0bd00a1c5d0a1a6a",
     "url": "https://www.sophos.com/en-us/company/careers",
-    "last_checked": "2026-11-19T16:55:08.284Z",
-    "last_success": "2026-11-19T16:55:08.284Z",
+    "last_checked": "2026-11-26T17:57:38.830Z",
+    "last_success": "2026-11-26T17:57:38.830Z",
     "job_titles": []
   },
   "State Street": {
     "last_error": "HTTP 429",
-    "last_checked": "2026-11-19T16:55:14.416Z"
+    "last_checked": "2026-11-26T17:57:45.274Z"
   },
   "Transact Campus": {
     "last_error": "HTTP 404",
-    "last_checked": "2026-11-19T16:55:21.041Z",
+    "last_checked": "2026-11-26T17:57:58.359Z",
     "page_hash": "c013cebe63b66e797bfc7622cdecfe9e",
     "url": "https://transactcampus.com/careers",
     "last_success": "2026-11-19T16:55:21.041Z",
     "job_titles": []
   },
   "Verizon Connect": {
-    "page_hash": "181f7168c28da88a00e41e06456452c2",
+    "page_hash": "a6c5bbc9c282e8140c28a8286e4e4d5f",
     "url": "https://www.verizonconnect.com/ie/careers/",
-    "last_checked": "2026-11-19T16:55:21.336Z",
-    "last_success": "2026-11-19T16:55:21.336Z",
+    "last_checked": "2026-11-26T17:57:58.709Z",
+    "last_success": "2026-11-26T17:57:58.709Z",
     "job_titles": []
   },
   "Workhuman": {
-    "page_hash": "9b20104aa91d56d6c407d78329764d6f",
+    "page_hash": "fd9e7f01ac9f71d840cf98ffdd713b68",
     "url": "https://www.workhuman.com/company/careers/",
-    "last_checked": "2026-11-19T16:55:21.519Z",
-    "last_success": "2026-11-19T16:55:21.519Z",
+    "last_checked": "2026-11-26T17:57:58.914Z",
+    "last_success": "2026-11-26T17:57:58.914Z",
     "job_titles": []
   },
   "Workvivo": {
     "page_hash": "6df5757eb939c3657ddfb57346b6b82a",
     "url": "https://www.workvivo.com/careers",
-    "last_checked": "2026-11-19T16:55:22.864Z",
-    "last_success": "2026-11-19T16:55:22.864Z",
+    "last_checked": "2026-11-26T17:57:59.467Z",
+    "last_success": "2026-11-26T17:57:59.467Z",
     "job_titles": [],
     "last_error": "HTTP 403"
   }
